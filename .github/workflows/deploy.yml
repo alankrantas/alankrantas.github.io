@@ -27,14 +27,12 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: production
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to Github Page
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
           publish_dir: ./build
-          exclude_assets: '.github,.gitignore'
+          exclude_assets: '.github,**/.gitignore'
           allow_empty_commit: true
