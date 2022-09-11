@@ -16,17 +16,22 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Install Dependencies and Build
+      - name: Install dependencies and build
         run: |
           npm i
           npm run build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment: production
+    environment: 
+      name: production
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to Github Page
-        uses: peaceiris/actions-gh-pages@v3
+        id: deployment
+        uses: actions/deploy-pages@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
