@@ -11,11 +11,13 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"start": "open-cli http://localhost:3000 && npm run dev",
-		"deploy": "git add . && git commit -m \"Updating\" && git push origin main"
+		"serve": "open-cli http://localhost:8080 && serve ./build -l 8080",
+		"commit": "git add . && git commit -m \"Updating\" && git push origin main",
+		"update-svelte-kit": "npm i -D @sveltejs/kit@next @sveltejs/adapter-static@next"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "next",
-		"@sveltejs/kit": "next",
+		"@sveltejs/adapter-static": "^1.0.0-next.43",
+		"@sveltejs/kit": "^1.0.0-next.481",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"eslint": "^8.16.0",
@@ -24,6 +26,7 @@
 		"open-cli": "^7.0.1",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
+		"serve": "^14.0.1",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.6",

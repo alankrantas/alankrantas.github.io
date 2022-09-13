@@ -1,4 +1,4 @@
-name: Alans Site CI/CD
+name: Github Page Deploy Action
 
 on:
   push:

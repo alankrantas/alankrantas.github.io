@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Alan Wang's Personal Site</title>
+	<title>Alan Wang's Github Page</title>
 </svelte:head>
 
-<slot/>
+<slot />
