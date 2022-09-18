@@ -19,6 +19,7 @@ jobs:
       - name: Install dependencies and build
         run: |
           npm i
+          npm prune
           npm run build
       - name: Deploy to Github Page
         uses: peaceiris/actions-gh-pages@v3

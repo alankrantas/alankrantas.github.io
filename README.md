@@ -4,7 +4,7 @@ Working in progress...
 
 Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a production to my Github Page.
 
-## ```npm install```
+## ```npm install``` then ```npm prune```
 
 Install local dependencies.
 

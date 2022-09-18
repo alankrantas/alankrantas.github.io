@@ -12,12 +12,12 @@
 		"format": "prettier --write .",
 		"start": "open-cli http://localhost:3000 && npm run dev",
 		"serve": "open-cli http://localhost:8080 && serve ./build -l 8080",
-		"commit": "git add . && git commit -m \"Updating\" && git push origin main",
-		"update-svelte-kit": "npm i -D @sveltejs/kit@next @sveltejs/adapter-static@next"
+		"pull": "git pull origin main",
+		"commit": "git add . && git commit -m \"Updating\" && git push origin main"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^1.0.0-next.43",
-		"@sveltejs/kit": "^1.0.0-next.481",
+		"@sveltejs/kit": "^1.0.0-next.484",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"eslint": "^8.16.0",
