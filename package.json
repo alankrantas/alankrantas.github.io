@@ -3,7 +3,6 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"setup": "npm i && npm prune",
 		"dev": "vite dev --port 3000",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -12,7 +11,7 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"start": "open-cli http://localhost:3000 && npm run dev",
-		"serve": "open-cli http://localhost:8080 && serve ./build -l 8080",
+		"serve": "open-cli http://localhost:8080 && serve ./dist -l 8080",
 		"pull": "git pull origin main",
 		"commit": "git add . && git commit -m \"Updating\" && git push origin main"
 	},

@@ -1,31 +1,39 @@
 # Alan Wang's Personal Site
 
-Working in progress...
+> Working in progress...
 
-Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a production to my Github Page and update dependencies via dependabot.
+Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a production to Github Page and update dependencies with dependabot.
 
-## Local Developing Actions
+## Local Development
 
-### ```npm run setup```
+### ```npm i -g yarn serve```
+
+Install yarn and serve.
+
+### ```yarn```
 
 Install local dependencies and remove unnecessary packages.
 
-### ```npm start```
+### ```yarn upgrade```
 
-Start a local dev server at ```http://localhost:3000```.
+Upgrade dependencies.
 
-### ```npm run build```
+### ```yarn start```
+
+Start a local dev server and open ```http://localhost:3000```.
+
+### ```yarn build```
 
 Build a local production.
 
-### ```npm run serve```
+### ```yarn serve```
 
-Serve the local production at ```http://localhost:8080```.
+Serve the local production and open ```http://localhost:8080```.
 
-### ```npm run pull```
+### ```yarn pull```
 
 Pull changes from ```main``` branch.
 
-### ```npm run commit```
+### ```yarn commit```
 
 Push changes to ```main``` branch.
