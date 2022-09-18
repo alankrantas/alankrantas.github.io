@@ -2,24 +2,30 @@
 
 Working in progress...
 
-Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a production to my Github Page.
+Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a production to my Github Page and update dependencies via dependabot.
 
-## ```npm install``` then ```npm prune```
+## Local Developing Actions
 
-Install local dependencies.
+### ```npm run setup```
 
-## ```npm start```
+Install local dependencies and remove unnecessary packages.
+
+### ```npm start```
 
 Start a local dev server at ```http://localhost:3000```.
 
-## ```npm run build```
+### ```npm run build```
 
 Build a local production.
 
-## ```npm run serve```
+### ```npm run serve```
 
 Serve the local production at ```http://localhost:8080```.
 
-## ```npm run commit```
+### ```npm run pull```
+
+Pull changes from ```main``` branch.
+
+### ```npm run commit```
 
 Push changes to ```main``` branch.
