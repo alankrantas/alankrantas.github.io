@@ -25,6 +25,7 @@ jobs:
       - name: Install dependencies and build
         run: |
           yarn install --frozen-lockfile
+          yarn check
           yarn build
 
       - name: Deploy to Github Page
