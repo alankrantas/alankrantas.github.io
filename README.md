@@ -10,7 +10,7 @@ Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a produ
 
 > a.k.a. Operation Clean Slate
 
-Create whatever project I want, copy and paste ```.github\workflows\deploy.yml``` and ```.github\workflows\deploy.yml```, then
+Create whatever project I want, copy and paste ```.github\workflows\deploy.yml``` and ```.github\dependabot.yml```, then
 
 ```bash
 git init

@@ -13,12 +13,11 @@
 		"start": "open-cli http://localhost:3000 && npm run dev",
 		"serve": "open-cli http://localhost:8080 && serve ./dist -l 8080",
 		"pull": "git pull origin main",
-		"commit": "git add . && git commit -m \"Updating\" && git push origin main",
-		"svelte-upgrade": "yarn upgrade svelte@latest svelte-check@latest svelte-preprocess@latest @sveltejs/kit@next @sveltejs/adapter-static@next"
+		"commit": "git add . && git commit -m \"Updating\" && git push origin main"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^1.0.0-next.43",
-		"@sveltejs/kit": "^1.0.0-next.490",
+		"@sveltejs/kit": "^1.0.0-next.499",
 		"@typescript-eslint/eslint-plugin": "^5.38.0",
 		"@typescript-eslint/parser": "^5.38.0",
 		"eslint": "^8.23.1",

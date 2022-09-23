@@ -8,6 +8,7 @@ updates:
       day: "friday"
       timezone: "Asia/Taipei"
     open-pull-requests-limit: 10
+    versioning-strategy: increase
 
   - package-ecosystem: 'github-actions'
     directory: '/'
