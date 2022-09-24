@@ -5,8 +5,8 @@ updates:
     schedule:
       interval: 'weekly'
       time: '21:00'
-      day: "friday"
-      timezone: "Asia/Taipei"
+      day: 'friday'
+      timezone: 'Asia/Taipei'
     open-pull-requests-limit: 10
     versioning-strategy: increase
 
@@ -15,6 +15,6 @@ updates:
     schedule:
       interval: 'weekly'
       time: '21:00'
-      day: "friday"
-      timezone: "Asia/Taipei"
+      day: 'friday'
+      timezone: 'Asia/Taipei'
     open-pull-requests-limit: 10
