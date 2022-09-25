@@ -37,6 +37,8 @@ git clone https://github.com/alankrantas/alankrantas.github.io.git
 cd alankrantas.github.io
 ```
 
+Now enjoy the scripts myself:
+
 | Command                 | Description                                                    |
 | ----------------------- | -------------------------------------------------------------- |
 | `yarn`                  | Install local dependencies and remove unnecessary packages.    |
@@ -48,3 +50,5 @@ cd alankrantas.github.io
 | `yarn serve`            | Serve the local production and open `http://localhost:8080`.   |
 | `yarn pull`             | Pull changes from `main` branch.                               |
 | `yarn commit`           | Push changes to `main` branch.                                 |
+| `yarn docker-build`     | Build a Docker image                                           |
+| `yarn docker-run`       | Run the Docker image                                           |
