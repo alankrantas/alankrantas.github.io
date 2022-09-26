@@ -39,16 +39,18 @@ cd alankrantas.github.io
 
 Now enjoy the scripts myself:
 
-| Command                 | Description                                                    |
-| ----------------------- | -------------------------------------------------------------- |
-| `yarn`                  | Install local dependencies and remove unnecessary packages.    |
-| `yarn yarn-upgrade-all` | Upgrade all dependencies.                                      |
-| `yarn start`            | Start a local dev server and open `http://localhost:3000`.     |
-| `yarn check`            | Sync ScelteKit files. Run after installation and before build. |
-| `yarn format`           | Format and prettify files.                                     |
-| `yarn build`            | Build a local production at `./dist`.                          |
-| `yarn serve`            | Serve the local production and open `http://localhost:8080`.   |
-| `yarn pull`             | Pull changes from `main` branch.                               |
-| `yarn commit`           | Push changes to `main` branch.                                 |
-| `yarn docker-build`     | Build a Docker image                                           |
-| `yarn docker-run`       | Run the Docker image                                           |
+| Command               | Description                                                    |
+| --------------------- | -------------------------------------------------------------- |
+| `yarn`                | Install local dependencies and remove unnecessary packages.    |
+| `yarn upgrade-all`    | Upgrade all dependencies.                                      |
+| `yarn start`          | Start a local dev server and open `http://localhost:3000`.     |
+| `yarn check`          | Sync ScelteKit files. Run after installation and before build. |
+| `yarn format`         | Format and prettify files.                                     |
+| `yarn build`          | Build a local production at `./dist`.                          |
+| `yarn serve`          | Serve the local production and open `http://localhost:8080`.   |
+| `yarn pull`           | Pull changes from `main` branch.                               |
+| `yarn commit`         | Push changes to `main` branch.                                 |
+| `yarn docker-build`   | Build a Docker container image                                 |
+| `yarn docker-run`     | Run the Docker container                                       |
+| `docker-compose-up`   | Start container on Docker Compose                              |
+| `docker-compose-down` | Stop container on Docker Compose                               |

@@ -10,6 +10,15 @@ updates:
     open-pull-requests-limit: 10
     versioning-strategy: increase
 
+  - package-ecosystem: 'docker'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+      time: '21:00'
+      day: 'friday'
+      timezone: 'Asia/Taipei'
+    open-pull-requests-limit: 10
+
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:

@@ -10,7 +10,7 @@
 	};
 
 	let ready = false;
-	
+
 	onMount(() => (ready = true));
 </script>
 

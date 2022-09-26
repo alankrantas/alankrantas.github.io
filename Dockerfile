@@ -9,7 +9,7 @@ RUN yarn build
 
 FROM nginx:alpine as production
 
-COPY container/default.conf /etc/nginx/conf.d/default.conf
+COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/dist /usr/share/nginx/html
 
 EXPOSE 80
