@@ -1,8 +1,10 @@
 # Alan Wang's Personal Site
 
-> Working in progress...
+> Working in progress... 
 
 Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a production to Github Pages and dependabot for security updates.
+
+Have options to deploy as Docker container (using go-gin or Nginx as server).
 
 ## Local Development
 

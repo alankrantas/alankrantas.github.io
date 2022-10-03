@@ -16,13 +16,13 @@
 		"pull": "git pull origin main",
 		"commit": "git add . && git commit -m \"Updating\" && git push origin main",
 		"docker-build": "docker build . -t alankrantas.github.io -f Dockerfile",
-		"docker-run": "docker run -d -p 8080:80 --rm alankrantas.github.io",
+		"docker-run": "open-cli http://localhost:8080 && docker run -d -p 8080:80 --rm alankrantas.github.io",
 		"docker-compose-up": "docker-compose -p alankrantas-github-io -f docker-compose.yml up -d",
 		"docker-compose-down": "docker-compose -f docker-compose.yml down"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^1.0.0-next.43",
-		"@sveltejs/kit": "^1.0.0-next.505",
+		"@sveltejs/adapter-static": "^1.0.0-next.44",
+		"@sveltejs/kit": "^1.0.0-next.507",
 		"@typescript-eslint/eslint-plugin": "^5.38.1",
 		"@typescript-eslint/parser": "^5.38.1",
 		"eslint": "^8.24.0",
@@ -42,6 +42,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"bootstrap": "^5.2.1"
+		"bootstrap": "^5.2.2"
 	}
 }
