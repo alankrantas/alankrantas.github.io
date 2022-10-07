@@ -28,7 +28,7 @@
 		"eslint": "^8.24.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"open-cli": "^7.0.1",
+		"open-cli": "^7.1.0",
 		"prettier": "^2.7.1",
 		"prettier-plugin-svelte": "^2.7.1",
 		"serve": "^14.0.1",
