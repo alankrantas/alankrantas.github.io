@@ -22,7 +22,7 @@
 				<div class="card-title lead">Working in Progress</div>
 				<div class="card-text">
 					<span class="text-muted"
-						>Still pounding on the question of life, the universe and everything</span
+						>Still pounding on the question of life, the universe and everything...</span
 					>
 					<div class="p-2 m-2">
 						<button id="clicks" class="btn btn-primary btn-lg" on:click={clickEvent}>
