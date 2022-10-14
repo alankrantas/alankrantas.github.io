@@ -1,6 +1,6 @@
 # Alan Wang's Personal Site
 
-> Working in progress... 
+> Working in progress...
 
 Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a production to Github Pages and dependabot for security updates.
 
@@ -39,12 +39,20 @@ git clone https://github.com/alankrantas/alankrantas.github.io.git
 cd alankrantas.github.io
 ```
 
-Now enjoy the scripts myself:
+### Commit
+
+```bash
+yarn pull
+yarn commit
+```
+
+### List of Commands
 
 | Command               | Description                                                    |
 | --------------------- | -------------------------------------------------------------- |
 | `yarn`                | Install local dependencies and remove unnecessary packages.    |
-| `yarn upgrade-all`    | Upgrade all dependencies.                                      |
+| `yarn upgrade-npm`    | Upgrade all NPM dependencies.                                  |
+| `yarn upgrade-go`     | Upgrade all Golang dependencies.                               |
 | `yarn start`          | Start a local dev server and open `http://localhost:3000`.     |
 | `yarn check`          | Sync ScelteKit files. Run after installation and before build. |
 | `yarn format`         | Format and prettify files.                                     |

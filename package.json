@@ -3,7 +3,8 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"upgrade-all": "yarn-upgrade-all",
+		"upgrade-npm": "yarn-upgrade-all",
+		"upgrade-go": "cd go-gin && go get -u ./...",
 		"dev": "vite dev --port 3000",
 		"build": "vite build",
 		"preview": "vite preview --port 3000",
