@@ -25,9 +25,11 @@ EXPOSE 80
 
 CMD ./server
 
+# Or use Nginx:
+
 # FROM nginx:alpine as production
 
 # COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
-# COPY --from=builder /app/dist /usr/share/nginx/html
+# COPY --from=app-builder /app/dist /usr/share/nginx/html
 
 # EXPOSE 80
