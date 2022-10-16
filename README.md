@@ -4,7 +4,7 @@
 
 Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a production to Github Pages and dependabot for security updates.
 
-Have options to deploy as Docker container (using go-gin or Nginx as server).
+Have options to deploy as Docker container (using Nginx as server).
 
 ## Local Development
 
@@ -29,7 +29,7 @@ git push -u -f origin main
 Install yarn and serve:
 
 ```bash
-npm i -g yarn@latest serve@latest
+npm i -g yarn@latest
 ```
 
 Then
@@ -42,7 +42,6 @@ cd alankrantas.github.io
 ### Commit
 
 ```bash
-yarn pull
 yarn commit
 ```
 
@@ -51,13 +50,12 @@ yarn commit
 | Command               | Description                                                    |
 | --------------------- | -------------------------------------------------------------- |
 | `yarn`                | Install local dependencies and remove unnecessary packages.    |
-| `yarn upgrade-npm`    | Upgrade all NPM dependencies.                                  |
-| `yarn upgrade-go`     | Upgrade all Golang dependencies.                               |
+| `yarn upgrade-all`    | Upgrade all NPM dependencies.                                  |
 | `yarn start`          | Start a local dev server and open `http://localhost:3000`.     |
 | `yarn check`          | Sync ScelteKit files. Run after installation and before build. |
 | `yarn format`         | Format and prettify files.                                     |
 | `yarn build`          | Build a local production at `./dist`.                          |
-| `yarn serve`          | Serve the local production and open `http://localhost:8080`.   |                             |
+| `yarn serve`          | Serve the local production and open `http://localhost:8080`.   |
 | `yarn commit`         | Push all changes to `main` branch.                             |
 | `yarn docker-build`   | Build a Docker container image                                 |
 | `yarn docker-run`     | Run the Docker container                                       |
