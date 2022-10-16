@@ -67,4 +67,4 @@ yarn commit
 
 > Only Docker required
 
-In VS Code (with extension ```Dev Containers``` installed) press ```F1```, choose ```Dev Containers: Open Folder in Container...``` then select the project directory.
+In VS Code (with extension ```Dev Containers``` installed) open a new window, press ```F1``` and select ```Dev Containers: Open Folder in Container...``` to open the project directory.
