@@ -25,11 +25,9 @@ jobs:
           node-version: '16.x'
           cache: 'yarn'
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Build production
+      - name: Install dependencies and Build production
         run: |
+          yarn install --frozen-lockfile
           yarn check
           yarn build
 
@@ -39,12 +37,12 @@ jobs:
           path: './dist'
 
   deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-    needs: build
 
     steps:
       - name: Deploy to GitHub Pages

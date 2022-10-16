@@ -15,9 +15,7 @@
 		"serve": "concurrently \"serve ./dist -l 8080\" \"open-cli http://localhost:8080\"",
 		"commit": "git pull origin main && git add . && git commit -m \"Updating\" && git push origin main",
 		"docker-build": "docker build . -t alankrantas.github.io -f Dockerfile",
-		"docker-run": "concurrently \"docker run -d -p 8080:80 --rm alankrantas.github.io\" \"open-cli http://localhost:8080\"",
-		"docker-compose-up": "docker-compose -p alankrantas-github-io -f docker-compose.yml up -d",
-		"docker-compose-down": "docker-compose -f docker-compose.yml down"
+		"docker-run": "concurrently \"docker run -d -p 8080:80 --rm alankrantas.github.io\" \"open-cli http://localhost:8080\""
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^1.0.0-next.44",
