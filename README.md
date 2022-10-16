@@ -6,7 +6,9 @@ Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a produ
 
 Have options to deploy as Docker container (using Nginx as server).
 
-## Local Development
+## Notes for Self
+
+> Node.js, Git and Docker required
 
 ### (Re)create a New Project
 
@@ -22,7 +24,7 @@ git remote add origin https://github.com/alankrantas/alankrantas.github.io.git
 git push -u -f origin main
 ```
 
-### Pull Repo to Local
+### Local Development
 
 > Probably only need to do again when I buy myself a brand new computer...
 
@@ -60,3 +62,9 @@ yarn commit
 | `yarn commit`         | Push all changes to `main` branch.                             |
 | `yarn docker-build`   | Build a Docker container image                                 |
 | `yarn docker-run`     | Run the Docker container and open `http://localhost:8080`.     |
+
+## Use VS Code Dev Container
+
+> Only Docker required
+
+In VS Code (with extension ```Dev Containers``` installed) press ```F1```, choose ```Dev Containers: Open Folder in Container...``` then select the project directory.
