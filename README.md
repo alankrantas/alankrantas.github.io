@@ -57,9 +57,8 @@ yarn commit
 | `yarn check`          | Sync ScelteKit files. Run after installation and before build. |
 | `yarn format`         | Format and prettify files.                                     |
 | `yarn build`          | Build a local production at `./dist`.                          |
-| `yarn serve`          | Serve the local production and open `http://localhost:8080`.   |
-| `yarn pull`           | Pull changes from `main` branch.                               |
-| `yarn commit`         | Push changes to `main` branch.                                 |
+| `yarn serve`          | Serve the local production and open `http://localhost:8080`.   |                             |
+| `yarn commit`         | Push all changes to `main` branch.                             |
 | `yarn docker-build`   | Build a Docker container image                                 |
 | `yarn docker-run`     | Run the Docker container                                       |
 | `docker-compose-up`   | Start container on Docker Compose                              |

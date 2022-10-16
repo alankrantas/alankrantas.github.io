@@ -10,15 +10,6 @@ updates:
     open-pull-requests-limit: 10
     versioning-strategy: increase
 
-  - package-ecosystem: 'gomod'
-    directory: '/go-gin'
-    schedule:
-      interval: 'weekly'
-      time: '20:00'
-      day: 'friday'
-      timezone: 'Asia/Taipei'
-    open-pull-requests-limit: 10
-
   - package-ecosystem: 'docker'
     directory: '/'
     schedule:
