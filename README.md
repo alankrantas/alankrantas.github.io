@@ -62,9 +62,3 @@ yarn commit
 | `yarn commit`         | Push all changes to `main` branch.                             |
 | `yarn docker-build`   | Build a Docker container image                                 |
 | `yarn docker-run`     | Run the Docker container and open `http://localhost:8080`.     |
-
-## Use VS Code Dev Container
-
-> Only Docker required
-
-In VS Code (with extension ```Dev Containers``` installed) open a new window, press ```F1``` and select ```Dev Containers: Open Folder in Container...``` to open the project directory.
