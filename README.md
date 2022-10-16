@@ -26,7 +26,7 @@ git push -u -f origin main
 
 > Probably only need to do again when I buy myself a brand new computer...
 
-Install yarn and serve:
+Install yarn:
 
 ```bash
 npm i -g yarn@latest
@@ -37,6 +37,7 @@ Then
 ```bash
 git clone https://github.com/alankrantas/alankrantas.github.io.git
 cd alankrantas.github.io
+yarn
 ```
 
 ### Commit
@@ -45,11 +46,10 @@ cd alankrantas.github.io
 yarn commit
 ```
 
-### List of Commands
+### List of Scripts
 
 | Command               | Description                                                    |
 | --------------------- | -------------------------------------------------------------- |
-| `yarn`                | Install local dependencies and remove unnecessary packages.    |
 | `yarn upgrade-all`    | Upgrade all NPM dependencies.                                  |
 | `yarn start`          | Start a local dev server and open `http://localhost:3000`.     |
 | `yarn check`          | Sync ScelteKit files. Run after installation and before build. |
