@@ -23,10 +23,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16.x'
-          cache: 'yarn'
 
       - name: Install dependencies and Build production
         run: |
+          npm i -g yarn
           yarn install --frozen-lockfile
           yarn check
           yarn build
