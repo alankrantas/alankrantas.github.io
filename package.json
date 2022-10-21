@@ -18,7 +18,7 @@
 		"docker-run": "concurrently \"docker run -d -p 8080:80 --rm alankrantas.github.io\" \"open-cli http://localhost:8080\""
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^1.0.0-next.44",
+		"@sveltejs/adapter-static": "^1.0.0-next.45",
 		"@sveltejs/kit": "^1.0.0-next.516",
 		"@typescript-eslint/eslint-plugin": "^5.40.0",
 		"@typescript-eslint/parser": "^5.40.0",
