@@ -18,12 +18,12 @@
 		"docker-run": "concurrently \"docker run -d -p 8080:80 --rm alankrantas.github.io\" \"open-cli http://localhost:8080\""
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^1.0.0-next.45",
-		"@sveltejs/kit": "^1.0.0-next.520",
-		"@typescript-eslint/eslint-plugin": "^5.40.1",
-		"@typescript-eslint/parser": "^5.40.1",
-		"concurrently": "^7.4.0",
-		"eslint": "^8.25.0",
+		"@sveltejs/adapter-static": "^1.0.0-next.46",
+		"@sveltejs/kit": "^1.0.0-next.525",
+		"@typescript-eslint/eslint-plugin": "^5.41.0",
+		"@typescript-eslint/parser": "^5.41.0",
+		"concurrently": "^7.5.0",
+		"eslint": "^8.26.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"open-cli": "^7.1.0",
@@ -35,7 +35,7 @@
 		"svelte-preprocess": "^4.10.7",
 		"tslib": "^2.4.0",
 		"typescript": "^4.8.4",
-		"vite": "^3.1.8",
+		"vite": "^3.2.0",
 		"yarn-upgrade-all": "^0.7.1"
 	},
 	"type": "module",
