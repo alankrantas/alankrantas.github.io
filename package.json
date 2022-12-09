@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"upgrade-all": "yarn-upgrade-all",
+		"upgrade-all": "yarn-upgrade-all && yarn upgrade",
 		"dev": "vite dev --port 3000",
 		"build": "vite build",
 		"preview": "vite preview --port 3000",
