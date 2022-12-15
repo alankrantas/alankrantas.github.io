@@ -50,15 +50,15 @@ yarn commit
 
 ### List of Scripts
 
-| Command               | Description                                                    |
-| --------------------- | -------------------------------------------------------------- |
-| `yarn upgrade-all`    | Upgrade all NPM dependencies.                                  |
-| `yarn start`          | Start a local dev server and open `http://localhost:3000`.     |
-| `yarn check`          | Sync SvelteKit files. Run after installation and before build. |
-| `yarn lint`           | Lint files.                                                    |
-| `yarn format`         | Format and prettify files.                                     |
-| `yarn build`          | Build a local production at `./dist`.                          |
-| `yarn serve`          | Serve the local production and open `http://localhost:8080`.   |
-| `yarn commit`         | Push all changes to `main` branch.                             |
-| `yarn docker-build`   | Build a Docker container image                                 |
-| `yarn docker-run`     | Run the Docker container and open `http://localhost:8080`.     |
+| Command             | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| `yarn upgrade-all`  | Upgrade all NPM dependencies.                                  |
+| `yarn start`        | Start a local dev server and open `http://localhost:3000`.     |
+| `yarn check`        | Sync SvelteKit files. Run after installation and before build. |
+| `yarn lint`         | Lint files.                                                    |
+| `yarn format`       | Format and prettify files.                                     |
+| `yarn build`        | Build a local production at `./dist`.                          |
+| `yarn serve`        | Serve the local production and open `http://localhost:8080`.   |
+| `yarn commit`       | Push all changes to `main` branch.                             |
+| `yarn docker-build` | Build a Docker container image                                 |
+| `yarn docker-run`   | Run the Docker container and open `http://localhost:8080`.     |
