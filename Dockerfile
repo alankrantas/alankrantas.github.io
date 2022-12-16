@@ -4,7 +4,6 @@ WORKDIR /app
 COPY . /app
 
 RUN yarn install --frozen-lockfile
-RUN yarn check
 RUN yarn build
 
 FROM nginx:alpine as deployment
