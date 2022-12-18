@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"upgrade-all": "yarn-upgrade-all && yarn upgrade",
-		"dev": "vite dev --port 3000",
+		"dev": "vite dev --port 3000 --open",
 		"build": "vite build",
 		"preview": "vite preview --port 3000",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -12,7 +12,7 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"start": "concurrently \"yarn dev\" \"open-cli http://localhost:3000\"",
-		"serve": "concurrently \"serve ./dist -l 8080\" \"open-cli http://localhost:8080\"",
+		"serve": "concurrently \"serve ./build -l 8080\" \"open-cli http://localhost:8080\"",
 		"commit": "yarn format && git pull origin main && git add . && git commit -m \"Updating\" && git push origin main",
 		"docker-build": "docker build . -t alankrantas.github.io -f Dockerfile",
 		"docker-run": "concurrently \"docker run -d -p 8080:80 --rm alankrantas.github.io\" \"open-cli http://localhost:8080\""
