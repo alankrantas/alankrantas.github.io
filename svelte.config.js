@@ -16,13 +16,7 @@ const config = {
 			fallback: 'index.html',
 			precompress: true,
 			strict: true
-		}),
-		paths: {
-			base: dev ? '' : '/alankrantas.github.io'
-		}
-		// If you are not using a .nojekyll file, change your appDir to something not starting with an underscore.
-		// For example, instead of '_app', use 'app_', 'internal', etc.
-		// appDir: 'internal'
+		})
 	}
 };
 
