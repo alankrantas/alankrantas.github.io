@@ -18,7 +18,7 @@
 		"docker-run": "open-cli http://localhost:8080 && docker run -d -p 8080:80 --rm alankrantas.github.io"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^1.0.2",
+		"@sveltejs/adapter-static": "^1.0.5",
 		"@sveltejs/kit": "^1.1.0",
 		"@typescript-eslint/eslint-plugin": "^5.48.1",
 		"@typescript-eslint/parser": "^5.48.1",
