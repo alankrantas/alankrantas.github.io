@@ -14,8 +14,9 @@ Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev
 
 Create whatever project I want locally, copy and paste the following files
 
-- `.github\workflows\deploy.yml`
-- `.github\dependabot.yml`
+- `.devcontainer/devcontainer.json`
+- `.github/workflows/deploy.yml`
+- `.github/dependabot.yml`
 
 Then
 
@@ -56,7 +57,7 @@ yarn
 | `yarn check`        | Sync SvelteKit files. Run after installation and before build. |
 | `yarn lint`         | Lint files.                                                    |
 | `yarn format`       | Format and prettify files.                                     |
-| `yarn build`        | Build a local production at `./dist`.                          |
+| `yarn build`        | Build a local production at `./build`.                         |
 | `yarn serve`        | Serve the local production and open `http://localhost:8080`.   |
 | `yarn commit`       | Push all changes to `main` branch.                             |
 | `yarn docker-build` | Build a Docker container image                                 |
