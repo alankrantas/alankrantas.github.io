@@ -3,7 +3,6 @@ FROM node:alpine as app-builder
 WORKDIR /app
 COPY . /app
 
-RUN npm i -g yarn@latest
 RUN yarn install --frozen-lockfile
 RUN yarn build
 
