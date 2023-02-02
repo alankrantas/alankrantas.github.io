@@ -2,9 +2,7 @@
 
 > Working in progress...
 
-Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a production to Github Pages and dependabot for security updates.
-
-Have options to deploy as Docker container (using Nginx as server).
+Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/). Have options to deploy as Docker container (using Nginx as server). Uses Github Action to deploy a production to Github Pages and dependabot for security updates and supports DevContainer and Github CodeSpace.
 
 ## Development Notes
 
@@ -14,7 +12,12 @@ Have options to deploy as Docker container (using Nginx as server).
 
 > a.k.a. Operation Clean Slate
 
-Create whatever project I want locally, copy and paste `.github\workflows\deploy.yml` and `.github\dependabot.yml`, then
+Create whatever project I want locally, copy and paste the following files
+
+- `.github\workflows\deploy.yml`
+- `.github\dependabot.yml`
+
+Then
 
 ```bash
 git init
@@ -34,18 +37,14 @@ Install yarn:
 npm i -g yarn@latest
 ```
 
+> Windows users would need to grant permission for Yarn in PowerShell (as Administrator) with `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`.
+
 Then
 
 ```bash
 git clone https://github.com/alankrantas/alankrantas.github.io.git
 cd alankrantas.github.io
 yarn
-```
-
-### Commit
-
-```bash
-yarn commit
 ```
 
 ### List of Scripts
