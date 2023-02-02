@@ -8,9 +8,6 @@
 		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 		"dockerfile": "../Dockerfile"
 	},
-	"features": {
-		"ghcr.io/devcontainers/features/node:1": {}
-	},
 	"hostRequirements": {
 		"cpus": 2,
 		"memory": "4gb",
