@@ -1,12 +1,14 @@
 # Alan Wang's Personal Site
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://alankrantas-musical-disco-qpvv9p44644cr4w.github.dev/)
+
 > Working in progress...
 
 Built with Svelte, SvelteKit and Bootstrap. Uses Github Action to deploy a production to Github Pages and dependabot for security updates.
 
 Have options to deploy as Docker container (using Nginx as server).
 
-## Notes for Self
+## Development Notes
 
 > Node.js, Git and Docker required
 
