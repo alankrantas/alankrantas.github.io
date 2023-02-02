@@ -1,6 +1,0 @@
-FROM node:alpine as app-builder
-
-WORKDIR /app
-COPY . /app
-
-RUN yarn install --frozen-lockfile
