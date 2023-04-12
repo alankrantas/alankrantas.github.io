@@ -1,7 +1,13 @@
 <script lang="ts">
 	import 'bootstrap/dist/css/bootstrap.min.css';
+	import '@fontsource/open-sans/300.css';
+	import '@fontsource/open-sans/300-italic.css';
+	import '@fontsource/space-mono';
+	import '@fontsource/playfair-display/600.css';
+	import '@fontsource/playfair-display/600-italic.css';
+	import '@fontsource/noto-sans-tc/chinese-traditional-300.css';
 	import '../css/custom.css';
-	import { name, title, location } from '../data/Bio';
+	import { name, title, location } from '../data/NameTitle';
 </script>
 
 <svelte:head>
@@ -12,8 +18,7 @@
 
 <style>
 	:global(body) {
-		font-family: 'Roboto', 'Noto Sans TC';
+		font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
 		background-color: #3d3d3d;
-		transition: background-color 0.2s;
 	}
 </style>

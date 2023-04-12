@@ -1,43 +1,56 @@
-import { name, title, location } from './Bio';
-
-type Items = 'About Me' | 'Experience' | 'Skills' | 'Works' | 'Hobbies';
+import { name, title, location } from './NameTitle';
 
 export interface ViewItem {
 	id: number;
-	name: Items;
-	description?: string;
-	imgUrl?: string;
+	name: string;
+	description?: string | null;
+	imgUrl?: string | null;
 }
+
+let id = 0;
 
 export const ViewItems: ViewItem[] = [
 	{
-		id: 0,
-		name: 'About Me',
-		description: `${name}, ${title} | he/him | based in ${location}`,
+		id: id++,
+		name: `About Me`,
+		description: `${name}, a ${title} working in the software industry | he/him | based in ${location}`,
 		imgUrl: '/main/about-me.jpg'
 	},
 	{
-		id: 1,
+		id: id++,
 		name: 'Experience',
-		description: 'Software development | STEM education | translating and publishing',
+		description: 'Programming | STEM education | translating and publishing | technical writing',
 		imgUrl: '/main/experience.jpg'
 	},
 	{
-		id: 2,
-		name: 'Skills',
-		description: 'Software developing | professional translating | content writing',
+		id: id++,
+		name: 'Competencies',
+		description:
+			'Frontend, backend & cloud technologies | professional translating | content writing',
 		imgUrl: '/main/skills.jpg'
 	},
 	{
-		id: 3,
-		name: 'Works',
+		id: id++,
+		name: 'Portfolio',
 		description: 'Authored and translated books | blog posts | documentation | Maker projects',
 		imgUrl: '/main/works.jpg'
 	},
 	{
-		id: 4,
-		name: 'Hobbies',
+		id: id++,
+		name: 'Interests',
 		description: 'Reading | music | movies and TV shows | PC gaming | coffee | film photography',
 		imgUrl: '/main/hobbies.jpg'
+	},
+	{
+		id: id++,
+		name: 'Links',
+		description: 'Email | Facebook | Linkedin | blogs | Instagram | Github repos | Misc',
+		imgUrl: '/main/links.jpg'
+	},
+	{
+		id: id++,
+		name: 'About Site',
+		description: 'A little bit details of how I built and deploy this site 😸',
+		imgUrl: '/main/about.jpg'
 	}
 ];

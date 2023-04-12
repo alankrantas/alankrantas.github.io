@@ -8,12 +8,12 @@
 	const dispatch = createEventDispatcher<{ setViewId: number }>();
 </script>
 
-<li class="nav-item">
+<li class="nav-item p-1 m-1">
 	<button
 		type="button"
-		class={`btn btn-lg ${selectedViewId == viewItem.id ? 'btn-info' : 'btn-dark'} rounded-4 shadow`}
+		class={`btn ${selectedViewId == viewItem.id ? 'btn-info' : 'btn-dark'} rounded-4 shadow`}
 		on:click={() => dispatch('setViewId', viewItem.id)}
 	>
-		<span class="h4">{viewItem.name}</span>
+		<span class="h5">{viewItem.name}</span>
 	</button>
 </li>

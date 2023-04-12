@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { name, title, location } from '../data/Bio';
+	import { name, title, location } from '../data/NameTitle';
 
 	export let mode: String;
 </script>

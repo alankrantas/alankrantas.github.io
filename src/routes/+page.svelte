@@ -46,24 +46,18 @@
 			<!-- nav bar -->
 			{#if selectedViewId != -1}
 				<div
-					class="col-sm-auto p-1 m-1"
+					class="col-sm-auto p-1 m-1 pe-2 me-2"
 					in:receive={{ key: 'subview' }}
 					out:receive={{ key: 'main' }}
 				>
-					<div>
-						<br />
-					</div>
 					<!-- name title -->
 					<div class="p-1 m-1">
 						<NameTitle mode={'nav'} />
 					</div>
-					<br />
 					<!-- name buttons -->
-					<ul class="nav flex-column text-end">
+					<ul class="nav flex-column text-end pt-2 mt-2">
 						{#each ViewItems as viewItem (viewItem.id)}
-							<div class="p-1 m-1">
-								<ViewItemNavBtn {viewItem} {selectedViewId} on:setViewId={handleSetViewId} />
-							</div>
+							<ViewItemNavBtn {viewItem} {selectedViewId} on:setViewId={handleSetViewId} />
 						{/each}
 					</ul>
 				</div>
@@ -72,10 +66,9 @@
 			{#if selectedViewId == -1}
 				<div class="col p-1 m-1" in:receive={{ key: 'main' }} out:send={{ key: 'subview' }}>
 					<!-- name title -->
-					<div class="p-4 m-4">
+					<div class="p-2 m-2 pb-4 mb-4">
 						<NameTitle mode={'main'} />
 					</div>
-					<br />
 					<!-- view cards -->
 					<div class="row">
 						<div class="col p-2 m-2">
@@ -113,26 +106,28 @@
 					</div>
 					<div>
 						<br />
+						<br />
 					</div>
 					<!-- footer -->
-					<div class="p-4 m-4">
-						<Footer mode={'main'} />
+					<div class="p-2 m-2">
+						<Footer />
 					</div>
 				</div>
 			{:else}
 				<!--sub view -->
-				<div class="col p-1 m-1" in:receive={{ key: 'subview' }} out:send={{ key: 'main' }}>
-					<div>
-						<br /><br />
-					</div>
+				<div
+					class="col p-1 m-1 ps-2 me-2"
+					in:receive={{ key: 'subview' }}
+					out:send={{ key: 'main' }}
+				>
 					<!--back to main button -->
-					<div class="text-end p-2 m-2">
+					<div class="text-end p-1 m-1">
 						<button
 							type="button"
 							class="btn btn-dark rounded-4 shadow"
 							on:click={() => (selectedViewId = -1)}
 						>
-							<span class="h5">Back to main</span>
+							<span class="h6">Back to main</span>
 						</button>
 					</div>
 					<div>
@@ -147,12 +142,11 @@
 										<div class="p-2 m-2">
 											<ViewItemHead {viewItem} />
 										</div>
-										<hr class="text-light p-2 m-2" />
-										<div>
-											<br />
-										</div>
 										<!--sub view content -->
-										<div class="text-white p-2 m-2">
+										<div
+											class="p-2 m-2 pt-2 pb-2 mt-2 mb-2"
+											in:fly={{ y: 100, delay: 250, duration: 1000, easing: expoOut }}
+										>
 											<ViewItemContent viewItemId={viewItem.id} />
 										</div>
 									</div>
@@ -160,13 +154,10 @@
 							</div>
 						{/each}
 					</div>
-					<div>
-						<br />
-					</div>
 					<!--back to top button -->
-					<div class="text-end p-2 m-2">
+					<div class="text-end p-1 m-1">
 						<button type="button" class="btn btn-dark rounded-4 shadow" on:click={scrollToTop}>
-							<span class="h5">Back to top</span>
+							<span class="h6">Back to top</span>
 						</button>
 					</div>
 					<div>
@@ -174,7 +165,7 @@
 					</div>
 					<!-- footer -->
 					<div class="p-4 m-4">
-						<Footer mode={'subview'} />
+						<Footer />
 					</div>
 				</div>
 			{/if}

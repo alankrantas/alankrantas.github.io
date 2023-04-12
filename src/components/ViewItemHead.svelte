@@ -4,13 +4,16 @@
 	export let viewItem: ViewItem;
 </script>
 
-<div class="text-center">
-	<div>
-		{#if viewItem.imgUrl}
-			<img src={viewItem.imgUrl} class="rounded-5 w-75 p-1 m-1" alt={viewItem.name} />
-		{/if}
-	</div>
-	<div class="text-white display-6 title p-2 m-2">
+<div class="text-white text-center">
+	<img
+		src={viewItem.imgUrl ? viewItem.imgUrl : '/main/blank.jpg'}
+		class="rounded-5 w-75 p-1 m-1 shadow-sm"
+		alt={viewItem.imgUrl ? viewItem.name : 'blank'}
+	/>
+	<div class="display-6 title p-1 m-1 pt-2 mt-2">
 		{viewItem.name}
+	</div>
+	<div class="p-1 m-1 pt-1 pb-2 mt-1 mb-2">
+		<hr />
 	</div>
 </div>
