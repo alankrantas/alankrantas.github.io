@@ -5,7 +5,7 @@
 <div class="text-center text-white-50">
 	<div>
 		<a href="https://github.com/alankrantas/alankrantas.github.io" target="_blank">
-			<img src="github-mark-white.svg" width="50px" alt="github-mark-white" class="shadow" />
+			<img src="/github-mark-white.svg" width="40px" alt="github-mark-white" class="shadow" />
 		</a>
 	</div>
 	<div class="p-2 m-2">
