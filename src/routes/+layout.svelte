@@ -20,6 +20,8 @@
 	:global(body) {
 		font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
 		font-size: large;
+		text-align: justify;
+		text-justify: inter-word;
 		background-color: #3d3d3d;
 	}
 </style>

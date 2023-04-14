@@ -1,4 +1,4 @@
-name: Deploy to Github Page
+name: Build and Deployment CI
 
 on:
   push:
@@ -24,11 +24,13 @@ jobs:
         with:
           node-version: '18.x'
 
-      - name: Install dependencies and Build production
+      - name: Install Dependencies
         run: |
           npm i -g yarn
           yarn install --frozen-lockfile
-          yarn build
+
+      - name: Build Production
+        run: yarn build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

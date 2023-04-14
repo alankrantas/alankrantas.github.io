@@ -2,19 +2,11 @@
 	import { name, title, location } from '../../data/NameTitle';
 	import { personalFacts } from '../../data/FactLists';
 	import List from '../List.svelte';
-
-	const getAge = () => {
-		const now = new Date();
-		const birth = new Date('10 Mar 1984 12:00:00 GMT+8');
-		return Math.floor(
-			(now.getMonth() - birth.getMonth() + 12 * (now.getFullYear() - birth.getFullYear())) / 12
-		);
-	};
 </script>
 
 <p><span class="h5">Hello</span> there!</p>
 <p class="indent">
-	My name is <b>{name}</b>, a Taiwanese born (b. 1984), raised and educated in {location}. I am
+	My name is <b>{name}</b>, a native Taiwanese born, raised and educated in {location}. I am
 	currently a <b>{title}</b>
 	working for a local software startup.
 </p>
@@ -42,7 +34,11 @@
 <p class="indent">
 	After six and half years and the publishing market showed signs of dying quickly if not already, I
 	had no choice but to find my next way out. I want back to the software world, at first still in
-	touch of publishing, then finally moved back to a pure software business.
+	touch of publishing, then finally moved back to a pure software business. I learned lots of new
+	stuff in the span of a couple of years.
+</p>
+<p class="indent">
+	And this is more of less how I ended up building this site, kind of unexpectedly.
 </p>
 <p class="indent">Click the other sections of this website to learn more about me.</p>
 <br /><br />
