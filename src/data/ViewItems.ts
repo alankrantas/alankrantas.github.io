@@ -1,4 +1,4 @@
-import { name, title, location } from './NameTitle';
+import { name, title } from './NameTitle';
 
 export interface ViewItem {
 	id: number;
@@ -13,7 +13,7 @@ export const ViewItems: ViewItem[] = [
 	{
 		id: id++,
 		name: `About Me`,
-		description: `${name}, a ${title} working in the software industry | he/him | based in ${location}`,
+		description: `${name}, a ${title} working in the software industry | he/him | short bio | interests`,
 		imgUrl: '/main/about-me.jpg'
 	},
 	{
@@ -34,12 +34,6 @@ export const ViewItems: ViewItem[] = [
 		name: 'Portfolio',
 		description: 'Authored and translated books | blog posts | documentation | Maker projects',
 		imgUrl: '/main/works.jpg'
-	},
-	{
-		id: id++,
-		name: 'Interests',
-		description: 'Reading | music | movies and TV shows | PC gaming | coffee | film photography',
-		imgUrl: '/main/hobbies.jpg'
 	},
 	{
 		id: id++,

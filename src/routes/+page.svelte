@@ -66,7 +66,7 @@
 			{#if selectedViewId == -1}
 				<div class="col p-1 m-1" in:receive={{ key: 'main' }} out:send={{ key: 'subview' }}>
 					<!-- name title -->
-					<div class="p-2 m-2 pb-4 mb-4">
+					<div class="text-center p-2 m-2 pb-4 mb-4">
 						<NameTitle mode={'main'} />
 					</div>
 					<!-- view cards -->
@@ -106,6 +106,15 @@
 					</div>
 					<div>
 						<br />
+						<br />
+					</div>
+					<!--back to top button -->
+					<div class="text-center p-1 m-1">
+						<button type="button" class="btn btn-dark rounded-4 shadow" on:click={scrollToTop}>
+							<span class="h6">Back to top</span>
+						</button>
+					</div>
+					<div>
 						<br />
 					</div>
 					<!-- footer -->

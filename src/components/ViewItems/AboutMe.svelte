@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { name, title, location } from '../../data/NameTitle';
-	import { personalFacts } from '../../data/FactLists';
+	import { personalList, interestList } from '../../data/Lists';
 	import List from '../List.svelte';
 </script>
 
@@ -17,7 +17,7 @@
 </p>
 <br /><br />
 <div class="text-center p-2 m-2">
-	<img src="/about-me/profile.jpg" width="300px" alt="profile" class="rounded-circle shadow" />
+	<img src="/about-me/profile.jpg" width="350px" alt="profile" class="rounded-circle shadow" />
 </div>
 <br /><br />
 <p class="indent">
@@ -38,8 +38,14 @@
 	stuff in the span of a couple of years.
 </p>
 <p class="indent">
-	And this is more of less how I ended up building this site, kind of unexpectedly.
+	And this is more of less how I ended up building this site - kind of unexpectedly.
 </p>
 <p class="indent">Click the other sections of this website to learn more about me.</p>
 <br /><br />
-<List title="Personal Facts" factList={personalFacts} />
+<List title="Personal Facts" list={personalList} />
+<br /><br />
+<div class="text-center p-2 m-2">
+	<img src="/about-me/hobbies.jpg" width="600px" alt="hobbies" class="rounded-pill shadow" />
+</div>
+<br /><br />
+<List list={interestList} title="Personal hobbies" />

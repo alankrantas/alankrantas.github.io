@@ -1,25 +1,24 @@
 <script lang="ts">
-	import { professionalFacts, educationFacts, clubFacts, certFacts } from '../../data/FactLists';
+	import { professionalList, educationList, clubList, certList } from '../../data/Lists';
 	import List from '../List.svelte';
 </script>
 
 <br />
-<List factList={professionalFacts} title="Professional Experience" />
+<List list={professionalList} title="Professional Experience" />
 <p>
 	<span class="small"
-		>*Note: I am not really a fan with Java or J2EE technologies. Nowadays we have better and
-		efficient stuff to do the jobs.</span
+		>*Note: See <kbd>Competencies</kbd> for my available skills and <kbd>Links</kbd> for my full résumés.</span
 	>
 </p>
 <br /><br />
-<List factList={educationFacts} title="Education" />
+<List list={educationList} title="Education" />
 <p>
 	<span class="small"
-		>*Note: Public Finance focuses on government tax and financial policies, which is quite
-		different from private sector banking and finance.</span
+		>*Note: <kbd>Public Finance</kbd> focuses on government tax, accounting and financial policies, which
+		is quite different from private sector banking and finance, and for which I had no interest at all.</span
 	>
 </p>
 <br /><br />
-<List factList={clubFacts} title="Club" />
+<List list={clubList} title="Club" />
 <br /><br />
-<List factList={certFacts} title="Certification" />
+<List list={certList} title="Certification" />
