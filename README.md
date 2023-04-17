@@ -1,20 +1,16 @@
-# Alan Wang's Homepage
+# Alan Wang's Github Pages Homepage
 
 [![github-pages-deploy](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml)
 
-> Working in progress...
-
-Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/). Have options to deploy as Docker container (using Nginx as server). Uses Github Action to deploy a production to Github Pages and dependabot for security updates and supports DevContainer and Github CodeSpace.
+Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/). Have options to deploy as Docker container (using Nginx as server) and supports DevContainer/Codespace. Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates.
 
 👉 [alankrantas.github.io](https://alankrantas.github.io/)
 
-## Development Notes
+## Development Notes to Self
 
 > Prerequisites: Node.js, Yarn, Git and Docker
 
 ### Local Development
-
-> Probably only need to do again when I buy myself a brand new computer...
 
 Install Yarn:
 
@@ -32,6 +28,14 @@ cd alankrantas.github.io
 yarn
 ```
 
+After making changes:
+
+```bash
+yarn pull  # resolve conflict if any
+yarn format
+yarn commit
+```
+
 ### List of Scripts
 
 | Command             | Description                                                    |
@@ -43,9 +47,12 @@ yarn
 | `yarn format`       | Format and prettify files.                                     |
 | `yarn build`        | Build a local production at `./build`.                         |
 | `yarn serve`        | Serve the local production and open `http://localhost:8080`.   |
-| `yarn commit`       | Push all changes to `main` branch.                             |
+| `yarn pull`         | Pull commit histories from `main` branch.                      |
+| `yarn push`         | Push changes to `main` branch.                                 |
+| `yarn commit`       | `yarn pull` + `yarn format` + `yarn commit`                    |
 | `yarn docker-build` | Build a Docker container image                                 |
 | `yarn docker-run`   | Run the Docker container and open `http://localhost:8080`.     |
+| `yarn docker`       | `yarn docker-build` && `yarn docker-run`                       |
 
 ### (Re)create a New Project
 

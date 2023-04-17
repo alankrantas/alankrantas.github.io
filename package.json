@@ -13,9 +13,12 @@
 		"format": "prettier --write .",
 		"start": "yarn dev",
 		"serve": "open-cli http://localhost:8080 && yarn preview",
-		"commit": "yarn format && git pull origin main && git add . && git commit -m \"Updating\" && git push origin main",
+		"pull": "git pull origin main",
+		"push": "git add . && git commit -m \"Updating\" && git push origin main",
+		"commit": "yarn pull && yarn format && yarn push",
 		"docker-build": "docker build . -t alankrantas.github.io -f Dockerfile",
-		"docker-run": "open-cli http://localhost:8080 && docker run -d -p 8080:80 --rm alankrantas.github.io"
+		"docker-run": "open-cli http://localhost:8080 && docker run -d -p 8080:80 --rm alankrantas.github.io",
+		"docker": "yarn docker-build && yarn docker-run"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^2.0.2",

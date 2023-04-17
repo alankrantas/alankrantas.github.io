@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ViewItem } from '../data/ViewItems';
+	import type { ViewItem } from '../data/Types';
 
 	export let viewItem: ViewItem;
 </script>

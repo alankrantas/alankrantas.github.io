@@ -3,18 +3,59 @@
 	import { fly, fade, crossfade } from 'svelte/transition';
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
-	import { ViewItems } from '../data/ViewItems';
 	import NameTitle from '../components/NameTitle.svelte';
 	import ViewItemNavBtn from '../components/ViewItemNavBtn.svelte';
 	import ViewItemCard from '../components/ViewItemCard.svelte';
 	import ViewItemHead from '../components/ViewItemHead.svelte';
 	import ViewItemContent from '../components/ViewItemContent.svelte';
 	import Footer from '../components/Footer.svelte';
+	import { name, title } from '../data/NameTitle';
+	import type { ViewItem } from '../data/Types';
 
 	let innerWidth = 0;
 	let innerHeight = 0;
 	let ready = false;
 	let scrollToTop = () => {};
+
+	const ViewItems: ViewItem[] = [
+		{
+			id: 0,
+			name: `About Me`,
+			description: `${name}, a ${title} working in the software industry | he/him | short bio | interests`,
+			imgUrl: '/main/about-me.jpg'
+		},
+		{
+			id: 1,
+			name: 'Experience',
+			description: 'Programming | STEM education | translating and publishing | technical writing',
+			imgUrl: '/main/experience.jpg'
+		},
+		{
+			id: 2,
+			name: 'Competencies',
+			description:
+				'Frontend, backend & cloud technologies | professional translating | content writing',
+			imgUrl: '/main/skills.jpg'
+		},
+		{
+			id: 3,
+			name: 'Portfolio',
+			description: 'Authored and translated books | blog posts | documentation | Maker projects',
+			imgUrl: '/main/works.jpg'
+		},
+		{
+			id: 4,
+			name: 'Links',
+			description: 'Email | Facebook | Linkedin | blogs | Instagram | Github repos | Misc',
+			imgUrl: '/main/links.jpg'
+		},
+		{
+			id: 5,
+			name: 'About Site',
+			description: 'A little bit details of how I built and deploy this site 😸',
+			imgUrl: '/main/about.jpg'
+		}
+	];
 
 	$: selectedViewId = -1;
 

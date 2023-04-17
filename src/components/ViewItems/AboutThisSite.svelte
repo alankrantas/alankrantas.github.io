@@ -1,6 +1,69 @@
 <script lang="ts">
-	import { siteTechList } from '../../data/Lists';
+	import type { ListItem } from '../../data/Types';
 	import List from '../List.svelte';
+
+	const siteTechList: ListItem[] = [
+		{
+			name: 'Component framework',
+			content: 'Svelte 3',
+			link: 'https://svelte.dev/',
+			linkedContent: true
+		},
+		{
+			name: 'Application framework',
+			content: 'SvelteKit',
+			link: 'https://kit.svelte.dev/',
+			linkedContent: true
+		},
+		{
+			name: 'SSG (static-site generation)',
+			content: '@sveltejs/adapter-static',
+			link: 'https://kit.svelte.dev/docs/adapter-static',
+			linkedContent: true
+		},
+		{
+			name: 'CSS library',
+			content: 'Bootstrap 5',
+			link: 'https://svelte.dev/',
+			linkedContent: true
+		},
+		{
+			name: 'Font library',
+			content: 'Fontsource',
+			footnote: 'NPM package form of Google Fonts',
+			link: 'https://fontsource.org/',
+			linkedContent: true
+		},
+		{
+			name: 'Free images',
+			content: 'Unsplash',
+			link: 'https://unsplash.com/',
+			linkedContent: true
+		},
+		{
+			name: 'Free icons',
+			content: 'Flaticon.com',
+			link: 'https://www.flaticon.com/',
+			linkedContent: true
+		},
+		{
+			name: 'CI (continuous integration)',
+			content: 'Github Actions',
+			link: 'https://docs.github.com/en/actions',
+			linkedContent: true
+		},
+		{
+			name: 'Website hosting',
+			content: 'Github Pages',
+			link: 'https://pages.github.com/',
+			linkedContent: true
+		},
+		{
+			name: 'Website source repository',
+			footnote: 'Supports Dependabot, Docker and DevContainer',
+			link: 'https://github.com/alankrantas/alankrantas.github.io'
+		}
+	];
 </script>
 
 <p>Some little things about this site (the technological side of it at least).</p>
