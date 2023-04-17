@@ -47,45 +47,6 @@
 			footnote: 'Any takers? 😂'
 		}
 	];
-
-	const interestList: ListItem[] = [
-		{
-			name: 'Movies & TV shows',
-			content: 'Almost anything except scary or non-sci-fi horror works.',
-			footnote: "And I love Wes Anderson's movies soooo much."
-		},
-		{
-			name: 'Music',
-			content: 'Classical, soundtracks, sometimes jazz and western.',
-			footnote: "Actually I've learned amateur classical piano for 20+ years."
-		},
-		{
-			name: 'Books',
-			content: 'Mostly science fiction, fantasy with a few general fiction/non-fiction.',
-			footnote: 'Nowadays I read ebooks mostly on commute.'
-		},
-		{
-			name: 'Coffee',
-			content: 'I seldom drink but a cup or two black coffee always make my day.'
-		},
-		{
-			name: 'Photography',
-			content:
-				'Mostly film photography in 35mm or 120 still films, sometimes in digital. Had shot Polaroid/instax mini instant films.',
-			footnote:
-				'I have a collection of a dozen vintage cameras, over half of them are even older than I am.'
-		},
-		{
-			name: 'City sightseeing',
-			content:
-				'I like visiting historical buildings and sites. This is often do with photography too.',
-			footnote: 'Feel free to ask me to recommend great photo spots in Taipei and New Taipei City!'
-		},
-		{
-			name: 'Maker projects',
-			content: 'Building fun interactive physical computing devices.'
-		}
-	];
 </script>
 
 <p><span class="h5">Hello</span> there!</p>
@@ -99,11 +60,6 @@
 	with versatile combination of skills. I am creative with an easy-going personality as well as
 	down-to-earth working attitude.
 </p>
-<br /><br />
-<div class="text-center p-2 m-2">
-	<img src="/about-me/profile.jpg" width="350px" alt="profile" class="rounded-circle shadow" />
-</div>
-<br /><br />
 <p class="indent">
 	I grew up with computers. I played the shareware version of DOOM when I was 10 and self-taught
 	myself to write simple (and bad) Quick-BASIC programs when I was 12. I moved on to Visual Basic 4
@@ -127,9 +83,3 @@
 <p class="indent">Click the other sections of this website to learn more about me.</p>
 <br /><br />
 <List title="Personal Facts" list={personalList} />
-<br /><br />
-<div class="text-center p-2 m-2">
-	<img src="/about-me/hobbies.jpg" width="600px" alt="hobbies" class="rounded-pill shadow" />
-</div>
-<br /><br />
-<List list={interestList} title="Personal hobbies" />

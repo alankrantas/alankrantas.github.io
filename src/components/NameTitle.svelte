@@ -29,10 +29,13 @@
 	</div>
 {:else if mode == 'nav'}
 	<div class="text-end">
+		<img src="/about-me/profile.jpg" width="160px" alt="profile" class="rounded-circle shadow" />
+	</div>
+	<br />
+	<div class="text-end">
 		<p class="h2 text-white title">
 			<span class="badge bg-secondary">
-				<img src="/about-me/profile.jpg" width="30px" alt="profile" class="rounded-circle shadow" />
-				&nbsp;{name}
+				{name}
 			</span>
 		</p>
 		<p class="h5 text-white-50 code p-1 m-1">

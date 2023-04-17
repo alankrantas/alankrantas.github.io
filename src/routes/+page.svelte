@@ -45,12 +45,18 @@
 		},
 		{
 			id: 4,
+			name: 'Hobbies',
+			description: 'Coffee | novels | movies | music | film photography | sightseeing',
+			imgUrl: '/main/hobbies.jpg'
+		},
+		{
+			id: 5,
 			name: 'Links',
 			description: 'Email | Facebook | Linkedin | blogs | Instagram | Github repos | Misc',
 			imgUrl: '/main/links.jpg'
 		},
 		{
-			id: 5,
+			id: 6,
 			name: 'About Site',
 			description: 'A little bit details of how I built and deploy this site 😸',
 			imgUrl: '/main/about.jpg'
@@ -69,7 +75,7 @@
 
 	const [send, receive] = crossfade({
 		delay: 100,
-		duration: 1000,
+		duration: 500,
 		easing: expoOut
 	});
 
@@ -185,9 +191,9 @@
 					</div>
 					<div>
 						{#each ViewItems as viewItem (viewItem.id)}
-							<div animate:flip={{ delay: 100, duration: 500, easing: expoOut }}>
+							<div animate:flip={{ duration: 500, easing: expoOut }}>
 								{#if selectedViewId == viewItem.id}
-									<div in:fade={{ delay: 250, duration: 2000, easing: expoOut }}>
+									<div in:fade={{ delay: 250, duration: 500, easing: expoOut }}>
 										<!--sub view head -->
 										<div class="p-2 m-2">
 											<ViewItemHead {viewItem} />
