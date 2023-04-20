@@ -9,7 +9,7 @@
 	import ViewItemHead from '../components/ViewItemHead.svelte';
 	import ViewItemContent from '../components/ViewItemContent.svelte';
 	import Footer from '../components/Footer.svelte';
-	import { name, title } from '../data/NameTitle';
+	import { name, title, industry } from '../data/NameTitle';
 	import type { ViewItem } from '../data/Types';
 
 	let innerWidth = 0;
@@ -20,8 +20,8 @@
 	const ViewItems: ViewItem[] = [
 		{
 			id: 0,
-			name: `About Me`,
-			description: `${name}, a ${title} working in the software industry | he/him | short bio | interests`,
+			name: 'About Me',
+			description: `${name}, a ${title} working in the ${industry} | he/him | short bio | facts`,
 			imgUrl: '/main/about-me.jpg'
 		},
 		{
@@ -46,13 +46,14 @@
 		{
 			id: 4,
 			name: 'Hobbies',
-			description: 'Coffee | novels | movies | music | film photography | sightseeing',
+			description:
+				'Coffee | novels | movies | music | film photography | sightseeing | Maker projects',
 			imgUrl: '/main/hobbies.jpg'
 		},
 		{
 			id: 5,
 			name: 'Links',
-			description: 'Email | Facebook | Linkedin | blogs | Instagram | Github repos | Misc',
+			description: 'Email | Facebook | Linkedin | blogs | Instagram | Github repos | misc',
 			imgUrl: '/main/links.jpg'
 		},
 		{

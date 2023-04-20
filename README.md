@@ -52,7 +52,7 @@ yarn commit
 | `yarn commit`       | `yarn pull` + `yarn format` + `yarn commit`                    |
 | `yarn docker-build` | Build a Docker container image                                 |
 | `yarn docker-run`   | Run the Docker container and open `http://localhost:8080`.     |
-| `yarn docker`       | `yarn docker-build` && `yarn docker-run`                       |
+| `yarn docker`       | `yarn docker-build` + `yarn docker-run`                        |
 
 ### (Re)create a New Project
 
