@@ -29,7 +29,12 @@
 	</div>
 {:else if mode == 'nav'}
 	<div class="text-end">
-		<img src="/about-me/profile.jpg" width="160px" alt="profile" class="rounded-circle shadow" />
+		<img
+			src="/about-me/profile.jpg"
+			width="160px"
+			alt="profile"
+			class="img-thumbnail rounded-circle shadow"
+		/>
 	</div>
 	<br />
 	<div class="text-end">

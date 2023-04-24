@@ -76,7 +76,7 @@
 
 	const [send, receive] = crossfade({
 		delay: 100,
-		duration: 500,
+		duration: 1000,
 		easing: expoOut
 	});
 
@@ -89,7 +89,7 @@
 <svelte:window bind:innerWidth bind:innerHeight />
 
 {#if ready}
-	<div class="container-sm" in:fly={{ y: 100, duration: 2500, easing: expoOut }}>
+	<div class="container-sm" in:fly={{ y: 100, delay: 100, duration: 2000, easing: expoOut }}>
 		<div class="row p-4 m-4">
 			<!-- nav bar -->
 			{#if selectedViewId != -1}
@@ -194,7 +194,7 @@
 						{#each ViewItems as viewItem (viewItem.id)}
 							<div animate:flip={{ duration: 500, easing: expoOut }}>
 								{#if selectedViewId == viewItem.id}
-									<div in:fade={{ delay: 250, duration: 500, easing: expoOut }}>
+									<div in:fade={{ delay: 100, duration: 500, easing: expoOut }}>
 										<!--sub view head -->
 										<div class="p-2 m-2">
 											<ViewItemHead {viewItem} />
