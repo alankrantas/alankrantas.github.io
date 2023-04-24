@@ -20,7 +20,8 @@
 		},
 		{
 			name: 'Coffee',
-			content: 'I seldom drink but a cup or two black coffee always make my day.'
+			content: 'A cup or two black coffee always make my day.',
+			footnote: "Actually I suspect I'm powered by caffeine..."
 		},
 		{
 			name: 'Photography',

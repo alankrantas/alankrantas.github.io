@@ -22,7 +22,8 @@
 		},
 		{
 			name: 'Year of birth',
-			content: `1984 (age ${getAge()})`
+			content: `1984 (age ${getAge()})`,
+			footnote: 'The age is computed by JavaScript by the way.'
 		},
 		{
 			name: 'Zodiac sign',
@@ -43,8 +44,8 @@
 		},
 		{
 			name: 'Marital status',
-			content: 'Unmarried',
-			footnote: 'Any takers? 😂'
+			content: 'Single/unmarried',
+			footnote: 'Ask me out for a coffee if you dare 😊'
 		}
 	];
 </script>
@@ -82,4 +83,4 @@
 </p>
 <p class="indent">Click the other sections of this website to learn more about me.</p>
 <br /><br />
-<List title="Personal Facts" list={personalList} />
+<List list={personalList} title="Personal Facts" />

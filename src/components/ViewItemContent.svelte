@@ -12,23 +12,17 @@
 <div class="text-white">
 	{#if viewItemId == 0}
 		<AboutMe />
-	{/if}
-	{#if viewItemId == 1}
+	{:else if viewItemId == 1}
 		<Experience />
-	{/if}
-	{#if viewItemId == 2}
+	{:else if viewItemId == 2}
 		<Competencies />
-	{/if}
-	{#if viewItemId == 3}
+	{:else if viewItemId == 3}
 		🚧 WORKING IN PROGRESS 🚧
-	{/if}
-	{#if viewItemId == 4}
+	{:else if viewItemId == 4}
 		<Hobbies />
-	{/if}
-	{#if viewItemId == 5}
+	{:else if viewItemId == 5}
 		<Links />
-	{/if}
-	{#if viewItemId == 6}
+	{:else if viewItemId == 6}
 		<AboutThisSite />
 	{/if}
 </div>
