@@ -2,6 +2,7 @@
 	import AboutMe from './ViewItems/AboutMe.svelte';
 	import Experience from './ViewItems/Experience.svelte';
 	import Competencies from './ViewItems/Competencies.svelte';
+	import Portfolio from './ViewItems/Portfolio.svelte';
 	import Hobbies from './ViewItems/Hobbies.svelte';
 	import Links from './ViewItems/Links.svelte';
 	import AboutThisSite from './ViewItems/AboutThisSite.svelte';
@@ -17,7 +18,7 @@
 	{:else if viewItemId == 2}
 		<Competencies />
 	{:else if viewItemId == 3}
-		🚧 WORKING IN PROGRESS 🚧
+		<Portfolio />
 	{:else if viewItemId == 4}
 		<Hobbies />
 	{:else if viewItemId == 5}
