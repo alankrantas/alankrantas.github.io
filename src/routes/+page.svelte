@@ -12,10 +12,33 @@
 	import { name, title, industry } from '../data/NameTitle';
 	import type { ViewItem } from '../data/Types';
 
-	let innerWidth = 0;
-	let innerHeight = 0;
 	let ready = false;
 	let scrollToTop = () => {};
+
+	$: selectedViewId = -1;
+
+	const handleSetViewId = (event: { detail: number }) => {
+		selectedViewId = event.detail;
+		if (selectedViewId != -1) scrollToTop();
+	};
+
+	afterUpdate(() => {
+		if (!ready) {
+			scrollToTop = () => {
+				window.scrollTo({
+					top: 0,
+					behavior: 'auto'
+				});
+			};
+			ready = true;
+		}
+	});
+
+	const [send, receive] = crossfade({
+		delay: 100,
+		duration: 1000,
+		easing: expoOut
+	});
 
 	const ViewItems: ViewItem[] = [
 		{
@@ -63,115 +86,13 @@
 			imgUrl: '/main/about.jpg'
 		}
 	];
-
-	$: selectedViewId = -1;
-
-	afterUpdate(() => {
-		if (!ready) {
-			scrollToTop = () => {
-				window.scrollTo({
-					top: 0,
-					behavior: 'auto'
-				});
-			};
-			ready = true;
-		}
-	});
-
-	const [send, receive] = crossfade({
-		delay: 100,
-		duration: 1000,
-		easing: expoOut
-	});
-
-	const handleSetViewId = (event: { detail: number }) => {
-		selectedViewId = event.detail;
-		scrollToTop();
-	};
 </script>
-
-<svelte:window bind:innerWidth bind:innerHeight />
 
 {#if ready}
 	<div class="container-sm" in:fly={{ y: 100, delay: 100, duration: 2000, easing: expoOut }}>
 		<div class="row p-4 m-4">
-			<!-- nav bar -->
-			{#if selectedViewId != -1}
-				<div
-					class="col-sm-auto p-1 m-1 pe-2 me-2"
-					in:receive={{ key: 'subview' }}
-					out:receive={{ key: 'main' }}
-				>
-					<!-- name title -->
-					<div class="p-1 m-1">
-						<NameTitle mode={'nav'} />
-					</div>
-					<!-- name buttons -->
-					<ul class="nav flex-column text-end pt-2 mt-2">
-						{#each ViewItems as viewItem (viewItem.id)}
-							<ViewItemNavBtn {viewItem} {selectedViewId} on:setViewId={handleSetViewId} />
-						{/each}
-					</ul>
-				</div>
-				<!--sub view -->
-				<div
-					class="col p-1 m-1 ps-2 me-2"
-					in:receive={{ key: 'subview' }}
-					out:send={{ key: 'main' }}
-				>
-					<!--back to main button -->
-					<div class="text-end p-1 m-1">
-						<button
-							type="button"
-							class="btn btn-dark rounded-4 shadow"
-							on:click={() => (selectedViewId = -1)}
-						>
-							<span class="h6">Back to main</span>
-						</button>
-					</div>
-					<div>
-						<br />
-					</div>
-					<div>
-						{#each ViewItems as viewItem (viewItem.id)}
-							<div animate:flip={{ duration: 500, easing: expoOut }}>
-								{#if selectedViewId == viewItem.id}
-									<div in:fade={{ delay: 100, duration: 500, easing: expoOut }}>
-										<!--sub view head -->
-										<div class="p-2 m-2">
-											<ViewItemHead {viewItem} />
-										</div>
-										<!--sub view content -->
-										<div
-											class="p-2 m-2 pt-2 pb-2 mt-2 mb-2"
-											in:fly={{ y: 100, delay: 250, duration: 1000, easing: expoOut }}
-										>
-											<ViewItemContent viewItemId={viewItem.id} />
-										</div>
-									</div>
-								{/if}
-							</div>
-						{/each}
-					</div>
-					<div>
-						<br />
-					</div>
-					<!--back to top button -->
-					<div class="text-end p-1 m-1">
-						<button type="button" class="btn btn-dark rounded-4 shadow" on:click={scrollToTop}>
-							<span class="h6">Back to top</span>
-						</button>
-					</div>
-					<div>
-						<br />
-					</div>
-					<!-- footer -->
-					<div class="p-4 m-4">
-						<Footer />
-					</div>
-				</div>
+			{#if selectedViewId == -1}
 				<!-- main area -->
-			{:else}
 				<div class="col p-1 m-1" in:receive={{ key: 'main' }} out:send={{ key: 'subview' }}>
 					<!-- name title -->
 					<div class="text-center p-2 m-2 pb-4 mb-4">
@@ -227,6 +148,81 @@
 					</div>
 					<!-- footer -->
 					<div class="p-2 m-2">
+						<Footer />
+					</div>
+				</div>
+			{:else}
+				<!-- nav bar -->
+				<div
+					class="col-sm-auto p-1 m-1 pe-2 me-2"
+					in:receive={{ key: 'subview' }}
+					out:receive={{ key: 'main' }}
+				>
+					<!-- name title -->
+					<div class="p-1 m-1">
+						<NameTitle mode={'nav'} />
+					</div>
+					<!-- name buttons -->
+					<ul class="nav flex-column text-end pt-2 mt-2">
+						{#each ViewItems as viewItem (viewItem.id)}
+							<ViewItemNavBtn {viewItem} {selectedViewId} on:setViewId={handleSetViewId} />
+						{/each}
+					</ul>
+				</div>
+				<!--sub view -->
+				<div
+					class="col p-1 m-1 ps-2 me-2"
+					in:receive={{ key: 'subview' }}
+					out:send={{ key: 'main' }}
+				>
+					<!--back to main button -->
+					<div class="text-end p-1 m-1">
+						<button
+							type="button"
+							class="btn btn-dark rounded-4 shadow"
+							on:click={() => (selectedViewId = -1)}
+						>
+							<span class="h6">Back to main</span>
+						</button>
+					</div>
+					<div>
+						<br />
+					</div>
+					<div>
+						{#each ViewItems as viewItem (viewItem.id)}
+							<div animate:flip={{ duration: 500, easing: expoOut }}>
+								{#if selectedViewId == viewItem.id}
+									<div in:fade={{ delay: 100, duration: 500, easing: expoOut }}>
+										<!--sub view head -->
+										<div class="p-2 m-2">
+											<ViewItemHead {viewItem} />
+										</div>
+										<!--sub view content -->
+										<div
+											class="p-2 m-2"
+											in:fly={{ y: 100, delay: 250, duration: 1000, easing: expoOut }}
+										>
+											<ViewItemContent viewItemId={viewItem.id} />
+										</div>
+									</div>
+								{/if}
+							</div>
+						{/each}
+					</div>
+					<div>
+						<br />
+					</div>
+					<!--back to top button -->
+					<div class="text-end p-1 m-1">
+						<button type="button" class="btn btn-dark rounded-4 shadow" on:click={scrollToTop}>
+							<span class="h6">Back to top</span>
+						</button>
+					</div>
+					<div>
+						<br />
+					</div>
+					<!-- footer -->
+					<div class="p-4 m-4">
 						<Footer />
 					</div>
 				</div>

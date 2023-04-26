@@ -5,7 +5,7 @@
 </script>
 
 {#if mode == 'main'}
-	<div class="row justify-content-center p-2 m-2">
+	<div class="row d-flex justify-content-center p-2 m-2">
 		<div class="col-sm text-end">
 			<img src="/about-me/profile.jpg" width="40px" alt="profile" class="rounded-circle shadow" />
 		</div>
@@ -31,7 +31,7 @@
 	<div class="text-end">
 		<img
 			src="/about-me/profile.jpg"
-			width="160px"
+			width="140px"
 			alt="profile"
 			class="img-thumbnail rounded-circle shadow"
 		/>

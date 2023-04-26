@@ -1,5 +1,6 @@
 .title {
 	font-family: 'Playfair Display', sans-serif;
+	text-shadow: 0.1em 0.1em 0.5em #000000;
 }
 
 .code {

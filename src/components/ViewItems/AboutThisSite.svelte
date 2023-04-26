@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { ListItem } from '../../data/Types';
-	import List from '../List.svelte';
+	import List from '../utils/List.svelte';
 
 	const siteTechList: ListItem[] = [
 		{
@@ -78,6 +78,10 @@
 	It is always such a fun ride to try to make something on your own, to explore and experiment new
 	ideas, and a great learning experience too. The front-end technologies is certainly something I'd
 	'never imagined from the days of creating simple websites using Microsoft FrontPage.
+</p>
+<p class="indent">
+	Although SvelteKit has a pretty neat routing system, I made this as a single-page application
+	(SPA) on purpose.
 </p>
 <br />
 <List list={siteTechList} title="List of Resource for Building This Site" />

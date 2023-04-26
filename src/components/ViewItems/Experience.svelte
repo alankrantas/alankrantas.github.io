@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { ListItem } from '../../data/Types';
-	import List from '../List.svelte';
+	import List from '../utils/List.svelte';
 
 	const professionalList: ListItem[] = [
 		{
@@ -73,7 +73,6 @@
 	];
 </script>
 
-<br />
 <List list={professionalList} title="Professional Experience" />
 <p>
 	<span class="small"

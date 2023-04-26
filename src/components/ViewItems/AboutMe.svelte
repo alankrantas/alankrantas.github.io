@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { name, title, location } from '../../data/NameTitle';
 	import type { ListItem } from '../../data/Types';
-	import List from '../List.svelte';
+	import List from '../utils/List.svelte';
 
 	const getAge = () => {
 		const now = new Date();
@@ -50,7 +50,7 @@
 	];
 </script>
 
-<p><span class="h5">Hello</span> there!</p>
+<p><span class="h4">Hello there!</span></p>
 <p class="indent">
 	My name is <b>{name}</b>, a native Taiwanese born, raised and educated in {location}. I am
 	currently a <b>{title}</b>
@@ -84,3 +84,9 @@
 <p class="indent">Click the other sections of this website to learn more about me.</p>
 <br /><br />
 <List list={personalList} title="Personal Facts" />
+<br />
+<p class="text-center">
+	<img src="/about-me/profile.jpg" width="400px" alt="profile" class="rounded-5 p-2 m-2" />
+	<br />
+	<span class="small codetext-white-50"> Selfie with a Polaroid SX-70 Sonar </span>
+</p>
