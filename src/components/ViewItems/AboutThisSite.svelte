@@ -81,7 +81,7 @@
 </p>
 <p class="indent">
 	Although SvelteKit has a pretty neat routing system, I made this as a single-page application
-	(SPA) on purpose.
+	(SPA) on purpose. QueryString is added to create the illusion of routing between views.
 </p>
 <br />
 <List list={siteTechList} title="List of Resource for Building This Site" />

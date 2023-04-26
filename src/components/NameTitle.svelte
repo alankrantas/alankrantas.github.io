@@ -19,7 +19,7 @@
 					{title}
 				</span>
 			</p>
-			<p class="text-white-50">
+			<p class="text-white-50 opacity-75">
 				<span class="lead code">
 					{location}
 				</span>
@@ -31,7 +31,7 @@
 	<div class="text-end">
 		<img
 			src="/about-me/profile.jpg"
-			width="140px"
+			width="135px"
 			alt="profile"
 			class="img-thumbnail rounded-circle shadow"
 		/>
@@ -39,7 +39,7 @@
 	<br />
 	<div class="text-end">
 		<p class="h2 text-white title">
-			<span class="badge bg-secondary">
+			<span class="badge bg-secondary opacity-75">
 				{name}
 			</span>
 		</p>

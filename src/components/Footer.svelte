@@ -2,13 +2,13 @@
 	import { name } from '../data/NameTitle';
 </script>
 
-<div class="text-center text-white-50">
+<div class="text-center">
 	<div>
 		<a href="https://github.com/alankrantas/alankrantas.github.io" target="_blank">
 			<img src="/github-mark-white.svg" width="40px" alt="github-mark-white" class="shadow" />
 		</a>
 	</div>
-	<div class="p-2 m-2">
+	<div class="text-white-50 opacity-75 p-2 m-2">
 		<b>© {new Date().getFullYear()} {name}</b>
 	</div>
 </div>

@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
 	import { afterUpdate } from 'svelte';
 	import { fly, fade, crossfade } from 'svelte/transition';
 	import { flip } from 'svelte/animate';
@@ -17,10 +19,20 @@
 
 	$: selectedViewId = -1;
 
-	const handleSetViewId = (event: { detail: number }) => {
-		selectedViewId = event.detail;
+	const setViewId = (id: number) => {
+		if (id >= 0 && id <= viewItems.length - 1) {
+			selectedViewId = id;
+			$page.url.searchParams.set('view', String(selectedViewId));
+			goto(`/?${$page.url.searchParams.toString()}`);
+		} else {
+			selectedViewId = -1;
+			$page.url.searchParams.delete('view');
+			goto('/');
+		}
 		if (selectedViewId != -1) scrollToTop();
 	};
+
+	const handleSetViewId = (event: { detail: number }) => setViewId(event.detail);
 
 	afterUpdate(() => {
 		if (!ready) {
@@ -30,6 +42,11 @@
 					behavior: 'auto'
 				});
 			};
+			try {
+				setViewId(Number($page.url.searchParams.get('view') ?? -1));
+			} catch (e) {
+				setViewId(-1);
+			}
 			ready = true;
 		}
 	});
@@ -40,7 +57,7 @@
 		easing: expoOut
 	});
 
-	const ViewItems: ViewItem[] = [
+	const viewItems: ViewItem[] = [
 		{
 			id: 0,
 			name: 'About Me',
@@ -101,7 +118,7 @@
 					<!-- view cards -->
 					<div class="row">
 						<div class="col p-2 m-2">
-							{#each ViewItems.filter((item) => item.id % 2 == 0) as viewItem (viewItem.id)}
+							{#each viewItems.filter((item) => item.id % 2 == 0) as viewItem (viewItem.id)}
 								{#if viewItem.id > 0}
 									<div>
 										<br /><br /><br />
@@ -114,7 +131,7 @@
 						</div>
 						<div class="col-sm-auto" />
 						<div class="col p-2 m-2">
-							{#each ViewItems.filter((item) => item.id % 2 != 0) as viewItem (viewItem.id)}
+							{#each viewItems.filter((item) => item.id % 2 != 0) as viewItem (viewItem.id)}
 								{#if viewItem.id == 1}
 									<div>
 										<br /><br /><br />
@@ -164,7 +181,7 @@
 					</div>
 					<!-- name buttons -->
 					<ul class="nav flex-column text-end pt-2 mt-2">
-						{#each ViewItems as viewItem (viewItem.id)}
+						{#each viewItems as viewItem (viewItem.id)}
 							<ViewItemNavBtn {viewItem} {selectedViewId} on:setViewId={handleSetViewId} />
 						{/each}
 					</ul>
@@ -180,7 +197,7 @@
 						<button
 							type="button"
 							class="btn btn-dark rounded-4 shadow"
-							on:click={() => (selectedViewId = -1)}
+							on:click={() => setViewId(-1)}
 						>
 							<span class="h6">Back to main</span>
 						</button>
@@ -189,7 +206,7 @@
 						<br />
 					</div>
 					<div>
-						{#each ViewItems as viewItem (viewItem.id)}
+						{#each viewItems as viewItem (viewItem.id)}
 							<div animate:flip={{ duration: 500, easing: expoOut }}>
 								{#if selectedViewId == viewItem.id}
 									<div in:fade={{ delay: 100, duration: 500, easing: expoOut }}>
