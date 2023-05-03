@@ -18,7 +18,7 @@
 				{/if}
 				{#if item.language}
 					{#each item.language as lang}
-						<span class="badge rounded-pill bg-secondary code small">{lang}</span>
+						<span class="badge rounded-pill bg-secondary code fs-6 small">{lang}</span>
 					{/each}
 				{/if}
 			</p>
@@ -41,7 +41,7 @@
 			{#if item.category}
 				<p>
 					{#each item.category as cat}
-						<span class="badge rounded-pill bg-dark opacity-75 code small">{cat}</span>
+						<span class="badge rounded-pill bg-dark opacity-75 code">{cat}</span>
 					{/each}
 				</p>
 			{/if}
