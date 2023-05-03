@@ -16,56 +16,76 @@
 			linkedContent: true
 		},
 		{
-			name: 'Résumé #1',
-			content: 'Linkedin',
-			footnote: 'English',
-			link: 'https://www.linkedin.com/in/alankrantas/',
-			linkedContent: true
-		},
-		{
-			name: 'Résumé #2',
+			name: 'Résumé',
 			content: 'Cakeresume',
-			footnote: 'English',
+			language: ['English'],
 			link: 'https://www.cakeresume.com/krantas',
 			linkedContent: true
 		},
 		{
-			name: 'Code repositories',
-			content: 'Github',
-			link: 'https://github.com/alankrantas',
+			name: 'Professional profile',
+			content: 'Linkedin',
+			language: ['English'],
+			link: 'https://www.linkedin.com/in/alankrantas/',
+			linkedContent: true
+		},
+		{
+			name: 'Personal profile',
+			content: 'Facebook',
+			language: ['Traditional Chinese'],
+			link: 'https://www.facebook.com/alankrantas/',
 			linkedContent: true
 		},
 		{
 			name: 'Personal blog',
 			content: 'Blogger',
-			footnote: 'Traditional Chinese',
+			footnote: 'Mostly book, movie & game reviews, photography journals',
+			language: ['Traditional Chinese'],
 			link: 'https://krantasblog.blogspot.com/',
 			linkedContent: true
 		},
 		{
 			name: 'Tech blog',
 			content: 'Medium',
-			footnote: 'English/Traditional Chinese',
+			footnote: 'Programming-related with a few marketing pieces',
+			language: ['English', 'Traditional Chinese'],
 			link: 'https://alankrantas.medium.com/',
 			linkedContent: true
 		},
 		{
 			name: 'Maker blog/project showcases',
 			content: 'Hackster.io',
-			footnote: 'English',
+			language: ['English'],
 			link: 'https://www.hackster.io/alankrantas',
 			linkedContent: true
 		},
 		{
-			name: 'Film photography #1',
+			name: 'Code repositories',
+			content: 'Github',
+			language: ['English'],
+			link: 'https://github.com/alankrantas',
+			linkedContent: true
+		},
+		{
+			name: 'Film photography',
 			content: 'Instagram',
+			language: ['English'],
 			link: 'https://www.instagram.com/alankrantas/',
 			linkedContent: true
 		},
 		{
-			name: 'Film photography #2',
+			name: 'Film photography',
 			content: 'Pexels',
+			footnote: 'The best of my works free for download; high-resolution re-scanned',
+			language: ['English'],
 			link: 'https://www.pexels.com/@alan-wang-207740683/',
+			linkedContent: true
+		},
+		{
+			name: 'Film photography',
+			content: 'Google Albums',
+			footnote: 'The best of my medium format films, 2015~2019; re-scanned',
+			link: 'https://photos.app.goo.gl/rYKF5fUb5anRPx8z5',
 			linkedContent: true
 		}
 	];
@@ -74,11 +94,10 @@
 <p>Links for my external resources and sites.</p>
 <p class="indent">
 	Like most people, I've left bits and pieces of my footprint on the Internet. There is no way I can
-	relocate all of them onto this website.
+	relocate all of them onto this website. Here's some of the notable links that you might consider
+	to pay a visit if you are interested to know more about me:
 </p>
-<p class="indent">
-	Here's some of the notable links that you might consider to pay a visit if you are interested to
-	know more about me:
+<p>
+	<br />
 </p>
-<br />
 <List list={linkList} title="External Resources & Social Links" />

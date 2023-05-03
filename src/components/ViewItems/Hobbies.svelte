@@ -44,3 +44,34 @@
 </script>
 
 <List list={hobbiesList} title="Personal Interests" />
+<p>
+	<br />
+</p>
+<p class="text-center">
+	<img src="/about-me/camera.jpg" width="550px" alt="camera" class="rounded-5 p-2 m-2" />
+	<br />
+	<span class="small codetext-white-50">
+		Two of my favorite things: camera and coffee. (The camera is a Eastern Germany-made Zeiss Ikon
+		Ercona; this copy is possibly manufactured in early 1950s)</span
+	>
+</p>
+<p>
+	<br />
+</p>
+<p class="text-center">
+	<img src="/about-me/sakura.jpg" width="500px" alt="sakura" class="rounded-5 p-2 m-2" />
+	<br />
+	<span class="small codetext-white-50"
+		>Cherry blossoms on medium format still film, Kumamoto Castle, Japan, 2018.</span
+	>
+</p>
+<p>
+	<br />
+</p>
+<p class="text-center">
+	<img src="/about-me/diy.jpg" width="500px" alt="diy" class="rounded-5 p-2 m-2" />
+	<br />
+	<span class="small codetext-white-50"
+		>Japanese-made, hand-assembled Billy doll houses refitted with DIY lights and other stuff.</span
+	>
+</p>

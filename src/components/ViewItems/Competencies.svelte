@@ -10,15 +10,19 @@
 		},
 		{
 			name: 'Embedded programming languages',
-			content: 'Arduino C++, micro:bit MakeCode, MicroPython, CircuitPython, TinyGo'
+			content: 'Arduino C++, micro:bit MakeCode, MicroPython, CircuitPython, TinyGo',
+			footnote: 'Have contributed a few drivers for micro:bit, microPython and TinyGo'
 		},
 		{
 			name: 'Front-end frameworks',
-			content: 'React.js, Docusaurus, Vue.js, Svelte/SvelteKit, Solid.js/SolidStart'
+			content: 'React.js, Vue.js, Svelte/SvelteKit, Solid.js/SolidStart',
+			footnote:
+				'I use Docusaurus at work which is React-based and did wrote React components for it'
 		},
 		{
 			name: 'Machine learning packages (mostly in Python)',
-			content: 'Scikit-learn, Tensorflow/Tensorflow Lite/Tensorflow.js, several AutoML packages'
+			content: 'Scikit-learn, Tensorflow/Tensorflow Lite/Tensorflow.js, several AutoML packages',
+			footnote: 'Have practiced with a few Kaggle community competitions'
 		},
 		{
 			name: 'Development tools/cloud and container',
@@ -35,12 +39,13 @@
 		{
 			name: 'English',
 			content:
-				'Intermediate to advanced; fluent full-English writing; professional translation between English and Traditional Chinese'
+				'Intermediate to advanced; fluent full-English reading/writing; professional translation between English and Traditional Chinese'
 		},
 		{
 			name: 'Technical/marketing content writing',
 			content:
-				'Write and revise software-related technical content for education, reference or marketing purposes'
+				'Write and revise software-related technical content for education, reference or marketing purposes',
+			footnote: 'Used to write book review/introductions for publishers in my translator days'
 		},
 		{
 			name: 'Photography & video making',
@@ -50,7 +55,9 @@
 		{
 			name: 'Maker projects/electronics prototyping',
 			content:
-				'Design and create Raspberry Pi or 8-bit/32-bit microcontroller-based devices; use of soldering guns; identify sensor modules and read datasheet'
+				'Design and create Raspberry Pi or 8-bit/32-bit microcontroller-based devices; use of soldering guns; identify sensor modules and read datasheet',
+			footnote:
+				'In fact I got sponsored twice for my own projects after made a bit of fame with these'
 		}
 	];
 </script>
@@ -69,5 +76,15 @@
 		kid.</span
 	>
 </p>
-<br /><br />
-<List list={generalSkillsList} title="General Skills" />
+<p>
+	<span class="small">See <kbd>Portfolio</kbd> for my selection of programming works.</span>
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<List list={generalSkillsList} title="General Skills" />
+</p>
+<p>
+	<span class="small">*Note: see <kbd>Portfolio</kbd> for my list of published works.</span>
+</p>

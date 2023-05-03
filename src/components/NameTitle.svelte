@@ -1,9 +1,13 @@
 <script lang="ts">
+	import { createEventDispatcher } from 'svelte';
 	import { name, title, location } from '../data/NameTitle';
 
 	export let mode: String;
+
+	const dispatch = createEventDispatcher<{ setViewId: number }>();
 </script>
 
+<!-- main screen -->
 {#if mode == 'main'}
 	<div class="row d-flex justify-content-center p-2 m-2">
 		<div class="col-sm text-end">
@@ -19,15 +23,32 @@
 					{title}
 				</span>
 			</p>
-			<p class="text-white-50 opacity-75">
+			<p class="text-white-50">
 				<span class="lead code">
 					{location}
 				</span>
 			</p>
 		</div>
-		<div class="col-sm" />
+		<div class="col-sm text-start">
+			<button class="btn btn-sm btn-dark rounded-pill" on:click={() => dispatch('setViewId', 0)}>
+				<span class="h4">Enter ⮯</span>
+			</button>
+		</div>
 	</div>
+	<!-- nav and view screen -->
 {:else if mode == 'nav'}
+	<div class="text-end">
+		<button
+			type="button"
+			class="btn btn-dark rounded-4 shadow"
+			on:click={() => dispatch('setViewId', -1)}
+		>
+			<span class="h5">Back to main ⭲</span>
+		</button>
+	</div>
+	<div>
+		<br />
+	</div>
 	<div class="text-end">
 		<img
 			src="/about-me/profile.jpg"
@@ -39,7 +60,7 @@
 	<br />
 	<div class="text-end">
 		<p class="h2 text-white title">
-			<span class="badge bg-secondary opacity-75">
+			<span class="badge bg-secondary">
 				{name}
 			</span>
 		</p>

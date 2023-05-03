@@ -14,7 +14,7 @@
 	const personalList: ListItem[] = [
 		{
 			name: 'Birth name',
-			content: 'Pao-Hsiang Wang'
+			content: 'Pao-Hsiang Wang (王寶翔)'
 		},
 		{
 			name: 'Nationality',
@@ -23,15 +23,23 @@
 		{
 			name: 'Year of birth',
 			content: `1984 (age ${getAge()})`,
-			footnote: 'The age is computed by JavaScript by the way.'
+			footnote: 'The age is auto-updated'
 		},
 		{
-			name: 'Zodiac sign',
-			content: 'Pisces ♓'
+			name: 'Gender',
+			content: 'Male ♂'
+		},
+		{
+			name: 'Height',
+			content: '178 cm (5′ 10″)'
 		},
 		{
 			name: 'Blood type',
 			content: 'A'
+		},
+		{
+			name: 'Zodiac sign',
+			content: 'Pisces ♓'
 		},
 		{
 			name: 'Myers-Briggs Type Indicator (MBTI)',
@@ -39,13 +47,9 @@
 			footnote: '(The Investigator/Inspector/Logistician)'
 		},
 		{
-			name: 'Height',
-			content: '178 cm (5′ 10″)'
-		},
-		{
 			name: 'Marital status',
 			content: 'Single/unmarried',
-			footnote: 'Ask me out for a coffee if you dare 😊'
+			footnote: "I'm heterosexual. Ask me out for a coffee if you dare... 😊"
 		}
 	];
 </script>
@@ -81,12 +85,21 @@
 <p class="indent">
 	And this is more of less how I ended up building this site - kind of unexpectedly.
 </p>
-<p class="indent">Click the other sections of this website to learn more about me.</p>
-<br /><br />
-<List list={personalList} title="Personal Facts" />
-<br />
+<p class="indent">
+	Click the other sections of this website to learn more about me. See <kbd>Links</kbd> for contacting
+	me.
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<List list={personalList} title="Personal Facts" />
+</p>
+<p>
+	<br />
+</p>
 <p class="text-center">
-	<img src="/about-me/profile.jpg" width="400px" alt="profile" class="rounded-5 p-2 m-2" />
+	<img src="/about-me/profile.jpg" width="450px" alt="profile" class="rounded-5 p-2 m-2" />
 	<br />
 	<span class="small codetext-white-50"> Selfie with a Polaroid SX-70 Sonar </span>
 </p>

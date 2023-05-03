@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { ListItem } from '../../data/Types';
 	import List from '../utils/List.svelte';
+	import Link from '../utils/Link.svelte';
 
 	const siteTechList: ListItem[] = [
 		{
@@ -24,7 +25,14 @@
 		{
 			name: 'CSS library',
 			content: 'Bootstrap 5',
-			link: 'https://svelte.dev/',
+			link: 'https://getbootstrap.com/',
+			linkedContent: true
+		},
+		{
+			name: 'Svelte modal component',
+			content: 'svelte-simple-modal',
+			footnote: 'Used for the protfolio showcases',
+			link: 'https://www.npmjs.com/package/svelte-simple-modal',
 			linkedContent: true
 		},
 		{
@@ -57,11 +65,6 @@
 			content: 'Github Pages',
 			link: 'https://pages.github.com/',
 			linkedContent: true
-		},
-		{
-			name: 'Website source repository',
-			footnote: 'Supports Dependabot, Docker and DevContainer',
-			link: 'https://github.com/alankrantas/alankrantas.github.io'
 		}
 	];
 </script>
@@ -83,5 +86,15 @@
 	Although SvelteKit has a pretty neat routing system, I made this as a single-page application
 	(SPA) on purpose. QueryString is added to create the illusion of routing between views.
 </p>
-<br />
-<List list={siteTechList} title="List of Resource for Building This Site" />
+<p class="indent">
+	You can find the full source code at the <Link
+		url="https://github.com/alankrantas/alankrantas.github.io"
+		name="original repository"
+	/> .
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<List list={siteTechList} title="List of Resource for Building This Site" />
+</p>

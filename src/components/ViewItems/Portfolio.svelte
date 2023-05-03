@@ -1,6 +1,36 @@
 <script lang="ts">
-	import type { WorkItem } from '../../data/Types';
-	import { editorialWorks } from '../../data/Works';
+	import Modal from 'svelte-simple-modal';
+	import Showcase from '../utils/Showcase.svelte';
+	import List from '../utils/List.svelte';
+	import { editorialWorks, authoredWorks, programmingWorks } from '../../data/Works';
 </script>
 
-🚧 WORKING IN PROGRESS 🚧
+<Modal classCloseButton="btn btn-info">
+	<p class="small">
+		*Note: Selected works (the most representative ones) in my various careers. Some title names are
+		translated for this site with the original title attached in the description. Links may fail due
+		to external resources moved or no longer exist.
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<Showcase title="Editorial Works" works={editorialWorks} />
+	</p>
+	<p>
+		<br /><br />
+	</p>
+	<p>
+		<Showcase title="Authored Works" works={authoredWorks} />
+	</p>
+	<p>
+		<br /><br />
+	</p>
+	<p>
+		<List list={programmingWorks} title="Programming Works" />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>🚧 Other works/showcases working in progress 🚧</p>
+</Modal>

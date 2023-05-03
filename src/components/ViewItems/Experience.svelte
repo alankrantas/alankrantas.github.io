@@ -79,15 +79,35 @@
 		>*Note: See <kbd>Competencies</kbd> for my available skills and <kbd>Links</kbd> for my full résumés.</span
 	>
 </p>
-<br /><br />
-<List list={educationList} title="Education" />
+<p>
+	<br />
+</p>
+<p class="text-center">
+	<img src="/about-me/work.jpg" width="550px" alt="work" class="rounded-5 p-2 m-2" />
+	<br />
+	<span class="small codetext-white-50">FST Network office's common area (before relocated).</span>
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<List list={educationList} title="Education" />
+</p>
 <p>
 	<span class="small"
 		>*Note: <kbd>Public Finance</kbd> focuses on government tax, accounting and financial policies, which
 		is quite different from private sector banking and finance, and for which I had no interest at all.</span
 	>
 </p>
-<br /><br />
-<List list={clubList} title="Club" />
-<br /><br />
-<List list={certList} title="Certification" />
+<p>
+	<br />
+</p>
+<p>
+	<List list={clubList} title="Club" />
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<List list={certList} title="Certification" />
+</p>
