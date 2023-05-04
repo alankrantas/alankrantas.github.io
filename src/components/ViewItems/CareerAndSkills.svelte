@@ -11,7 +11,7 @@
 </script>
 
 <p>
-	<List list={softwareList} title="Software Development Skills" />
+	<List list={softwareList} title="Software Competencies" />
 </p>
 <p>
 	<span class="small"
@@ -50,7 +50,7 @@
 	<br />
 </p>
 <p>
-	<List list={professionalList} title="Professional Experience" />
+	<List list={professionalList} title="Professional Work Experience" />
 </p>
 <p>
 	<span class="small"
@@ -73,7 +73,7 @@
 	<br />
 </p>
 <p>
-	<List list={clubList} title="Club" />
+	<List list={clubList} title="Extracurricular Activities" />
 </p>
 <p>
 	<br />
