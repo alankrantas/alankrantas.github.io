@@ -5,66 +5,65 @@
 
 	const siteTechList: ListItem[] = [
 		{
-			name: 'Component framework',
-			content: 'Svelte 3',
+			name: 'Svelte 3',
+			content: 'Component framework',
 			link: 'https://svelte.dev/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Application framework',
-			content: 'SvelteKit',
+			name: 'SvelteKit',
+			content: 'Application framework',
 			link: 'https://kit.svelte.dev/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'SSG (static-site generation)',
-			content: '@sveltejs/adapter-static',
+			name: '@sveltejs/adapter-static',
+			content: 'SSG (static-site generation)',
 			link: 'https://kit.svelte.dev/docs/adapter-static',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'CSS library',
-			content: 'Bootstrap 5',
+			name: 'Bootstrap 5',
+			content: 'CSS library',
 			link: 'https://getbootstrap.com/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Svelte modal component',
-			content: 'svelte-simple-modal',
-			footnote: 'Used for the protfolio showcases',
+			name: 'svelte-simple-modal',
+			content: 'Svelte modal component',
+			footnote: "Used for the protfolio showcases since Bootstrap components won't work for Svelte",
 			link: 'https://www.npmjs.com/package/svelte-simple-modal',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Font library',
-			content: 'Fontsource',
-			footnote: 'NPM package form of Google Fonts',
+			name: 'Fontsource',
+			content: 'Font library (NPM package form of Google Fonts)',
 			link: 'https://fontsource.org/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Free images',
-			content: 'Unsplash',
+			name: 'Unsplash',
+			content: 'Free images',
 			link: 'https://unsplash.com/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Free icons',
-			content: 'Flaticon.com',
+			name: 'Flaticon.com',
+			content: 'Free icons',
 			link: 'https://www.flaticon.com/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'CI (continuous integration)',
-			content: 'Github Actions',
+			name: 'Github Actions',
+			content: 'CI (continuous integration)',
 			link: 'https://docs.github.com/en/actions',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Website hosting',
-			content: 'Github Pages',
+			name: 'Github Pages',
+			content: 'Website hosting',
 			link: 'https://pages.github.com/',
-			linkedContent: true
+			linkedTitle: true
 		}
 	];
 </script>

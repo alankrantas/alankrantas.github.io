@@ -7,7 +7,7 @@
 
 	export let title: string;
 	export let works: WorkItem[];
-	const displayNum = 3;
+	export let displayNum = 3;
 
 	$: listStartWorkId = 0;
 
@@ -30,12 +30,12 @@
 		<div class="row">
 			{#each [...Array(displayNum).keys()] as colIdx (colIdx + listStartWorkId)}
 				{@const work = works[colIdx + listStartWorkId]}
-				<div class="col position-relative" animate:flip={{ duration: 250, easing: expoOut }}>
+				<div class="col position-relative" animate:flip={{ duration: 500, easing: expoOut }}>
 					{#if colIdx + listStartWorkId < works.length}
-						<a href="#" on:click={() => popShowcaseDetail(work)}>
+						<a href={'#'} on:click={() => popShowcaseDetail(work)}>
 							<img
 								class="img-thumbnail bg-light border-light rounded-4"
-								style="height: 100%; object-fit: contain;"
+								style="width: 100%; object-fit: contain;"
 								src={work.imgUrl}
 								alt={work.name}
 							/>

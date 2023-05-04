@@ -4,89 +4,75 @@
 
 	const linkList: ListItem[] = [
 		{
-			name: 'Personal email',
-			content: 'krantas@gmail.com',
+			name: 'krantas@gmail.com',
 			link: 'mailto:krantas@gmail.com',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Work email',
-			content: 'alan.wang@fstk.io',
+			name: 'alan.wang@fstk.io',
+			footnote: 'Work email',
 			link: 'mailto:alan.wang@fstk.io',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
 			name: 'Résumé',
-			content: 'Cakeresume',
 			language: ['English'],
 			link: 'https://www.cakeresume.com/krantas',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Professional profile',
-			content: 'Linkedin',
+			name: 'Linkedin',
 			language: ['English'],
 			link: 'https://www.linkedin.com/in/alankrantas/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Personal profile',
-			content: 'Facebook',
+			name: 'Facebook',
+			footnote: 'For friends only',
 			language: ['Traditional Chinese'],
 			link: 'https://www.facebook.com/alankrantas/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Personal blog',
-			content: 'Blogger',
-			footnote: 'Mostly book, movie & game reviews, photography journals',
+			name: 'Blogger',
+			content: 'Personal blog; mostly book, movie & game reviews, photography journals',
 			language: ['Traditional Chinese'],
 			link: 'https://krantasblog.blogspot.com/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Tech blog',
-			content: 'Medium',
-			footnote: 'Programming-related with a few marketing pieces',
+			name: 'Medium',
+			content: 'Tech blog; programming-related with a few marketing pieces',
 			language: ['English', 'Traditional Chinese'],
 			link: 'https://alankrantas.medium.com/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Maker blog/project showcases',
-			content: 'Hackster.io',
+			name: 'Hackster.io',
+			content: 'Maker blog/project showcases',
 			language: ['English'],
 			link: 'https://www.hackster.io/alankrantas',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Code repositories',
-			content: 'Github',
+			name: 'Github',
 			language: ['English'],
 			link: 'https://github.com/alankrantas',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Film photography',
-			content: 'Instagram',
+			name: 'Instagram',
+			footnote: 'For film photography',
 			language: ['English'],
 			link: 'https://www.instagram.com/alankrantas/',
-			linkedContent: true
+			linkedTitle: true
 		},
 		{
-			name: 'Film photography',
-			content: 'Pexels',
+			name: 'Pexels',
 			footnote: 'The best of my works free for download; high-resolution re-scanned',
 			language: ['English'],
 			link: 'https://www.pexels.com/@alan-wang-207740683/',
-			linkedContent: true
-		},
-		{
-			name: 'Film photography',
-			content: 'Google Albums',
-			footnote: 'The best of my medium format films, 2015~2019; re-scanned',
-			link: 'https://photos.app.goo.gl/rYKF5fUb5anRPx8z5',
-			linkedContent: true
+			linkedTitle: true
 		}
 	];
 </script>

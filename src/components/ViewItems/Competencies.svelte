@@ -6,23 +6,20 @@
 		{
 			name: 'Programming languages',
 			content:
-				'Python (advanced), JavaScript (intermediate), Golang (intermediate), TypeScript (proficient), C/C++ (proficient), Rust (preliminary)'
+				'Python (advanced), JavaScript (intermediate), Golang (intermediate), TypeScript (intermediate), C/C++ (beginner), Rust (preliminary)'
 		},
 		{
 			name: 'Embedded programming languages',
-			content: 'Arduino C++, micro:bit MakeCode, MicroPython, CircuitPython, TinyGo',
-			footnote: 'Have contributed a few drivers for micro:bit, microPython and TinyGo'
+			content: 'Arduino C++, micro:bit MakeCode Blockly, MicroPython, CircuitPython, TinyGo',
+			footnote: 'Have contributed a few open sourced hardware drivers for various languages.'
 		},
 		{
 			name: 'Front-end frameworks',
-			content: 'React.js, Vue.js, Svelte/SvelteKit, Solid.js/SolidStart',
-			footnote:
-				'I use Docusaurus at work which is React-based and did wrote React components for it'
+			content: 'React.js, Vue.js, Svelte/SvelteKit, Solid.js/SolidStart, Docusaurus, Bootstrap'
 		},
 		{
 			name: 'Machine learning packages (mostly in Python)',
-			content: 'Scikit-learn, Tensorflow/Tensorflow Lite/Tensorflow.js, several AutoML packages',
-			footnote: 'Have practiced with a few Kaggle community competitions'
+			content: 'Scikit-learn, Tensorflow/Tensorflow Lite/Tensorflow.js, several AutoML packages'
 		},
 		{
 			name: 'Development tools/cloud and container',
@@ -39,13 +36,12 @@
 		{
 			name: 'English',
 			content:
-				'Intermediate to advanced; fluent full-English reading/writing; professional translation between English and Traditional Chinese'
+				'Proficient in full-English reading/writing; professional translation between English and Traditional Chinese'
 		},
 		{
 			name: 'Technical/marketing content writing',
 			content:
-				'Write and revise software-related technical content for education, reference or marketing purposes',
-			footnote: 'Used to write book review/introductions for publishers in my translator days'
+				'Write and revise software-related technical content for education, reference or marketing purposes'
 		},
 		{
 			name: 'Photography & video making',
@@ -55,9 +51,7 @@
 		{
 			name: 'Maker projects/electronics prototyping',
 			content:
-				'Design and create Raspberry Pi or 8-bit/32-bit microcontroller-based devices; use of soldering guns; identify sensor modules and read datasheet',
-			footnote:
-				'In fact I got sponsored twice for my own projects after made a bit of fame with these'
+				'Design and create Raspberry Pi or 8-bit/32-bit microcontroller-based devices; use of soldering guns; identify sensor modules and read datasheet'
 		}
 	];
 </script>

@@ -141,47 +141,59 @@ export const authoredWorks: WorkItem[] = [
 		language: ['Traditional Chinese'],
 		imgUrl: '/work/thunderbit.jpg',
 		link: 'https://www.beyond-coding.org.tw/index.php?option=com_sppagebuilder&view=page&id=71'
+	},
+	{
+		id: id++,
+		name: 'Web 2.0 meta-architecture analysis incorporated into UML requirements modeling: By the Case of ETF platform',
+		description:
+			'結合UML需求塑模的Web2.0後設架構分析─以ETF平台為例; 2008. My master thesis at National Chengchi University.',
+		category: ['Web 2.0', 'Thesis'],
+		language: ['English'],
+		imgUrl: '/work/thesis.jpg',
+		link: 'https://www.beyond-coding.org.tw/index.php?option=com_sppagebuilder&view=page&id=71'
 	}
 ];
 
 export const programmingWorks: ListItem[] = [
 	{
 		name: 'LOC Documentation',
-		content: "FST Network's official user documentation for Logic Operating Centre (LOC)",
-		footnote:
-			"Built with React and Docusaurus 2.0; deployed on Amazon ECS; I'm the creator and sole maintainer",
+		content:
+			"FST Network's official user documentation for Logic Operating Centre (LOC) built on Docusaurus 2.0",
+		footnote: "I'm the creator and its sole maintainer. The repo is private.",
 		language: ['English'],
 		category: ['Documentation', 'Content Writing', 'Front-end', 'JavaScript', 'TypeScript'],
-		link: 'https://documentation.loc.fst.network/'
+		link: 'https://documentation.loc.fst.network/',
+		linkedTitle: true
 	},
 	{
 		name: 'svelteapp-typescript-go',
-		content: 'A Svelte Demo Web App with Golang Backend Service and SQLite',
-		footnote: 'Built with Svelte, SvelteKit and Golang; a full-stack app in a single container',
+		content:
+			'A full-stack Svelte demo web app in a single container with Golang backend services and SQLite database',
 		category: ['Front-end', 'JavaScript', 'TypeScript'],
-		link: 'https://github.com/alankrantas/svelteapp-typescript-go'
+		link: 'https://github.com/alankrantas/svelteapp-typescript-go',
+		linkedTitle: true
 	},
 	{
 		name: 'micropython-TEA5767',
-		content: 'MicroPython Driver for TEA5767 FM Radio Module',
-		footnote: 'Built with MicroPython (for ESP8266, ESP32, Raspberry Pi Pico, etc.)',
+		content: 'MicroPython driver for TEA5767 FM radio module',
 		category: ['Embedded Programming', 'Python'],
-		link: 'https://github.com/alankrantas/micropython-TEA5767'
+		link: 'https://github.com/alankrantas/micropython-TEA5767',
+		linkedTitle: true
 	},
 	{
-		name: 'edge-impulse-esp32-cam-image-classification',
-		content:
-			'Live Image Classification on ESP32-CAM and ST7735 TFT using MobileNet v1 from Edge Impulse',
+		name: 'sefr_multiclass_classifier',
+		content: 'SEFR multiclass classifier',
 		footnote:
-			'Built with Arduino C++ and Tensorflow Lite Micro; the first TinyML demo without using WiFi for photos',
-		category: ['Embedded Programming', 'Machine Learning', 'Deep Learning', 'TinyML'],
-		link: 'https://github.com/alankrantas/edge-impulse-esp32-cam-image-classification'
+			'The first multi-label implementation of SEFR, a fast linear-time binary classifier for ultra-low power devices',
+		category: ['Python', 'Machine Learning', 'TinyML'],
+		link: 'https://github.com/alankrantas/sefr_multiclass_classifier',
+		linkedTitle: true
 	},
 	{
 		name: 'colab-python-cookbooks',
-		content: 'Python, Data Science & AutoML cookbooks in Google Colaboratory',
-		footnote: 'Mostly using AutoKeras and FLAML',
-		category: ['Machine Learning', 'Deep Learning', 'Python'],
-		link: 'https://github.com/alankrantas/colab-python-cookbooks'
+		content: 'Google Colaboratory IPython notebooks for various data science and AutoML demos',
+		category: ['Data Science', 'Machine Learning', 'Deep Learning', 'Python'],
+		link: 'https://github.com/alankrantas/colab-python-cookbooks',
+		linkedTitle: true
 	}
 ];

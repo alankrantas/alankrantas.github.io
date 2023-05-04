@@ -13,11 +13,11 @@ export interface WorkItem extends ViewItem {
 
 export interface ListItem {
 	name: string;
-	location?: string;
 	content?: string;
+	location?: string;
 	category?: string[];
 	language?: string[];
 	link?: string;
-	linkedContent?: boolean;
+	linkedTitle?: boolean;
 	footnote?: string;
 }

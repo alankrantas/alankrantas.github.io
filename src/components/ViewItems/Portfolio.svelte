@@ -27,7 +27,7 @@
 		<br /><br />
 	</p>
 	<p>
-		<List list={programmingWorks} title="Programming Works" />
+		<List list={programmingWorks} title="Selected Programming Projects" />
 	</p>
 	<p>
 		<br />
