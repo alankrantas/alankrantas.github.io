@@ -7,7 +7,7 @@
 	import '@fontsource/playfair-display/600-italic.css';
 	import '@fontsource/noto-sans-tc/chinese-traditional-300.css';
 	import '../css/custom.css';
-	import { name, title, location } from '../data/NameTitle';
+	import { name, title, location } from '../data/Data';
 </script>
 
 <svelte:head>

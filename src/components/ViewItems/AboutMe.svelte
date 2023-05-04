@@ -1,57 +1,6 @@
 <script lang="ts">
-	import { name, title, location } from '../../data/NameTitle';
-	import type { ListItem } from '../../data/Types';
+	import { name, title, location, personalList, hobbiesList } from '../../data/Data';
 	import List from '../utils/List.svelte';
-
-	const getAge = () => {
-		const now = new Date();
-		const birth = new Date('10 Mar 1984 12:00:00 GMT+8');
-		return Math.floor(
-			(now.getMonth() - birth.getMonth() + 12 * (now.getFullYear() - birth.getFullYear())) / 12
-		);
-	};
-
-	const personalList: ListItem[] = [
-		{
-			name: 'Birth name',
-			content: 'Pao-Hsiang Wang (王寶翔)'
-		},
-		{
-			name: 'Nationality',
-			content: 'Taiwan (R.O.C.)'
-		},
-		{
-			name: 'Year of birth',
-			content: `1984 (age ${getAge()})`,
-			footnote: 'The age is auto-updated'
-		},
-		{
-			name: 'Gender',
-			content: 'Male ♂'
-		},
-		{
-			name: 'Height',
-			content: '178 cm (5′ 10″)'
-		},
-		{
-			name: 'Blood type',
-			content: 'A'
-		},
-		{
-			name: 'Zodiac sign',
-			content: 'Pisces ♓'
-		},
-		{
-			name: 'Myers-Briggs Type Indicator (MBTI)',
-			content: 'ISTJ',
-			footnote: '(The Investigator/Inspector/Logistician)'
-		},
-		{
-			name: 'Marital status',
-			content: 'Single/unmarried',
-			footnote: "I'm heterosexual. Ask me out for a coffee if you dare... 😊"
-		}
-	];
 </script>
 
 <p><span class="h4">Hello there!</span></p>
@@ -92,6 +41,14 @@
 <p>
 	<br />
 </p>
+<p class="text-center">
+	<img src="/about-me/profile.jpg" width="450px" alt="profile" class="rounded-5 p-2 m-2" />
+	<br />
+	<span class="small codetext-white-50"> Selfie with a Polaroid SX-70 Sonar </span>
+</p>
+<p>
+	<br />
+</p>
 <p>
 	<List list={personalList} title="Personal Facts" />
 </p>
@@ -99,7 +56,36 @@
 	<br />
 </p>
 <p class="text-center">
-	<img src="/about-me/profile.jpg" width="450px" alt="profile" class="rounded-5 p-2 m-2" />
+	<img src="/about-me/camera.jpg" width="550px" alt="camera" class="rounded-5 p-2 m-2" />
 	<br />
-	<span class="small codetext-white-50"> Selfie with a Polaroid SX-70 Sonar </span>
+	<span class="small codetext-white-50">
+		Two of my favorite things: camera and coffee. (The camera is a Eastern Germany-made Zeiss Ikon
+		Ercona; this copy is possibly manufactured in early 1950s)</span
+	>
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<List list={hobbiesList} title="Interests and Hobbies" />
+</p>
+<p>
+	<br />
+</p>
+<p class="text-center">
+	<img src="/about-me/sakura.jpg" width="500px" alt="sakura" class="rounded-5 p-2 m-2" />
+	<br />
+	<span class="small codetext-white-50"
+		>Cherry blossoms on medium format still film, Kumamoto Castle, Japan, 2018.</span
+	>
+</p>
+<p>
+	<br />
+</p>
+<p class="text-center">
+	<img src="/about-me/diy.jpg" width="500px" alt="diy" class="rounded-5 p-2 m-2" />
+	<br />
+	<span class="small codetext-white-50"
+		>Japanese-made, hand-assembled Billy doll houses refitted with DIY lights and other stuff.</span
+	>
 </p>

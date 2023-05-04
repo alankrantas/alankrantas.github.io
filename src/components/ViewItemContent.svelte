@@ -1,11 +1,8 @@
 <script lang="ts">
 	import AboutMe from './ViewItems/AboutMe.svelte';
-	import Experience from './ViewItems/Experience.svelte';
-	import Competencies from './ViewItems/Competencies.svelte';
+	import CareerAndSkills from './ViewItems/CareerAndSkills.svelte';
 	import Portfolio from './ViewItems/Portfolio.svelte';
-	import Hobbies from './ViewItems/Hobbies.svelte';
-	import Links from './ViewItems/Links.svelte';
-	import AboutThisSite from './ViewItems/AboutThisSite.svelte';
+	import LinksAndAbout from './ViewItems/LinksAndAbout.svelte';
 
 	export let viewItemId: number;
 </script>
@@ -14,16 +11,10 @@
 	{#if viewItemId == 0}
 		<AboutMe />
 	{:else if viewItemId == 1}
-		<Experience />
+		<CareerAndSkills />
 	{:else if viewItemId == 2}
-		<Competencies />
-	{:else if viewItemId == 3}
 		<Portfolio />
-	{:else if viewItemId == 4}
-		<Hobbies />
-	{:else if viewItemId == 5}
-		<Links />
-	{:else if viewItemId == 6}
-		<AboutThisSite />
+	{:else if viewItemId == 3}
+		<LinksAndAbout />
 	{/if}
 </div>

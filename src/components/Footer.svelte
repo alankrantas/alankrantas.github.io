@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { name } from '../data/NameTitle';
+	import { name } from '../data/Data';
 </script>
 
 <div class="text-center">

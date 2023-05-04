@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-	import { name, title, location } from '../data/NameTitle';
+	import { name, title, location } from '../data/Data';
 
 	export let mode: String;
 

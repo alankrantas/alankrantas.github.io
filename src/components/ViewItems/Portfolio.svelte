@@ -2,7 +2,13 @@
 	import Modal from 'svelte-simple-modal';
 	import Showcase from '../utils/Showcase.svelte';
 	import List from '../utils/List.svelte';
-	import { editorialWorks, authoredWorks, programmingWorks } from '../../data/Works';
+	import {
+		editorialWorks,
+		authoredWorks,
+		makerWorks,
+		programmingWorks,
+		articleWorks
+	} from '../../data/Works';
 </script>
 
 <Modal classCloseButton="btn btn-info">
@@ -15,19 +21,31 @@
 		<br />
 	</p>
 	<p>
-		<Showcase title="Editorial Works" works={editorialWorks} />
+		<Showcase works={editorialWorks} title="Editorial Works" />
 	</p>
 	<p>
 		<br /><br />
 	</p>
 	<p>
-		<Showcase title="Authored Works" works={authoredWorks} />
+		<Showcase works={authoredWorks} title="Authored Works" />
+	</p>
+	<p>
+		<br /><br />
+	</p>
+	<p>
+		<Showcase works={makerWorks} title="Selected Maker Projects" displayNum={2} />
 	</p>
 	<p>
 		<br /><br />
 	</p>
 	<p>
 		<List list={programmingWorks} title="Selected Programming Projects" />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<List list={articleWorks} title="Selected Articles" />
 	</p>
 	<p>
 		<br />

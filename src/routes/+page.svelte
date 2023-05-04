@@ -11,8 +11,7 @@
 	import ViewItemHead from '../components/ViewItemHead.svelte';
 	import ViewItemContent from '../components/ViewItemContent.svelte';
 	import Footer from '../components/Footer.svelte';
-	import { name, title, industry } from '../data/NameTitle';
-	import type { ViewItem } from '../data/Types';
+	import { viewItems } from '../data/Data';
 
 	let ready = false;
 	let scrollToTop = () => {};
@@ -56,53 +55,6 @@
 		duration: 1000,
 		easing: expoOut
 	});
-
-	const viewItems: ViewItem[] = [
-		{
-			id: 0,
-			name: 'About Me',
-			description: `${name}, a ${title} working in the ${industry} | he/him | short bio | facts`,
-			imgUrl: '/main/about-me.jpg'
-		},
-		{
-			id: 1,
-			name: 'Experience',
-			description: 'Programming | STEM education | translating and publishing | technical writing',
-			imgUrl: '/main/experience.jpg'
-		},
-		{
-			id: 2,
-			name: 'Competencies',
-			description:
-				'Frontend, backend & cloud technologies | professional translating | content writing',
-			imgUrl: '/main/skills.jpg'
-		},
-		{
-			id: 3,
-			name: 'Portfolio',
-			description: 'Authored and translated books | blog posts | documentation | Maker projects',
-			imgUrl: '/main/works.jpg'
-		},
-		{
-			id: 4,
-			name: 'Hobbies',
-			description:
-				'Coffee | novels | movies | music | film photography | sightseeing | Maker projects',
-			imgUrl: '/main/hobbies.jpg'
-		},
-		{
-			id: 5,
-			name: 'Links',
-			description: 'Email | Facebook | Linkedin | blogs | Instagram | Github repos | misc',
-			imgUrl: '/main/links.jpg'
-		},
-		{
-			id: 6,
-			name: 'About Site',
-			description: 'A little bit details of how I built and deploy this site 😸',
-			imgUrl: '/main/about.jpg'
-		}
-	];
 </script>
 
 {#if ready}
