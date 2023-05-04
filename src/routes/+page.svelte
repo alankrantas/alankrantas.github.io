@@ -10,7 +10,7 @@
 	import ViewItemCard from '../components/ViewItemCard.svelte';
 	import ViewItemHead from '../components/ViewItemHead.svelte';
 	import ViewItemContent from '../components/ViewItemContent.svelte';
-	import Footer from '../components/Footer.svelte';
+	import Footer from '../components/utils/Footer.svelte';
 	import { viewItems } from '../data/Data';
 
 	let ready = false;
