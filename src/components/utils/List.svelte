@@ -13,13 +13,13 @@
 		<li class="pt-1 pb-1 mt-2 mb-2" style="text-align: start;">
 			<p>
 				{#if item.link && item.linkedTitle}
-					<b><span class="fs-5">➽ <Link url={item.link} name={item.name} /></span></b>
+					<span class="f5"><b><Link url={item.link} name={item.name} /></b></span>
 				{:else if item.link && !item.linkedTitle}
-					<span class="fs-4">➽ {item.name}</span>&nbsp;<b
-						><span class="fs-5"><Link url={item.link} name="⧉" /></span></b
+					<span class="h4">{item.name}</span>&nbsp;<span class="h5"
+						><b><Link url={item.link} name="⧉" /></b></span
 					>
 				{:else}
-					<span class="fs-4">{item.name}</span>
+					<span class="h4">{item.name}</span>
 				{/if}
 			</p>
 			{#if item.content}
