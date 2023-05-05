@@ -124,31 +124,36 @@ export const professionalList: ListItem[] = [
 		name: 'Technical Marketing Writer',
 		content: 'FST Network Co., Ltd.',
 		location: 'Taipei, Taiwan',
-		footnote: 'Apr 2022 ~ Present'
+		footnote: 'Apr 2022 ~ Present',
+		category: ['Software', 'Developer', 'Content Writing', 'Technical Writing']
 	},
 	{
 		name: 'Editor/Product Development Engineer',
 		content: 'Flag Publishing Co., Ltd.',
 		location: 'Taipei, Taiwan',
-		footnote: 'Aug 2019 ~ Mar 2022'
+		footnote: 'Aug 2019 ~ Mar 2022',
+		category: ['Software', 'Education', 'Content Writing', 'Technical Writing']
 	},
 	{
 		name: 'STEM Content Writer',
 		content: 'Taiwan Coding Education Association',
 		location: 'Taipei, Taiwan',
-		footnote: 'May 2018 ~ Jul 2019'
+		footnote: 'May 2018 ~ Jul 2019',
+		category: ['Software', 'Education', 'Content Writing']
 	},
 	{
 		name: 'Book Translator',
 		content: 'Freelance Translator',
 		location: 'Taipei, Taiwan',
-		footnote: 'Oct 2011 ~ Apr 2018'
+		footnote: 'Oct 2011 ~ Apr 2018',
+		category: ['Translating', 'Content Writing']
 	},
 	{
 		name: 'J2EE Web Programmer',
 		content: 'MiTAC Information Technology Crop.',
 		location: 'Taipei, Taiwan',
-		footnote: 'Oct Aug 2008 ~ Oct 2011'
+		footnote: 'Oct Aug 2008 ~ Oct 2011',
+		category: ['Software', 'Developer']
 	}
 ];
 
@@ -303,7 +308,7 @@ export const linkList: ListItem[] = [
 	},
 	{
 		name: 'Instagram',
-		footnote: 'For film photography',
+		footnote: "For film photography purpose. You won't see me here",
 		language: ['English'],
 		link: 'https://www.instagram.com/alankrantas/',
 		linkedTitle: true

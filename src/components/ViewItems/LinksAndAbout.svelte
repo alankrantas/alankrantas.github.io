@@ -16,6 +16,13 @@
 <p>
 	<br />
 </p>
+<p class="text-center">
+	<img loading="lazy" src="/svelte.jpg" width="400px" alt="profile" class="rounded-5 p-2 m-2" />
+	<br />
+</p>
+<p>
+	<br />
+</p>
 <p>Now: some little things about this site (the technological side of it at least).</p>
 <p class="indent">
 	As a semi-developer who never had official experiences in modern front-end JavaScript frameworks,

@@ -6,8 +6,9 @@
 		editorialWorks,
 		authoredWorks,
 		makerWorks,
-		programmingWorks,
-		articleWorks
+		codeWorks,
+		techArticleWorks,
+		bookArticleWorks
 	} from '../../data/Works';
 </script>
 
@@ -32,6 +33,10 @@
 	<p>
 		<br /><br />
 	</p>
+	<p><span class="lead">🚧 Translation work showcases working in progress 🚧</span></p>
+	<p>
+		<br /><br />
+	</p>
 	<p>
 		<Showcase works={makerWorks} title="Selected Maker Projects" displayNum={2} />
 	</p>
@@ -39,16 +44,18 @@
 		<br /><br />
 	</p>
 	<p>
-		<List list={programmingWorks} title="Selected Programming Projects" />
+		<List list={codeWorks} title="Selected Software Projects" />
 	</p>
 	<p>
 		<br />
 	</p>
 	<p>
-		<List list={articleWorks} title="Selected Articles" />
+		<List list={techArticleWorks} title="Selected Tech Posts/Articles" />
 	</p>
 	<p>
 		<br />
 	</p>
-	<p>🚧 Other works/showcases working in progress 🚧</p>
+	<p>
+		<List list={bookArticleWorks} title="Selected Book Posts/Articles" />
+	</p>
 </Modal>

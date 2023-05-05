@@ -29,27 +29,25 @@
 	<div class="col align-self-center">
 		<div class="row">
 			{#each [...Array(displayNum).keys()] as colIdx (colIdx + listStartWorkId)}
-				<div class="col position-relative" animate:flip={{ duration: 500, easing: expoOut }}>
+				<div class="col" animate:flip={{ duration: 500, easing: expoOut }}>
 					{#if colIdx + listStartWorkId < works.length}
 						<a href={'#'} on:click={() => popShowcaseDetail(works[colIdx + listStartWorkId])}>
 							{#if !works[colIdx + listStartWorkId].loaded}
 								<p class="placeholder-glow">
-									<span class="placeholder w-75" />
-									<span class="placeholder w-75" />
-									<span class="placeholder w-75" />
+									<span class="placeholder placeholder-lg bg-secondary w-100" />
+									<span class="placeholder placeholder-lg bg-secondary w-100" />
+									<span class="placeholder placeholder-lg bg-secondary w-100" />
 								</p>
 							{/if}
 							<img
-								loading="lazy"
 								class="img-thumbnail bg-light border-light rounded-4"
 								style={`width: 100%; object-fit: contain; visibility: ${
 									works[colIdx + listStartWorkId].loaded ? 'visible' : 'hidden'
 								};`}
 								src={works[colIdx + listStartWorkId].imgUrl}
+								title={works[colIdx + listStartWorkId].name}
 								alt={works[colIdx + listStartWorkId].name}
-								on:load={() => {
-									works[colIdx + listStartWorkId]['loaded'] = true;
-								}}
+								on:load={() => (works[colIdx + listStartWorkId]['loaded'] = true)}
 							/>
 						</a>
 					{/if}

@@ -50,7 +50,7 @@
 		class="rounded-5 p-2 m-2"
 	/>
 	<br />
-	<span class="small codetext-white-50"> Selfie with a Polaroid SX-70 Sonar </span>
+	<span class="small"> Selfie with a Polaroid SX-70 Sonar </span>
 </p>
 <p>
 	<br />
@@ -70,7 +70,7 @@
 		class="rounded-5 p-2 m-2"
 	/>
 	<br />
-	<span class="small codetext-white-50">
+	<span class="small">
 		Two of my favorite things: camera and coffee. (The camera is a Eastern Germany-made Zeiss Ikon
 		Ercona; this copy is possibly manufactured in early 1950s)</span
 	>
@@ -93,7 +93,7 @@
 		class="rounded-5 p-2 m-2"
 	/>
 	<br />
-	<span class="small codetext-white-50"
+	<span class="small"
 		>Cherry blossoms on medium format still film, Kumamoto Castle, Japan, 2018.</span
 	>
 </p>
@@ -103,7 +103,7 @@
 <p class="text-center">
 	<img loading="lazy" src="/about-me/diy.jpg" width="500px" alt="diy" class="rounded-5 p-2 m-2" />
 	<br />
-	<span class="small codetext-white-50"
+	<span class="small"
 		>Japanese-made, hand-assembled Billy doll houses refitted with DIY lights and other stuff.</span
 	>
 </p>
