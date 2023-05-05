@@ -129,8 +129,7 @@ export const authoredWorks: WorkItem[] = [
 			'孩子的第一本micro:bit程式學習書; Taiwan Coding Education Association, Sep 2019. The BBC micro:bit is a microcontroller with graphical code editors designed for STEM purpose from 2016.',
 		category: ['Programming', 'Embedded Programming', 'STEM Education'],
 		language: ['Traditional Chinese'],
-		imgUrl: '/work/microbit.jpg',
-		link: 'https://www.beyond-coding.org.tw/index.php?option=com_sppagebuilder&view=page&id=61'
+		imgUrl: '/work/microbit.jpg'
 	},
 	{
 		id: id++,
@@ -139,8 +138,7 @@ export const authoredWorks: WorkItem[] = [
 			"micro:bit x Thunder:bit：孩子的第一本創客指南; Taiwan Coding Education Association, Nov 2019. Thunder:bit is a micro:bit expansion board deeply inspired by Kitronik's Motor Driver Board and Kittenbot's Robot:bit.",
 		category: ['Programming', 'Embedded Programming', 'STEM Education'],
 		language: ['Traditional Chinese'],
-		imgUrl: '/work/thunderbit.jpg',
-		link: 'https://www.beyond-coding.org.tw/index.php?option=com_sppagebuilder&view=page&id=71'
+		imgUrl: '/work/thunderbit.jpg'
 	},
 	{
 		id: id++,

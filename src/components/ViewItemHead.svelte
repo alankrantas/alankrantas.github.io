@@ -8,11 +8,7 @@
 	<div class="row p-2 m-2">
 		<div class="col d-flex justify-content-center">
 			<div class="card w-75 rounded-5 bg-dark shadow">
-				<img
-					src={viewItem.imgUrl ? viewItem.imgUrl : '/main/blank.jpg'}
-					class="card-img rounded-5"
-					alt={viewItem.imgUrl ? viewItem.name : 'blank'}
-				/>
+				<img src={viewItem.imgUrl} class="card-img rounded-5" alt={viewItem.name} />
 				<div class="card-img-overlay">
 					<div
 						class="card-title title display-5 p-1 m-1 pt-2 mt-2 position-absolute bottom-0 start-50 translate-middle-x"

@@ -34,6 +34,7 @@
 					{#if colIdx + listStartWorkId < works.length}
 						<a href={'#'} on:click={() => popShowcaseDetail(work)}>
 							<img
+								loading="lazy"
 								class="img-thumbnail bg-light border-light rounded-4"
 								style="width: 100%; object-fit: contain;"
 								src={work.imgUrl}
