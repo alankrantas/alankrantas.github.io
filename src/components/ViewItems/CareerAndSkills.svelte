@@ -42,7 +42,7 @@
 	<br />
 </p>
 <p class="text-center">
-	<img src="/about-me/work.jpg" width="550px" alt="work" class="rounded-5 p-2 m-2" />
+	<img loading="lazy" src="/about-me/work.jpg" width="550px" alt="work" class="rounded-5 p-2 m-2" />
 	<br />
 	<span class="small codetext-white-50">FST Network office's common area (before relocated).</span>
 </p>

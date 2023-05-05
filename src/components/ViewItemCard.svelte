@@ -8,7 +8,7 @@
 </script>
 
 <div class="card rounded-4 bg-dark shadow-lg">
-	<img src={viewItem.imgUrl} class="card-img-top rounded-4" alt={viewItem.name} />
+	<img loading="lazy" src={viewItem.imgUrl} class="card-img-top rounded-4" alt={viewItem.name} />
 	<div class="card-body">
 		<div class="card-title text-start text-white display-6 title p-1 m-1">
 			{viewItem.name}

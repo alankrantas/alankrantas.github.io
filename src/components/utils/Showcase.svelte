@@ -33,9 +33,9 @@
 					{#if colIdx + listStartWorkId < works.length}
 						{#if !works[colIdx + listStartWorkId].loaded}
 							<p class="placeholder-glow">
-								<span class="placeholder col" />
-								<span class="placeholder col" />
-								<span class="placeholder col" />
+								<span class="placeholder w-50" />
+								<span class="placeholder w-50" />
+								<span class="placeholder w-50" />
 							</p>
 						{/if}
 						<a href={'#'} on:click={() => popShowcaseDetail(works[colIdx + listStartWorkId])}>

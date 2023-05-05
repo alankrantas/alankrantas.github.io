@@ -42,7 +42,13 @@
 	<br />
 </p>
 <p class="text-center">
-	<img src="/about-me/profile.jpg" width="450px" alt="profile" class="rounded-5 p-2 m-2" />
+	<img
+		loading="lazy"
+		src="/about-me/profile.jpg"
+		width="450px"
+		alt="profile"
+		class="rounded-5 p-2 m-2"
+	/>
 	<br />
 	<span class="small codetext-white-50"> Selfie with a Polaroid SX-70 Sonar </span>
 </p>
@@ -56,7 +62,13 @@
 	<br />
 </p>
 <p class="text-center">
-	<img src="/about-me/camera.jpg" width="550px" alt="camera" class="rounded-5 p-2 m-2" />
+	<img
+		loading="lazy"
+		src="/about-me/camera.jpg"
+		width="550px"
+		alt="camera"
+		class="rounded-5 p-2 m-2"
+	/>
 	<br />
 	<span class="small codetext-white-50">
 		Two of my favorite things: camera and coffee. (The camera is a Eastern Germany-made Zeiss Ikon
@@ -73,7 +85,13 @@
 	<br />
 </p>
 <p class="text-center">
-	<img src="/about-me/sakura.jpg" width="500px" alt="sakura" class="rounded-5 p-2 m-2" />
+	<img
+		loading="lazy"
+		src="/about-me/sakura.jpg"
+		width="500px"
+		alt="sakura"
+		class="rounded-5 p-2 m-2"
+	/>
 	<br />
 	<span class="small codetext-white-50"
 		>Cherry blossoms on medium format still film, Kumamoto Castle, Japan, 2018.</span
@@ -83,7 +101,7 @@
 	<br />
 </p>
 <p class="text-center">
-	<img src="/about-me/diy.jpg" width="500px" alt="diy" class="rounded-5 p-2 m-2" />
+	<img loading="lazy" src="/about-me/diy.jpg" width="500px" alt="diy" class="rounded-5 p-2 m-2" />
 	<br />
 	<span class="small codetext-white-50"
 		>Japanese-made, hand-assembled Billy doll houses refitted with DIY lights and other stuff.</span
