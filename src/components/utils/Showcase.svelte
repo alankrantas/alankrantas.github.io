@@ -33,16 +33,20 @@
 					{#if colIdx + listStartWorkId < works.length}
 						{#if !works[colIdx + listStartWorkId].loaded}
 							<p class="placeholder-glow">
-								<span class="placeholder w-50" />
-								<span class="placeholder w-50" />
-								<span class="placeholder w-50" />
+								<span class="placeholder w-75" />
+								<span class="placeholder w-75" />
+								<span class="placeholder w-75" />
+								<span class="placeholder w-75" />
+								<span class="placeholder w-75" />
 							</p>
 						{/if}
 						<a href={'#'} on:click={() => popShowcaseDetail(works[colIdx + listStartWorkId])}>
 							<img
 								loading="lazy"
 								class="img-thumbnail bg-light border-light rounded-4"
-								style="width: 100%; object-fit: contain;"
+								style={`width: 100%; object-fit: contain; visibility: ${
+									works[colIdx + listStartWorkId].loaded ? `visible` : `hidden`
+								};`}
 								src={works[colIdx + listStartWorkId].imgUrl}
 								alt={works[colIdx + listStartWorkId].name}
 								on:load={() => {
