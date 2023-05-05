@@ -367,9 +367,9 @@ export const siteTechList: ListItem[] = [
 		linkedTitle: true
 	},
 	{
-		name: 'Flaticon.com',
-		content: 'Free icons',
-		link: 'https://www.flaticon.com/',
+		name: 'SVG Repo',
+		content: 'Favicon icon',
+		link: 'https://www.svgrepo.com/',
 		linkedTitle: true
 	},
 	{

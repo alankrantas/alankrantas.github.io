@@ -10,18 +10,29 @@
 <br />
 <ul>
 	{#each list as item}
-		<li class="pt-1 pb-2 mt-1 mb-2" style="text-align: start;">
+		<li class="pt-1 pb-1 mt-2 mb-2" style="text-align: start;">
 			<p>
 				{#if item.link && item.linkedTitle}
-					<b><span class="fs-5"><Link url={item.link} name={item.name} /></span></b>
+					<b><span class="fs-5">➽ <Link url={item.link} name={item.name} /></span></b>
 				{:else if item.link && !item.linkedTitle}
-					<span class="fs-4">{item.name}</span>&nbsp;<b
+					<span class="fs-4">➽ {item.name}</span>&nbsp;<b
 						><span class="fs-5"><Link url={item.link} name="⧉" /></span></b
 					>
 				{:else}
 					<span class="fs-4">{item.name}</span>
 				{/if}
 			</p>
+			{#if item.content}
+				<p>
+					{item.content}
+					{#if item.location}
+						| {item.location}
+					{/if}
+				</p>
+			{/if}
+			{#if !item.content && item.location}
+				{item.location}
+			{/if}
 			{#if item.language || item.category}
 				<p>
 					{#if item.language}
@@ -35,17 +46,6 @@
 						{/each}
 					{/if}
 				</p>
-			{/if}
-			{#if item.content}
-				<p>
-					{item.content}
-					{#if item.location}
-						| {item.location}
-					{/if}
-				</p>
-			{/if}
-			{#if !item.content && item.location}
-				{item.location}
 			{/if}
 			{#if item.footnote}
 				<p class="small text-white-50">{item.footnote}</p>

@@ -13,10 +13,10 @@
 </script>
 
 <Modal classCloseButton="btn btn-info">
-	<p class="small">
-		*Note: Selected works (the most representative ones) in my various careers. Some title names are
-		translated for this site with the original title attached in the description. Links may fail due
-		to external resources moved or no longer exist.
+	<p>
+		Some categories contain selected works only. Non-English title names are translated for this
+		site with the original title attached in the description. Links may fail due to external
+		resources moved or no longer exist.
 	</p>
 	<p>
 		<br />
@@ -51,6 +51,9 @@
 	</p>
 	<p>
 		<List list={techArticleWorks} title="Selected Tech Posts/Articles" />
+	</p>
+	<p>
+		<span class="small">*Note: see <kbd>Links</kbd> for links to my blogs and Github profile.</span>
 	</p>
 	<p>
 		<br />

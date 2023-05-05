@@ -52,7 +52,7 @@
 
 	const [send, receive] = crossfade({
 		delay: 100,
-		duration: 1000,
+		duration: 1500,
 		easing: expoOut
 	});
 </script>
@@ -61,8 +61,8 @@
 	<div class="container-sm" in:fly={{ y: 100, delay: 100, duration: 2000, easing: expoOut }}>
 		<div class="row p-4 m-4">
 			{#if selectedViewId == -1}
-				<!-- main area -->
-				<div class="col p-1 m-1" in:receive={{ key: 'main' }} out:send={{ key: 'subview' }}>
+				<!-- main screen -->
+				<div class="col p-1 m-1" in:receive={{ key: 'main' }} out:send={{ key: 'view' }}>
 					<!-- name title -->
 					<div class="text-center p-2 m-2 pb-4 mb-4">
 						<NameTitle mode={'main'} on:setViewId={handleSetViewId} />
@@ -121,10 +121,10 @@
 					</div>
 				</div>
 			{:else}
-				<!-- nav bar -->
+				<!-- view screen -->
 				<div
 					class="col-sm-auto p-1 m-1 pe-2 me-2"
-					in:receive={{ key: 'subview' }}
+					in:receive={{ key: 'view' }}
 					out:receive={{ key: 'main' }}
 				>
 					<!-- name title -->
@@ -138,12 +138,8 @@
 						{/each}
 					</ul>
 				</div>
-				<!--sub view -->
-				<div
-					class="col p-1 m-1 ps-2 me-2"
-					in:receive={{ key: 'subview' }}
-					out:send={{ key: 'main' }}
-				>
+				<!--view items -->
+				<div class="col p-1 m-1 ps-2 me-2" in:receive={{ key: 'view' }} out:send={{ key: 'main' }}>
 					<!--back to main button -->
 					<div>
 						<br />
