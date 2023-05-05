@@ -31,21 +31,19 @@
 			{#each [...Array(displayNum).keys()] as colIdx (colIdx + listStartWorkId)}
 				<div class="col position-relative" animate:flip={{ duration: 500, easing: expoOut }}>
 					{#if colIdx + listStartWorkId < works.length}
-						{#if !works[colIdx + listStartWorkId].loaded}
-							<p class="placeholder-glow">
-								<span class="placeholder w-75" />
-								<span class="placeholder w-75" />
-								<span class="placeholder w-75" />
-								<span class="placeholder w-75" />
-								<span class="placeholder w-75" />
-							</p>
-						{/if}
 						<a href={'#'} on:click={() => popShowcaseDetail(works[colIdx + listStartWorkId])}>
+							{#if !works[colIdx + listStartWorkId].loaded}
+								<p class="placeholder-glow">
+									<span class="placeholder w-75" />
+									<span class="placeholder w-75" />
+									<span class="placeholder w-75" />
+								</p>
+							{/if}
 							<img
 								loading="lazy"
 								class="img-thumbnail bg-light border-light rounded-4"
 								style={`width: 100%; object-fit: contain; visibility: ${
-									works[colIdx + listStartWorkId].loaded ? `visible` : `hidden`
+									works[colIdx + listStartWorkId].loaded ? 'visible' : 'hidden'
 								};`}
 								src={works[colIdx + listStartWorkId].imgUrl}
 								alt={works[colIdx + listStartWorkId].name}
