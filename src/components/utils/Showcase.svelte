@@ -29,16 +29,25 @@
 	<div class="col align-self-center">
 		<div class="row">
 			{#each [...Array(displayNum).keys()] as colIdx (colIdx + listStartWorkId)}
-				{@const work = works[colIdx + listStartWorkId]}
 				<div class="col position-relative" animate:flip={{ duration: 500, easing: expoOut }}>
 					{#if colIdx + listStartWorkId < works.length}
-						<a href={'#'} on:click={() => popShowcaseDetail(work)}>
+						{#if !works[colIdx + listStartWorkId].loaded}
+							<p class="placeholder-glow">
+								<span class="placeholder col" />
+								<span class="placeholder col" />
+								<span class="placeholder col" />
+							</p>
+						{/if}
+						<a href={'#'} on:click={() => popShowcaseDetail(works[colIdx + listStartWorkId])}>
 							<img
 								loading="lazy"
 								class="img-thumbnail bg-light border-light rounded-4"
 								style="width: 100%; object-fit: contain;"
-								src={work.imgUrl}
-								alt={work.name}
+								src={works[colIdx + listStartWorkId].imgUrl}
+								alt={works[colIdx + listStartWorkId].name}
+								on:load={() => {
+									works[colIdx + listStartWorkId]['loaded'] = true;
+								}}
 							/>
 						</a>
 					{/if}

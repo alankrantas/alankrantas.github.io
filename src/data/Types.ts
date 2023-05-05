@@ -6,6 +6,7 @@ export interface ViewItem {
 }
 
 export interface WorkItem extends ViewItem {
+	loaded?: boolean;
 	category: string[];
 	language: string[];
 	link?: string;
