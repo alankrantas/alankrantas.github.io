@@ -1,0 +1,53 @@
+[
+	{
+		"name": "The Python Book for Interdisciplinary Learning",
+		"description": "跨領域學 Python：資料科學基礎養成; Flag Publishing, Nov 2020. A Python and data science/mechine learning introduction written for readers with almost no programming background.",
+		"category": ["Programming", "Python", "Data Science", "Machine Learning"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.flag.com.tw/books/product/F0753",
+		"imgUrl": "/work/learn.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Flag's Maker Workshop: Using Smart Cloud Sensors with Python",
+		"description": "Flag's 創客‧自造者工作坊 - Python 感測器大應用 - 智慧生活X雲端; Flag Publishing, Mar 2020. Examples building IoT-related projects with ESP8266 microcontroller (all materials are included).",
+		"category": [
+			"Translation",
+			"Programming",
+			"MicroPython",
+			"Embedded Programming",
+			"Internet of Things"
+		],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.flag.com.tw/books/product/FM622A",
+		"imgUrl": "/work/sensor.jpg",
+		"loaded": false
+	},
+	{
+		"name": "My First micro:bit Programming Book",
+		"description": "孩子的第一本micro:bit程式學習書; Taiwan Coding Education Association, Sep 2019. The BBC micro:bit is a microcontroller with graphical code editors designed for STEM purpose from 2016.",
+		"category": ["Programming", "Embedded Programming", "STEM Education"],
+		"language": ["Traditional Chinese"],
+		"link": null,
+		"imgUrl": "/work/microbit.jpg",
+		"loaded": false
+	},
+	{
+		"name": "My First micro:bit Maker Guide: micro:bit Plus Thunder:bit",
+		"description": "micro:bit x Thunder:bit：孩子的第一本創客指南; Taiwan Coding Education Association, Nov 2019. Thunder:bit is a micro:bit expansion board deeply inspired by Kitronik's Motor Driver Board and Kittenbot's Robot:bit.",
+		"category": ["Programming", "Embedded Programming", "STEM Education"],
+		"language": ["Traditional Chinese"],
+		"link": null,
+		"imgUrl": "/work/thunderbit.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Web 2.0 meta-architecture analysis incorporated into UML requirements modeling: By the Case of ETF platform",
+		"description": "結合UML需求塑模的Web2.0後設架構分析─以ETF平台為例; 2008. My master thesis at National Chengchi University.",
+		"category": ["Web 2.0", "Thesis"],
+		"language": ["English"],
+		"link": "https://www.beyond-coding.org.tw/index.php?option=com_sppagebuilder&view=page&id=71",
+		"imgUrl": "/work/thesis.jpg",
+		"loaded": false
+	}
+]

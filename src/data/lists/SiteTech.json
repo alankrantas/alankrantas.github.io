@@ -1,0 +1,102 @@
+[
+	{
+		"name": "Svelte 3",
+		"description": "Component framework",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "https://svelte.dev/",
+		"linkedTitle": true
+	},
+	{
+		"name": "SvelteKit",
+		"description": "Application framework",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "https://kit.svelte.dev/",
+		"linkedTitle": true
+	},
+	{
+		"name": "@sveltejs/adapter-static",
+		"description": "SSG (static-site generation)",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "https://kit.svelte.dev/docs/adapter-static",
+		"linkedTitle": true
+	},
+	{
+		"name": "Bootstrap 5",
+		"description": "CSS library",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "https://getbootstrap.com/",
+		"linkedTitle": true
+	},
+	{
+		"name": "svelte-simple-modal",
+		"description": "Svelte modal component",
+		"location": null,
+		"footnote": "Used for the protfolio showcases since Bootstrap components won't work for Svelte",
+		"category": null,
+		"language": null,
+		"link": "https://www.npmjs.com/package/svelte-simple-modal",
+		"linkedTitle": true
+	},
+	{
+		"name": "Fontsource",
+		"description": "Font library (NPM package form of Google Fonts)",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "https://fontsource.org/",
+		"linkedTitle": true
+	},
+	{
+		"name": "Unsplash",
+		"description": "Free images",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "https://unsplash.com/",
+		"linkedTitle": true
+	},
+	{
+		"name": "SVG Repo",
+		"description": "Favicon icon",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "https://www.svgrepo.com/",
+		"linkedTitle": true
+	},
+	{
+		"name": "Github Actions",
+		"description": "CI (continuous integration)",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "https://docs.github.com/en/actions",
+		"linkedTitle": true
+	},
+	{
+		"name": "Github Pages",
+		"description": "Website hosting",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "https://pages.github.com/",
+		"linkedTitle": true
+	}
+]

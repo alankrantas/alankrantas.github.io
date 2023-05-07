@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { name } from '../../data/Data';
+	import info from '../../data/BasicInfo.json';
 </script>
 
 <div class="text-center">
@@ -9,6 +9,6 @@
 		</a>
 	</div>
 	<div class="text-white-50 p-2 m-2">
-		<b>© {new Date().getFullYear()} {name}</b>
+		<b>© {new Date().getFullYear()} {info.name}</b>
 	</div>
 </div>

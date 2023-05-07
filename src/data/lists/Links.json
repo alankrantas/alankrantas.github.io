@@ -1,0 +1,112 @@
+[
+	{
+		"name": "krantas@gmail.com",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "mailto:krantas@gmail.com",
+		"linkedTitle": true
+	},
+	{
+		"name": "alan.wang@fstk.io",
+		"description": "Work email at FST Network",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": "mailto:alan.wang@fstk.io",
+		"linkedTitle": true
+	},
+	{
+		"name": "Résumé",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": ["English"],
+		"link": "https://www.cakeresume.com/krantas",
+		"linkedTitle": true
+	},
+	{
+		"name": "Linkedin",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": ["English"],
+		"link": "https://www.linkedin.com/in/alankrantas/",
+		"linkedTitle": true
+	},
+	{
+		"name": "Facebook",
+		"description": null,
+		"location": null,
+		"footnote": "For friends only",
+		"category": null,
+		"language": ["Traditional Chinese"],
+		"link": "https://www.facebook.com/alankrantas/",
+		"linkedTitle": true
+	},
+	{
+		"name": "Blogger",
+		"description": "Personal blog; mostly book, movie & game reviews, photography journals",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": ["Traditional Chinese"],
+		"link": "https://krantasblog.blogspot.com/",
+		"linkedTitle": true
+	},
+	{
+		"name": "Medium",
+		"description": "Tech blog; programming-related with a few marketing pieces",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": ["English", "Traditional Chinese"],
+		"link": "https://alankrantas.medium.com/",
+		"linkedTitle": true
+	},
+	{
+		"name": "Hackster.io",
+		"description": "Maker blog/project showcases",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": ["English"],
+		"link": "https://www.hackster.io/alankrantas",
+		"linkedTitle": true
+	},
+	{
+		"name": "Github",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": ["English"],
+		"link": "https://github.com/alankrantas",
+		"linkedTitle": true
+	},
+	{
+		"name": "Instagram",
+		"description": null,
+		"location": null,
+		"footnote": "For film photography purpose. You won't see me here",
+		"category": null,
+		"language": ["English"],
+		"link": "https://www.instagram.com/alankrantas/",
+		"linkedTitle": true
+	},
+	{
+		"name": "Pexels",
+		"description": null,
+		"location": null,
+		"footnote": "The best of my works free for download; high-resolution re-scanned",
+		"category": null,
+		"language": ["English"],
+		"link": "https://www.pexels.com/@alan-wang-207740683/",
+		"linkedTitle": true
+	}
+]

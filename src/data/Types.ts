@@ -1,24 +1,27 @@
 export interface ViewItem {
 	id: number;
 	name: string;
-	description?: string;
+	description: string;
 	imgUrl: string;
-}
-
-export interface WorkItem extends ViewItem {
-	loaded?: boolean;
-	category: string[];
-	language: string[];
-	link?: string;
 }
 
 export interface ListItem {
 	name: string;
-	content?: string;
-	location?: string;
-	category?: string[];
-	language?: string[];
-	link?: string;
-	linkedTitle?: boolean;
-	footnote?: string;
+	description: string | null;
+	location: string | null;
+	footnote: string | null;
+	category: string[] | null;
+	language: string[] | null;
+	link: string | null;
+	linkedTitle: boolean;
+}
+
+export interface WorkItem {
+	name: string;
+	description: string | null;
+	category: string[] | null;
+	language: string[] | null;
+	link: string | null;
+	imgUrl: string;
+	loaded: boolean;
 }

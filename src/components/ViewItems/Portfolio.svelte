@@ -2,14 +2,13 @@
 	import Modal from 'svelte-simple-modal';
 	import Showcase from '../utils/Showcase.svelte';
 	import List from '../utils/List.svelte';
-	import {
-		editorialWorks,
-		authoredWorks,
-		makerWorks,
-		codeWorks,
-		techArticleWorks,
-		bookArticleWorks
-	} from '../../data/Works';
+
+	import edit from '../../data/works/EditorialWorks.json';
+	import author from '../../data/works/AuthoredWorks.json';
+	import maker from '../../data/works/MakerWorks.json';
+	import code from '../../data/works/CodeWorks.json';
+	import tech from '../../data/works/TechPostWorks.json';
+	import book from '../../data/works/BookPostWorks.json';
 </script>
 
 <Modal classCloseButton="btn btn-info">
@@ -22,13 +21,13 @@
 		<br />
 	</p>
 	<p>
-		<Showcase works={editorialWorks} title="Editorial Works" />
+		<Showcase works={edit} title="Editorial Works" />
 	</p>
 	<p>
 		<br /><br />
 	</p>
 	<p>
-		<Showcase works={authoredWorks} title="Authored Works" />
+		<Showcase works={author} title="Authored Works" />
 	</p>
 	<p>
 		<br /><br />
@@ -38,19 +37,19 @@
 		<br /><br />
 	</p>
 	<p>
-		<Showcase works={makerWorks} title="Selected Maker Projects" displayNum={2} />
+		<Showcase works={maker} title="Selected Maker Projects" displayNum={2} />
 	</p>
 	<p>
 		<br /><br />
 	</p>
 	<p>
-		<List list={codeWorks} title="Selected Software Projects" />
+		<List list={code} title="Selected Software Projects" />
 	</p>
 	<p>
 		<br />
 	</p>
 	<p>
-		<List list={techArticleWorks} title="Selected Tech Posts/Articles" />
+		<List list={tech} title="Selected Tech Posts/Articles" />
 	</p>
 	<p>
 		<span class="small">*Note: see <kbd>Links</kbd> for links to my blogs and Github profile.</span>
@@ -59,6 +58,6 @@
 		<br />
 	</p>
 	<p>
-		<List list={bookArticleWorks} title="Selected Book Posts/Articles" />
+		<List list={book} title="Selected Book Posts/Articles" />
 	</p>
 </Modal>

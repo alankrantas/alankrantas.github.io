@@ -1,0 +1,26 @@
+[
+	{
+		"id": 0,
+		"name": "About Me",
+		"description": "<name>, a <title> working in <industry> | he/him | short bio | facts",
+		"imgUrl": "/main/about-me.jpg"
+	},
+	{
+		"id": 1,
+		"name": "Career & SKills",
+		"description": "Software development | STEM education | translating and publishing | technical and content writing",
+		"imgUrl": "/main/skills.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Portfolio",
+		"description": "Editorial, authored and translated works | Maker projects | programming projects | articles",
+		"imgUrl": "/main/works.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Links & About",
+		"description": "Contact information | external resources | social media | about this site",
+		"imgUrl": "/main/links.jpg"
+	}
+]

@@ -1,7 +1,9 @@
 <script lang="ts">
-	import { linkList, siteTechList } from '../../data/Data';
 	import List from '../utils/List.svelte';
 	import Link from '../utils/Link.svelte';
+
+	import links from '../../data/lists/Links.json';
+	import site from '../../data/lists/SiteTech.json';
 </script>
 
 <p>
@@ -11,7 +13,7 @@
 	<br />
 </p>
 <p>
-	<List list={linkList} title="External Resources & Social Links" />
+	<List list={links} title="External Resources & Social Links" />
 </p>
 <p>
 	<br />
@@ -50,5 +52,5 @@
 	<br />
 </p>
 <p>
-	<List list={siteTechList} title="List of Resource for Building This Site" />
+	<List list={site} title="List of Resource for Building This Site" />
 </p>

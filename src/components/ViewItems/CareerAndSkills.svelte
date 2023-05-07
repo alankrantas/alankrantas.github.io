@@ -1,17 +1,16 @@
 <script lang="ts">
-	import {
-		professionalList,
-		educationList,
-		clubList,
-		certList,
-		softwareList,
-		generalSkillsList
-	} from '../../data/Data';
 	import List from '../utils/List.svelte';
+
+	import software from '../../data/lists/SoftwareSkills.json';
+	import skill from '../../data/lists/GeneralSkills.json';
+	import career from '../../data/lists/Career.json';
+	import edu from '../../data/lists/Education.json';
+	import club from '../../data/lists/Club.json';
+	import cert from '../../data/lists/Certificate.json';
 </script>
 
 <p>
-	<List list={softwareList} title="Software Competencies" />
+	<List list={software} title="Software Competencies" />
 </p>
 <p>
 	<span class="small"
@@ -33,7 +32,7 @@
 	<br />
 </p>
 <p>
-	<List list={generalSkillsList} title="General Skills" />
+	<List list={skill} title="General Skills" />
 </p>
 <p>
 	<span class="small">*Note: see <kbd>Portfolio</kbd> for my list of published works.</span>
@@ -50,7 +49,7 @@
 	<br />
 </p>
 <p>
-	<List list={professionalList} title="Professional Work Experience" />
+	<List list={career} title="Professional Work Experience" />
 </p>
 <p>
 	<span class="small"
@@ -61,7 +60,7 @@
 	<br />
 </p>
 <p>
-	<List list={educationList} title="Education" />
+	<List list={edu} title="Education" />
 </p>
 <p>
 	<span class="small"
@@ -73,11 +72,11 @@
 	<br />
 </p>
 <p>
-	<List list={clubList} title="Extracurricular Activities" />
+	<List list={club} title="Extracurricular Activities" />
 </p>
 <p>
 	<br />
 </p>
 <p>
-	<List list={certList} title="Certification" />
+	<List list={cert} title="Certification" />
 </p>

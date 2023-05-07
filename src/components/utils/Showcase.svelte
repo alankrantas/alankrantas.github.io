@@ -47,7 +47,7 @@
 								src={works[colIdx + listStartWorkId].imgUrl}
 								title={works[colIdx + listStartWorkId].name}
 								alt={works[colIdx + listStartWorkId].name}
-								on:load={() => (works[colIdx + listStartWorkId]['loaded'] = true)}
+								on:load={() => (works[colIdx + listStartWorkId].loaded = true)}
 							/>
 						</a>
 					{/if}

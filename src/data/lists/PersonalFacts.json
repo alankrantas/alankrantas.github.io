@@ -1,0 +1,92 @@
+[
+	{
+		"name": "Birth name",
+		"description": "Pao-Hsiang Wang (王寶翔)",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Nationality",
+		"description": "Taiwan (R.O.C.)",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Year of birth",
+		"description": "1984 (age <age>)",
+		"location": null,
+		"footnote": "The age is auto-updated",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Gender",
+		"description": "Male ♂",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Height",
+		"description": "178 cm (5′ 10″)",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Blood type",
+		"description": "A",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Zodiac sign",
+		"description": "Pisces ♓",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Myers-Briggs Type Indicator (MBTI)",
+		"description": "ISTJ",
+		"location": null,
+		"footnote": "(The Investigator/Inspector/Logistician)",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Marital status",
+		"description": "Single/unmarried",
+		"location": null,
+		"footnote": "I'm heterosexual. Feel free to ask me out for a cup of coffee... 😊",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	}
+]

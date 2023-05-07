@@ -1,0 +1,42 @@
+[
+	{
+		"name": "English",
+		"description": "Proficient in full-English reading/writing; professional translation between English and Traditional Chinese",
+		"location": null,
+		"footnote": "2006 ~ 2008",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Technical/marketing description writing",
+		"description": "Write and revise software-related technical description for education, reference or marketing purposes",
+		"location": null,
+		"footnote": "2006 ~ 2008",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Photography & video making",
+		"description": "Amateur digital and analog film photography; basic knowledge for using camera hardwares; videos shooting; photo and video editing",
+		"location": null,
+		"footnote": "2006 ~ 2008",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Maker projects/electronics prototyping",
+		"description": "Design and create Raspberry Pi or 8-bit/32-bit microcontroller-based devices; use of soldering guns; identify sensor modules and read datasheet",
+		"location": null,
+		"footnote": "2006 ~ 2008",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	}
+]

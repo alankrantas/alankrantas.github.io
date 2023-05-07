@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Master of Management Information Systems",
+		"description": "National Chengchi University",
+		"location": "Taipei, Taiwan",
+		"footnote": "2006 ~ 2008",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Bachelor of Public Finance",
+		"description": "National Chengchi University",
+		"location": "Taipei, Taiwan",
+		"footnote": "2002 ~ 2006",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "High School",
+		"description": "Taipei Municipal Chenggong High School",
+		"location": "Taipei, Taiwan",
+		"footnote": "1999 ~ 2002",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	}
+]

@@ -1,0 +1,52 @@
+[
+	{
+		"name": "LOC Documentation",
+		"description": "FST Network's official user documentation and a code tool for Logic Operating Centre (LOC) built on React-based Docusaurus 2.",
+		"location": null,
+		"footnote": "I'm the creator and currently the sole maintainer. The repo is private from general viewers.",
+		"language": ["English"],
+		"category": ["Documentation", "description Writing", "Front-end", "JavaScript", "TypeScript"],
+		"link": "https://documentation.loc.fst.network/",
+		"linkedTitle": false
+	},
+	{
+		"name": "Svelte/Golang Full-Stack Demo App",
+		"description": "A monolithic full-stack shopping app with its own database inspired by the book Essential TypeScript.",
+		"location": null,
+		"footnote": null,
+		"language": null,
+		"category": ["Full-stack", "JavaScript", "TypeScript", "Golang"],
+		"link": "https://github.com/alankrantas/svelteapp-typescript-go",
+		"linkedTitle": false
+	},
+	{
+		"name": "MicroPython Driver for TEA5767 FM Radio Module",
+		"description": "A radio driver that works much better than existing Arduino drivers utilizing features documented in the data sheet. A CircuitPython version is also available.",
+		"location": null,
+		"footnote": null,
+		"language": null,
+		"category": ["Embedded Programming", "MicroPython"],
+		"link": "https://github.com/alankrantas/micropython-TEA5767",
+		"linkedTitle": false
+	},
+	{
+		"name": "SEFR Multiclass Classifier",
+		"description": "The first multi-class classifier implementation based on SEFR, a fast linear-time binary classifier designed for model training on low-powered microcontrollers.",
+		"location": null,
+		"footnote": null,
+		"language": null,
+		"category": ["Embedded Programming", "Arduino", "MicroPython", "Machine Learning", "TinyML"],
+		"link": "https://github.com/alankrantas/micropython-TEA5767",
+		"linkedTitle": false
+	},
+	{
+		"name": "MakeCode Editor Extension for Nexus:bit and NexusBot",
+		"description": "A MakeCode editor extension (written in TypeScript) for operating the micro:bit expansion board, Nexus:bit (a KittenBot Robot:bit clone) and Nexusbot (an OTTO robot-clone). Supports three languages.",
+		"location": null,
+		"footnote": "My former boss changed the author name to his after I left, however you can still find my name in the source code (including the original repo he forked).",
+		"language": ["English"],
+		"category": ["STEM", "micro:bit", "MakeCode", "TypeScript", "Robotic"],
+		"link": "https://makecode.microbit.org/pkg/beyond-coding-tw/pxt-nexusbot",
+		"linkedTitle": false
+	}
+]

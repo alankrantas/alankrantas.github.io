@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Technical Marketing Writer",
+		"description": "FST Network Co., Ltd.",
+		"location": "Taipei, Taiwan",
+		"footnote": "Apr 2022 ~ Present",
+		"category": ["Software", "Developer", "description Writing", "Technical Writing"],
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Editor/Product Development Engineer",
+		"description": "Flag Publishing Co., Ltd.",
+		"location": "Taipei, Taiwan",
+		"footnote": "Aug 2019 ~ Mar 2022",
+		"category": ["Software", "Education", "description Writing", "Technical Writing"],
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "STEM description Writer",
+		"description": "Taiwan Coding Education Association",
+		"location": "Taipei, Taiwan",
+		"footnote": "May 2018 ~ Jul 2019",
+		"category": ["Software", "Education", "description Writing"],
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Book Translator",
+		"description": "Freelance Translator",
+		"location": "Taipei, Taiwan",
+		"footnote": "Oct 2011 ~ Apr 2018",
+		"category": ["Translating", "description Writing"],
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "J2EE Web Programmer",
+		"description": "MiTAC Information Technology Crop.",
+		"location": "Taipei, Taiwan",
+		"footnote": "Oct Aug 2008 ~ Oct 2011",
+		"category": ["Software", "Developer"],
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	}
+]

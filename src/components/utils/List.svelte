@@ -22,15 +22,15 @@
 					<span class="h4">{item.name}</span>
 				{/if}
 			</p>
-			{#if item.content}
+			{#if item.description}
 				<p>
-					{item.content}
+					{item.description}
 					{#if item.location}
 						| {item.location}
 					{/if}
 				</p>
 			{/if}
-			{#if !item.content && item.location}
+			{#if !item.description && item.location}
 				{item.location}
 			{/if}
 			{#if item.language || item.category}

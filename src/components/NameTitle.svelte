@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-	import { name, title, location } from '../data/Data';
+	import info from '../data/BasicInfo.json';
 
 	export let mode: String;
 
@@ -16,16 +16,16 @@
 		<div class="col-sm-auto text-center">
 			<p class="text-white">
 				<span class="h2 title">
-					{name}
+					{info.name}
 				</span>
 				<span class="h5"> &nbsp;|&nbsp; </span>
 				<span class="h4">
-					{title}
+					{info.title}
 				</span>
 			</p>
 			<p class="text-white-50">
 				<span class="lead code">
-					{location}
+					{info.location}
 				</span>
 			</p>
 		</div>
@@ -38,18 +38,6 @@
 	<!-- nav and view screen -->
 {:else if mode == 'nav'}
 	<div class="text-end">
-		<button
-			type="button"
-			class="btn btn-dark rounded-4 shadow"
-			on:click={() => dispatch('setViewId', -1)}
-		>
-			<span class="h5">Back to main ⭲</span>
-		</button>
-	</div>
-	<div>
-		<br />
-	</div>
-	<div class="text-end">
 		<img
 			src="/about-me/profile.jpg"
 			width="135px"
@@ -57,15 +45,17 @@
 			class="img-thumbnail rounded-circle shadow"
 		/>
 	</div>
-	<br />
+	<div>
+		<br />
+	</div>
 	<div class="text-end">
 		<p class="h2 text-white title">
 			<span class="badge bg-secondary">
-				{name}
+				{info.name}
 			</span>
 		</p>
 		<p class="h5 text-white-50 code p-1 m-1">
-			{title}
+			{info.title}
 		</p>
 	</div>
 {/if}

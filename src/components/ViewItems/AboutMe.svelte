@@ -1,12 +1,25 @@
 <script lang="ts">
-	import { name, title, location, personalList, hobbiesList } from '../../data/Data';
 	import List from '../utils/List.svelte';
+
+	import info from '../../data/BasicInfo.json';
+	import fact from '../../data/lists/PersonalFacts.json';
+	import hobbies from '../../data/lists/Hobbies.json';
+
+	const getAge = () => {
+		const now = new Date();
+		const birth = new Date('10 Mar 1984 12:00:00 GMT+8');
+		return Math.floor(
+			(now.getMonth() - birth.getMonth() + 12 * (now.getFullYear() - birth.getFullYear())) / 12
+		);
+	};
+
+	fact[2].description = fact[2].description.replace('<age>', String(getAge()));
 </script>
 
 <p><span class="h4">Hello there!</span></p>
 <p class="indent">
-	My name is <b>{name}</b>, a native Taiwanese born, raised and educated in {location}. I am
-	currently a <b>{title}</b>
+	My name is <b>{info.name}</b>, a native Taiwanese born, raised and educated in {info.location}. I
+	am currently a <b>{info.title}</b>
 	working for a local software startup.
 </p>
 <p class="indent">
@@ -56,7 +69,7 @@
 	<br />
 </p>
 <p>
-	<List list={personalList} title="Personal Facts" />
+	<List list={fact} title="Personal Facts" />
 </p>
 <p>
 	<br />
@@ -79,7 +92,7 @@
 	<br />
 </p>
 <p>
-	<List list={hobbiesList} title="Interests and Hobbies" />
+	<List list={hobbies} title="Interests and Hobbies" />
 </p>
 <p>
 	<br />

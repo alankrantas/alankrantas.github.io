@@ -5,13 +5,21 @@
 	import { fly, fade, crossfade } from 'svelte/transition';
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
+
 	import NameTitle from '../components/NameTitle.svelte';
 	import ViewItemNavBtn from '../components/ViewItemNavBtn.svelte';
 	import ViewItemCard from '../components/ViewItemCard.svelte';
 	import ViewItemHead from '../components/ViewItemHead.svelte';
 	import ViewItemContent from '../components/ViewItemContent.svelte';
 	import Footer from '../components/utils/Footer.svelte';
-	import { viewItems } from '../data/Data';
+
+	import info from '../data/BasicInfo.json';
+	import viewItems from '../data/ViewItems.json';
+
+	viewItems[0].description = viewItems[0].description
+		.replace('<name>', info.name)
+		.replace('<title>', info.title.toLowerCase())
+		.replace('<industry>', info.industry);
 
 	let ready = false;
 	let scrollToTop = () => {};
@@ -127,9 +135,25 @@
 					in:receive={{ key: 'view' }}
 					out:receive={{ key: 'main' }}
 				>
+					<!-- back to main button -->
+					<div class="text-end">
+						<button
+							type="button"
+							class="btn btn-dark rounded-4 shadow"
+							on:click={() => setViewId(-1)}
+						>
+							<span class="h5">Back to main ⭲</span>
+						</button>
+					</div>
+					<div>
+						<br /><br />
+					</div>
 					<!-- name title -->
 					<div class="p-1 m-1">
 						<NameTitle mode={'nav'} on:setViewId={handleSetViewId} />
+					</div>
+					<div>
+						<br />
 					</div>
 					<!-- name buttons -->
 					<ul class="nav flex-column text-end pt-2 mt-2">

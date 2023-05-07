@@ -1,0 +1,83 @@
+[
+	{
+		"name": "TinyML: Live Image Classification on ESP32-CAM and TFT",
+		"description": "A hand-held device that can display the captured image and its classification directly on a 160x128 ST7725 TFT LCD color display. The model is MobileNet v1 trained on Edge Impulse. Model inferring time is 2.6 seconds per image.",
+		"category": ["Embedded Programming", "Arduino", "Machine Learning", "Deep Learning", "TinyML"],
+		"language": ["English"],
+		"link": "https://github.com/alankrantas/edge-impulse-esp32-cam-image-classification",
+		"imgUrl": "/work/espcam.jpg",
+		"loaded": false
+	},
+	{
+		"name": "The Falcon Audio Visualizer",
+		"description": "Convert a 2004 Hasbro Millennium Falcon toy set into a fully-functional Bluetooth player/audio visualizer with TinyGo and 45 NeoPixel color LEDs.",
+		"category": ["Embedded Programming", "TinyGo", "Audio"],
+		"language": ["English"],
+		"link": "https://www.hackster.io/alankrantas/the-falcon-audio-visualizer-a-tinygo-project-260360",
+		"imgUrl": "/work/falcon.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Practical, WiFi-Calibrated Mini Wall Clock",
+		"description": "An accurate $20 DIY clock with beautiful effects made with ESP8266 and MircoPython. It's running on my room wall for many years.",
+		"category": ["Embedded Programming", "MicroPython", "Internet of Things", "MicroPython"],
+		"language": ["English"],
+		"link": "https://medium.com/@alankrantas/how-i-made-a-totally-practical-wifi-calibrated-mini-wall-clock-for-20-47ec3bb7542",
+		"imgUrl": "/work/clock.jpg",
+		"loaded": false
+	},
+	{
+		"name": "X'mas Music Box",
+		"description": "A simple, decorated MP3 player housing in a off-the-shelf wood cabin model using a SAMD51 microcontroller and CircuitPython.",
+		"category": ["Embedded Programming", "CircuitPython", "Audio", "MP3"],
+		"language": ["English"],
+		"link": "https://www.hackster.io/alankrantas/x-mas-music-box-super-simple-circuitpython-mp3-player-262381",
+		"imgUrl": "/work/xmas.jpg",
+		"loaded": false
+	},
+	{
+		"name": "MetroWatch - Heat & UVI Edition",
+		"description": "Basically a wearable IoT mix applications inspired by the watch in the game Metro Exidus. It can measure apparent temperature and ultraviolet index (UVI).",
+		"category": ["Embedded Programming", "Arduino", "Internet of Things"],
+		"language": ["English"],
+		"link": "https://www.hackster.io/alankrantas/x-mas-music-box-super-simple-circuitpython-mp3-player-262381",
+		"imgUrl": "/work/metro.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Retro FM Radio",
+		"description": "A simple radio built inside an off-the-shelf wooden retro-radio style smartphone rack using ESP8266, a TEA5767 radio module, a 0.5 watt speaker and MicroPython.",
+		"category": ["Embedded Programming", "MicroPython", "Audio", "Radio"],
+		"language": ["English"],
+		"link": "https://www.hackster.io/alankrantas/retro-fm-radio-with-tea5767-and-wemos-d1-mini-38e24c",
+		"imgUrl": "/work/radio.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Simple Kerbal Space Program Controller",
+		"description": "Custom controller built with an Arduino Leonardo (as a keyboard emulator) that have 18 different switches. Tested on Kerbal Space Program 1.",
+		"category": ["Embedded Programming", "Arduino", "Keyboard"],
+		"language": ["English"],
+		"link": "https://www.hackster.io/alankrantas/a-simple-kerbal-space-program-arduino-leonardo-controller-95704c",
+		"imgUrl": "/work/kerbal.jpg",
+		"loaded": false
+	},
+	{
+		"name": "DIY Mini Breakout Arcade",
+		"description": "A simple Breakout-like arcade built with ESP32 and MicroPython.",
+		"category": ["Embedded Programming", "MicroPython", "Game"],
+		"language": ["English"],
+		"link": "https://www.hackster.io/alankrantas/diy-micropython-arcade-esp32-413d9e",
+		"imgUrl": "/work/arcade.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Raspberry Pi Zero Flash Action Cam",
+		"description": "Make an action camera in a vintage flash unit with Raspberry Pi Zero and camera module. Can mount on any hot shoes and record 12-second videos in a USB stick.",
+		"category": ["Embedded Programming", "Python", "Camera"],
+		"language": ["English"],
+		"link": "https://www.hackster.io/alankrantas/retro-fm-radio-with-tea5767-and-wemos-d1-mini-38e24c",
+		"imgUrl": "/work/picam.jpg",
+		"loaded": false
+	}
+]

@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Programming languages",
+		"description": "Python (advanced), JavaScript (intermediate), Golang (intermediate), TypeScript (intermediate), C/C++ (beginner), Rust (preliminary)",
+		"location": null,
+		"footnote": "2006 ~ 2008",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Embedded programming languages",
+		"description": "Arduino C++, micro:bit MakeCode Blockly, MicroPython, CircuitPython, TinyGo",
+		"location": null,
+		"footnote": "Have contributed a few open sourced hardware drivers for various languages.",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Front-end frameworks",
+		"description": "React.js, Vue.js, Svelte/SvelteKit, Solid.js/SolidStart, Docusaurus, Bootstrap",
+		"location": null,
+		"footnote": "2006 ~ 2008",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Machine learning packages (mostly in Python)",
+		"description": "Scikit-learn, Tensorflow/Tensorflow Lite/Tensorflow.js, several AutoML packages",
+		"location": null,
+		"footnote": "2006 ~ 2008",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Development tools/cloud and container",
+		"description": "VS Code, Node.js, Docker, DevContainer, Kubernetes (using minikube/Kind/Docker Desktop)",
+		"location": null,
+		"footnote": "2006 ~ 2008",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
+		"name": "Operating systems",
+		"description": "Windows, Linux (Debian on amd64/arm64/armf)",
+		"location": null,
+		"footnote": "2006 ~ 2008",
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	}
+]
