@@ -54,6 +54,16 @@
 		"loaded": false
 	},
 	{
+		"name": "ESP32 Web Flip Clock",
+		"description": "Convert a DIY radio split-flip clock from a Japanese magazine into a true web clock.",
+		"category": ["Embedded Programming", "MicroPython", "Clock"],
+		"language": ["English"],
+		"link": "https://www.hackster.io/alankrantas/esp32-web-flip-clock-modified-145ad4",
+		"imgUrl": "/work/flip.jpg",
+		"loaded": false
+	},
+
+	{
 		"name": "Simple Kerbal Space Program Controller",
 		"description": "Custom controller built with an Arduino Leonardo (as a keyboard emulator) that have 18 different switches. Tested on Kerbal Space Program 1.",
 		"category": ["Embedded Programming", "Arduino", "Keyboard"],

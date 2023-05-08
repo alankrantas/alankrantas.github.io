@@ -24,7 +24,11 @@
 <br />
 <div class="row">
 	<div class="col-auto d-grid">
-		<button class="btn btn-sm btn-secondary rounded-pill" on:click={() => scrollWorks(-1)}>
+		<button
+			class="btn btn-sm btn-outline-light rounded-pill"
+			disabled={listStartWorkId == 0}
+			on:click={() => scrollWorks(-1)}
+		>
 			⮜
 		</button>
 	</div>
@@ -58,7 +62,11 @@
 		</div>
 	</div>
 	<div class="col-auto d-grid">
-		<button class="btn btn-sm btn-secondary rounded-pill" on:click={() => scrollWorks(1)}>
+		<button
+			class="btn btn-sm btn-outline-light rounded-pill"
+			disabled={listStartWorkId >= works.length - displayNum}
+			on:click={() => scrollWorks(1)}
+		>
 			⮞
 		</button>
 	</div>

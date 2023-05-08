@@ -30,6 +30,16 @@
 		"linkedTitle": false
 	},
 	{
+		"name": "Gaming",
+		"description": "I'm a long time PC gamer. I play various AAA games as well as indie games on Steam.",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
 		"name": "Coffee",
 		"description": "A cup or two black coffee always make my day.",
 		"location": null,

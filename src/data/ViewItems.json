@@ -2,7 +2,7 @@
 	{
 		"id": 0,
 		"name": "About Me",
-		"description": "<name>, a <title> working in <industry> | he/him | short bio | facts",
+		"description": "<name>, a <title> working in <industry> | he/him | short bio | facts | hobbies and interests",
 		"imgUrl": "/main/about-me.jpg"
 	},
 	{
@@ -14,7 +14,7 @@
 	{
 		"id": 2,
 		"name": "Portfolio",
-		"description": "Editorial, authored and translated works | Maker projects | programming projects | articles",
+		"description": "Editorial, authored and translated works | Maker and software projects | tech and book articles",
 		"imgUrl": "/main/works.jpg"
 	},
 	{
