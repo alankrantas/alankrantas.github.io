@@ -1,0 +1,227 @@
+[
+	{
+		"name": "The Windup Girl",
+		"description": "曼谷的發條女孩; Paolo Bacigalupi, 2009; Morning Star, Jul 2011. Hugo, Nebula and Locus Award best novel.",
+		"category": ["Science Fiction", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010511697",
+		"imgUrl": "/work/windup.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Old Man's War",
+		"description": "垂暮戰爭; John Scalzi, 2005; Morning Star, Mar 2012. Hugo Award best novel nominee.",
+		"category": ["Science Fiction", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010539736",
+		"imgUrl": "/work/oldman.jpg",
+		"loaded": false
+	},
+	{
+		"name": "The Forever War",
+		"description": "永世之戰; Joe Haldeman, 1974; Global Publishing, Jan 2017. Hugo, Nebula and Locus Award best novel.",
+		"category": ["Science Fiction", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.gobooks.com.tw/book.php?sn=4047",
+		"imgUrl": "/work/forever.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Brave New World",
+		"description": "美麗新世界; Aldous Huxley, 1931; Howdo Publishing, Jun 2014.",
+		"category": ["Science Fiction", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010638857",
+		"imgUrl": "/work/brave.jpg",
+		"loaded": false
+	},
+	{
+		"name": "The Invisible Man",
+		"description": "隱形人; H. G. Wells, 1897; Howdo Publishing, Apr 2018.",
+		"category": ["Science Fiction", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010795128",
+		"imgUrl": "/work/invisible.jpg",
+		"loaded": false
+	},
+	{
+		"name": "The Jungle",
+		"description": "魔鬼的叢林; Upton Sinclair, 1906; Persimmon Books, Dec 2014.",
+		"category": ["Literature", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010656599",
+		"imgUrl": "/work/jungle.jpg",
+		"loaded": false
+	},
+	{
+		"name": "A Delicate Truth",
+		"description": "脆弱的真相; John le Carré, 2013; ECUS Publishing, May 2014.",
+		"category": ["Thriller", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010638857",
+		"imgUrl": "/work/truth.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Dear Life",
+		"description": "親愛的人生：諾貝爾獎得主艾莉絲．孟若短篇小說集2; Alice Munro, 2013; ECUS Publishing, Dec 2013. I translated 6 of the 14 stories.",
+		"category": ["Literature", "Short Story Collection"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010617695",
+		"imgUrl": "/work/life.jpg",
+		"loaded": false
+	},
+	{
+		"name": "The View from Castle Rock",
+		"description": "城堡岩海景：諾貝爾獎得主艾莉絲•孟若短篇小說集6; Alice Munro, 2006; ECUS Publishing, Oct 2014.",
+		"category": ["Literature", "Short Story Collection"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010650379",
+		"imgUrl": "/work/castle.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Open Secrets",
+		"description": "公開的祕密：諾貝爾獎得主艾莉絲•孟若短篇小說集12; Alice Munro, 1994; ECUS Publishing, Oct 2015.",
+		"category": ["Literature", "Short Story Collection"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010690300",
+		"imgUrl": "/work/secret.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Dangerous Women",
+		"description": "危險女人; edited by George R. R. Martin and Gardner Dozois, 2013; Global Publishing, Aug 2015. 21 stories, including a prequel of A Song of Ice and Fire.",
+		"category": ["Science Fiction", "Fantasy", "Short Story Anthology"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.gobooks.com.tw/book.php?sn=3913",
+		"imgUrl": "/work/women.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Pump Six and Other Stories",
+		"description": "六號抽水站; Paolo Bacigalupi, 2008; Morning Star, Apr 2013.",
+		"category": ["Science Fiction", "Short Story Collection"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010580745",
+		"imgUrl": "/work/pumpsix.jpg",
+		"loaded": false
+	},
+	{
+		"name": "The Blade Itself",
+		"description": "第一法則首部曲：劍刃自身; Joe Abercrombie, 2006; Fantasy Foundation, May 2013. First book of First Law trilogy.",
+		"category": ["Fantasy", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010584766",
+		"imgUrl": "/work/blade.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Before They Are Hanged",
+		"description": "第一法則二部曲：絞刑之前; Joe Abercrombie, 2007; Fantasy Foundation, Jun 2013. Second book of First Law trilogy.",
+		"category": ["Fantasy", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010587117",
+		"imgUrl": "/work/hang.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Last Argument of Kings",
+		"description": "第一法則終部曲：最後手段; Joe Abercrombie, 2008; Fantasy Foundation, Jul 2013. Third book of First Law trilogy.",
+		"category": ["Fantasy", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010590872",
+		"imgUrl": "/work/kings.jpg",
+		"loaded": false
+	},
+	{
+		"name": "The Heroes",
+		"description": "血戰英雄; Joe Abercrombie, 2011; Fantasy Foundation, May 2014. Set in the First Law world.",
+		"category": ["Fantasy", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010633330",
+		"imgUrl": "/work/hero.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Steelheart",
+		"description": "審判者傳奇：鋼鐵心; Brandon Sanderson, 2013; Fantasy Foundation, May 2014.",
+		"category": ["Science Fiction", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010633324",
+		"imgUrl": "/work/steel.jpg",
+		"loaded": false
+	},
+	{
+		"name": "And Another Thing...",
+		"description": "銀河便車指南6：啊，還有一件事……; Eoin Colfer, 2009; ECUS Publishing, Jul 2016. The sixth and final installment of Douglas Adams' The Hitchhiker's Guide to the Galaxy series.",
+		"category": ["Science Fiction", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010720121",
+		"imgUrl": "/work/another.jpg",
+		"loaded": false
+	},
+	{
+		"name": "To Be a Cat",
+		"description": "突然變成一隻貓; Matt Haig, 2012; Ten Ppints Publishing, Mar 2015.",
+		"category": ["Fantasy", "Novel", "Children's Book"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010665405",
+		"imgUrl": "/work/cat.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Flashback",
+		"description": "閃憶殺手; Dan Simmons, 2011; ECUS Publishing, Jul 2016.",
+		"category": ["Science Fiction", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010529493",
+		"imgUrl": "/work/flash.jpg",
+		"loaded": false
+	},
+	{
+		"name": "The Silent Corner",
+		"description": "無聲角落; Dean Koontz, 2017; Global Publishing, Jul 2018.",
+		"category": ["Thriller", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010792962",
+		"imgUrl": "/work/silent.jpg",
+		"loaded": false
+	},
+	{
+		"name": "The Free State of Jones: Mississippi’s Longest Civil War",
+		"description": "瓊斯自由邦 電影《烈火邊境》歷史紀實：美國密西西比州史上最漫長的內戰; Victoria E. Bynum, 2001; Shuiling Publishing, Dec 2016.",
+		"category": ["History", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010737316",
+		"imgUrl": "/work/jones.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Splinternet: How Geopolitics and Commerce Are Fragmenting the World Wide Web",
+		"description": "分裂的網路：虛擬世界的未來掌握在國家、企業還是個人的手上？; Scott Malcomson, 2016; Nutopia Publishing, Oct 2016.",
+		"category": ["Technology", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010730780",
+		"imgUrl": "/work/internet.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Tales From the Great Disruption: Insights and Lessons From Journalism’s Technological Transformation",
+		"description": "關鍵轉折：內容媒體的科技轉型之路; Michael Shapiro, Anna Hiatt and Mike Hoyt, 2015; Nutopia Publishing, Jan 2017.",
+		"category": ["Technology", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010739304",
+		"imgUrl": "/work/disruption.jpg",
+		"loaded": false
+	},
+	{
+		"name": "Pressed for Time: The Acceleration of Life in Digital Capitalism",
+		"description": "縮時社會：奪回遭科技控制的快轉人生; Judy Wajcman, 2014; Nutopia Publishing, Jul 2017.",
+		"category": ["Technology", "Sociology", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010756573",
+		"imgUrl": "/work/pressed.jpg",
+		"loaded": false
+	}
+]

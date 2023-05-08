@@ -13,11 +13,9 @@
 		<li class="pt-1 pb-1 mt-2 mb-2" style="text-align: start;">
 			<p>
 				{#if item.link && item.linkedTitle}
-					<span class="f5"><b><Link url={item.link} name={item.name} /></b></span>
+					<span class="h4"><Link url={item.link} name={item.name} /></span>
 				{:else if item.link && !item.linkedTitle}
-					<span class="h4">{item.name}</span>&nbsp;<span class="h5"
-						><b><Link url={item.link} name="⧉" /></b></span
-					>
+					<span class="h4">{item.name}&nbsp;<b><Link url={item.link} name="⧉" /></b></span>
 				{:else}
 					<span class="h4">{item.name}</span>
 				{/if}

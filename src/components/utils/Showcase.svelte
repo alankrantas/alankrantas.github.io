@@ -23,13 +23,15 @@
 <p class="h2">{title} ({works.length})</p>
 <br />
 <div class="row">
-	<div class="col-auto align-self-center">
-		<button class="btn btn-secondary rounded-pill" on:click={() => scrollWorks(-1)}> ⮜ </button>
+	<div class="col-auto d-grid">
+		<button class="btn btn-sm btn-secondary rounded-pill" on:click={() => scrollWorks(-1)}>
+			⮜
+		</button>
 	</div>
-	<div class="col align-self-center">
+	<div class="col">
 		<div class="row">
 			{#each [...Array(displayNum).keys()] as colIdx (colIdx + listStartWorkId)}
-				<div class="col" animate:flip={{ duration: 500, easing: expoOut }}>
+				<div class="col align-self-center" animate:flip={{ duration: 500, easing: expoOut }}>
 					{#if colIdx + listStartWorkId < works.length}
 						<a href={'#'} on:click={() => popShowcaseDetail(works[colIdx + listStartWorkId])}>
 							{#if !works[colIdx + listStartWorkId].loaded}
@@ -55,7 +57,9 @@
 			{/each}
 		</div>
 	</div>
-	<div class="col-auto align-self-center">
-		<button class="btn btn-secondary rounded-pill" on:click={() => scrollWorks(1)}> ⮞ </button>
+	<div class="col-auto d-grid">
+		<button class="btn btn-sm btn-secondary rounded-pill" on:click={() => scrollWorks(1)}>
+			⮞
+		</button>
 	</div>
 </div>
