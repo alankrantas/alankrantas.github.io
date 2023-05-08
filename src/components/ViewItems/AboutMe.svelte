@@ -61,7 +61,7 @@
 	photography.
 </p>
 <p class="indent">
-	Click the other sections of this website to learn more about me. See <kbd>Links</kbd> for contacting
+	Click the other sections of this website to learn more about me. See <kbd>Links & About</kbd> for contacting
 	me.
 </p>
 <p>

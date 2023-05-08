@@ -64,11 +64,6 @@
 	<List list={career} title="Professional Work Experience" />
 </p>
 <p>
-	<span class="small"
-		>*Note: See <kbd>Competencies</kbd> for my available skills and <kbd>Links</kbd> for my full résumés.</span
-	>
-</p>
-<p>
 	<br />
 </p>
 <hr />
