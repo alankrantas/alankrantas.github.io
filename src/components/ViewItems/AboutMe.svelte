@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import List from '../utils/List.svelte';
 
 	import info from '../../data/BasicInfo.json';
@@ -13,39 +14,51 @@
 		);
 	};
 
-	fact[2].description = fact[2].description.replace('<age>', String(getAge()));
+	onMount(() => {
+		fact[2].description = fact[2].description.replace('<age>', String(getAge()));
+	});
 </script>
 
 <p><span class="h4">Hello there!</span></p>
 <p class="indent">
-	My name is <b>{info.name}</b>, a native Taiwanese born, raised and educated in {info.location}. I
-	am currently a <b>{info.title}</b>
-	working for a local software startup.
+	My name is <b>{info.name}</b>, a native Taiwanese born/raised and educated in {info.location}. I
+	am currently a {info.title.toLocaleLowerCase()} working for a software startup which creates a cloud-based
+	data integration and data lineage platform.
 </p>
 <p class="indent">
-	With rare experiences in both software and publishing industry, I am a quick, passionate learner
-	with versatile combination of skills. I am creative with an easy-going personality as well as
-	down-to-earth working attitude.
+	With rare experiences and skills in software, education, translating and content writing, I am a
+	quick, passionate learner with a creative mind, easy-going personality as well as down-to-earth
+	working attitude.
+</p>
+<p>
+	<br />
+</p>
+<hr />
+<p>
+	<br />
+</p>
+<p>
+	I grew up with computers. I played the shareware version of DOOM when I was 10 and self-taught to
+	write QuickBASIC programs when I was 12. In my middle- and high school days I mostly use Visual
+	Basic versions to write mini games.
 </p>
 <p class="indent">
-	I grew up with computers. I played the shareware version of DOOM when I was 10 and self-taught
-	myself to write simple (and bad) Quick-BASIC programs when I was 12. I moved on to Visual Basic 4
-	in middle school then Visual Basic 6 in high school, mostly writing mini games.
+	I was not succeed to get into a information technology-related department in collage as planned
+	(and later did so for my graduate degree). I went to a system integration company as a Java
+	programmer and was deeply disappointed with the unhealthy overtime culture. I left and since I am
+	also a big book lover, I decided to be a translator instead.
 </p>
 <p class="indent">
-	I didn't know what exactly where I wanted to go. In college I picked a major that I had no
-	interest in, and my first job as a overworked programmer frustrated me. I decided to try out one
-	of my other interests, which is translating. I had some little reputation in the book circle as a
-	reviewer and blogger, and got introduced into the publishing circle.
+	It was a great time, but after six and half years the publishing market showed signs of dying. I
+	had no choice but to find my next way out. I jumped back to the software world, first in
+	education-related jobs - for which I've also learned a lot about embedded programming and machine
+	learning - then (unexpectedly) find a job as a technical writer.
 </p>
 <p class="indent">
-	After six and half years and the publishing market showed signs of dying quickly if not already, I
-	had no choice but to find my next way out. I want back to the software world, at first still in
-	touch of publishing, then finally moved back to a pure software business. I learned lots of new
-	stuff in the span of a couple of years.
-</p>
-<p class="indent">
-	And this is more of less how I ended up building this site - kind of unexpectedly.
+	I now write technical contents (user manuals and marketing materials) for my current company. I
+	still write tech blogs and create Maker projects from time to time, not for profit or fame but for
+	but pure joy of learning and sharing. I also have great interests in books, movies, music and
+	photography.
 </p>
 <p class="indent">
 	Click the other sections of this website to learn more about me. See <kbd>Links</kbd> for contacting
@@ -68,9 +81,17 @@
 <p>
 	<br />
 </p>
+<hr />
+<p>
+	<br />
+</p>
 <p>
 	<List list={fact} title="Personal Facts" />
 </p>
+<p>
+	<br />
+</p>
+<hr />
 <p>
 	<br />
 </p>

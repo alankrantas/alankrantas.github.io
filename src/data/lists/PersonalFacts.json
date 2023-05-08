@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Birth name",
-		"description": "Pao-Hsiang Wang (王寶翔)",
+		"description": "Pao-Hsiang Wang | 王寶翔",
 		"location": null,
 		"footnote": null,
 		"category": null,
@@ -23,7 +23,7 @@
 		"name": "Year of birth",
 		"description": "1984 (age <age>)",
 		"location": null,
-		"footnote": "The age is auto-updated",
+		"footnote": "The age is auto-computed hence always update-to-date",
 		"category": null,
 		"language": null,
 		"link": null,

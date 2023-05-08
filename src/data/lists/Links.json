@@ -20,7 +20,7 @@
 		"linkedTitle": true
 	},
 	{
-		"name": "Résumé",
+		"name": "My résumé",
 		"description": null,
 		"location": null,
 		"footnote": null,
@@ -43,10 +43,30 @@
 		"name": "Facebook",
 		"description": null,
 		"location": null,
-		"footnote": "For friends only",
+		"footnote": "For friends only.",
 		"category": null,
 		"language": ["Traditional Chinese"],
 		"link": "https://www.facebook.com/alankrantas/",
+		"linkedTitle": true
+	},
+	{
+		"name": "Instagram",
+		"description": null,
+		"location": null,
+		"footnote": "For film photography purpose. You won't see me here, although you can follow me for a chat",
+		"category": null,
+		"language": ["English"],
+		"link": "https://www.instagram.com/alankrantas/",
+		"linkedTitle": true
+	},
+	{
+		"name": "Pexels",
+		"description": null,
+		"location": null,
+		"footnote": "The best of my works free for download; high-resolution re-scanned",
+		"category": null,
+		"language": ["English"],
+		"link": "https://www.pexels.com/@alan-wang-207740683/",
 		"linkedTitle": true
 	},
 	{
@@ -87,26 +107,6 @@
 		"category": null,
 		"language": ["English"],
 		"link": "https://github.com/alankrantas",
-		"linkedTitle": true
-	},
-	{
-		"name": "Instagram",
-		"description": null,
-		"location": null,
-		"footnote": "For film photography purpose. You won't see me here",
-		"category": null,
-		"language": ["English"],
-		"link": "https://www.instagram.com/alankrantas/",
-		"linkedTitle": true
-	},
-	{
-		"name": "Pexels",
-		"description": null,
-		"location": null,
-		"footnote": "The best of my works free for download; high-resolution re-scanned",
-		"category": null,
-		"language": ["English"],
-		"link": "https://www.pexels.com/@alan-wang-207740683/",
 		"linkedTitle": true
 	}
 ]

@@ -9,6 +9,10 @@
 	import cert from '../../data/lists/Certificate.json';
 </script>
 
+<p>My list of skills, professional experience and education.</p>
+<p>
+	<br /><br />
+</p>
 <p>
 	<List list={software} title="Software Competencies" />
 </p>
@@ -31,12 +35,20 @@
 <p>
 	<br />
 </p>
+<hr />
+<p>
+	<br />
+</p>
 <p>
 	<List list={skill} title="General Skills" />
 </p>
 <p>
 	<span class="small">*Note: see <kbd>Portfolio</kbd> for my list of published works.</span>
 </p>
+<p>
+	<br />
+</p>
+<hr />
 <p>
 	<br />
 </p>
@@ -59,8 +71,20 @@
 <p>
 	<br />
 </p>
+<hr />
 <p>
-	<List list={edu} title="Education" />
+	<br />
+</p>
+<p class="text-center">
+	<img loading="lazy" src="/about-me/nccu.jpg" width="550px" alt="nccu" class="rounded-5 p-2 m-2" />
+	<br />
+	<span class="small codetext-white-50">National Chengchi University</span>
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<List list={edu} title="Academic Qualifications" />
 </p>
 <p>
 	<span class="small"
@@ -71,9 +95,17 @@
 <p>
 	<br />
 </p>
+<hr />
+<p>
+	<br />
+</p>
 <p>
 	<List list={club} title="Extracurricular Activities" />
 </p>
+<p>
+	<br />
+</p>
+<hr />
 <p>
 	<br />
 </p>
