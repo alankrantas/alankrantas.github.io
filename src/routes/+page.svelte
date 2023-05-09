@@ -13,6 +13,8 @@
 	import ViewItemContent from '../components/ViewItemContent.svelte';
 	import Footer from '../components/utils/Footer.svelte';
 
+	import { screenSize } from '../data/Store';
+
 	import info from '../data/BasicInfo.json';
 	import viewItems from '../data/ViewItems.json';
 
@@ -66,8 +68,8 @@
 </script>
 
 {#if ready}
-	<div class="container-sm" in:fly={{ y: 100, delay: 100, duration: 2000, easing: expoOut }}>
-		<div class="row p-4 m-4">
+	<div class="container" in:fly={{ y: 100, delay: 100, duration: 2000, easing: expoOut }}>
+		<div class="row justify-content-center p-4 m-4">
 			{#if selectedViewId == -1}
 				<!-- main screen -->
 				<div class="col p-1 m-1" in:receive={{ key: 'main' }} out:send={{ key: 'view' }}>
@@ -76,40 +78,57 @@
 						<NameTitle mode={'main'} on:setViewId={handleSetViewId} />
 					</div>
 					<!-- view cards -->
-					<div class="row">
-						<div class="col text-end p-2 m-2">
-							{#each viewItems.filter((item) => item.id % 2 == 0) as viewItem (viewItem.id)}
+					{#if $screenSize >= 992}
+						<div class="row">
+							<div class="col-sm text-end p-2 m-2">
+								{#each viewItems.filter((item) => item.id % 2 == 0) as viewItem (viewItem.id)}
+									{#if viewItem.id > 0}
+										<div>
+											<br /><br /><br />
+											<hr class="text-white-50" />
+											<br /><br /><br />
+										</div>
+									{/if}
+									<ViewItemCard {viewItem} on:setViewId={handleSetViewId} />
+								{/each}
+							</div>
+							{#if $screenSize >= 1200}
+								<div class="col-sm-auto" />
+							{/if}
+							<div class="col-sm text-start p-2 m-2">
+								{#each viewItems.filter((item) => item.id % 2 != 0) as viewItem (viewItem.id)}
+									{#if viewItem.id == 1}
+										<div>
+											<br /><br /><br />
+											<br /><br /><br />
+											<br /><br /><br />
+											<br /><br /><br />
+										</div>
+									{:else}
+										<div>
+											<br /><br /><br />
+											<hr class="text-white-50" />
+											<br /><br /><br />
+										</div>
+									{/if}
+									<ViewItemCard {viewItem} on:setViewId={handleSetViewId} />
+								{/each}
+							</div>
+						</div>
+					{:else}
+						<div class="p-2 m-2">
+							{#each viewItems as viewItem (viewItem.id)}
 								{#if viewItem.id > 0}
 									<div>
-										<br /><br /><br />
+										<br /><br />
 										<hr class="text-white-50" />
-										<br /><br /><br />
+										<br /><br />
 									</div>
 								{/if}
 								<ViewItemCard {viewItem} on:setViewId={handleSetViewId} />
 							{/each}
 						</div>
-						<div class="col-sm-auto" />
-						<div class="col text-start p-2 m-2">
-							{#each viewItems.filter((item) => item.id % 2 != 0) as viewItem (viewItem.id)}
-								{#if viewItem.id == 1}
-									<div>
-										<br /><br /><br />
-										<br /><br /><br />
-										<br /><br /><br />
-										<br /><br /><br />
-									</div>
-								{:else}
-									<div>
-										<br /><br /><br />
-										<hr class="text-white-50" />
-										<br /><br /><br />
-									</div>
-								{/if}
-								<ViewItemCard {viewItem} on:setViewId={handleSetViewId} />
-							{/each}
-						</div>
-					</div>
+					{/if}
 					<div>
 						<br />
 						<br />
@@ -131,23 +150,10 @@
 			{:else}
 				<!-- view screen -->
 				<div
-					class="col-sm-auto p-1 m-1 pe-2 me-2"
+					class={`${$screenSize >= 992 ? 'col-sm-auto text-end' : 'text-center'} p-1 m-1 pe-2 me-2`}
 					in:receive={{ key: 'view' }}
 					out:receive={{ key: 'main' }}
 				>
-					<!-- back to main button -->
-					<div class="text-end">
-						<button
-							type="button"
-							class="btn btn-dark rounded-4 shadow"
-							on:click={() => setViewId(-1)}
-						>
-							<span class="h5">Back to main ⭲</span>
-						</button>
-					</div>
-					<div>
-						<br /><br />
-					</div>
 					<!-- name title -->
 					<div class="p-1 m-1">
 						<NameTitle mode={'nav'} on:setViewId={handleSetViewId} />
@@ -156,14 +162,24 @@
 						<br />
 					</div>
 					<!-- name buttons -->
-					<ul class="nav flex-column text-end pt-2 mt-2">
-						{#each viewItems as viewItem (viewItem.id)}
-							<ViewItemNavBtn {viewItem} {selectedViewId} on:setViewId={handleSetViewId} />
-						{/each}
-					</ul>
+					<div class={$screenSize >= 992 ? '' : 'text-center p-1 m-1'}>
+						<ul
+							class={`nav ${
+								$screenSize >= 992 ? 'flex-column pt-2 mt-2' : 'justify-content-center'
+							}`}
+						>
+							{#each viewItems as viewItem (viewItem.id)}
+								<ViewItemNavBtn {viewItem} {selectedViewId} on:setViewId={handleSetViewId} />
+							{/each}
+						</ul>
+					</div>
 				</div>
 				<!--view items -->
-				<div class="col p-1 m-1 ps-2 me-2" in:receive={{ key: 'view' }} out:send={{ key: 'main' }}>
+				<div
+					class={`${$screenSize >= 992 ? 'col-sm-8 text-start' : ''} p-1 m-1 ps-2 me-2`}
+					in:receive={{ key: 'view' }}
+					out:send={{ key: 'main' }}
+				>
 					<!--back to main button -->
 					<div>
 						<br />

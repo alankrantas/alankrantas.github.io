@@ -7,8 +7,13 @@
 	import '@fontsource/playfair-display/600-italic.css';
 	import '@fontsource/noto-sans-tc/chinese-traditional-300.css';
 	import '../css/custom.css';
+
+	import { screenSize } from '../data/Store';
+
 	import info from '../data/BasicInfo.json';
 </script>
+
+<svelte:window bind:innerWidth={$screenSize} />
 
 <svelte:head>
 	<title>Homepage of {info.name}, {info.title} ({info.location})</title>

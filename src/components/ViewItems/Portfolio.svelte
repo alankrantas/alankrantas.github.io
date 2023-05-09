@@ -3,6 +3,8 @@
 	import Showcase from '../utils/Showcase.svelte';
 	import List from '../utils/List.svelte';
 
+	import { screenSize } from '../../data/Store';
+
 	import edit from '../../data/works/EditorialWorks.json';
 	import author from '../../data/works/AuthoredWorks.json';
 	import trans from '../../data/works/TranslatedWorks.json';
@@ -22,7 +24,7 @@
 </p>
 <p>
 	<Modal styleWindow={{ width: '500px' }}>
-		<Showcase works={edit} title="Editorial Works" />
+		<Showcase works={edit} title="Editorial Works" displayNum={$screenSize >= 992 ? 3 : 2} />
 	</Modal>
 </p>
 <p>
@@ -34,7 +36,7 @@
 </p>
 <p>
 	<Modal styleWindow={{ width: '500px' }}>
-		<Showcase works={author} title="Authored Works" />
+		<Showcase works={author} title="Authored Works" displayNum={$screenSize >= 992 ? 3 : 2} />
 	</Modal>
 </p>
 <p>
@@ -46,7 +48,11 @@
 </p>
 <p>
 	<Modal styleWindow={{ width: '500px' }}>
-		<Showcase works={trans} title="Selected Translated Works" />
+		<Showcase
+			works={trans}
+			title="Selected Translated Works"
+			displayNum={$screenSize >= 992 ? 3 : 2}
+		/>
 	</Modal>
 </p>
 <p>
@@ -65,7 +71,11 @@
 </p>
 <p>
 	<Modal styleWindow={{ width: '750px' }}>
-		<Showcase works={maker} title="Selected Maker Projects" displayNum={2} />
+		<Showcase
+			works={maker}
+			title="Selected Maker Projects"
+			displayNum={$screenSize >= 992 ? 2 : 1}
+		/>
 	</Modal>
 </p>
 <p>

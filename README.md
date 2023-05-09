@@ -2,7 +2,7 @@
 
 [![github-pages-deploy](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml)
 
-Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/). Have options to deploy as Docker container (using Nginx as server) and supports DevContainer/Codespace. Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates.
+Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/). It has a (limited) responsive web design. Have options to deploy as Docker container (using Nginx as server) and supports DevContainer/Codespace. Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates.
 
 👉 [alankrantas.github.io](https://alankrantas.github.io/)
 

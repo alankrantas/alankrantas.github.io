@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
+
+	import { screenSize } from '../data/Store';
 	import type { ViewItem } from '../data/Types';
 
 	export let viewItem: ViewItem;
@@ -11,9 +13,15 @@
 <li class="nav-item p-1 m-1">
 	<button
 		type="button"
-		class={`btn ${selectedViewId == viewItem.id ? 'btn-info' : 'btn-dark'} rounded-4 shadow`}
+		class={`btn ${selectedViewId == viewItem.id ? 'btn-info' : 'btn-dark'} ${
+			$screenSize >= 992 ? '' : 'btn-sm'
+		} rounded-4 shadow`}
 		on:click={() => dispatch('setViewId', viewItem.id)}
 	>
-		<span class="h5">{viewItem.name}</span>
+		<span
+			class={`${$screenSize >= 992 ? 'h5' : 'h6'} ${
+				selectedViewId == viewItem.id ? 'fw-bold' : ''
+			}`}>{viewItem.name}</span
+		>
 	</button>
 </li>
