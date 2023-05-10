@@ -11,12 +11,23 @@
 	import { screenSize } from '../data/Store';
 
 	import info from '../data/BasicInfo.json';
+	import viewItems from '../data/ViewItems.json';
 </script>
 
 <svelte:window bind:innerWidth={$screenSize} />
 
 <svelte:head>
-	<title>Homepage of {info.name}, {info.title} ({info.location})</title>
+	<title>{info.name}, {info.title} ({info.location})</title>
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content={`${info.name}, ${info.title} (${info.location})`} />
+	<meta property="og:site_name" content={`Homepage of ${info.name}, ${info.title}`} />
+	<meta property="og:description" content={[...viewItems.map((item) => item.name)].join(', ')} />
+	<meta property="og:url" content="https://alankrantas.github.io/" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image" content="https://alankrantas.github.io/thumbnail.jpg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="627" />
+	<meta property="og:image:alt" content={`${info.name}, ${info.title} (${info.location})`} />
 </svelte:head>
 
 <slot />
