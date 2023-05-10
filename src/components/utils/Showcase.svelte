@@ -3,6 +3,7 @@
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
 	import ShowcaseDetail from './ShowcaseDetail.svelte';
+	import type { Context } from 'svelte-simple-modal';
 	import type { WorkItem } from '../../data/Types';
 
 	export let title: string;
@@ -15,8 +16,7 @@
 		listStartWorkId = Math.max(0, Math.min(listStartWorkId + delta, works.length - displayNum));
 	};
 
-	// @ts-ignore
-	const { open } = getContext('simple-modal');
+	const { open } = getContext('simple-modal') as Context;
 	const popShowcaseDetail = (work: WorkItem) => open(ShowcaseDetail, { work: work });
 </script>
 
