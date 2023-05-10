@@ -14,12 +14,12 @@
 	<button
 		type="button"
 		class={`btn ${selectedViewId == viewItem.id ? 'btn-info' : 'btn-dark'} ${
-			$screenSize >= 992 ? '' : 'btn-sm'
+			$screenSize >= 768 ? '' : 'btn-sm'
 		} rounded-4 shadow`}
 		on:click={() => dispatch('setViewId', viewItem.id)}
 	>
 		<span
-			class={`${$screenSize >= 992 ? 'h5' : 'h6'} ${
+			class={`${$screenSize >= 768 ? 'h5' : 'h6'} ${
 				selectedViewId == viewItem.id ? 'fw-bold' : ''
 			}`}>{viewItem.name}</span
 		>

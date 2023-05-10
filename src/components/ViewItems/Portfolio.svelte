@@ -24,7 +24,11 @@
 </p>
 <p>
 	<Modal styleWindow={{ width: '500px' }}>
-		<Showcase works={edit} title="Editorial Works" displayNum={$screenSize >= 992 ? 3 : 2} />
+		<Showcase
+			works={edit}
+			title="Editorial Works"
+			displayNum={$screenSize >= 992 ? 3 : $screenSize >= 576 ? 2 : 1}
+		/>
 	</Modal>
 </p>
 <p>
@@ -36,7 +40,11 @@
 </p>
 <p>
 	<Modal styleWindow={{ width: '500px' }}>
-		<Showcase works={author} title="Authored Works" displayNum={$screenSize >= 992 ? 3 : 2} />
+		<Showcase
+			works={author}
+			title="Authored Works"
+			displayNum={$screenSize >= 992 ? 3 : $screenSize >= 576 ? 2 : 1}
+		/>
 	</Modal>
 </p>
 <p>
@@ -51,7 +59,7 @@
 		<Showcase
 			works={trans}
 			title="Selected Translated Works"
-			displayNum={$screenSize >= 992 ? 3 : 2}
+			displayNum={$screenSize >= 992 ? 3 : $screenSize >= 576 ? 2 : 1}
 		/>
 	</Modal>
 </p>
@@ -74,7 +82,7 @@
 		<Showcase
 			works={maker}
 			title="Selected Maker Projects"
-			displayNum={$screenSize >= 992 ? 2 : 1}
+			displayNum={$screenSize >= 576 ? 2 : 1}
 		/>
 	</Modal>
 </p>

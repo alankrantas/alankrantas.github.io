@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import List from '../utils/List.svelte';
+	import Image from '../utils/Image.svelte';
 
 	import info from '../../data/BasicInfo.json';
 	import fact from '../../data/lists/PersonalFacts.json';
@@ -67,16 +68,8 @@
 <p>
 	<br />
 </p>
-<p class="text-center">
-	<img
-		loading="lazy"
-		src="/about-me/profile.jpg"
-		width="450px"
-		alt="profile"
-		class="rounded-5 p-2 m-2"
-	/>
-	<br />
-	<span class="small"> Selfie with a Polaroid SX-70 Sonar </span>
+<p>
+	<Image src="/about-me/profile.jpg" alt="profile" footnote="Selfie with a Polaroid SX-70 Sonar" />
 </p>
 <p>
 	<br />
@@ -95,19 +88,13 @@
 <p>
 	<br />
 </p>
-<p class="text-center">
-	<img
-		loading="lazy"
+<p>
+	<Image
 		src="/about-me/camera.jpg"
-		width="550px"
 		alt="camera"
-		class="rounded-5 p-2 m-2"
+		footnote="Two of my favorite things: camera and coffee. (The camera is a Eastern Germany-made Zeiss Ikon
+		Ercona; this copy is possibly manufactured in early 1950s)"
 	/>
-	<br />
-	<span class="small">
-		Two of my favorite things: camera and coffee. (The camera is a Eastern Germany-made Zeiss Ikon
-		Ercona; this copy is possibly manufactured in early 1950s)</span
-	>
 </p>
 <p>
 	<br />
@@ -118,26 +105,20 @@
 <p>
 	<br />
 </p>
-<p class="text-center">
-	<img
-		loading="lazy"
+<p>
+	<Image
 		src="/about-me/sakura.jpg"
-		width="500px"
 		alt="sakura"
-		class="rounded-5 p-2 m-2"
+		footnote="Cherry blossoms on medium format still film, Kumamoto Castle, Japan, 2018."
 	/>
-	<br />
-	<span class="small"
-		>Cherry blossoms on medium format still film, Kumamoto Castle, Japan, 2018.</span
-	>
 </p>
 <p>
 	<br />
 </p>
-<p class="text-center">
-	<img loading="lazy" src="/about-me/diy.jpg" width="500px" alt="diy" class="rounded-5 p-2 m-2" />
-	<br />
-	<span class="small"
-		>Japanese-made, hand-assembled Billy doll houses refitted with DIY lights and other stuff.</span
-	>
+<p>
+	<Image
+		src="/about-me/diy.jpg"
+		alt="diy"
+		footnote="Japanese-made, hand-assembled Billy doll houses refitted with DIY lights and other stuff."
+	/>
 </p>

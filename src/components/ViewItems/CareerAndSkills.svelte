@@ -1,5 +1,6 @@
 <script lang="ts">
 	import List from '../utils/List.svelte';
+	import Image from '../utils/Image.svelte';
 
 	import software from '../../data/lists/SoftwareSkills.json';
 	import skill from '../../data/lists/GeneralSkills.json';
@@ -52,10 +53,12 @@
 <p>
 	<br />
 </p>
-<p class="text-center">
-	<img loading="lazy" src="/about-me/work.jpg" width="550px" alt="work" class="rounded-5 p-2 m-2" />
-	<br />
-	<span class="small codetext-white-50">FST Network office's common area (before relocated).</span>
+<p>
+	<Image
+		src="/about-me/work.jpg"
+		alt="work"
+		footnote="FST Network office's common area (before relocated)."
+	/>
 </p>
 <p>
 	<br />
@@ -70,10 +73,8 @@
 <p>
 	<br />
 </p>
-<p class="text-center">
-	<img loading="lazy" src="/about-me/nccu.jpg" width="550px" alt="nccu" class="rounded-5 p-2 m-2" />
-	<br />
-	<span class="small codetext-white-50">National Chengchi University</span>
+<p>
+	<Image src="/about-me/nccu.jpg" alt="nccu" footnote="National Chengchi University" />
 </p>
 <p>
 	<br />

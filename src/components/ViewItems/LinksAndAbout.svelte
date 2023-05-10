@@ -1,6 +1,7 @@
 <script lang="ts">
 	import List from '../utils/List.svelte';
 	import Link from '../utils/Link.svelte';
+	import Image from '../utils/Image.svelte';
 
 	import links from '../../data/lists/Links.json';
 	import site from '../../data/lists/SiteTech.json';
@@ -23,19 +24,18 @@
 <p>
 	<br />
 </p>
-<p class="text-center">
-	<img loading="lazy" src="/svelte.jpg" width="350px" alt="profile" class="rounded-5 p-2 m-2" />
-	<br />
+<p>
+	<Image src="/svelte.jpg" alt="svelte" />
 </p>
 <p>
 	<br />
 </p>
 <p>Now some technical details about this site.</p>
 <p class="indent">
-	This site, or the first major version of it, is completed in spring of 2023. I've only learned
-	modern front-end frameworks a few years ago while working on a TypeScript book as an editor, and
-	learned some stuff about CI/CD in my next job. I knew back then this is something I'd like to do,
-	but still it took a while to make it happen.
+	This site, or the first major version of it, is completed in May 2023. I've only learned modern
+	front-end frameworks a few years ago while working on a TypeScript book as an editor, and learned
+	some stuff about CI/CD in my next job. I knew back then this is something I'd like to do, but
+	still it took a while to make it happen.
 </p>
 <p class="indent">
 	I really like Svelte, especially for its built-in transition effects. SvelteKit has a pretty
@@ -45,7 +45,8 @@
 </p>
 <p class="indent">
 	I use Bootstrap for CSS styles, although the Bootstrap components are not compatible in Svelte.
-	Except for one library, I built all components for the need of maintaining this site.
+	Except for one library, I built all components for the need of maintaining this site. This site
+	also has a basic support for responsive web design (based on window width).
 </p>
 <p class="indent">
 	You can find the full source code at the <Link

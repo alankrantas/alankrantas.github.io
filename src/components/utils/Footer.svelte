@@ -8,7 +8,7 @@
 			<img src="/github-mark-white.svg" width="40px" alt="github-mark-white" class="shadow" />
 		</a>
 	</div>
-	<div class="text-white-50 p-2 m-2">
+	<div class="text-white-50 p-sm-2 m-sm-2">
 		<b>© {new Date().getFullYear()} {info.name}</b>
 	</div>
 </div>
