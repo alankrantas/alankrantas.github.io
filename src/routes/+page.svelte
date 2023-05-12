@@ -62,11 +62,11 @@
 
 	const [send, receive] = crossfade({
 		delay: 100,
-		duration: 1500,
+		duration: 1000,
 		easing: expoOut
 	});
 
-	const showScreenSize = false;
+	const showScreenSize = false; // enable to show screen size
 </script>
 
 {#if showScreenSize}

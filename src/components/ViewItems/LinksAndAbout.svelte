@@ -56,6 +56,12 @@
 	/> .
 </p>
 <p>
+	<br />
+</p>
+<p class="text-center">
+	<img src="/responsive.svg" width="100px" alt="responsive" />
+</p>
+<p>
 	<br /><br />
 </p>
 <p>

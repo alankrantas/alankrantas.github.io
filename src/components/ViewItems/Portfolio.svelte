@@ -27,7 +27,7 @@
 		<Showcase
 			works={edit}
 			title="Editorial Works"
-			displayNum={$screenSize >= 992 ? 3 : $screenSize >= 576 ? 2 : 1}
+			displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
 		/>
 	</Modal>
 </p>
@@ -43,7 +43,7 @@
 		<Showcase
 			works={author}
 			title="Authored Works"
-			displayNum={$screenSize >= 992 ? 3 : $screenSize >= 576 ? 2 : 1}
+			displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
 		/>
 	</Modal>
 </p>
@@ -59,7 +59,7 @@
 		<Showcase
 			works={trans}
 			title="Selected Translated Works"
-			displayNum={$screenSize >= 992 ? 3 : $screenSize >= 576 ? 2 : 1}
+			displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
 		/>
 	</Modal>
 </p>
@@ -82,7 +82,8 @@
 		<Showcase
 			works={maker}
 			title="Selected Maker Projects"
-			displayNum={$screenSize >= 576 ? 2 : 1}
+			displayNum={$screenSize >= 1200 ? 2 : 1}
+			scaleDownPoint={1200}
 		/>
 	</Modal>
 </p>
