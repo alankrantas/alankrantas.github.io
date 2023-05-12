@@ -10,5 +10,7 @@
 	</div>
 	<div class="text-white-50 p-sm-2 m-sm-2">
 		<b>© {new Date().getFullYear()} {info.name}</b>
+		&nbsp;
+		<img src="/taiwan-flag.svg" width="20px" alt="taiwan-flag" />
 	</div>
 </div>

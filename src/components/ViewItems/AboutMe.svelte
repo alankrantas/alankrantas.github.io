@@ -40,20 +40,24 @@
 </p>
 <p>
 	I grew up with computers. I played the shareware version of DOOM when I was 10 and self-taught to
-	write QuickBASIC programs when I was 12. In my middle- and high school days I mostly use Visual
-	Basic versions to write mini games.
+	write QuickBASIC programs when I was 12, although it took me another few years to understand more
+	of it. In my middle- and high school days I turned to early versions of Visual Basic to write mini
+	games.
 </p>
 <p class="indent">
 	I was not succeed to get into a information technology-related department in collage as planned
-	(and later did so for my graduate degree). I went to a system integration company as a Java
-	programmer and was deeply disappointed with the unhealthy overtime culture. I left and since I am
-	also a big book lover, I decided to be a translator instead.
+	(but later did so for my graduate degree). I went to a local system integration company as a Java
+	programmer - I learned things about web and Java at that time - and was deeply disappointed with
+	the unhealthy overtime culture. I left and since I am also a big book lover, I decided to be a
+	full-time translator instead.
 </p>
 <p class="indent">
-	It was a great time, but after six and half years the publishing market showed signs of dying. I
-	had no choice but to find my next way out. I jumped back to the software world, first in
-	education-related jobs - for which I've also learned a lot about embedded programming and machine
-	learning - then (unexpectedly) find a job as a technical writer.
+	It was a great time, I did make some money, but after six and half years the publishing market
+	showed signs of dying. Less books published means there were less contracts to take. I had no
+	choice but to find my next way out. I jumped back to the software world, first in
+	education-related jobs - even got to learn a few things about embedded programming (including how
+	to use a soldering gun) and training machine learning models - then finally (and somehow) find a
+	job as a technical writer.
 </p>
 <p class="indent">
 	I now write technical contents (user manuals and marketing materials) for my current company. I
@@ -69,7 +73,12 @@
 	<br />
 </p>
 <p>
-	<Image src="/about-me/profile.jpg" alt="profile" footnote="Selfie with a Polaroid SX-70 Sonar" />
+	<Image
+		src="/about-me/profile.jpg"
+		alt="profile"
+		footnote="Selfie with a Polaroid SX-70 Sonar"
+		widthRatios={[70, 80, 90, 95]}
+	/>
 </p>
 <p>
 	<br />
@@ -110,6 +119,7 @@
 		src="/about-me/sakura.jpg"
 		alt="sakura"
 		footnote="Cherry blossoms on medium format still film, Kumamoto Castle, Japan, 2018."
+		widthRatios={[75, 85, 90, 95]}
 	/>
 </p>
 <p>

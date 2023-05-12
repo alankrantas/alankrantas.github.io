@@ -25,7 +25,7 @@
 	<br />
 </p>
 <p>
-	<Image src="/svelte.jpg" alt="svelte" />
+	<Image src="/svelte.jpg" alt="svelte" widthRatios={[60, 70, 80, 90]} />
 </p>
 <p>
 	<br />
@@ -38,10 +38,11 @@
 	still it took a while to make it happen.
 </p>
 <p class="indent">
-	I really like Svelte, especially for its built-in transition effects. SvelteKit has a pretty
-	simple yet powerful file-based routing mechanism, however it is my intension to make this as a
-	single-page application (SPA). The site can read QueryString to create the illusion of routing
-	between pages, but I have no plan to make this into a blog or something.
+	I really like Svelte (a relatively newer but popular JavaScript framework), especially for its
+	built-in transition effects. SvelteKit. the framework for deploying Svelte apps, has a pretty
+	simple yet powerful file-based routing mechanism, however I decided to make this app as a
+	single-page application (SPA) on purpose. On the other hand, the site can read QueryString to
+	create the illusion of routing between pages.
 </p>
 <p class="indent">
 	I use Bootstrap for CSS styles, although the Bootstrap components are not compatible in Svelte.

@@ -12,11 +12,11 @@
 	{/if}
 	<div class="row p-2 m-2">
 		<div class="col d-flex justify-content-center">
-			<div class="card rounded-5 bg-dark shadow">
+			<div class="card rounded-5 bg-dark shadow position-relative">
 				<img src={viewItem.imgUrl} class="card-img rounded-5" alt={viewItem.name} />
 				<div class="card-img-overlay">
 					<div
-						class="card-title title display-5 p-sm-1 m-sm-1 pt-sm-2 mt-sm-2 position-absolute bottom-md-0 start-50 translate-middle-x"
+						class="card-title title display-5 p-sm-1 m-sm-1 pt-sm-2 mt-sm-2 position-absolute bottom-0 start-50 translate-middle"
 					>
 						{viewItem.name}
 					</div>

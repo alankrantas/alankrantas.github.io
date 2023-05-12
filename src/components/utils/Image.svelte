@@ -4,6 +4,19 @@
 	export let src: string;
 	export let alt: string;
 	export let footnote = '';
+	export let widthRatios = [80, 85, 90, 95];
+
+	$: ratio = () => {
+		if ($screenSize >= 992) {
+			return widthRatios[0];
+		} else if ($screenSize >= 768) {
+			return widthRatios[1];
+		} else if ($screenSize >= 576) {
+			return widthRatios[2];
+		} else {
+			return widthRatios[3];
+		}
+	};
 </script>
 
 <div class="text-center">
@@ -12,9 +25,8 @@
 			loading="lazy"
 			{src}
 			{alt}
-			class={`img-fluid rounded-5 p-md-2 m-md-2 ${
-				$screenSize >= 992 ? 'w-50' : $screenSize >= 576 ? 'w-75' : 'w-100'
-			}`}
+			class="img-fluid rounded-5 p-md-2 m-md-2"
+			style={`width: ${ratio()}%;`}
 		/>
 	</p>
 	{#if footnote}
