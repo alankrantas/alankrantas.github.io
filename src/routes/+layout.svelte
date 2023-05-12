@@ -24,6 +24,7 @@
 	<meta property="og:site_name" content={`Homepage of ${info.name}, ${info.title}`} />
 	<meta property="og:description" content={[...viewItems.map((item) => item.name)].join(', ')} />
 	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image" content="http://alankrantas.github.io/thumbnail.jpg" />
 	<meta property="og:image:url" content="http://alankrantas.github.io/thumbnail.jpg" />
 	<meta property="og:image:secure_url" content="https://alankrantas.github.io/thumbnail.jpg" />
 	<meta property="og:image:width" content="1200" />
