@@ -8,7 +8,42 @@ This is technically a always-working-in-progress project and may be subjected to
 
 👉 [alankrantas.github.io](https://alankrantas.github.io/)
 
-## Development Notes to Self
+---
+
+## Notes on Components Structure
+
+The tables are only rough representation of the actual structures.
+
+The app has two view states: "main" (view ID = `-1`) and "view".
+
+### Main
+
+| Col              | Col           | Col              |
+| ---------------- | ------------- | ---------------- |
+|                  | `<NameTitle>` |                  |
+| `<ViewItemCard>` |               |                  |
+|                  |               | `<ViewItemCard>` |
+| `<ViewItemCard>` |               |                  |
+|                  |               | `<ViewItemCard>` |
+|                  | `<Footer>`    |                  |
+
+The list of `<ViewItemCard>` would be combined into a single column if the screen width becomes smaller.
+
+### View
+
+| Col                | Col                 |
+| ------------------ | ------------------- |
+| `<NameTitle>`      | `<ViewItemHead>`    |
+| `<ViewItemNavBtn>` | `<ViewItemContent>` |
+|                    | `<Footer>`          |
+
+`<ViewItemContent>` embeds different view components depending on the view ID.
+
+The left column would be stacked on top of the right if the screen width becomes smaller.
+
+---
+
+## Notes for Development and Deployment
 
 > Prerequisites: Node.js, Yarn, Git and Docker
 
@@ -75,3 +110,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/alankrantas/alankrantas.github.io.git
 git push -u -f origin main
 ```
+
+## Links of Documentations
+
+- [Svelte](https://svelte.dev/docs)
+- [SvelteKit](https://kit.svelte.dev/docs/introduction)
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [svelte-simple-modal](https://github.com/flekschas/svelte-simple-modal#api)
