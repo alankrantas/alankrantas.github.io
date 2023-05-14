@@ -34,7 +34,7 @@
 			</div>
 			<div class="col-sm text-start">
 				<button class="btn btn-sm btn-dark rounded-pill" on:click={() => dispatch('setViewId', 0)}>
-					<span class="h4">Enter ⮯</span>
+					<span class="h4">Enter</span>
 				</button>
 			</div>
 		</div>
@@ -73,7 +73,7 @@
 					/>
 				{/if}
 				<button class="btn btn-bg btn-dark rounded-pill" on:click={() => dispatch('setViewId', 0)}>
-					<span class="h4">Enter ⮯</span>
+					<span class="h4">Enter</span>
 				</button>
 			</p>
 		</div>
@@ -90,7 +90,7 @@
 				class="btn btn-dark rounded-4 shadow"
 				on:click={() => dispatch('setViewId', -1)}
 			>
-				<span class="h5">Back to main ⭲</span>
+				<span class="h5">Back to main</span>
 			</button>
 		</div>
 		<div>
@@ -144,7 +144,7 @@
 					class="btn btn-sm btn-dark rounded-4 shadow"
 					on:click={() => dispatch('setViewId', -1)}
 				>
-					<span class="h5">Main<br />⭷</span>
+					<span class="h5">Main</span>
 				</button>
 			</div>
 		</div>
