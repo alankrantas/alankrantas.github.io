@@ -29,7 +29,7 @@
 <div class="position-relative">
 	<div
 		class="row position-relative start-50 translate-middle-x"
-		style={`width: ${$screenSize < scaleDownPoint ? 80 : 100}%`}
+		style={`width: ${$screenSize < scaleDownPoint ? 90 : 100}%`}
 	>
 		<div class="col-auto d-grid">
 			<button
