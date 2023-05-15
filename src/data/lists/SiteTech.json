@@ -91,7 +91,7 @@
 	},
 	{
 		"name": "Github Actions",
-		"description": "CI (continuous integration)",
+		"description": "CI/CD (continuous integration/continuous deployment)",
 		"location": null,
 		"footnote": null,
 		"category": null,

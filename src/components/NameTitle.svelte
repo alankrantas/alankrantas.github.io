@@ -167,7 +167,7 @@
 				class="btn btn-sm btn-dark rounded-4 shadow"
 				on:click={() => dispatch('setViewId', -1)}
 			>
-				<span class="h5">Main ⭷</span>
+				<span class="h5">Main</span>
 			</button>
 		</div>
 	{/if}

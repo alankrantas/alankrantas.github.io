@@ -6,7 +6,7 @@ Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev
 
 This is technically a always-working-in-progress project and may be subjected to changes.
 
-👉 [alankrantas.github.io](https://alankrantas.github.io/)
+👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
 
 ---
 
@@ -18,6 +18,10 @@ The app has two view states: "main" (view ID = `-1`) and "view".
 
 ### Main
 
+The structures below are simplified. The site may change the structure in or between components based on different breakpoints (576, 768, 922 or 1200 px).
+
+#### Normal
+
 | Col              | Col           | Col              |
 | ---------------- | ------------- | ---------------- |
 |                  | `<NameTitle>` |                  |
@@ -27,9 +31,20 @@ The app has two view states: "main" (view ID = `-1`) and "view".
 |                  |               | `<ViewItemCard>` |
 |                  | `<Footer>`    |                  |
 
-The list of `<ViewItemCard>` would be combined into a single column if the screen width becomes smaller.
+#### Mobile
+
+| Col              |
+| ---------------- |
+| `<NameTitle>`    |
+| `<ViewItemCard>` |
+| `<ViewItemCard>` |
+| `<ViewItemCard>` |
+| `<ViewItemCard>` |
+| `<Footer>`       |
 
 ### View
+
+#### Normal
 
 | Col                | Col                 |
 | ------------------ | ------------------- |
@@ -37,9 +52,17 @@ The list of `<ViewItemCard>` would be combined into a single column if the scree
 | `<ViewItemNavBtn>` | `<ViewItemContent>` |
 |                    | `<Footer>`          |
 
-`<ViewItemContent>` embeds different view components depending on the view ID.
+#### Mobile
 
-The left column would be stacked on top of the right if the screen width becomes smaller.
+| Col                 |
+| ------------------- |
+| `<NameTitle>`       |
+| `<ViewItemNavBtn>`  |
+| `<ViewItemHead>`    |
+| `<ViewItemContent>` |
+| `<Footer>`          |
+
+`<ViewItemContent>` embeds different view components depending on the view ID.
 
 ---
 
