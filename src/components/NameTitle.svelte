@@ -108,12 +108,12 @@
 			<br />
 		</div>
 		<div class="text-end">
-			<p class="h2 text-white title">
+			<p class="h3 text-white title">
 				<span class="badge bg-secondary">
 					{info.name}
 				</span>
 			</p>
-			<p class="h5 text-white-50 code p-md-1 m-md-1">
+			<p class="h6 text-white-50 code p-md-1 m-md-1">
 				{info.title}
 			</p>
 		</div>
@@ -123,18 +123,18 @@
 			<div class="col-sm text-end">
 				<img
 					src="/about-me/profile.jpg"
-					width="75px"
+					width="60px"
 					alt="profile"
 					class="img-thumbnail rounded-circle shadow"
 				/>
 			</div>
 			<div class="col-sm text-center">
-				<p class="h2 text-white title">
+				<p class="h3 text-white title">
 					<span class="badge bg-secondary">
 						{info.name}
 					</span>
 				</p>
-				<p class="h5 text-white-50 code p-md-1 m-md-1">
+				<p class="h6 text-white-50 code p-md-1 m-md-1">
 					{info.title}
 				</p>
 			</div>
@@ -151,12 +151,12 @@
 	{:else}
 		<br />
 		<div class="text-center">
-			<p class="h2 text-white title">
+			<p class="h3 text-white title">
 				<span class="badge bg-secondary">
 					{info.name}
 				</span>
 			</p>
-			<p class="h5 text-white-50 code p-md-1 m-md-1">
+			<p class="h6 text-white-50 code p-md-1 m-md-1">
 				{info.title}
 			</p>
 		</div>
