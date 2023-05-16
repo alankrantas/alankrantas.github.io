@@ -26,7 +26,7 @@
 				class="btn btn-info rounded-pill"
 				on:click={() => dispatch('setViewId', viewItem.id)}
 			>
-				<span class="h5 code">View</span>
+				<span class="h6 code"><b>View</b></span>
 			</button>
 		</div>
 	</div>

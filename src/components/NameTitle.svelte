@@ -44,19 +44,26 @@
 		{/if}
 		<div class="text-center">
 			<p class="text-white p-sm-2 m-sm-2">
-				<span class="h2 title">
-					{info.name}
-				</span>
-				<span class="h5">
-					{#if $screenSize >= 768}
-						&nbsp;|&nbsp;
-					{:else}
-						&nbsp;|<br />
-					{/if}
-				</span>
-				<span class="h4">
-					{info.title}
-				</span>
+				{#if $screenSize >= 768}
+					<span class="h2 title">
+						{info.name}
+					</span>
+					<span class="h5"> &nbsp;|&nbsp; </span>
+					<span class="h4">
+						{info.title}
+					</span>
+				{:else}
+					<p>
+						<span class="h2 title">
+							{info.name}
+						</span>
+					</p>
+					<p>
+						<span class="h4">
+							{info.title}
+						</span>
+					</p>
+				{/if}
 			</p>
 			<p class="text-white-50 p-sm-2 m-sm-2">
 				<span class="lead code">
@@ -71,6 +78,7 @@
 						alt="profile"
 						class="rounded-circle shadow"
 					/>
+					&nbsp;
 				{/if}
 				<button class="btn btn-bg btn-dark rounded-pill" on:click={() => dispatch('setViewId', 0)}>
 					<span class="h4">Enter</span>

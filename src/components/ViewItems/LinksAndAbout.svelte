@@ -60,6 +60,8 @@
 </p>
 <p class="text-center">
 	<img src="/responsive.svg" width="100px" alt="responsive" />
+	<br />
+	<span class="small"><i>This site is responsive!</i></span>
 </p>
 <p>
 	<br /><br />
