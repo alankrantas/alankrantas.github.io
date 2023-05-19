@@ -116,7 +116,7 @@
 			<br />
 		</div>
 		<div class="text-end">
-			<p class="h3 text-white title">
+			<p class="h2 text-white title">
 				<span class="badge bg-secondary">
 					{info.name}
 				</span>
@@ -137,7 +137,7 @@
 				/>
 			</div>
 			<div class="col-sm text-center">
-				<p class="h3 text-white title">
+				<p class="h2 text-white title">
 					<span class="badge bg-secondary">
 						{info.name}
 					</span>
