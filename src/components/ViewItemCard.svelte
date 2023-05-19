@@ -2,6 +2,8 @@
 	import { createEventDispatcher } from 'svelte';
 	import type { ViewItem } from '../data/Types';
 
+	import { screenSize } from '../data/Store';
+
 	export let viewItem: ViewItem;
 
 	const dispatch = createEventDispatcher<{ setViewId: number }>();
@@ -26,7 +28,7 @@
 				class="btn btn-info rounded-pill"
 				on:click={() => dispatch('setViewId', viewItem.id)}
 			>
-				<span class="h6 code"><b>View</b></span>
+				<span class={`code ${$screenSize >= 768 ? 'h5' : 'h6'}`}>View</span>
 			</button>
 		</div>
 	</div>
