@@ -37,7 +37,7 @@
 				disabled={listStartWorkId == 0}
 				on:click={() => scrollWorks(-1)}
 			>
-				⮜
+				<b>{'<'}</b>
 			</button>
 		</div>
 		<div class="col text-center">
@@ -75,7 +75,7 @@
 				disabled={listStartWorkId >= works.length - displayNum}
 				on:click={() => scrollWorks(1)}
 			>
-				⮞
+				<b>{'>'}</b>
 			</button>
 		</div>
 	</div>
