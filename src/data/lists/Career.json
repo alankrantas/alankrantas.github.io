@@ -4,7 +4,7 @@
 		"description": "FST Network Co., Ltd.",
 		"location": "Taipei, Taiwan",
 		"footnote": "Apr 2022 ~ Present",
-		"category": ["Software", "Developer", "description Writing", "Technical Writing"],
+		"category": ["Software", "Developer", "Content Writing", "Technical Writing"],
 		"language": null,
 		"link": null,
 		"linkedTitle": false
@@ -14,17 +14,17 @@
 		"description": "Flag Publishing Co., Ltd.",
 		"location": "Taipei, Taiwan",
 		"footnote": "Aug 2019 ~ Mar 2022",
-		"category": ["Software", "Education", "description Writing", "Technical Writing"],
+		"category": ["Software", "Education", "Content Writing", "Technical Writing"],
 		"language": null,
 		"link": null,
 		"linkedTitle": false
 	},
 	{
-		"name": "STEM description Writer",
+		"name": "STEM Content Writer",
 		"description": "Taiwan Coding Education Association",
 		"location": "Taipei, Taiwan",
 		"footnote": "May 2018 ~ Jul 2019",
-		"category": ["Software", "Education", "description Writing"],
+		"category": ["Software", "Education", "Content Writing"],
 		"language": null,
 		"link": null,
 		"linkedTitle": false
@@ -34,7 +34,7 @@
 		"description": "Freelance Translator",
 		"location": "Taipei, Taiwan",
 		"footnote": "Oct 2011 ~ Apr 2018",
-		"category": ["Translating", "description Writing"],
+		"category": ["Translating", "Content Writing"],
 		"language": null,
 		"link": null,
 		"linkedTitle": false
