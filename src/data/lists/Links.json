@@ -20,7 +20,7 @@
 		"linkedTitle": true
 	},
 	{
-		"name": "My résumé",
+		"name": "Résumé",
 		"description": null,
 		"location": null,
 		"footnote": null,
@@ -63,10 +63,20 @@
 		"name": "Pexels",
 		"description": null,
 		"location": null,
-		"footnote": "The best of my works free for download; high-resolution re-scanned",
+		"footnote": "The best of my 35mm film photo free for download; high-resolution re-scanned",
 		"category": null,
 		"language": ["English"],
 		"link": "https://www.pexels.com/@alan-wang-207740683/",
+		"linkedTitle": true
+	},
+	{
+		"name": "Best of my 120 films",
+		"description": null,
+		"location": null,
+		"footnote": "The best of my 120 film photos re-scanned",
+		"category": null,
+		"language": null,
+		"link": "https://photos.app.goo.gl/rYKF5fUb5anRPx8z5",
 		"linkedTitle": true
 	},
 	{
