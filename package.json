@@ -42,7 +42,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/noto-sans-tc": "^4.5.12",
+		"@fontsource/noto-sans-tc": "^5.0.0",
 		"@fontsource/open-sans": "^4.5.14",
 		"@fontsource/playfair-display": "^4.5.13",
 		"@fontsource/space-mono": "^4.5.12",
