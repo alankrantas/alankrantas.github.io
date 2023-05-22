@@ -175,10 +175,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.5.14.tgz#b3e1665c0b3fdfc1f030ded2843749e3cf3a5900"
   integrity sha512-mBXIIETBlW8q/ocuUN0hyGow2iuf75hQEHQt8R/RJ/HcphVbLg8KB7pHYGbFGDqs75W+SWvTC7JkVeAjT65BuQ==
 
-"@fontsource/playfair-display@^4.5.13":
-  version "4.5.13"
-  resolved "https://registry.yarnpkg.com/@fontsource/playfair-display/-/playfair-display-4.5.13.tgz#6024a7edaf4e492eeb2e57467a5a44eed00ad924"
-  integrity sha512-41yD3XW8jATcZO8E2U6Xe9MIaogPdjrGkC4ixNzAIdrR3BvLxXpeHU2xw3rwIq8aHhFUYwLnE6Lq+BWSTZZH9w==
+"@fontsource/playfair-display@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/playfair-display/-/playfair-display-5.0.0.tgz#729e0b2ffbdb882dd278cf6a28a74cd991a2ba51"
+  integrity sha512-3KvsNIMzBiw+QqzYCVaouVbYH+BjskIo/JX6Mxwame0KP+tg4MowJWEgXbT8gBD+cq629DuEgSr+Kqshhs2hOA==
 
 "@fontsource/space-mono@^4.5.12":
   version "4.5.12"
