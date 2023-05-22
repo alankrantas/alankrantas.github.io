@@ -40,7 +40,7 @@
 		"description": "Basically a wearable IoT mix applications inspired by the watch in the game Metro Exidus. It can measure apparent temperature and ultraviolet index (UVI).",
 		"category": ["Embedded Programming", "Arduino", "Internet of Things"],
 		"language": ["English"],
-		"link": "https://www.hackster.io/alankrantas/x-mas-music-box-super-simple-circuitpython-mp3-player-262381",
+		"link": "https://www.hackster.io/alankrantas/metrowatch-heat-uvi-edition-inspired-by-metro-exidus-e56329",
 		"imgUrl": "/work/metro.jpg",
 		"loaded": false
 	},
@@ -86,7 +86,7 @@
 		"description": "Make an action camera in a vintage flash unit with Raspberry Pi Zero and camera module. Can mount on any hot shoes and record 12-second videos in a USB stick.",
 		"category": ["Embedded Programming", "Python", "Camera"],
 		"language": ["English"],
-		"link": "https://www.hackster.io/alankrantas/retro-fm-radio-with-tea5767-and-wemos-d1-mini-38e24c",
+		"link": "https://www.hackster.io/alankrantas/raspberry-pi-zero-flash-cam-359875",
 		"imgUrl": "/work/picam.jpg",
 		"loaded": false
 	}

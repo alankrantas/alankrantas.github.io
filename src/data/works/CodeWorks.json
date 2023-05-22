@@ -14,7 +14,7 @@
 		"description": "A monolithic full-stack shopping app with its own database inspired by the book Essential TypeScript.",
 		"location": null,
 		"footnote": null,
-		"language": null,
+		"language": ["English"],
 		"category": ["Full-stack", "JavaScript", "TypeScript", "Golang"],
 		"link": "https://github.com/alankrantas/svelteapp-typescript-go",
 		"linkedTitle": false
@@ -24,7 +24,7 @@
 		"description": "A radio driver that works much better than existing Arduino drivers utilizing features documented in the data sheet. A CircuitPython version is also available.",
 		"location": null,
 		"footnote": null,
-		"language": null,
+		"language": ["English"],
 		"category": ["Embedded Programming", "MicroPython"],
 		"link": "https://github.com/alankrantas/micropython-TEA5767",
 		"linkedTitle": false
@@ -34,7 +34,7 @@
 		"description": "The first multi-class classifier implementation based on SEFR, a fast linear-time binary classifier designed for model training on low-powered microcontrollers.",
 		"location": null,
 		"footnote": null,
-		"language": null,
+		"language": ["English"],
 		"category": ["Embedded Programming", "Arduino", "MicroPython", "Machine Learning", "TinyML"],
 		"link": "https://github.com/alankrantas/micropython-TEA5767",
 		"linkedTitle": false
