@@ -165,10 +165,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.41.0.tgz#080321c3b68253522f7646b55b577dd99d2950b3"
   integrity sha512-LxcyMGxwmTh2lY9FwHPGWOHmYFCZvbrFCBZL4FzSSsxsRPuhrYUg/49/0KDfW8tnIEaEHtfmn6+NPN+1DqaNmA==
 
-"@fontsource/noto-sans-tc@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-5.0.0.tgz#b8455f5f4813518ad16bda7362a9554a28ce9b8b"
-  integrity sha512-82vgzBIWqfkQy7TYnSy06tgB/LRAKBkwnthrQADGp2t3guwH69drVPcqWWXu31m2fPMt64C2wSVOeOf4lNmD+Q==
+"@fontsource/noto-sans-tc@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-5.0.1.tgz#7cdf12f9fe793100ff5daaa4ab73456fe7eeb0fa"
+  integrity sha512-vhyNAOoaLx9V9YCTQ0ncEC62tqBSycZrJHugBTFe+LNlKgoVCZXW3NqJiVyeqH8BtcJ4DSNBli3IF/N9p3zXdw==
 
 "@fontsource/open-sans@^5.0.0":
   version "5.0.0"
