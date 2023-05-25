@@ -36,7 +36,7 @@ jobs:
         run: yarn build
 
       - name: Generate Build Time
-        run: echo ${GITHUB_SHA::8} > ./build/build-time.txt
+        run: echo ${{ github.event.repository.updated_at }} > ./build/build-time.txt
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
