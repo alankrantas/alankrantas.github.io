@@ -26,7 +26,7 @@
 	</p>
 	{#if build_time}
 		<p class="text-white-50 opacity-75 small">
-			Last updated: {build_time} (UTC)
+			Last updated: {build_time}
 		</p>
 	{/if}
 </div>
