@@ -35,7 +35,7 @@ jobs:
       - name: Build Production
         run: yarn build
 
-      - name: Generate Build Time
+      - name: Generate Build Time ${{ github.event.repository.updated_at }}
         run: echo ${{ github.event.repository.updated_at }} > ./build/build-time.txt
 
       - name: Upload Artifact
