@@ -35,8 +35,8 @@ jobs:
       - name: Build Production
         run: yarn build
 
-      - name: Generate Build Time ${{ github.event.repository.updated_at }}
-        run: echo ${{ github.event.repository.updated_at }} > ./build/build-time.txt
+      - name: Generate Build Time ${{ github.event.repository.pushed_at }}
+        run: echo ${{ github.event.repository.pushed_at }} > ./build/build-time.txt
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
