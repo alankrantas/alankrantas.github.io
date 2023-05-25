@@ -35,11 +35,8 @@ jobs:
       - name: Build Production
         run: yarn build
 
-      - name: Get Current Time
-        run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
-
-      - name: Write Update Time ${{ env.NOW }}
-        run: echo ${{ env.NOW }} > ./build/build-time.txt
+      - name: Write Update Time
+        run: echo $(date +'%Y-%m-%d %H:%M') > ./build/build-time.txt
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
