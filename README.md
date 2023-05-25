@@ -1,12 +1,14 @@
 # Alan Wang's Github Pages Homepage
 
+👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
+
+This is technically an _always-working-in-progress_ project and may be subjected to changes.
+
 [![github-pages-deploy](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml)
 
-Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/). It has a basic responsive web design. Have options to deploy as Docker container (using Nginx as server) and supports DevContainer/Codespace. Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates.
+Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).It has a basic responsive web design. Have options to deploy as Docker container (using Nginx as server) and supports DevContainer/Codespace.
 
-This is technically a always-working-in-progress project and may be subjected to changes.
-
-👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
+Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates. A file containing the last commit timestamp would be written into a static text file by Github Action (which will be loaded and shown by the Svelte production).
 
 ---
 

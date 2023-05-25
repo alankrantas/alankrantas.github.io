@@ -25,8 +25,8 @@
 		<img src="/taiwan-flag.svg" width="20px" alt="taiwan-flag" />
 	</p>
 	{#if build_time}
-		<p class="text-white-50 small">
-			Last updated: {build_time}
+		<p class="text-white-50 opacity-50 small">
+			Last updated: {build_time} (UTC)
 		</p>
 	{/if}
 </div>
