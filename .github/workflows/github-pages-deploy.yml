@@ -29,14 +29,11 @@ jobs:
           npm i -g yarn
           yarn install --frozen-lockfile
 
-      - name: Check Installation
-        run: yarn check
-
       - name: Build Production
-        run: yarn build
-
-      - name: Write Update Time
-        run: echo $(date +'%Y-%m-%d %H:%M') > ./build/build-time.txt
+        run: |
+          yarn check
+          yarn build
+          echo $(date +'%Y-%m-%d %H:%M') > ./build/build-time.txt
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1

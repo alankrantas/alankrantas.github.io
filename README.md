@@ -1,70 +1,14 @@
 # Alan Wang's Github Pages Homepage
 
-👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
-
-This is technically an _always-working-in-progress_ project and may be subjected to changes.
-
 [![github-pages-deploy](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml)
+
+👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
 
 Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).It has a basic responsive web design. Have options to deploy as Docker container (using Nginx as server) and supports DevContainer/Codespace.
 
 Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates. A file containing the current timestamp would be written into a static text file by Github Action so that it can be loaded and shown in the Svelte production.
 
----
-
-## Notes on Components Structure
-
-The tables are only rough representation of the actual structures.
-
-The app has two view states: "main" (view ID = `-1`) and "view".
-
-### Main
-
-The structures below are simplified. The site may change the structure in or between components based on different breakpoints (576, 768, 922 or 1200 px).
-
-#### Normal
-
-| Col              | Col           | Col              |
-| ---------------- | ------------- | ---------------- |
-|                  | `<NameTitle>` |                  |
-| `<ViewItemCard>` |               |                  |
-|                  |               | `<ViewItemCard>` |
-| `<ViewItemCard>` |               |                  |
-|                  |               | `<ViewItemCard>` |
-|                  | `<Footer>`    |                  |
-
-#### Mobile
-
-| Col              |
-| ---------------- |
-| `<NameTitle>`    |
-| `<ViewItemCard>` |
-| `<ViewItemCard>` |
-| `<ViewItemCard>` |
-| `<ViewItemCard>` |
-| `<Footer>`       |
-
-### View
-
-#### Normal
-
-| Col                | Col                 |
-| ------------------ | ------------------- |
-| `<NameTitle>`      | `<ViewItemHead>`    |
-| `<ViewItemNavBtn>` | `<ViewItemContent>` |
-|                    | `<Footer>`          |
-
-#### Mobile
-
-| Col                 |
-| ------------------- |
-| `<NameTitle>`       |
-| `<ViewItemNavBtn>`  |
-| `<ViewItemHead>`    |
-| `<ViewItemContent>` |
-| `<Footer>`          |
-
-`<ViewItemContent>` embeds different view components depending on the view ID.
+This is technically an _always-working-in-progress_ project and may be subjected to changes.
 
 ---
 
