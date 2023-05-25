@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"ms-vscode.vscode-typescript-next",
+		"svelte.svelte-vscode",
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker"
+	]
+}

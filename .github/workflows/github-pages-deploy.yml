@@ -35,6 +35,9 @@ jobs:
       - name: Build Production
         run: yarn build
 
+      - name: Generate Build Time
+        run: echo ${GITHUB_SHA::8} > ./build/static/build-time.txt
+
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
         with:

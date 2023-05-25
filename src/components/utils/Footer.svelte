@@ -1,7 +1,16 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+
 	import info from '../../data/BasicInfo.json';
 
-	import { screenSize } from '../../data/Store';
+	let build_time = '';
+	onMount(async () => {
+		try {
+			build_time = await (await fetch('/build-time.txt')).text();
+		} catch (e) {
+			// pass
+		}
+	});
 </script>
 
 <div class="text-center">
@@ -15,4 +24,9 @@
 		&nbsp;
 		<img src="/taiwan-flag.svg" width="20px" alt="taiwan-flag" />
 	</p>
+	{#if build_time}
+		<p class="text-white-50 small">
+			Last updated: {build_time}
+		</p>
+	{/if}
 </div>
