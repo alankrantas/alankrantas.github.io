@@ -8,7 +8,7 @@ This is technically an _always-working-in-progress_ project and may be subjected
 
 Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).It has a basic responsive web design. Have options to deploy as Docker container (using Nginx as server) and supports DevContainer/Codespace.
 
-Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates. A file containing the last commit timestamp would be written into a static text file by Github Action (which will be loaded and shown by the Svelte production).
+Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates. A file containing the current timestamp would be written into a static text file by Github Action so that it can be loaded and shown in the Svelte production.
 
 ---
 
