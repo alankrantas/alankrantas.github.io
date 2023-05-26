@@ -6,7 +6,7 @@ COPY . /app
 RUN yarn install --frozen-lockfile
 RUN yarn check
 RUN yarn build
-RUN echo $(date +'%Y-%m-%d %H:%M') > /app/build/build-time.txt
+RUN echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\" }" > ./build/build-time.json
 
 FROM nginx:alpine as deployment
 

@@ -1,12 +1,16 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { beforeUpdate } from 'svelte';
 
 	import info from '../../data/BasicInfo.json';
 
 	let build_time = '';
-	onMount(async () => {
+	beforeUpdate(async () => {
 		try {
-			build_time = await (await fetch('/build-time.txt')).text();
+			const res = await fetch('/build-time.json');
+			if (res.ok) {
+				const data = await res.json();
+				if (data.build_time && typeof data.build_time == 'string') build_time = data.build_time;
+			}
 		} catch (e) {
 			// pass
 		}

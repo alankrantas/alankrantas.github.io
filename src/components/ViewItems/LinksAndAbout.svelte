@@ -50,6 +50,11 @@
 	also has a basic support for responsive web design (based on window width).
 </p>
 <p class="indent">
+	The site is built and deployed to Github Pages using Github Action as CI/CD (Continuous
+	Integration/Continuous Deployment) but can be deployed as a container as well. Both will generate
+	a build datetime string to be displayed at the bottom of pages.
+</p>
+<p class="indent">
 	You can find the full source code at the <Link
 		url="https://github.com/alankrantas/alankrantas.github.io"
 		name="original repository"

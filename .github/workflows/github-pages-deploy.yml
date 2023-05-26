@@ -33,7 +33,7 @@ jobs:
         run: |
           yarn check
           yarn build
-          echo $(date +'%Y-%m-%d %H:%M') > ./build/build-time.txt
+          echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\" }" > ./build/build-time.json
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1

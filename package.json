@@ -1,6 +1,6 @@
 {
 	"name": "alankrantas.github.io",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"upgrade-all": "yarn-upgrade-all && yarn upgrade",
@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^2.0.2",
-		"@sveltejs/kit": "^1.18.0",
+		"@sveltejs/kit": "^1.19.0",
 		"@typescript-eslint/eslint-plugin": "^5.59.7",
 		"@typescript-eslint/parser": "^5.59.7",
 		"eslint": "^8.41.0",
