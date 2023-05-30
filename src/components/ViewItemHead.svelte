@@ -16,7 +16,7 @@
 				<img src={viewItem.imgUrl} class="card-img rounded-5" alt={viewItem.name} />
 				<div class="card-img-overlay">
 					<div
-						class="card-title title display-5 p-sm-1 m-sm-1 pt-sm-2 mt-sm-2 position-absolute top-50 start-50 translate-middle"
+						class="card-title title-shadow display-5 p-sm-1 m-sm-1 pt-sm-2 mt-sm-2 position-absolute top-50 start-50 translate-middle"
 					>
 						{viewItem.name}
 					</div>
