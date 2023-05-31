@@ -46,6 +46,6 @@
 		"@fontsource/open-sans": "^5.0.2",
 		"@fontsource/playfair-display": "^5.0.2",
 		"@fontsource/space-mono": "^5.0.2",
-		"bootstrap": "^5.2.3"
+		"bootstrap": "^5.3.0"
 	}
 }
