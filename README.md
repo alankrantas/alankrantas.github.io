@@ -4,7 +4,7 @@
 
 👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
 
-Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).It has a basic responsive web design. Have options to deploy as Docker container (using Nginx as server) and supports DevContainer/Codespace.
+Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).It has a basic responsive web design. Have options to deploy as a Docker container (using [serve](https://www.npmjs.com/package/serve) as server) and supports DevContainer/Codespace.
 
 Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates. A file containing the current timestamp would be written into a static text file by Github Action so that it can be loaded and shown in the Svelte production.
 
@@ -34,13 +34,21 @@ cd alankrantas.github.io
 yarn
 ```
 
+Upgrade all packages:
+
+```bash
+yarn upgrade-all
+```
+
 After making changes:
 
 ```bash
 yarn pull  # resolve conflict if any
 yarn format
-yarn commit
+yarn push
 ```
+
+> Or use `yarn commit` to pull, format then push.
 
 ### List of Scripts
 
@@ -58,6 +66,7 @@ yarn commit
 | `yarn commit`       | `yarn pull` + `yarn format` + `yarn commit`                    |
 | `yarn docker-build` | Build a Docker container image                                 |
 | `yarn docker-run`   | Run the Docker container and open `http://localhost:8080`.     |
+| `yarn docker-stop`  | Stop the Docker container.                                     |
 | `yarn docker`       | `yarn docker-build` + `yarn docker-run`                        |
 
 ### (Re)create a New Project
