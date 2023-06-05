@@ -20,5 +20,4 @@ COPY --from=builder /app/build /app/build
 RUN npm i -g serve
 
 EXPOSE 8080
-
 CMD serve ./build -p 8080
