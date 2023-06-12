@@ -24,7 +24,8 @@
 				"ms-vscode.vscode-typescript-next",
 				"svelte.svelte-vscode",
 				"esbenp.prettier-vscode",
-				"streetsidesoftware.code-spell-checker"
+				"streetsidesoftware.code-spell-checker",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	}
