@@ -8,7 +8,7 @@ COPY . /app
 RUN yarn install --frozen-lockfile
 RUN yarn check
 RUN yarn build
-RUN echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\", \"build_message\": \"${{ github.event.head_commit.message }} (${{ steps.vars.outputs.sha_short }})\" }" > ./build/build.json
+RUN echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\", \"build_message\": \"${{ github.event.head_commit.message }} ($(git rev-parse --short ${{ github.sha }}))\" }" > ./build/build.json
 
 # Deployment
 
