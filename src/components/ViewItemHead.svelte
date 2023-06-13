@@ -6,7 +6,7 @@
 	export let viewItem: ViewItem;
 </script>
 
-<div class="text-white text-center">
+<div class="text-center">
 	{#if $screenSize <= 576}
 		<br />
 	{/if}
@@ -18,7 +18,9 @@
 					<div
 						class="card-title title-shadow display-5 p-sm-1 m-sm-1 pt-sm-2 mt-sm-2 position-absolute top-50 start-50 translate-middle"
 					>
-						{viewItem.name}
+						<span class="text-white">
+							{viewItem.name}
+						</span>
 					</div>
 				</div>
 			</div>
