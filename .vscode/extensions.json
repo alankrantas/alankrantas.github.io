@@ -4,6 +4,7 @@
 		"svelte.svelte-vscode",
 		"esbenp.prettier-vscode",
 		"streetsidesoftware.code-spell-checker",
-		"ms-azuretools.vscode-docker"
+		"ms-azuretools.vscode-docker",
+		"redhat.vscode-yaml"
 	]
 }
