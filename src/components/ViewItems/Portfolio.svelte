@@ -7,7 +7,7 @@
 
 	import edit from '../../data/works/EditorialWorks.json';
 	import author from '../../data/works/AuthoredWorks.json';
-	import trans from '../../data/works/TranslatedWorks.json';
+	import trans from '../../data/works/TranslationWorks.json';
 	import maker from '../../data/works/MakerWorks.json';
 	import code from '../../data/works/CodeWorks.json';
 	import tech from '../../data/works/TechPostWorks.json';
@@ -58,7 +58,7 @@
 	<Modal styleWindow={{ width: '500px' }}>
 		<Showcase
 			works={trans}
-			title="Selected Translated Works"
+			title="Selected Translation Works"
 			displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
 		/>
 	</Modal>
@@ -67,8 +67,8 @@
 	<br />
 </p>
 <p class="small">
-	*Note: I have total 38 translated titles (2 for partial credits) but I decided to leave out most
-	of the young adult books and less memorable works.
+	*Note: I have total 38 titles (2 for partial credits) of translation works but I decided to leave
+	out most of the young adult books and less memorable works.
 </p>
 <p>
 	<br />
