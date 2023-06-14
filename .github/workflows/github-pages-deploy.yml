@@ -15,9 +15,6 @@ permissions:
 jobs:
   Build:
     runs-on: ubuntu-latest
-    env:
-      BUILD_TIME: ''
-      BUILD_MESSAGE: ''
 
     steps:
       - name: Checkout Repo
@@ -53,9 +50,13 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: echo "BUILD_MESSAGE = "manual workflow dispatch"
 
-      - name: Write Commit Message to build.json
+      - name: Generate build.json
         run: |
-          echo "{ \"build_time\": \"$BUILD_TIME\", \"build_message\": \"$BUILD_MESSAGE\" }" | jq '.' > ./build/build.json
+          echo "BUILD_JSON = { \"build_time\": \"BUILD_TIME\", \"build_message\": \"BUILD_MESSAGE\" }"
+
+      - name: Write build.json
+        run: |
+          echo "BUILD_JSON" | jq '.' > ./build/build.json
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
