@@ -8,7 +8,7 @@ COPY . /app
 RUN yarn install --frozen-lockfile
 RUN yarn check
 RUN yarn build
-RUN echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\", \"build_message\": \"docker mode\" }" > ./build/build.json
+RUN echo '{ "build_time": "$(date +'%Y-%m-%d %H:%M')", "build_message": "docker build" }' > ./build/build.json
 
 # Deployment
 
