@@ -56,7 +56,7 @@ jobs:
 
       - name: Write build.json
         run: |
-          echo "BUILD_JSON" | jq '.' > ./build/build.json
+          BUILD_JSON | jq '.' > ./build/build.json
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
