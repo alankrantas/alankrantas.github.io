@@ -25,8 +25,3 @@ export interface WorkItem {
 	imgUrl: string;
 	loaded: boolean;
 }
-
-export interface BuildLog {
-	build_time: string | null;
-	build_message: string | null;
-}

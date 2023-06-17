@@ -10,13 +10,13 @@ COPY . /app
 RUN yarn install --frozen-lockfile
 RUN yarn check
 RUN yarn build
-RUN echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\", \"build_message\": \"docker build\" }" > ./build/build.json
+RUN echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\" }" > ./build/build.json
 
 #
 # Deployment
 #
 
-FROM node:alpine
+FROM node:alpine as production
 
 WORKDIR /app
 COPY --from=builder /app/build /app/build

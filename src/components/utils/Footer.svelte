@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CommitLog from './CommitLog.svelte';
+	import BuildLog from './BuildLog.svelte';
 	import info from '../../data/BasicInfo.json';
 </script>
 
@@ -21,6 +21,6 @@
 		<br />
 	</p>
 	<p>
-		<CommitLog />
+		<BuildLog />
 	</p>
 </div>

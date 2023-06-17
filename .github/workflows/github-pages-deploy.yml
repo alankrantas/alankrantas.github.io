@@ -35,20 +35,9 @@ jobs:
           yarn check
           yarn build
 
-      - name: Write Commit Message (If Push)
-        if: ${{ github.event_name == 'push' }}
+      - name: Write Build Time
         run: |
-          echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\", \"build_message\": \"${{ github.event.head_commit.message }}\" }" | jq '.' > ./build/build.json
-
-      - name: Write Commit Message (If Pull Request)
-        if: ${{ github.event_name == 'pull_request' }}
-        run: |
-          echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\", \"build_message\": \"${{ github.event.pull_request.body }}\" }" | jq '.' > ./build/build.json
-
-      - name: Write Commit Message (If Workflow Dispatch)
-        if: ${{ github.event_name == 'workflow_dispatch' }}
-        run: |
-          echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\", \"build_message\": \"manual workflow dispatch\" }\" | jq '.' > ./build/build.json
+          echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\" }\" | jq '.' > ./build/build.json
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
