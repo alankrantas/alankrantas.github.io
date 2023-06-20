@@ -1,4 +1,4 @@
-name: Test Build CI
+name: Dependabot Test Build CI
 
 on:
   pull_request:
@@ -12,9 +12,10 @@ permissions:
   repository-projects: write
 
 jobs:
-  Test-Build:
+  Dependabot:
     runs-on: ubuntu-latest
 
+    if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
