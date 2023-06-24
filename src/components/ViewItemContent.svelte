@@ -1,8 +1,8 @@
 <script lang="ts">
-	import AboutMe from './ViewItems/AboutMe.svelte';
-	import CareerAndSkills from './ViewItems/CareerAndSkills.svelte';
-	import Portfolio from './ViewItems/Portfolio.svelte';
-	import LinksAndAbout from './ViewItems/LinksAndAbout.svelte';
+	import AboutMe from './viewItems/AboutMe.svelte';
+	import CareerAndSkills from './viewItems/CareerAndSkills.svelte';
+	import Portfolio from './viewItems/Portfolio.svelte';
+	import LinksAndAbout from './viewItems/LinksAndAbout.svelte';
 
 	export let viewItemId: number;
 

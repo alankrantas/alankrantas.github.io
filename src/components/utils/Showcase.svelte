@@ -21,7 +21,6 @@
 	};
 
 	const { open } = getContext('simple-modal') as Context;
-	// @ts-ignore
 	const popShowcaseDetail = (work: WorkItem) => open(ShowcaseDetail, { work: work });
 </script>
 
