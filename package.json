@@ -1,7 +1,7 @@
 {
 	"name": "alankrantas.github.io",
 	"version": "1.0.0",
-	"license": "BSD-3-Clause",
+	"license": "UNLICENSED",
 	"private": true,
 	"scripts": {
 		"upgrade-all": "yarn-upgrade-all && yarn upgrade",
