@@ -78,11 +78,15 @@
 {/if}
 
 {#if ready}
-	<div class="container" in:fly={{ y: 100, delay: 100, duration: 2000, easing: expoOut }}>
+	<div class="container" in:fly|global={{ y: 100, delay: 100, duration: 2000, easing: expoOut }}>
 		<div class="row justify-content-center p-md-4 m-md-4">
 			{#if selectedViewId == -1}
 				<!-- main screen -->
-				<div class="col p-md-1 m-md-1" in:receive={{ key: 'main' }} out:send={{ key: 'view' }}>
+				<div
+					class="col p-md-1 m-md-1"
+					in:receive|global={{ key: 'main' }}
+					out:send|global={{ key: 'view' }}
+				>
 					<!-- name title -->
 					<div class="text-center p-sm-2 m-sm-2 pb-sm-4 mb-sm-4">
 						<NameTitle mode={'main'} on:setViewId={handleSetViewId} />
@@ -169,8 +173,8 @@
 					class={`${
 						$screenSize >= 992 ? 'col-sm-auto text-end' : 'text-center'
 					} p-md-1 m-md-1 pe-md-2 me-md-2`}
-					in:receive={{ key: 'view' }}
-					out:receive={{ key: 'main' }}
+					in:receive|global={{ key: 'view' }}
+					out:receive|global={{ key: 'main' }}
 				>
 					<!-- name title -->
 					<div class="p-md-1 m-md-1">
@@ -195,8 +199,8 @@
 				<!--view items -->
 				<div
 					class={`${$screenSize >= 992 ? 'col-sm-8 text-start' : ''} p-sm-1 m-sm-1 ps-sm-2 me-sm-2`}
-					in:receive={{ key: 'view' }}
-					out:send={{ key: 'main' }}
+					in:receive|global={{ key: 'view' }}
+					out:send|global={{ key: 'main' }}
 				>
 					<!--back to main button -->
 					<div>
@@ -206,7 +210,7 @@
 						{#each viewItems as viewItem (viewItem.id)}
 							<div animate:flip={{ duration: 500, easing: expoOut }}>
 								{#if selectedViewId == viewItem.id}
-									<div in:fade={{ delay: 100, duration: 500, easing: expoOut }}>
+									<div in:fade|global={{ delay: 100, duration: 500, easing: expoOut }}>
 										<!--sub view head -->
 										<div class={$screenSize >= 576 ? 'p-sm-2 m-sm-2' : 'p-1 m-1'}>
 											<ViewItemHead {viewItem} />
@@ -214,7 +218,7 @@
 										<!--sub view content -->
 										<div
 											class={$screenSize >= 576 ? 'p-sm-2 m-sm-2' : 'p-1 m-1'}
-											in:fly={{ y: 100, delay: 250, duration: 1000, easing: expoOut }}
+											in:fly|global={{ y: 100, delay: 250, duration: 1000, easing: expoOut }}
 										>
 											<ViewItemContent viewItemId={viewItem.id} />
 										</div>
