@@ -27,7 +27,8 @@
 				"streetsidesoftware.code-spell-checker",
 				"ms-azuretools.vscode-docker",
 				"redhat.vscode-yaml",
-				"GitHub.vscode-github-actions"
+				"GitHub.vscode-github-actions",
+				"dbaeumer.vscode-eslint"
 			]
 		}
 	}
