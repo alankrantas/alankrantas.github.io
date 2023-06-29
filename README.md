@@ -14,7 +14,7 @@ This is technically an _always-working-in-progress_ project and may be subjected
 
 ## Notes for Development and Deployment
 
-> Prerequisites: Node.js, Yarn, Git and Docker
+> Prerequisites: Node.js, Git and Docker
 
 ### Local Development
 
