@@ -42,7 +42,7 @@
 		"yarn-upgrade-all": "^0.7.2"
 	},
 	"dependencies": {
-		"@fontsource/noto-sans-tc": "^5.0.4",
+		"@fontsource/noto-sans-tc": "^5.0.5",
 		"@fontsource/open-sans": "^5.0.5",
 		"@fontsource/playfair-display": "^5.0.4",
 		"@fontsource/space-mono": "^5.0.5",
