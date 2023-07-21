@@ -46,18 +46,21 @@
 </p>
 <p class="indent">
 	I was not succeed to get into a information technology-related department in collage as planned
-	(but later did so for my graduate degree). I went to a local system integration company as a Java
-	programmer - I learned things about web and Java at that time - and was deeply disappointed with
-	the unhealthy overtime culture. I left and since I am also a big book lover, I decided to be a
-	full-time translator instead.
+	(but later did so for my graduate degree, after spending two years studying in cram school). I
+	went to a local system integration company as a Java programmer - I learned things about web and
+	Java at that time - and was deeply disappointed with the unhealthy overtime culture. I left and
+	since I am also a big book lover, I decided to be a full-time translator instead.
 </p>
 <p class="indent">
-	It was a great time, I did make some money, but after six and half years the publishing market
-	showed signs of dying. Less books published means there were less contracts to take. I had no
-	choice but to find my next way out. I jumped back to the software world, first in
-	education-related jobs - even got to learn a few things about embedded programming (including how
-	to use a soldering gun) and training machine learning models - then finally (and somehow) find a
-	job as a technical writer.
+	It was a great time, I did make some money, and occasionally got to write book reviews and
+	introductions for publishers. I even wrote for a monthly magazine for a short while. But after six
+	and half years the publishing market showed signs of rapid decline. Less books published means
+	there were less work opportunities. I had no choice but to find my next way out.
+</p>
+<p class="indent">
+	I jumped back to the software world, first in STEM/education-related jobs - even got to learn a
+	few things about embedded programming (including how to use a soldering gun) and training machine
+	learning models - then finally (with a bit of luck) find a job as a technical writer.
 </p>
 <p class="indent">
 	I now write technical contents (user manuals and marketing materials) for my current company. I
