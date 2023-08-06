@@ -43,7 +43,7 @@
 	},
 	"dependencies": {
 		"@fontsource/noto-sans-tc": "^5.0.6",
-		"@fontsource/open-sans": "^5.0.7",
+		"@fontsource/open-sans": "^5.0.8",
 		"@fontsource/playfair-display": "^5.0.7",
 		"@fontsource/space-mono": "^5.0.7",
 		"bootstrap": "^5.3.1"
