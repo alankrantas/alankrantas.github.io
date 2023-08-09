@@ -15,7 +15,7 @@
 		"start": "yarn dev",
 		"serve": "yarn preview",
 		"pull": "git pull origin main",
-		"push": "yarn format && git add . && git commit -m \"User updating\" && git push origin main",
+		"push": "git add . && git commit -m \"User updating\" && git push origin main",
 		"commit": "yarn pull && yarn format && yarn push",
 		"docker-build": "docker build . -f Dockerfile -t alankrantas.github.io",
 		"docker-run": "open-cli http://localhost:8080 && docker run -d -p 8080:8080 --rm alankrantas.github.io",
