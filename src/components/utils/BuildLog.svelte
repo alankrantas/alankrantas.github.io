@@ -20,7 +20,7 @@
 <div class="text-center">
 	{#if build_time}
 		<p class="text-white-50 opacity-75 small code">
-			Last updated: {build_time} (UTC)
+			Last built at: {build_time} (UTC)
 		</p>
 	{/if}
 </div>
