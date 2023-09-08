@@ -10,16 +10,6 @@
 		"linkedTitle": true
 	},
 	{
-		"name": "alan.wang@fstk.io",
-		"description": "Work email at FST Network",
-		"location": null,
-		"footnote": null,
-		"category": null,
-		"language": null,
-		"link": "mailto:alan.wang@fstk.io",
-		"linkedTitle": true
-	},
-	{
 		"name": "Résumé",
 		"description": null,
 		"location": null,
@@ -37,16 +27,6 @@
 		"category": null,
 		"language": ["English"],
 		"link": "https://www.linkedin.com/in/alankrantas/",
-		"linkedTitle": true
-	},
-	{
-		"name": "Facebook",
-		"description": null,
-		"location": null,
-		"footnote": "For friends only.",
-		"category": null,
-		"language": ["Traditional Chinese"],
-		"link": "https://www.facebook.com/alankrantas/",
 		"linkedTitle": true
 	},
 	{
