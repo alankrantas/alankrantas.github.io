@@ -28,7 +28,8 @@
 				"ms-azuretools.vscode-docker",
 				"redhat.vscode-yaml",
 				"GitHub.vscode-github-actions",
-				"dbaeumer.vscode-eslint"
+				"dbaeumer.vscode-eslint",
+				"ms-vscode-remote.remote-containers"
 			]
 		}
 	}
