@@ -172,10 +172,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/playfair-display/-/playfair-display-5.0.13.tgz#f1e9f521ece6e6fde4b1403e82f209f81ba030dd"
   integrity sha512-cwASI+MRIYjlhuIaon3HoYcLLUoHRyK0/1Ozwp3N0+VaX3ENugU0cfnrHXdsgxdmnCQTiAjO7EahgGAyAaKIUg==
 
-"@fontsource/space-mono@^5.0.13":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@fontsource/space-mono/-/space-mono-5.0.13.tgz#279ac0126aa1a1bdc66208f2441a68ccf9788a0d"
-  integrity sha512-lqDAQnUZUmnzzdDlIVWCNO3kSCCgxfEIvmChS+sIUfdH0BJmSvr83reH4Ch+ft/AUDrzBfk3H69GkiqpzdmNww==
+"@fontsource/space-mono@^5.0.15":
+  version "5.0.15"
+  resolved "https://registry.yarnpkg.com/@fontsource/space-mono/-/space-mono-5.0.15.tgz#3f311a30e80f9b062e75b1e243c349d27f43b5fd"
+  integrity sha512-ZxXuj8+9R0kpkfLUe+1vfVfvn77R/YtHIWDe6iOKvLT5aALGVnbEkm/azGWfmD10id4C17iZ3HMuzp60kHZtPQ==
 
 "@humanwhocodes/config-array@^0.11.11":
   version "0.11.11"
