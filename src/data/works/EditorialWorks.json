@@ -1,10 +1,21 @@
 [
 	{
+		"name": "Micro Frontends in Action",
+		"description": "決戰！微前端架構 Micro Frontends：新一代可擴展的網頁開發模式; Michael Geers, 2020; Flag Publishing, Sep 2023. The first microfrontent book in Taiwan.",
+		"category": ["Translation", "Programming", "Web", "Frontend", "Microfrontend"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.flag.com.tw/books/product/F3487",
+		"imgUrl": "/work/microfront.jpg",
+		"loaded": false
+	},
+	{
 		"name": "Essential TypeScript: From Beginner to Pro",
 		"description": "TypeScript 邁向專家之路：零基礎 JavaScript 打通 Angular、React 與 Vue.js 前端框架實戰; Adam Freeman, 2019; Flag Publishing, Nov 2021. A comprehensive learning book for getting into modern front-end development.",
 		"category": [
 			"Translation",
 			"Programming",
+			"Web",
+			"Frontend",
 			"JavaScript",
 			"TypeScript",
 			"Angular",
@@ -19,7 +30,7 @@
 	{
 		"name": "The The Go Workshop: Learn to Write Clean, Efficient Code and Build High-performance Applications with Go",
 		"description": "完全自學！Go 語言 (Golang) 實戰聖經; Delio D'Anna, Andrew Hayes, Sam Hennessy, Jeremy Leasor, Gobin Sougrakpam, Daniel Szabo, 2019; Flag Publishing, Jul 2021. The first \"modern\" Golang book in Taiwan.",
-		"category": ["Translation", "Programming", "Golang"],
+		"category": ["Translation", "Programming", "Golang", "Backend"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1741",
 		"imgUrl": "/work/go.jpg",
