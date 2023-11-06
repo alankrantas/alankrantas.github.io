@@ -1,4 +1,4 @@
-name: Build and Deployment CICD
+name: Build and Deployment
 
 on:
   push:
