@@ -162,10 +162,10 @@
   resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.1.0.tgz#0709e9f4cb252351c609c6e6d8d6779a8d25edff"
   integrity sha512-+KpH+QxZU7O4675t3mnkQKcZZg56u+K/Ct2K+N2AZYNVK8kyeo/bI18tI8aPm3tvNNRyTWfj6s5tnGNlcbQRsA==
 
-"@fontsource/noto-sans-tc@^5.0.16":
-  version "5.0.16"
-  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-5.0.16.tgz#1a140394e7ed4971c9349b1f7c05015a8c9e96d6"
-  integrity sha512-yW+LycVuQMgu7JBlFHuuQj+0ZE5DtNjKYuxHt4QsCh2XgML/EuE0jP0/5bkc2r39cjgrEBUQpc8vl/DFaYEQdQ==
+"@fontsource/noto-sans-tc@^5.0.17":
+  version "5.0.17"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-5.0.17.tgz#17260c68a21b1a361964e2cca17b4327a9d91011"
+  integrity sha512-arLrPmEOaphO9r8dFhNIUlje/YBRykxjETc/b0bxy5LUVRLbAuzl0wdEyaKA77MiRXMqSw7KKFgxtusoobUG5w==
 
 "@fontsource/open-sans@^5.0.17":
   version "5.0.17"
