@@ -3,9 +3,8 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'weekly'
-      time: '18:00'
-      day: 'sunday'
+      interval: 'daily'
+      time: '09:00'
       timezone: 'Asia/Taipei'
     open-pull-requests-limit: 10
     versioning-strategy: increase
@@ -13,17 +12,15 @@ updates:
   - package-ecosystem: 'docker'
     directory: '/'
     schedule:
-      interval: 'weekly'
-      time: '18:00'
-      day: 'sunday'
+      interval: 'daily'
+      time: '09:00'
       timezone: 'Asia/Taipei'
     open-pull-requests-limit: 10
 
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
-      interval: 'weekly'
-      time: '18:00'
-      day: 'sunday'
+      interval: 'daily'
+      time: '09:00'
       timezone: 'Asia/Taipei'
     open-pull-requests-limit: 10
