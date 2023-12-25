@@ -4,7 +4,7 @@
 
 👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
 
-Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).It has a basic responsive web design. Have options to deploy as a Docker container (using [serve](https://www.npmjs.com/package/serve) as server) and supports DevContainer/Codespace.
+Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/). Has a basic but functional responsive web design. Has options to deploy as a Docker container (using [serve](https://www.npmjs.com/package/serve) as server) and supports DevContainer/Codespace.
 
 Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates. A file containing the current timestamp would be written into a static text file by Github Action so that it can be loaded and shown in the Svelte production.
 
