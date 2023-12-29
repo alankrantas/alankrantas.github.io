@@ -4,6 +4,7 @@
 	import { expoOut } from 'svelte/easing';
 
 	import ShowcaseDetail from './ShowcaseDetail.svelte';
+	// @ts-ignore
 	import type { Context } from 'svelte-simple-modal';
 	import type { WorkItem } from '../../data/Types';
 
@@ -25,6 +26,7 @@
 </script>
 
 <p class="h2">{title} ({works.length})</p>
+<br />
 <br />
 <div class="position-relative">
 	<div

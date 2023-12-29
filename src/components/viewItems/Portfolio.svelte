@@ -1,4 +1,5 @@
 <script lang="ts">
+	// @ts-ignore
 	import Modal from 'svelte-simple-modal';
 	import Showcase from '../utils/Showcase.svelte';
 	import List from '../utils/List.svelte';
@@ -33,6 +34,7 @@
 </p>
 <p>
 	<br />
+	<br />
 </p>
 <hr />
 <p>
@@ -48,6 +50,7 @@
 	</Modal>
 </p>
 <p>
+	<br />
 	<br />
 </p>
 <hr />
@@ -72,6 +75,7 @@
 </p>
 <p>
 	<br />
+	<br />
 </p>
 <hr />
 <p>
@@ -88,6 +92,7 @@
 	</Modal>
 </p>
 <p>
+	<br />
 	<br />
 </p>
 <hr />
