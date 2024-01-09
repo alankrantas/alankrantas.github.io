@@ -70,8 +70,8 @@
 	<br />
 </p>
 <p class="small">
-	*Note: I have total 38 titles (2 for partial credits) of translation works but I decided to leave
-	out most of the young adult books and less memorable works.
+	*Note: I have total 39 titles (2 for partial credits and 1 not published) of translation works but
+	I decided to leave out most of the young adult books and less memorable works.
 </p>
 <p>
 	<br />
