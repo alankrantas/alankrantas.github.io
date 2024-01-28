@@ -5,7 +5,7 @@
 		"location": null,
 		"footnote": "I'm the creator and currently the sole maintainer. The repo is private from general viewers. The site in the link is actually the development version deployed on Vercel. For the official deployed version, visit <a href='https://documentation.loc.fst.network/'>here</a>.",
 		"language": ["English"],
-		"category": ["Documentation", "description Writing", "Front-end", "JavaScript", "TypeScript"],
+		"category": ["Documentation", "Content Writing", "Front-end", "JavaScript", "TypeScript", "C#"],
 		"link": "https://loc-documentation-dev.vercel.app/",
 		"linkedTitle": false
 	},
