@@ -10,13 +10,13 @@
 		"linkedTitle": true
 	},
 	{
-		"name": "Résumé",
+		"name": "Résumé/CV",
 		"description": null,
 		"location": null,
-		"footnote": "If the link is broken, github.com/alankrantas/alankrantas and click \"résumé\".",
+		"footnote": null,
 		"category": null,
 		"language": ["English"],
-		"link": "https://www.cakeresume.com/krantas",
+		"link": "https://github.com/alankrantas/alankrantas/blob/772848482ceb177a3a216f8b604513a8ceba8f01/Alan%20Wang%20-%20Technical%20Writer%20-%20Jan%202024.pdf",
 		"linkedTitle": true
 	},
 	{
