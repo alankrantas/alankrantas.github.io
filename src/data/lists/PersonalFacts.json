@@ -23,7 +23,7 @@
 		"name": "Year of birth",
 		"description": "1984 (age <age>)",
 		"location": null,
-		"footnote": "The age is auto-computed hence always update-to-date",
+		"footnote": "The age is auto-computed",
 		"category": null,
 		"language": null,
 		"link": null,
