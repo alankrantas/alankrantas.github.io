@@ -10,9 +10,11 @@
 	const getAge = () => {
 		const now = new Date();
 		const birth = new Date('10 Mar 1984 12:00:00 GMT+8');
-		return Math.floor(
-			(now.getMonth() - birth.getMonth() + 12 * (now.getFullYear() - birth.getFullYear())) / 12
-		);
+		const diff = new Date(Date.now() - birth.getTime());
+		//return Math.floor(
+		//	(now.getMonth() - birth.getMonth() + 12 * (now.getFullYear() - birth.getFullYear())) / 12
+		//);
+		return diff.getUTCFullYear() - 1970;
 	};
 
 	onMount(() => {
