@@ -8,7 +8,6 @@
 	import hobbies from '../../data/lists/Hobbies.json';
 
 	const getAge = () => {
-		const now = new Date();
 		const birth = new Date('10 Mar 1984 12:00:00 GMT+8');
 		const diff = new Date(Date.now() - birth.getTime());
 		return diff.getUTCFullYear() - 1970;
