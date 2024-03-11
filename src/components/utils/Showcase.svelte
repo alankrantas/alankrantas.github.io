@@ -25,6 +25,12 @@
 	const popShowcaseDetail = (work: WorkItem) => open(ShowcaseDetail, { work: work });
 </script>
 
+<svelte:head>
+	{#each works as work}
+		<link rel="preload" as="image" href={work.imgUrl} />
+	{/each}
+</svelte:head>
+
 <p class="h2">{title} ({works.length})</p>
 <br />
 <br />
@@ -51,15 +57,11 @@
 								{#if !works[colIdx + listStartWorkId].loaded}
 									<p class="placeholder-glow">
 										<span class="placeholder placeholder-lg bg-secondary w-75" />
-										<span class="placeholder placeholder-lg bg-secondary w-75" />
-										<span class="placeholder placeholder-lg bg-secondary w-75" />
 									</p>
 								{/if}
 								<img
 									class="img-thumbnail bg-light border-light rounded-4"
-									style={`width: 100%; object-fit: contain; visibility: ${
-										works[colIdx + listStartWorkId].loaded ? 'visible' : 'hidden'
-									};`}
+									style={`width: 100%; object-fit: contain;`}
 									src={works[colIdx + listStartWorkId].imgUrl}
 									title={works[colIdx + listStartWorkId].name}
 									alt={works[colIdx + listStartWorkId].name}
