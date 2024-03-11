@@ -27,6 +27,15 @@
 		"loaded": false
 	},
 	{
+		"name": "\"Saiko\" IoTomatic Watch",
+		"description": "Another Internet clock that styled like an analog mechanical diver watch on a round TFT LCD display.",
+		"category": ["Embedded Programming", "Arduino", "Internet of Things"],
+		"language": ["English"],
+		"link": "https://www.hackster.io/alankrantas/saiko-iotomatic-watch-d619e5",
+		"imgUrl": "/work/watch.jpg",
+		"loaded": false
+	},
+	{
 		"name": "X'mas Music Box",
 		"description": "A simple, decorated MP3 player housing in a off-the-shelf wood cabin model using a SAMD51 microcontroller and CircuitPython.",
 		"category": ["Embedded Programming", "CircuitPython", "Audio", "MP3"],
@@ -62,7 +71,6 @@
 		"imgUrl": "/work/flip.jpg",
 		"loaded": false
 	},
-
 	{
 		"name": "Simple Kerbal Space Program Controller",
 		"description": "Custom controller built with an Arduino Leonardo (as a keyboard emulator) that have 18 different switches. Tested on Kerbal Space Program 1.",
