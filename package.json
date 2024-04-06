@@ -47,7 +47,8 @@
 		"@fontsource/open-sans": "^5.0.27",
 		"@fontsource/playfair-display": "^5.0.23",
 		"@fontsource/space-mono": "^5.0.19",
-		"bootstrap": "^5.3.3"
+		"bootstrap": "^5.3.3",
+		"eslint-visitor-keys": "3.4.3"
 	},
 	"type": "module"
 }
