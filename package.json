@@ -48,7 +48,7 @@
 		"@fontsource/playfair-display": "^5.0.23",
 		"@fontsource/space-mono": "^5.0.19",
 		"bootstrap": "^5.3.3",
-		"eslint-visitor-keys": "3.4.3"
+		"eslint-visitor-keys": "4.0.0"
 	},
 	"type": "module"
 }
