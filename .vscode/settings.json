@@ -1,0 +1,12 @@
+{
+	"cSpell.enabled": true,
+	"cSpell.diagnosticLevel": "Hint",
+	"cSpell.language": "en",
+	"cSpell.enableFiletypes": ["js", "ts", "json", "svelte"],
+	"cSpell.ignorePaths": [],
+	"cSpell.dictionaryDefinitions": [],
+	"cSpell.dictionaries": [],
+	"cSpell.words": [],
+	"cSpell.ignoreWords": [],
+	"cSpell.import": []
+}
