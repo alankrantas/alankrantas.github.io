@@ -1635,10 +1635,10 @@ svelte-simple-modal@^1.6.2:
   resolved "https://registry.yarnpkg.com/svelte-simple-modal/-/svelte-simple-modal-1.6.2.tgz#44fad4ff3074acb46fe43b940f66572673bf3dbc"
   integrity sha512-cRjpqjZTH0rU5G+SRhUDHOV6TISQs6AnEW/Z7D5uXiz5V/3axrBYcBCPnKMI2Z0EyXmpwPXK4q9grroQTL6rhQ==
 
-svelte@^4.2.13:
-  version "4.2.13"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-4.2.13.tgz#6a3d84aa7585d72d8c418fe4d07448eae2d84dcd"
-  integrity sha512-jtVt2KXLbQnsWN93Zd7EVboNh8Tqexes4rZfXNP7nYRjd9+JjubTD8BXloUmU1OUYpc6pdd1aKBhCV+b2ZKoMg==
+svelte@^4.2.14:
+  version "4.2.14"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-4.2.14.tgz#36e5d2f2bcf8fed178cc65d2a9dce55ea97f6625"
+  integrity sha512-ry3+YlWqZpHxLy45MW4MZIxNdvB+Wl7p2nnstWKbOAewaJyNJuOtivSbRChcfIej6wFBjWqyKmf/NgK1uW2JAA==
   dependencies:
     "@ampproject/remapping" "^2.2.1"
     "@jridgewell/sourcemap-codec" "^1.4.15"
