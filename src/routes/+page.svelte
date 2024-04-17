@@ -41,7 +41,7 @@
 		if (selectedViewId != -1) scrollToTop();
 	};
 
-	const handleSetViewId = (event: { detail: number }) => setViewId(event.detail);
+	const handleSetViewId = (event: CustomEvent<number>) => setViewId(event.detail);
 
 	afterUpdate(() => {
 		if (!ready) {
