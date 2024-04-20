@@ -5,7 +5,7 @@
 		"location": null,
 		"footnote": "I'm the creator and currently the sole maintainer. The repo is private from general viewers. The site in the link is actually the development version deployed on Vercel. For the official deployed version, visit <a href='https://documentation.loc.fst.network/'>here</a>.",
 		"language": ["English"],
-		"category": ["Documentation", "Content Writing", "Front-end", "JavaScript", "TypeScript", "C#"],
+		"category": ["Documentation", "Content Writing", "Front-end", "React", "JavaScript", "TypeScript", "C#"],
 		"link": "https://loc-documentation-dev.vercel.app/",
 		"linkedTitle": false
 	},
@@ -17,6 +17,16 @@
 		"language": ["English"],
 		"category": ["Full-stack", "JavaScript", "TypeScript", "Golang"],
 		"link": "https://github.com/alankrantas/svelteapp-typescript-go",
+		"linkedTitle": false
+	},
+	{
+		"name": "Online TypeScript Editor",
+		"description": "A demo online editor with IntelliSense support that can execute code directly in browser.",
+		"location": null,
+		"footnote": null,
+		"language": ["English"],
+		"category": ["TypeScript", "React"],
+		"link": "https://alankrantas.github.io/monaco-ts-live-editor/",
 		"linkedTitle": false
 	},
 	{
