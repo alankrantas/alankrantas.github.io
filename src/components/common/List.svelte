@@ -46,7 +46,7 @@
 				</p>
 			{/if}
 			{#if item.footnote}
-				<p class="small text-white-50">{item.footnote}</p>
+				<p class="small text-white-50">{@html item.footnote}</p>
 			{/if}
 		</li>
 	{/each}

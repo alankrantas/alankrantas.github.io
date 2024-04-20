@@ -1,7 +1,7 @@
 <script lang="ts">
-	import List from '../utils/List.svelte';
-	import Link from '../utils/Link.svelte';
-	import Image from '../utils/Image.svelte';
+	import List from '../common/List.svelte';
+	import Link from '../common/Link.svelte';
+	import Image from '../common/Image.svelte';
 
 	import links from '../../data/lists/Links.json';
 	import site from '../../data/lists/SiteTech.json';

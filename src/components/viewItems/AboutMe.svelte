@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import List from '../utils/List.svelte';
-	import Image from '../utils/Image.svelte';
+	import List from '../common/List.svelte';
+	import Image from '../common/Image.svelte';
 
 	import info from '../../data/BasicInfo.json';
 	import fact from '../../data/lists/PersonalFacts.json';

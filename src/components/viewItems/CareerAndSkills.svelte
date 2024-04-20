@@ -1,6 +1,6 @@
 <script lang="ts">
-	import List from '../utils/List.svelte';
-	import Image from '../utils/Image.svelte';
+	import List from '../common/List.svelte';
+	import Image from '../common/Image.svelte';
 
 	import software from '../../data/lists/SoftwareSkills.json';
 	import skill from '../../data/lists/GeneralSkills.json';
