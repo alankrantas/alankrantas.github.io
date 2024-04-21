@@ -9,7 +9,7 @@
 			build_time = '1970-01-01 00:00';
 			return;
 		}
-		fetch('/build.json')
+		fetch('/website/build.json')
 			.then((res) => res.json())
 			.then((data: { build_time: string }) => {
 				if (data.build_time && typeof data.build_time == 'string') build_time = data.build_time;

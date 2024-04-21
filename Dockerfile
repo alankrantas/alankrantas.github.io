@@ -10,7 +10,7 @@ COPY . /app
 RUN yarn install --frozen-lockfile
 RUN yarn check
 RUN yarn build
-RUN echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\" }" > ./build/build.json
+RUN echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\" }" > ./build/website/build.json
 
 #
 # Deployment

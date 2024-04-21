@@ -17,29 +17,42 @@
 <svelte:window bind:innerWidth={$screenSize} />
 
 <svelte:head>
-	<title>{info.name}, {info.title} ({info.location})</title>
+	<title>{info.name}, {info.title} ({info.location}) - Homepage</title>
+	<meta
+		name="description"
+		content={`Homepage for ${info.name}, ${info.title} - ${[...viewItems.map((item) => item.name)].join(', ')}`}
+	/>
+	<meta
+		name="keywords"
+		content={`${info.title}, ${info.industry}, homepage, personal, reseme, cv, job, talent, hiring, svelte, sveltekit, frontend`}
+	/>
 	<meta property="og:url" content="https://alankrantas.github.io/" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content={`${info.name}, ${info.title} (${info.location})`} />
-	<meta property="og:site_name" content={`Homepage of ${info.name}, ${info.title}`} />
-	<meta property="og:description" content={[...viewItems.map((item) => item.name)].join(', ')} />
+	<meta property="og:title" content={`${info.name}, ${info.title} (${info.location}) - Homepage`} />
+	<meta
+		property="og:site_name"
+		content={`${info.name}, ${info.title} (${info.location}) - Homepage`}
+	/>
+	<meta
+		property="og:description"
+		content={`Homepage for ${info.name}, ${info.title} - ${[...viewItems.map((item) => item.name)].join(', ')}`}
+	/>
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="http://alankrantas.github.io/thumbnail.jpg" />
-	<meta property="og:image:url" content="http://alankrantas.github.io/thumbnail.jpg" />
-	<meta property="og:image:secure_url" content="https://alankrantas.github.io/thumbnail.jpg" />
+	<meta property="og:image" content="http://alankrantas.github.io/website/thumbnail.jpg" />
+	<meta property="og:image:url" content="http://alankrantas.github.io/website/thumbnail.jpg" />
+	<meta
+		property="og:image:secure_url"
+		content="https://alankrantas.github.io/website/thumbnail.jpg"
+	/>
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="627" />
-	<meta property="og:image:alt" content={`${info.name}, ${info.title} (${info.location})`} />
+	<meta
+		property="og:image:alt"
+		content={`${info.name}, ${info.title} (${info.location}) - Homepage`}
+	/>
 </svelte:head>
 
 <slot />
 
 <style>
-	:global(body) {
-		font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
-		font-size: large;
-		text-align: justify;
-		text-justify: inter-word;
-		background-color: #3d3d3d;
-	}
 </style>

@@ -36,7 +36,7 @@ jobs:
 
       - name: Write Build Time
         run: |
-          echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\" }" | jq '.' > ./build/build.json
+          echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\" }" | jq '.' > ./build/website/build.json
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3

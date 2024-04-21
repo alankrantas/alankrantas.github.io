@@ -25,7 +25,7 @@
 	<br />
 </p>
 <p>
-	<Image src="/svelte.jpg" alt="svelte" widthRatios={[60, 70, 80, 90]} />
+	<Image src="/website/svelte.jpg" alt="svelte" widthRatios={[60, 70, 80, 90]} />
 </p>
 <p>
 	<br />
@@ -64,7 +64,7 @@
 	<br />
 </p>
 <p class="text-center">
-	<img src="/responsive.svg" width="100px" alt="responsive" />
+	<img src="/website/responsive.svg" width="100px" alt="responsive" />
 	<br />
 	<span class="small"><i>This site is responsive!</i></span>
 </p>
