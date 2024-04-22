@@ -45,7 +45,7 @@
 	"dependencies": {
 		"@fontsource/noto-sans-tc": "^5.0.19",
 		"@fontsource/open-sans": "^5.0.28",
-		"@fontsource/playfair-display": "^5.0.23",
+		"@fontsource/playfair-display": "^5.0.24",
 		"@fontsource/space-mono": "^5.0.19",
 		"bootstrap": "^5.3.3"
 	},
