@@ -167,10 +167,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-5.0.19.tgz#4a5b77c2fd93caab0bddbdb2541dda5283b5a836"
   integrity sha512-/PFoqqUTOVLpuJoGfNpeUl+JoQcHCQcLHAN7PKfBlbrSXHQKT7aYwaCn7c1BBm9iqVAg6M5zVyzabmNc9gHyvw==
 
-"@fontsource/open-sans@^5.0.27":
-  version "5.0.27"
-  resolved "https://registry.npmjs.org/@fontsource/open-sans/-/open-sans-5.0.27.tgz#d9c18de6d1bc95e263df92ef77432ac3638c9a0b"
-  integrity sha512-tFTqx2TE9srmM3pMEHldw0lTglqhKwFX6PVDEL0OF9xNT0x5W9brsezFHhV/U36pQV9So7S0vo4yVpnLzBBQew==
+"@fontsource/open-sans@^5.0.28":
+  version "5.0.28"
+  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-5.0.28.tgz#ae371d53744ef2e5346c1576fba582f55ce3e90c"
+  integrity sha512-hBvJHY76pJT/JynGUB5EXWhnzjYfLdcMn655J5p1v9lTT9HdQSy+keq2KPVXO2Htlg998BBa3p6u/jlrZ6w0kg==
 
 "@fontsource/playfair-display@^5.0.23":
   version "5.0.23"
