@@ -78,5 +78,15 @@
 		"language": null,
 		"link": null,
 		"linkedTitle": false
+	},
+	{
+		"name": "Enneagram Type",
+		"description": "4w5",
+		"location": null,
+		"footnote": null,
+		"category": null,
+		"language": null,
+		"link": null,
+		"linkedTitle": false
 	}
 ]
