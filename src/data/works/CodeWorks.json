@@ -1,9 +1,9 @@
 [
 	{
 		"name": "LOC Documentation",
-		"description": "FST Network's user documentation for Logic Operating Centre (LOC) built on React-based Docusaurus 2.",
+		"description": "FST Network's user documentation for Logic Operating Centre (LOC) built on React-based Docusaurus 3.",
 		"location": null,
-		"footnote": "I'm the creator and currently the sole maintainer. The repo is private from general viewers. The site in the link is actually the development version deployed on Vercel. For the official deployed version, visit <a href='https://documentation.loc.fst.network/' target='_blank' class='link-info'>here</a>.",
+		"footnote": "I'm the creator and currently the sole maintainer. The repo is private from general viewers. The site in the link is actually a preserved version deployed on Vercel. For the official deployed version, visit <a href='https://documentation.loc.fst.network/' target='_blank' class='link-info'>here</a>.",
 		"language": ["English"],
 		"category": [
 			"Documentation",
@@ -14,7 +14,7 @@
 			"TypeScript",
 			"C#"
 		],
-		"link": "https://loc-documentation-dev.vercel.app/",
+		"link": "https://loc-documentation.vercel.app/",
 		"linkedTitle": false
 	},
 	{
