@@ -4,7 +4,7 @@
 	import { expoOut } from 'svelte/easing';
 
 	import ShowcaseDetail from './ShowcaseDetail.svelte';
-	// @ts-ignore
+
 	import type { Context } from 'svelte-simple-modal';
 	import type { WorkItem } from '../../data/Types';
 
@@ -21,7 +21,7 @@
 		listStartWorkId = Math.max(0, Math.min(listStartWorkId + delta, works.length - displayNum));
 	};
 
-	const { open } = getContext('simple-modal') as Context;
+	const { open }: Context = getContext('simple-modal');
 	const popShowcaseDetail = (work: WorkItem) => open(ShowcaseDetail, { work: work });
 </script>
 
