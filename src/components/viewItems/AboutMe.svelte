@@ -77,7 +77,7 @@
 	<Image
 		src="/about-me/profile.jpg"
 		alt="profile"
-		footnote="Selfie with a Polaroid SX-70 Sonar"
+		footnote="Selfie just before turning 40"
 		widthRatios={[70, 80, 90, 95]}
 	/>
 </p>
