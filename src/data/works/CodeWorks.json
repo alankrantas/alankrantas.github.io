@@ -29,9 +29,9 @@
 	},
 	{
 		"name": "Online TypeScript Editor",
-		"description": "A demo online editor with IntelliSense support that can execute code directly in browser.",
+		"description": "A simple online editor with IntelliSense support that can execute code directly in browser.",
 		"location": null,
-		"footnote": null,
+		"footnote": "A similar Python editor can be found <a href='https://alankrantas.github.io/monaco-python-live-editor/' target='_blank'>here</a>",
 		"language": ["English"],
 		"category": ["TypeScript", "React"],
 		"link": "https://alankrantas.github.io/monaco-ts-live-editor/",
