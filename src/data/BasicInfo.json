@@ -1,6 +1,6 @@
 {
 	"name": "Alan Wang",
-	"title": "Technical Writer",
+	"title": ["Technical Writer", "Software Engineer", "Translator"],
 	"location": "Taipei, Taiwan",
 	"industry": "software industry"
 }

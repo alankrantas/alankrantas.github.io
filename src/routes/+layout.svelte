@@ -12,30 +12,29 @@
 
 	import info from '../data/BasicInfo.json';
 	import viewItems from '../data/ViewItems.json';
+
+	let webTitle = `Homepage of ${info.name} (${info.location}): ${info.title.map((item) => item.toLowerCase()).join('/')}`;
 </script>
 
 <svelte:window bind:innerWidth={$screenSize} />
 
 <svelte:head>
-	<title>{info.name}, {info.title} ({info.location}) - Homepage</title>
+	<title>{webTitle}</title>
 	<meta
 		name="description"
-		content={`Homepage for ${info.name}, ${info.title} - ${[...viewItems.map((item) => item.name)].join(', ')}`}
+		content={`${webTitle} - ${[...viewItems.map((item) => item.name)].join(', ')}`}
 	/>
 	<meta
 		name="keywords"
-		content={`${info.title}, ${info.industry}, homepage, personal, reseme, cv, job, talent, hiring, svelte, sveltekit, frontend`}
+		content={`${info.title.join(', ')}, ${info.industry}, homepage, personal, resume, cv, job, talent, hiring, svelte, sveltekit, frontend`}
 	/>
 	<meta property="og:url" content="https://alankrantas.github.io/" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content={`${info.name}, ${info.title} (${info.location}) - Homepage`} />
-	<meta
-		property="og:site_name"
-		content={`${info.name}, ${info.title} (${info.location}) - Homepage`}
-	/>
+	<meta property="og:title" content={webTitle} />
+	<meta property="og:site_name" content={webTitle} />
 	<meta
 		property="og:description"
-		content={`Homepage for ${info.name}, ${info.title} - ${[...viewItems.map((item) => item.name)].join(', ')}`}
+		content={`${webTitle} - ${[...viewItems.map((item) => item.name)].join(', ')}`}
 	/>
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="http://alankrantas.github.io/website/thumbnail.jpg" />
@@ -46,10 +45,7 @@
 	/>
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="627" />
-	<meta
-		property="og:image:alt"
-		content={`${info.name}, ${info.title} (${info.location}) - Homepage`}
-	/>
+	<meta property="og:image:alt" content={webTitle} />
 </svelte:head>
 
 <slot />

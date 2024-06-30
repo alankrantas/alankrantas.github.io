@@ -20,7 +20,7 @@
 
 	viewItems[0].description = viewItems[0].description
 		.replace('<name>', info.name)
-		.replace('<title>', info.title.toLowerCase())
+		.replace('<title>', info.title.map((item) => item.toLowerCase()).join('/'))
 		.replace('<industry>', info.industry);
 
 	let ready = false;

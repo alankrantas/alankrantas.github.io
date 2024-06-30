@@ -21,7 +21,7 @@
 <p><span class="h4">Hello there!</span></p>
 <p class="indent">
 	My name is <b>{info.name}</b>, a native Taiwanese born/raised and educated in {info.location}. I
-	am currently a {info.title.toLocaleLowerCase()} working for a software startup which creates a cloud-based
+	am currently a {info.title[0].toLowerCase()} working for a software startup which creates a cloud-based
 	data integration and data lineage platform.
 </p>
 <p class="indent">

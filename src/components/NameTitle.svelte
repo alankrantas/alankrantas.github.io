@@ -1,12 +1,19 @@
 <script lang="ts">
+	import { fade } from 'svelte/transition';
+
 	import { createEventDispatcher } from 'svelte';
 
 	import { screenSize } from '../data/Store';
 	import info from '../data/BasicInfo.json';
 
 	export let mode: String;
+	let titleIndex = 0;
 
 	const dispatch = createEventDispatcher<{ setViewId: number }>();
+
+	setInterval(() => {
+		titleIndex = titleIndex >= info.title.length - 1 ? 0 : titleIndex + 1;
+	}, 2500);
 </script>
 
 {#if mode == 'main'}
@@ -23,7 +30,13 @@
 					</span>
 					<span class="h5"> &nbsp;|&nbsp; </span>
 					<span class="h4">
-						{info.title}
+						{#each info.title as title, index}
+							{#if index == titleIndex}
+								<span in:fade={{ duration: 750 }}>
+									{title}
+								</span>
+							{/if}
+						{/each}
 					</span>
 				</p>
 				<p class="text-white-50">
@@ -50,7 +63,13 @@
 					</span>
 					<span class="h5"> &nbsp;|&nbsp; </span>
 					<span class="h4">
-						{info.title}
+						{#each info.title as title, index}
+							{#if index == titleIndex}
+								<span in:fade={{ duration: 750 }}>
+									{title}
+								</span>
+							{/if}
+						{/each}
 					</span>
 				{:else}
 					<p>
@@ -60,7 +79,13 @@
 					</p>
 					<p>
 						<span class="h4">
-							{info.title}
+							{#each info.title as title, index}
+								{#if index == titleIndex}
+									<span in:fade={{ duration: 750 }}>
+										{title}
+									</span>
+								{/if}
+							{/each}
 						</span>
 					</p>
 				{/if}
@@ -122,7 +147,13 @@
 				</span>
 			</p>
 			<p class="h6 text-white-50 code p-md-1 m-md-1">
-				{info.title}
+				{#each info.title as title, index}
+					{#if index == titleIndex}
+						<span in:fade={{ duration: 750 }}>
+							{title}
+						</span>
+					{/if}
+				{/each}
 			</p>
 		</div>
 	{:else if $screenSize >= 576}
@@ -143,7 +174,13 @@
 					</span>
 				</p>
 				<p class="h6 text-white-50 code p-md-1 m-md-1">
-					{info.title}
+					{#each info.title as title, index}
+						{#if index == titleIndex}
+							<span in:fade={{ duration: 750 }}>
+								{title}
+							</span>
+						{/if}
+					{/each}
 				</p>
 			</div>
 			<div class="col-sm text-start">
@@ -165,7 +202,13 @@
 				</span>
 			</p>
 			<p class="h6 text-white-50 code p-md-1 m-md-1">
-				{info.title}
+				{#each info.title as title, index}
+					{#if index == titleIndex}
+						<span in:fade={{ duration: 750 }}>
+							{title}
+						</span>
+					{/if}
+				{/each}
 			</p>
 		</div>
 		<br />
