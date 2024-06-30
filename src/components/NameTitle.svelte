@@ -13,7 +13,7 @@
 
 	setInterval(() => {
 		titleIndex = titleIndex >= info.title.length - 1 ? 0 : titleIndex + 1;
-	}, 2500);
+	}, 2000);
 </script>
 
 {#if mode == 'main'}
@@ -148,11 +148,9 @@
 			</p>
 			<p class="h6 text-white-50 code p-md-1 m-md-1">
 				{#each info.title as title, index}
-					{#if index == titleIndex}
-						<span in:fade={{ duration: 750 }}>
-							{title}
-						</span>
-					{/if}
+					<div style={index == titleIndex ? 'font-weight: bold;' : 'font-weight: normal;'}>
+						{title}
+					</div>
 				{/each}
 			</p>
 		</div>
@@ -176,7 +174,7 @@
 				<p class="h6 text-white-50 code p-md-1 m-md-1">
 					{#each info.title as title, index}
 						{#if index == titleIndex}
-							<span in:fade={{ duration: 750 }}>
+							<span in:fade={{ duration: 1000 }}>
 								{title}
 							</span>
 						{/if}
@@ -204,7 +202,7 @@
 			<p class="h6 text-white-50 code p-md-1 m-md-1">
 				{#each info.title as title, index}
 					{#if index == titleIndex}
-						<span in:fade={{ duration: 750 }}>
+						<span in:fade={{ duration: 1000 }}>
 							{title}
 						</span>
 					{/if}
