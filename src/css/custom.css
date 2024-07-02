@@ -1,6 +1,5 @@
 body {
 	font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
-	font-size: large;
 	text-align: justify;
 	text-justify: inter-word;
 	background-color: #3d3d3d;
@@ -21,4 +20,16 @@ body {
 
 .indent {
 	text-indent: 1.8em;
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		font-size: large;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: medium;
+	}
 }
