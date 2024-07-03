@@ -5,8 +5,7 @@
 		"category": ["Translation", "Programming", "Web", "Frontend", "Microfrontend"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F3487",
-		"imgUrl": "/work/microfront.jpg",
-		"loaded": false
+		"imgUrl": "/work/microfront.jpg"
 	},
 	{
 		"name": "Essential TypeScript: From Beginner to Pro",
@@ -24,8 +23,7 @@
 		],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1485",
-		"imgUrl": "/work/ts.jpg",
-		"loaded": false
+		"imgUrl": "/work/ts.jpg"
 	},
 	{
 		"name": "The The Go Workshop: Learn to Write Clean, Efficient Code and Build High-performance Applications with Go",
@@ -33,8 +31,7 @@
 		"category": ["Translation", "Programming", "Golang", "Backend"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1741",
-		"imgUrl": "/work/go.jpg",
-		"loaded": false
+		"imgUrl": "/work/go.jpg"
 	},
 	{
 		"name": "Automated Machine Learning with AutoKeras: Deep learning made accessible for everyone with just few lines of coding",
@@ -49,8 +46,7 @@
 		],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1385",
-		"imgUrl": "/work/automl.jpg",
-		"loaded": false
+		"imgUrl": "/work/automl.jpg"
 	},
 	{
 		"name": "Raspberry Pi 4: Python + AI Complete Application Bible",
@@ -58,8 +54,7 @@
 		"category": ["Programming", "Python", "Machine Learning", "Embedded programming", "Maker"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1786",
-		"imgUrl": "/work/rpi.jpg",
-		"loaded": false
+		"imgUrl": "/work/rpi.jpg"
 	},
 	{
 		"name": "Python Workout: 50 Ten-minute Exercises",
@@ -67,8 +62,7 @@
 		"category": ["Translation", "Programming", "Python"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1750",
-		"imgUrl": "/work/workout.jpg",
-		"loaded": false
+		"imgUrl": "/work/workout.jpg"
 	},
 	{
 		"name": "Python Tricks: A Buffet of Awesome Python Features",
@@ -76,8 +70,7 @@
 		"category": ["Translation", "Programming", "Python"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/FT746A",
-		"imgUrl": "/work/trick.jpg",
-		"loaded": false
+		"imgUrl": "/work/trick.jpg"
 	},
 	{
 		"name": "Pythonで動かして学ぶ！あたらしい深層学習の教科書 機械学習の基本から深層学習まで",
@@ -92,7 +85,6 @@
 		],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1378",
-		"imgUrl": "/work/ml.jpg",
-		"loaded": false
+		"imgUrl": "/work/ml.jpg"
 	}
 ]

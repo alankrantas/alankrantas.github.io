@@ -69,6 +69,12 @@
 	const showScreenSize = false; // enable to show screen size; for responsive design testing
 </script>
 
+<svelte:head>
+	{#each viewItems as viewItem}
+		<link rel="preload" as="image" href={viewItem.imgUrl} />
+	{/each}
+</svelte:head>
+
 {#if showScreenSize}
 	<div class="display-6 text-white text-center">
 		<span>Screen size: {$screenSize}</span>

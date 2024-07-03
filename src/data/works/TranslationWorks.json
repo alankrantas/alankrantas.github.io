@@ -5,8 +5,7 @@
 		"category": ["Science Fiction", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010511697",
-		"imgUrl": "/work/windup.jpg",
-		"loaded": false
+		"imgUrl": "/work/windup.jpg"
 	},
 	{
 		"name": "Old Man's War",
@@ -14,8 +13,7 @@
 		"category": ["Science Fiction", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010539736",
-		"imgUrl": "/work/oldman.jpg",
-		"loaded": false
+		"imgUrl": "/work/oldman.jpg"
 	},
 	{
 		"name": "The Forever War",
@@ -23,8 +21,7 @@
 		"category": ["Science Fiction", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.eslite.com/product/1001123032566925",
-		"imgUrl": "/work/forever.jpg",
-		"loaded": false
+		"imgUrl": "/work/forever.jpg"
 	},
 	{
 		"name": "Brave New World",
@@ -32,8 +29,7 @@
 		"category": ["Science Fiction", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010638857",
-		"imgUrl": "/work/brave.jpg",
-		"loaded": false
+		"imgUrl": "/work/brave.jpg"
 	},
 	{
 		"name": "The Invisible Man",
@@ -41,8 +37,7 @@
 		"category": ["Science Fiction", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010795128",
-		"imgUrl": "/work/invisible.jpg",
-		"loaded": false
+		"imgUrl": "/work/invisible.jpg"
 	},
 	{
 		"name": "The Jungle",
@@ -50,8 +45,7 @@
 		"category": ["Literature", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010656599",
-		"imgUrl": "/work/jungle.jpg",
-		"loaded": false
+		"imgUrl": "/work/jungle.jpg"
 	},
 	{
 		"name": "A Delicate Truth",
@@ -59,8 +53,7 @@
 		"category": ["Thriller", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010634261",
-		"imgUrl": "/work/truth.jpg",
-		"loaded": false
+		"imgUrl": "/work/truth.jpg"
 	},
 	{
 		"name": "Dear Life",
@@ -68,8 +61,7 @@
 		"category": ["Literature", "Short Story Collection"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010617695",
-		"imgUrl": "/work/life.jpg",
-		"loaded": false
+		"imgUrl": "/work/life.jpg"
 	},
 	{
 		"name": "The View from Castle Rock",
@@ -77,8 +69,7 @@
 		"category": ["Literature", "Short Story Collection"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010650379",
-		"imgUrl": "/work/castle.jpg",
-		"loaded": false
+		"imgUrl": "/work/castle.jpg"
 	},
 	{
 		"name": "Open Secrets",
@@ -86,8 +77,7 @@
 		"category": ["Literature", "Short Story Collection"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010690300",
-		"imgUrl": "/work/secret.jpg",
-		"loaded": false
+		"imgUrl": "/work/secret.jpg"
 	},
 	{
 		"name": "Dangerous Women",
@@ -95,8 +85,7 @@
 		"category": ["Science Fiction", "Fantasy", "Short Story Anthology"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/activity/2015/08/femme/",
-		"imgUrl": "/work/women.jpg",
-		"loaded": false
+		"imgUrl": "/work/women.jpg"
 	},
 	{
 		"name": "Pump Six and Other Stories",
@@ -104,8 +93,7 @@
 		"category": ["Science Fiction", "Short Story Collection"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010580745",
-		"imgUrl": "/work/pumpsix.jpg",
-		"loaded": false
+		"imgUrl": "/work/pumpsix.jpg"
 	},
 	{
 		"name": "The Blade Itself",
@@ -113,8 +101,7 @@
 		"category": ["Fantasy", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010584766",
-		"imgUrl": "/work/blade.jpg",
-		"loaded": false
+		"imgUrl": "/work/blade.jpg"
 	},
 	{
 		"name": "Before They Are Hanged",
@@ -122,8 +109,7 @@
 		"category": ["Fantasy", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010587117",
-		"imgUrl": "/work/hang.jpg",
-		"loaded": false
+		"imgUrl": "/work/hang.jpg"
 	},
 	{
 		"name": "Last Argument of Kings",
@@ -131,8 +117,7 @@
 		"category": ["Fantasy", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010590872",
-		"imgUrl": "/work/kings.jpg",
-		"loaded": false
+		"imgUrl": "/work/kings.jpg"
 	},
 	{
 		"name": "The Heroes",
@@ -140,8 +125,7 @@
 		"category": ["Fantasy", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010633330",
-		"imgUrl": "/work/hero.jpg",
-		"loaded": false
+		"imgUrl": "/work/hero.jpg"
 	},
 	{
 		"name": "Steelheart",
@@ -149,8 +133,7 @@
 		"category": ["Science Fiction", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010633324",
-		"imgUrl": "/work/steel.jpg",
-		"loaded": false
+		"imgUrl": "/work/steel.jpg"
 	},
 	{
 		"name": "And Another Thing...",
@@ -158,8 +141,7 @@
 		"category": ["Science Fiction", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010720121",
-		"imgUrl": "/work/another.jpg",
-		"loaded": false
+		"imgUrl": "/work/another.jpg"
 	},
 	{
 		"name": "To Be a Cat",
@@ -167,8 +149,7 @@
 		"category": ["Fantasy", "Novel", "Children's Book"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010665405",
-		"imgUrl": "/work/cat.jpg",
-		"loaded": false
+		"imgUrl": "/work/cat.jpg"
 	},
 	{
 		"name": "Flashback",
@@ -176,8 +157,7 @@
 		"category": ["Science Fiction", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010529493",
-		"imgUrl": "/work/flash.jpg",
-		"loaded": false
+		"imgUrl": "/work/flash.jpg"
 	},
 	{
 		"name": "The Silent Corner",
@@ -185,8 +165,7 @@
 		"category": ["Thriller", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010792962",
-		"imgUrl": "/work/silent.jpg",
-		"loaded": false
+		"imgUrl": "/work/silent.jpg"
 	},
 	{
 		"name": "The Free State of Jones: Mississippi’s Longest Civil War",
@@ -194,8 +173,7 @@
 		"category": ["History", "Non Fiction"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010737316",
-		"imgUrl": "/work/jones.jpg",
-		"loaded": false
+		"imgUrl": "/work/jones.jpg"
 	},
 	{
 		"name": "Splinternet: How Geopolitics and Commerce Are Fragmenting the World Wide Web",
@@ -203,8 +181,7 @@
 		"category": ["Technology", "Non Fiction"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010730780",
-		"imgUrl": "/work/internet.jpg",
-		"loaded": false
+		"imgUrl": "/work/internet.jpg"
 	},
 	{
 		"name": "Tales From the Great Disruption: Insights and Lessons From Journalism’s Technological Transformation",
@@ -212,8 +189,7 @@
 		"category": ["Technology", "Non Fiction"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010739304",
-		"imgUrl": "/work/disruption.jpg",
-		"loaded": false
+		"imgUrl": "/work/disruption.jpg"
 	},
 	{
 		"name": "Pressed for Time: The Acceleration of Life in Digital Capitalism",
@@ -221,7 +197,6 @@
 		"category": ["Technology", "Sociology", "Non Fiction"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010756573",
-		"imgUrl": "/work/pressed.jpg",
-		"loaded": false
+		"imgUrl": "/work/pressed.jpg"
 	}
 ]

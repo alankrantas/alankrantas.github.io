@@ -22,7 +22,7 @@
 <p class="indent">
 	My name is <b>{info.name}</b>, a native Taiwanese born/raised and educated in {info.location}. I
 	work or worked as {info.title.map((item) => item.toLowerCase()).join(', ')} in several industries,
-	but most prominently in {info.industry}.
+	but currently in {info.industry}.
 </p>
 <p class="indent">
 	With the rare combinations of experiences and skills, I am a quick, passionate learner with a

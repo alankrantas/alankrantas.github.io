@@ -5,6 +5,10 @@
 	export let work: WorkItem;
 </script>
 
+<svelte:head>
+	<link rel="preload" as="image" href={work.imgUrl} />
+</svelte:head>
+
 <div class="card text-white bg-secondary">
 	<img src={work.imgUrl} class="card-img-top rounded-3 shadow-sm" alt={work.name} />
 	<div class="card-body p-2 m-2" style="text-align: start;">

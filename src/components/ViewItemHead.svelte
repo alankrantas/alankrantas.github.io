@@ -6,6 +6,10 @@
 	export let viewItem: ViewItem;
 </script>
 
+<svelte:head>
+	<link rel="preload" as="image" href={viewItem.imgUrl} />
+</svelte:head>
+
 <div class="text-center">
 	{#if $screenSize <= 576}
 		<br />
