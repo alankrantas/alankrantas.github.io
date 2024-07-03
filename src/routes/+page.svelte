@@ -66,7 +66,7 @@
 		easing: expoOut
 	});
 
-	const showScreenSize = false; // enable to show screen size
+	const showScreenSize = false; // enable to show screen size; for responsive design testing
 </script>
 
 {#if showScreenSize}
@@ -187,7 +187,7 @@
 					<div class={$screenSize >= 992 ? '' : 'text-center p-md-1 m-md-1'}>
 						<ul
 							class={`nav pt-md-2 mt-md-2 ${
-								$screenSize >= 992 ? 'flex-column' : 'justify-content-center'
+								$screenSize >= 992 || $screenSize <= 512 ? 'flex-column' : 'justify-content-center'
 							}`}
 						>
 							{#each viewItems as viewItem (viewItem.id)}
