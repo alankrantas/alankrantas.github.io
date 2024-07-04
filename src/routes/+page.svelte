@@ -61,8 +61,8 @@
 	});
 
 	const [send, receive] = crossfade({
-		delay: 100,
-		duration: 1000,
+		delay: 200,
+		duration: 2000,
 		easing: expoOut
 	});
 
@@ -73,6 +73,7 @@
 	{#each viewItems as viewItem}
 		<link rel="preload" as="image" href={viewItem.imgUrl} />
 	{/each}
+	<link rel="preload" as="image" href="/about-me/profile.jpg" />
 </svelte:head>
 
 {#if showScreenSize}
