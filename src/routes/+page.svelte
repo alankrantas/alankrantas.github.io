@@ -62,7 +62,7 @@
 
 	const [send, receive] = crossfade({
 		delay: 200,
-		duration: 2000,
+		duration: 1000,
 		easing: expoOut
 	});
 
