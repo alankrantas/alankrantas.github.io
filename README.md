@@ -75,9 +75,9 @@ flowchart TD
 
 The viewer can click the nav bar buttons to switch the view content, or go back to the main mode.
 
-### Smaller Screens
+### Under Smaller Resolutions
 
-Both main and view mode will be squashed to a single column when the screen size is smaller.
+Both main and view mode will be squashed to a single column when the screen resolution is smaller than `992` px.
 
 Some common components, like `Image` and `Showcase`, has parameters to adjust the component in different resolutions.
 
