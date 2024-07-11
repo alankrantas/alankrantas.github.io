@@ -21,7 +21,7 @@ flowchart TD
   subgraph n0 ["Page (Main Mode)"]
     direction TB
     n1[NameTitle];
-    subgraph n2 [View Cards];
+    subgraph n2 [Columns];
         subgraph n3 [Column 1];
             direction TB
             n4[ViewItemCard 1];
