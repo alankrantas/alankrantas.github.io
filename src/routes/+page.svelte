@@ -209,7 +209,6 @@
 					in:receive|global={{ key: 'view' }}
 					out:send|global={{ key: 'main' }}
 				>
-					<!--back to main button -->
 					<div>
 						<br />
 					</div>
