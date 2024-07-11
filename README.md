@@ -26,24 +26,26 @@ flowchart TD
             direction TB
             n4[ViewItemCard 1];
             n5[ViewItemCard 3];
-            n4-.-n5;
+            n6[...];
+            n4-.-n5-.-n6;
         end
-        subgraph n6 [Column 2];
+        subgraph n7 [Column 2];
             direction TB
-            n7[ViewItemCard 2];
-            n8[ViewItemCard 4];
-            n7-.-n8;
+            n8[ViewItemCard 2];
+            n9[ViewItemCard 4];
+            n10[...];
+            n8-.-n9-.-n10;
         end
     end
-    n9[Footer];
+    n11[Footer];
     n1-.-n3;
-    n1-.-n6;
-    n3-.-n9;
-    n6-.-n9;
+    n1-.-n7;
+    n3-.-n11;
+    n7-.-n11;
   end
 ```
 
-By clicking the button on a View Card, the app will switch to view mode with the corresponding content showed.
+By clicking the button on a view card, the app will switch to view mode that shows the corresponding content.
 
 ### View Mode
 
@@ -53,23 +55,28 @@ flowchart TD
     direction TB
     subgraph n1 [Columns]
         direction LR
-        subgraph n2 [Nav Bar]
+        subgraph n2 [Column 1]
             direction TB
             n3[NameTitle];
-            n4[ViewItemNavBtn 1];
-            n5[ViewItemNavBtn 2];
-            n3-.-n4-.-n5;
+            subgraph n4 [Nav Btns]
+                direction TB
+                n5[ViewItemNavBtn 1];
+                n6[ViewItemNavBtn 2];
+                n7[...];
+                n5-.-n6-.-n7;
+            end
+            n3-.-n4;
         end
-        subgraph n6 [View Content]
+        subgraph n8 [Column 2]
             direction TB
-            n7[ViewItemHead];
-            n8[ViewItemContent];
-            n7-.-n8;
+            n9[ViewItemHead];
+            n10[ViewItemContent];
+            n9-.-n10;
         end
     end
-    n9[Footer];
-    n2-.-n9;
-    n6-.-n9;
+    n11[Footer];
+    n2-.-n11;
+    n8-.-n11;
   end
 ```
 
