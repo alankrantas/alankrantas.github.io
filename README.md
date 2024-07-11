@@ -12,7 +12,7 @@ This is technically an _always-working-in-progress_ project and may be subjected
 
 ---
 
-## Component Layout
+## Layout and Components
 
 ### Main Mode
 
