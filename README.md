@@ -12,6 +12,77 @@ This is technically an _always-working-in-progress_ project and may be subjected
 
 ---
 
+## Component Layout
+
+### Main Mode
+
+```mermaid
+flowchart TD
+  subgraph n0 ["Page (Main Mode)"]
+    direction TB
+    n1[NameTitle];
+    subgraph n2 [View Cards];
+        subgraph n3 [Column 1];
+            direction TB
+            n4[ViewItemCard 1];
+            n5[ViewItemCard 3];
+            n4-.-n5;
+        end
+        subgraph n6 [Column 2];
+            direction TB
+            n7[ViewItemCard 2];
+            n8[ViewItemCard 4];
+            n7-.-n8;
+        end
+    end
+    n9[Footer];
+    n1-.-n3;
+    n1-.-n6;
+    n3-.-n9;
+    n6-.-n9;
+  end
+```
+
+By clicking the button on a View Card, the app will switch to view mode with the corresponding content showed.
+
+### View Mode
+
+```mermaid
+flowchart TD
+  subgraph n0 ["Page (View Mode)"]
+    direction TB
+    subgraph n1 [Columns]
+        direction LR
+        subgraph n2 [Nav Bar]
+            direction TB
+            n3[NameTitle];
+            n4[ViewItemNavBtn 1];
+            n5[ViewItemNavBtn 2];
+            n3-.-n4-.-n5;
+        end
+        subgraph n6 [View Content]
+            direction TB
+            n7[ViewItemHead];
+            n8[ViewItemContent];
+            n7-.-n8;
+        end
+    end
+    n9[Footer];
+    n2-.-n9;
+    n6-.-n9;
+  end
+```
+
+The viewer can click the nav bar buttons to switch the view content, or go back to the main mode.
+
+### Smaller Screens
+
+Both main and view mode will be squashed to a single column when the screen size is smaller.
+
+Some common components, like `Image` and `Showcase`, has parameters to adjust the component in different resolutions.
+
+---
+
 ## Notes for Development and Deployment
 
 > Prerequisites: Node.js, Git and Docker
