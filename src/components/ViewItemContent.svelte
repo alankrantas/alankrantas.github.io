@@ -4,13 +4,11 @@
 	import Portfolio from './viewItems/Portfolio.svelte';
 	import LinksAndAbout from './viewItems/LinksAndAbout.svelte';
 
-	export let viewItemId: number;
-
 	const ContentOptions = [AboutMe, CareerAndSkills, Portfolio, LinksAndAbout];
 
-	$: showedContent = ContentOptions[viewItemId];
+	export let viewItemId: number;
 </script>
 
 <div class="text-white">
-	<svelte:component this={showedContent} />
+	<svelte:component this={ContentOptions[viewItemId]} />
 </div>

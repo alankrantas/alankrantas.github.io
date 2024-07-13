@@ -13,7 +13,7 @@
 	import info from '../data/BasicInfo.json';
 	import viewItems from '../data/ViewItems.json';
 
-	let webTitle = `Homepage of ${info.name} (${info.location}): ${info.title.map((item) => item.toLowerCase()).join('/')}`;
+	const webTitle = `Homepage of ${info.name} (${info.location}): ${info.title.map((item) => item.toLowerCase()).join('/')}`;
 </script>
 
 <svelte:window bind:innerWidth={$screenSize} />

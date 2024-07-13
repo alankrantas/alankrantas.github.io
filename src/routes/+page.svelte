@@ -29,7 +29,7 @@
 	$: selectedViewId = -1;
 
 	const setViewId = (id: number) => {
-		if (id >= 0 && id <= viewItems.length - 1) {
+		if (id >= 0 && id < viewItems.length) {
 			selectedViewId = id;
 			$page.url.searchParams.set('view', String(selectedViewId));
 			goto(`/?${$page.url.searchParams.toString()}`);
@@ -51,9 +51,10 @@
 					behavior: 'auto'
 				});
 			};
-			try {
-				setViewId(Number($page.url.searchParams.get('view') ?? -1));
-			} catch (e) {
+			const viewParam = $page.url.searchParams.get('view');
+			if (viewParam && Number.isSafeInteger(viewParam)) {
+				setViewId(Number(viewParam));
+			} else {
 				setViewId(-1);
 			}
 			ready = true;
