@@ -18,15 +18,17 @@
 	import info from '../data/BasicInfo.json';
 	import viewItems from '../data/ViewItems.json';
 
-	viewItems[0].description = viewItems[0].description
-		.replace('<name>', info.name)
-		.replace('<title>', info.title.map((item) => item.toLowerCase()).join('/'))
-		.replace('<industry>', info.industry);
+	const showScreenSize = false; // enable to show screen size; for responsive design testing
+
+	$: selectedViewId = -1;
 
 	let ready = false;
 	let scrollToTop = () => {};
 
-	$: selectedViewId = -1;
+	viewItems[0].description = viewItems[0].description
+		.replace('<name>', info.name)
+		.replace('<title>', info.title.map((item) => item.toLowerCase()).join(' / '))
+		.replace('<industry>', info.industry);
 
 	const setViewId = (id: number) => {
 		if (id >= 0 && id < viewItems.length) {
@@ -45,12 +47,11 @@
 
 	afterUpdate(() => {
 		if (!ready) {
-			scrollToTop = () => {
+			scrollToTop = () =>
 				window.scrollTo({
 					top: 0,
-					behavior: 'auto'
+					behavior: 'smooth'
 				});
-			};
 			const viewParam = $page.url.searchParams.get('view');
 			if (viewParam && Number.isSafeInteger(viewParam)) {
 				setViewId(Number(viewParam));
@@ -66,8 +67,6 @@
 		duration: 1000,
 		easing: expoOut
 	});
-
-	const showScreenSize = false; // enable to show screen size; for responsive design testing
 </script>
 
 <svelte:head>

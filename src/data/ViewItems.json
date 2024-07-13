@@ -20,7 +20,7 @@
 	{
 		"id": 3,
 		"name": "Links & About",
-		"description": "Contact information | external resources | social media | about this site",
+		"description": "Contact information | social media | about this site | external resources",
 		"imgUrl": "/main/links.jpg"
 	}
 ]

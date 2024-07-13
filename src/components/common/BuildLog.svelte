@@ -6,7 +6,8 @@
 
 	beforeUpdate(() => {
 		if (dev) {
-			build_time = '1970-01-01 00:00';
+			let now = new Date();
+			build_time = `(Dev) ${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()} ${now.getHours()}:${now.getMinutes()}`;
 			return;
 		}
 		fetch('/website/build.json')
