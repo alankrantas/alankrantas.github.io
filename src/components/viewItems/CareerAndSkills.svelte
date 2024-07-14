@@ -102,7 +102,7 @@
 	<List list={skill} title="General Skills" />
 </p>
 <p>
-	<span class="small">*Note: see <kbd>Portfolio</kbd> for my list of published works.</span>
+	<span class="small">Note: see <kbd>Portfolio</kbd> for my list of published works.</span>
 </p>
 <p>
 	<br />
