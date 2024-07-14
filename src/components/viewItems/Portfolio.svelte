@@ -16,8 +16,8 @@
 </script>
 
 <p>
-	Note: Some categories contain selected works only. Non-English title names are translated for this
-	site with the original title attached in the description. Links may fail due to external resources
+	Some categories contain selected works only. Non-English title names are translated for this site
+	with the original title attached in the description. Links may fail due to external resources
 	moved or no longer exist.
 </p>
 <p>
@@ -70,7 +70,7 @@
 	<br />
 </p>
 <p class="small">
-	*Note: I have total 39 titles (2 for partial credits and 1 not published) of translation works but
+	Note: I have total 39 titles (2 for partial credits and 1 not published) of translation works but
 	I decided to leave out most of the young adult books and less memorable works.
 </p>
 <p>

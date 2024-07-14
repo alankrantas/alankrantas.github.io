@@ -10,6 +10,7 @@ export interface ListItem {
 	description: string | null;
 	location: string | null;
 	footnote: string | null;
+	tooltip: string | null;
 	category: string[] | null;
 	language: string[] | null;
 	link: string | null;
@@ -23,5 +24,4 @@ export interface WorkItem {
 	language: string[] | null;
 	link: string | null;
 	imgUrl: string;
-	loaded: boolean;
 }

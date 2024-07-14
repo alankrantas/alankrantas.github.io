@@ -26,7 +26,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="p-sm-1 m-sm-1 pt-sm-3 pb-sm-2 mt-sm-3 mb-sm-2">
+	<div class="text-white-50 p-sm-1 m-sm-1 pt-sm-3 pb-sm-2 mt-sm-3 mb-sm-2">
 		{#if $screenSize <= 576}
 			<br />
 		{/if}

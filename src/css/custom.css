@@ -26,6 +26,48 @@ body {
 	text-indent: 1.8em;
 }
 
+.customtooltip {
+	text-align: left;
+	position: relative;
+	display: inline-block;
+}
+
+.customtooltiptext {
+	text-align: left;
+}
+
+.customtooltip .customtooltiptext {
+	visibility: hidden;
+	width: 300px;
+	background-color: #606060;
+	color: #fff;
+	border-radius: 8px;
+	padding: 8px;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -150px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.customtooltip .customtooltiptext::after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #606060 transparent transparent transparent;
+}
+
+.customtooltip:hover .customtooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
 @media only screen and (min-width: 768px) {
 	body {
 		font-size: large;
