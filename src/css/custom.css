@@ -38,9 +38,8 @@ body {
 
 .customtooltip .customtooltiptext {
 	visibility: hidden;
-	width: 300px;
-	background-color: #606060;
-	color: #fff;
+	width: fit-content(360px);
+	background-color: var(--bs-gray-700);
 	border-radius: 8px;
 	padding: 8px;
 	position: absolute;
@@ -60,7 +59,7 @@ body {
 	margin-left: -5px;
 	border-width: 5px;
 	border-style: solid;
-	border-color: #606060 transparent transparent transparent;
+	border-color: var(--bs-gray-700) transparent transparent transparent;
 }
 
 .customtooltip:hover .customtooltiptext {

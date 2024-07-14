@@ -31,8 +31,10 @@
 				{#if item.tooltip}
 					<span class="small text-white-50 customtooltip">
 						&nbsp;ⓘ
-						<span class="small code customtooltiptext">
-							{@html item.tooltip}
+						<span class="customtooltiptext">
+							<p class="small text-white code">
+								{@html item.tooltip}
+							</p>
 						</span>
 					</span>
 				{/if}
