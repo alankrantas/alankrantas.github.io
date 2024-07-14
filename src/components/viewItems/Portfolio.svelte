@@ -113,7 +113,7 @@
 	<List list={tech} title="Selected Tech Posts/Articles" />
 </p>
 <p>
-	<span class="small">*Note: see <kbd>Links</kbd> for links to my blogs and Github profile.</span>
+	<span class="small">Note: see <kbd>Links</kbd> for links to my blogs and Github profile.</span>
 </p>
 <p>
 	<br />
