@@ -2,6 +2,8 @@
 	import Link from './Link.svelte';
 	import type { WorkItem } from '../../data/Types';
 
+	import { screenSize } from '../../data/Store';
+
 	export let work: WorkItem;
 </script>
 
@@ -11,13 +13,13 @@
 
 <div class="card text-white bg-secondary">
 	<img src={work.imgUrl} class="card-img-top rounded-3 shadow-sm" alt={work.name} />
-	<div class="card-body p-2 m-2" style="text-align: start;">
+	<div class="card-body p-md-2 m-md-2" style="text-align: start;">
 		<p class="card-title">
-			<span class="fs-3">
+			<span class={$screenSize > 768 ? 'fs-3' : 'fs-4'}>
 				{work.name}
 			</span>
 			{#if work.link}
-				<span class="h4">
+				<span class={$screenSize > 768 ? 'h4' : 'h5'}>
 					&nbsp;<b><Link url={work.link} name="⧉" /></b>
 				</span>
 			{/if}
@@ -31,7 +33,9 @@
 		{/if}
 		<hr class="text-white" />
 		<p class="card-text lead">
-			{work.description}
+			<span class={$screenSize > 768 ? '' : 'small'}>
+				{work.description}
+			</span>
 		</p>
 		{#if work.category}
 			<p>
