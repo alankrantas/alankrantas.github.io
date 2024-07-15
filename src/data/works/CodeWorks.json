@@ -4,7 +4,7 @@
 		"description": "FST Network's user documentation for Logic Operating Centre (LOC) built on React-based Docusaurus 3",
 		"location": null,
 		"footnote": null,
-		"tooltip": "I'm the creator and currently the sole maintainer. The site in the link is actually a archived version deployed on Vercel. For the official version, please visit <a href='https://documentation.loc.fst.network/' target='_blank' class='link-info'>here</a>.<br /><br />The site includes a code template generator and unit test tool I've designed and developed on my own.",
+		"tooltip": "I was the creator and maintainer between Aug 2022 until Jul 2024. The site in the link is actually a archived version deployed on Vercel. For the official version, please visit <a href='https://documentation.loc.fst.network/' target='_blank' class='link-info'>here</a>.<br /><br />The site includes a code template generator and unit test tool I've designed and developed on my own.",
 		"language": ["English"],
 		"category": [
 			"Documentation",
