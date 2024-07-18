@@ -7,7 +7,8 @@ FROM node:alpine as builder
 WORKDIR /app
 COPY . /app
 
-RUN yarn install --frozen-lockfile
+RUN yarn set version latest --yarn-path
+RUN yarn install --immutable --immutable-cache --check-cache
 RUN yarn check
 RUN yarn build
 RUN echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\" }" > ./build/website/build.json
