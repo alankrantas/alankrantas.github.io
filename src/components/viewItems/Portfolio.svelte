@@ -123,7 +123,7 @@
 	<Image
 		src="/work/marketing.jpg"
 		alt="marketing"
-		footnote="I can also draw marketing illustrations.<br />Here's an example of data pipeliens for generating ESG reports."
+		footnote="I can also draw marketing illustrations.<br />Here's an (unused) example of utilizing data pipelines for generating ESG reports."
 		widthRatios={[75, 85, 90, 95]}
 	/>
 </p>
