@@ -101,8 +101,8 @@
 	<Image
 		src="/about-me/camera.jpg"
 		alt="camera"
-		footnote="Two of my favorite things: film camera and coffee. (The camera is a Eastern Germany-made Zeiss Ikon
-		Ercona; this copy is possibly manufactured in early 1950s)"
+		footnote="Two of my favorite things: film camera and coffee.<br />(The camera is a Eastern Germany-made Zeiss Ikon
+		Ercona;<br />this copy is possibly manufactured in early 1950s)"
 	/>
 </p>
 <p>
@@ -118,7 +118,7 @@
 	<Image
 		src="/about-me/sakura.jpg"
 		alt="sakura"
-		footnote="Cherry blossoms on medium format still film, Kumamoto Castle, Japan, 2018."
+		footnote="Cherry blossoms on medium format still film,<br />Kumamoto Castle, Japan, 2018."
 		widthRatios={[75, 85, 90, 95]}
 	/>
 </p>
@@ -129,6 +129,6 @@
 	<Image
 		src="/about-me/diy.jpg"
 		alt="diy"
-		footnote="Japanese-made, hand-assembled Billy doll houses refitted with DIY lights, sensors and other stuff."
+		footnote="Japanese-made, hand-assembled Billy doll houses<br />refitted with DIY lights, sensors and other stuff."
 	/>
 </p>

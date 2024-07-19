@@ -64,9 +64,12 @@
 	<br />
 </p>
 <p class="text-center">
-	<img src="/website/responsive.svg" width="100px" alt="responsive" />
-	<br />
-	<span class="small"><i>This site is responsive!</i></span>
+	<Image
+		src="/website/responsive.svg"
+		alt="responsive"
+		footnote="This site is <b><i>responsive!</i></b>"
+		widthRatios={[20, 20, 20, 20]}
+	/>
 </p>
 <p>
 	<br /><br />

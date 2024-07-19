@@ -45,7 +45,7 @@
 	<Image
 		src="/about-me/nccu.jpg"
 		alt="nccu"
-		footnote="Business School in National Chengchi University"
+		footnote="Business School and boulevard<br />of the National Chengchi University"
 	/>
 </p>
 <p>

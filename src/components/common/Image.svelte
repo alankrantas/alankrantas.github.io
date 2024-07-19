@@ -31,7 +31,7 @@
 	</p>
 	{#if footnote}
 		<p class="small text-white-50">
-			{footnote}
+			{@html footnote}
 		</p>
 	{/if}
 </div>

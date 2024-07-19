@@ -3,6 +3,7 @@
 	import Modal from 'svelte-simple-modal';
 	import Showcase from '../common/Showcase.svelte';
 	import List from '../common/List.svelte';
+	import Image from '../common/Image.svelte';
 
 	import { screenSize } from '../../data/Store';
 
@@ -114,6 +115,17 @@
 </p>
 <p>
 	<span class="small">Note: see <kbd>Links</kbd> for links to my blogs and Github profile.</span>
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<Image
+		src="/work/marketing.jpg"
+		alt="marketing"
+		footnote="I can also draw marketing illustrations.<br />Here's an example of data pipeliens for generating ESG reports."
+		widthRatios={[75, 85, 90, 95]}
+	/>
 </p>
 <p>
 	<br />
