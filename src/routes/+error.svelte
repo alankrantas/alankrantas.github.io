@@ -3,8 +3,12 @@
 </script>
 
 <div class="alert alert-warning text-center">
-	<p class="display-6 p-md-2 m-md-2">
-		{$page.status}: {$page.error?.message}
+	<p class="display-6 p-md-2 m-md-2">Oops!</p>
+	<p class="code p-md-2 m-md-2">
+		Routing error ({$page.status}: {$page.error?.message || 'Unknown'}).
+	</p>
+	<p class="lead p-md-2 m-md-2">
+		Here, listen to this song, take a long breath, then simple go back.
 	</p>
 	<p class="p-md-3 m-md-3">
 		<iframe
