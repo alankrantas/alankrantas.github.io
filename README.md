@@ -1,26 +1,20 @@
 # Alan Wang's Github Pages Homepage
 
-👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
-
 [![github-pages-deploy](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml)
+
+👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
 
 ---
 
-## Framework, Packages and Tools
+## Overview
 
 - Built with [Svelte](https://svelte.dev/), [SvelteKit](https://kit.svelte.dev/) and [`svelte-simple-modal`](https://www.npmjs.com/package/svelte-simple-modal)
 - Primarily using [Bootstrap](https://getbootstrap.com/) CSS styles
 - Deployed to [Github Pages](https://pages.github.com/) using a [Github Action](https://github.com/features/actions) workflow
 
-### Todo
-
-- Switch to Svelte `v5`
-
 ## Layout and Components
 
-The site is designed as a static single-page application (SPA) production with functional responsive web design (RWD).
-
-The index page switches between two layouts - "main" and "view" mode.
+The site is designed as a static single-page application (SPA) that will switch between two layouts - "main" and "view".
 
 ### Main Mode
 
@@ -94,7 +88,9 @@ The index page also accepts a `view` URL parameter to switch to a specific view 
 
 ### Responsive Layouts
 
-Each mode may have multiple layout and CSS style variations under different resolutions (`1200`, `996`, `768` and `576` px).
+The site is implemented with functional responsive web design (RWD) using Svelte and/or CSS.
+
+Each mode may have multiple layout and CSS style variations based on different resolutions (`1200`, `996`, `768` and `576` px).
 
 Both main and view mode will be squashed to a single column when the screen width is smaller than `992` px.
 
