@@ -1,10 +1,10 @@
 [
 	{
 		"name": "LOC Documentation",
-		"description": "FST Network's user documentation for Logic Operating Centre (LOC) built on React-based Docusaurus 3",
-		"location": null,
-		"footnote": null,
-		"tooltip": "I was the creator and maintainer between Aug 2022 until Jul 2024. The site in the link is actually a archived version deployed on Vercel. For the official version, please visit <a href='https://documentation.loc.fst.network/' target='_blank' class='link-info'>here</a>.<br /><br />The site includes a code template generator and unit test tool I've designed and developed on my own.",
+		"description": "User documentation for Logic Operating Centre (LOC) built on React-based Docusaurus 3",
+		"location": "FST Network",
+		"footnote": "Aug 2022 - Jul 2024",
+		"tooltip": "I was the creator and maintainer, including the Logic Code Generator tool I've developed on my own. The site in the link is actually a archived version deployed on Vercel. For the official version, please visit <a href='https://documentation.loc.fst.network/' target='_blank' class='link-info'>here</a>.<br /><br />The site includes a code template generator and unit test tool I've designed and developed on my own.",
 		"language": ["English"],
 		"category": [
 			"Documentation",
@@ -23,7 +23,7 @@
 		"description": "A monolithic full-stack shopping demo app inspired by the book Essential TypeScript",
 		"location": null,
 		"footnote": null,
-		"tooltip": null,
+		"tooltip": "It gained more than 100 stars on Github after SvelteKit released v1.0.",
 		"language": ["English"],
 		"category": ["Full-stack", "JavaScript", "TypeScript", "Golang"],
 		"link": "https://github.com/alankrantas/svelteapp-typescript-go",
@@ -34,7 +34,7 @@
 		"description": "A simple online editor with IntelliSense support that can execute code directly in browser",
 		"location": null,
 		"footnote": null,
-		"tooltip": "A similar Python editor can be found <a href='https://alankrantas.github.io/monaco-python-live-editor/' target='_blank' class='link-info'>here</a>.",
+		"tooltip": "A similar Python editor can be found <a href='https://alankrantas.github.io/monaco-python-live-editor/' target='_blank' class='link-info'>here</a>, which supports several additional packages.",
 		"language": ["English"],
 		"category": ["TypeScript", "React"],
 		"link": "https://alankrantas.github.io/monaco-ts-live-editor/",
@@ -42,7 +42,7 @@
 	},
 	{
 		"name": "MicroPython Driver for TEA5767 FM Radio Module",
-		"description": "A radio driver utilizing most of the features documented in the datasheet",
+		"description": "An open-sourced radio driver utilizing most of the features documented in the datasheet",
 		"location": null,
 		"footnote": null,
 		"tooltip": "A CircuitPython version is also available <a href='https://github.com/alankrantas/circuitpython-TEA5767' target='_blank' class='link-info'>here</a>.",
@@ -53,7 +53,7 @@
 	},
 	{
 		"name": "SEFR Multiclass Classifier",
-		"description": "The first multi-class classifier implementation based on SEFR, a fast linear-time binary classifier designed for model training on low-powered microcontrollers",
+		"description": "The first multi-class classifier implementation based on SEFR, a fast linear-time binary classifier designed for training and running model on low-powered microcontrollers",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -65,12 +65,12 @@
 	{
 		"name": "MakeCode Editor Extension for Nexus:bit and NexusBot",
 		"description": "A MakeCode editor extension (written in TypeScript) for controlling the micro:bit expansion board, Nexus:bit (a KittenBot Robot:bit clone) and Nexusbot (an OTTO robot-clone)",
-		"location": null,
+		"location": "Taiwan Coding Education Association",
 		"footnote": null,
-		"tooltip": "My former employer changed the author name to his after I left, however you can still find my name in the source code (including the original repo he forked).<br /><br />The extension also includes a long robot dance sequence based on the dance in the Japanese TV drama 'We married as a job!'.",
+		"tooltip": "My former employer changed the author name to his after I left, however you can still find my name in the <a href="https://github.com/beyond-coding-tw/pxt-nexusbot/blob/master/main.ts#L263">source code</a> :p.<br /><br />Fun fact: the extension also includes a long robot dance sequence based on the dance in the Japanese TV drama 'We married as a job!'.",
 		"language": ["English"],
 		"category": ["STEM", "micro:bit", "MakeCode", "TypeScript", "Robotic"],
-		"link": "https://makecode.microbit.org/pkg/beyond-coding-tw/pxt-nexusbot",
+		"link": "https://github.com/alankrantas/pxt-nexusbit",
 		"linkedTitle": false
 	}
 ]
