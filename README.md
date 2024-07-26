@@ -1,28 +1,24 @@
 # Alan Wang's Github Pages Homepage
 
-[![github-pages-deploy](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml)
-
 👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
 
----
-
-## Overview
-
-The site, technically an _always-working-in-progress_ project started from May 2023, is meant to be built as a single-page application (SPA) with responsive web design (RWD) and is deployed to Github Pages using a Github Action workflow.
+[![github-pages-deploy](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml)
 
 ---
 
-## Framework and Packages
+## Framework, Packages and Tools
 
-- [Svelte](https://svelte.dev/)
-- [SvelteKit](https://kit.svelte.dev/)
-- [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/main/packages/adapter-static)
-- [`svelte-simple-modal`](https://www.npmjs.com/package/svelte-simple-modal)
-- [Bootstrap](https://getbootstrap.com/)
+- Built with [Svelte](https://svelte.dev/), [SvelteKit](https://kit.svelte.dev/) and [`svelte-simple-modal`](https://www.npmjs.com/package/svelte-simple-modal)
+- Primarily using [Bootstrap](https://getbootstrap.com/) CSS styles
+- Deployed to [Github Pages](https://pages.github.com/) using a [Github Action](https://github.com/features/actions) workflow
 
----
+### Todo
+
+- Switch to Svelte `v5`
 
 ## Layout and Components
+
+The site is designed as a static single-page application (SPA) production with functional responsive web design (RWD).
 
 The index page switches between two layouts - "main" and "view" mode.
 
@@ -94,21 +90,23 @@ flowchart TD
 
 The viewer can click the nav bar buttons to switch the view content, or go back to the main mode.
 
-The index page also accepts a `view` parameter to switch to a specific view directly.
+The index page also accepts a `view` URL parameter to switch to a specific view directly, which makes it useful to be linked elsewhere.
 
-### Responsive Layout
+### Responsive Layouts
+
+Each mode may have multiple layout and CSS style variations under different resolutions (`1200`, `996`, `768` and `576` px).
 
 Both main and view mode will be squashed to a single column when the screen width is smaller than `992` px.
 
-Some reusable components, like `Image` and `Showcase`, has parameters to make the component responsive under different resolutions.
+Some reusable components, like `Image` and `Showcase`, has properties to control the component responsive behavior under different resolutions.
 
 ---
 
-## Notes for Development and Deployment
+## Local Development
 
 > Prerequisites: Node.js, Git and Docker
 
-### Local Development
+### Install Dependencies
 
 Install Yarn:
 
@@ -126,21 +124,23 @@ cd alankrantas.github.io
 yarn
 ```
 
-Upgrade all packages:
+### Start Dev Server
 
 ```bash
-yarn upgrade-all
+yarn start
 ```
 
-After making changes:
+### Build Production
 
 ```bash
-yarn pull  # resolve conflict if any
-yarn format
-yarn push
+yarn build
 ```
 
-> Or use `yarn commit` to pull, format then push.
+### Commit Changes
+
+```bash
+yarn commit
+```
 
 ### List of Actions
 
