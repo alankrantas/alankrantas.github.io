@@ -4,15 +4,27 @@
 
 👉 [**alankrantas.github.io**](https://alankrantas.github.io/)
 
-Built with [Svelte](https://svelte.dev/docs), [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/). Has a basic but functional responsive web design. Has options to deploy as a Docker container (using [serve](https://www.npmjs.com/package/serve) as server) and supports DevContainer/Codespace.
+---
 
-Uses Github Action to deploy a production to Github Pages and enables dependabot for security updates. A file containing the current timestamp would be written into a static text file by Github Action so that it can be loaded and shown in the Svelte production.
+## Overview
 
-This is technically an _always-working-in-progress_ project and may be subjected to changes.
+The site, technically an _always-working-in-progress_ project started from May 2023, is meant to be built as a single-page application (SPA) with responsive web design (RWD) and is deployed to Github Pages using a Github Action workflow.
+
+---
+
+## Framework and Packages
+
+- [Svelte](https://svelte.dev/)
+- [SvelteKit](https://kit.svelte.dev/)
+- [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/main/packages/adapter-static)
+- [`svelte-simple-modal`](https://www.npmjs.com/package/svelte-simple-modal)
+- [Bootstrap](https://getbootstrap.com/)
 
 ---
 
 ## Layout and Components
+
+The index page switches between two layouts - "main" and "view" mode.
 
 ### Main Mode
 
@@ -82,11 +94,13 @@ flowchart TD
 
 The viewer can click the nav bar buttons to switch the view content, or go back to the main mode.
 
-### Under Smaller Resolutions
+The index page also accepts a `view` parameter to switch to a specific view directly.
 
-Both main and view mode will be squashed to a single column when the screen resolution is smaller than `992` px.
+### Responsive Layout
 
-Some common components, like `Image` and `Showcase`, has parameters to adjust the component in different resolutions.
+Both main and view mode will be squashed to a single column when the screen width is smaller than `992` px.
+
+Some reusable components, like `Image` and `Showcase`, has parameters to make the component responsive under different resolutions.
 
 ---
 
@@ -128,7 +142,7 @@ yarn push
 
 > Or use `yarn commit` to pull, format then push.
 
-### List of Scripts
+### List of Actions
 
 | Command             | Description                                                    |
 | ------------------- | -------------------------------------------------------------- |
@@ -146,30 +160,3 @@ yarn push
 | `yarn docker-run`   | Run the Docker container and open `http://localhost:8080`.     |
 | `yarn docker-stop`  | Stop the Docker container.                                     |
 | `yarn docker`       | `yarn docker-build` + `yarn docker-run`                        |
-
-### (Re)create a New Project
-
-> a.k.a. Operation Clean Slate
-
-Create whatever project I want locally, copy and paste the following files
-
-- `.devcontainer/devcontainer.json`
-- `.github/workflows/deploy.yml`
-- `.github/dependabot.yml`
-
-Then
-
-```bash
-git init
-git add .
-git commit -m "first commit"
-git remote add origin https://github.com/alankrantas/alankrantas.github.io.git
-git push -u -f origin main
-```
-
-## Links of Documentations
-
-- [Svelte](https://svelte.dev/docs)
-- [SvelteKit](https://kit.svelte.dev/docs/introduction)
-- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- [svelte-simple-modal](https://github.com/flekschas/svelte-simple-modal#api)
