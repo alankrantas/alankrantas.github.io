@@ -8,13 +8,13 @@
 		{$page.status}: {$page.error?.message || 'Unknown'}
 	</p>
 	<p class="lead p-md-2 m-md-2">
-		Keep calm and carry on being rickrolled. (Or simply go back :D)
+		Keep calm and carry on being rickrolled. <small>(Or simply go back :D)</small>
 	</p>
 	<p class="p-md-3 m-md-3">
 		<iframe
 			width="560"
 			height="315"
-			src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=sjnpqqTSXPh5JLvP&amp;autoplay=1&mute=1&controls=0"
+			src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=sjnpqqTSXPh5JLvP&amp;autoplay=1&mute=1&controls=1"
 			title="You've got rickrolled"
 			frameborder="0"
 			referrerpolicy="strict-origin-when-cross-origin"
