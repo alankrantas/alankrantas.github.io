@@ -5,7 +5,8 @@
 		"category": ["Programming", "Python", "Data Science", "Machine Learning"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F0753",
-		"imgUrl": "/work/learn.jpg"
+		"imgUrl": "/work/learn.jpg",
+		"videoId": null
 	},
 	{
 		"name": "Flag's Maker Workshop: Using Smart Cloud Sensors with Python",
@@ -19,7 +20,8 @@
 		],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/FM622A",
-		"imgUrl": "/work/sensor.jpg"
+		"imgUrl": "/work/sensor.jpg",
+		"videoId": null
 	},
 	{
 		"name": "My First micro:bit Programming Book",
@@ -27,7 +29,8 @@
 		"category": ["Programming", "Embedded Programming", "STEM Education"],
 		"language": ["Traditional Chinese"],
 		"link": null,
-		"imgUrl": "/work/microbit.jpg"
+		"imgUrl": "/work/microbit.jpg",
+		"videoId": null
 	},
 	{
 		"name": "My First micro:bit Maker Guide: micro:bit Plus Thunder:bit",
@@ -35,7 +38,8 @@
 		"category": ["Programming", "Embedded Programming", "STEM Education"],
 		"language": ["Traditional Chinese"],
 		"link": null,
-		"imgUrl": "/work/thunderbit.jpg"
+		"imgUrl": "/work/thunderbit.jpg",
+		"videoId": "aCaN0LK8dZg"
 	},
 	{
 		"name": "Web 2.0 meta-architecture analysis incorporated into UML requirements modeling: By the Case of ETF platform",
@@ -43,6 +47,7 @@
 		"category": ["Web 2.0", "Thesis"],
 		"language": ["English"],
 		"link": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22096NCCU5396034%22.&searchmode=basic",
-		"imgUrl": "/work/thesis.jpg"
+		"imgUrl": "/work/thesis.jpg",
+		"videoId": null
 	}
 ]

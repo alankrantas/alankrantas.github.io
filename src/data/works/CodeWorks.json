@@ -2,8 +2,8 @@
 	{
 		"name": "LOC Documentation",
 		"description": "User documentation for Logic Operating Centre (LOC) built on React-based Docusaurus 3",
-		"location": "FST Network",
-		"footnote": "Aug 2022 - Jul 2024",
+		"location": null,
+		"footnote": "FST Network, Aug 2022 - Jul 2024",
 		"tooltip": "I was the creator and maintainer, including the Logic Code Generator tool I've developed on my own. The site in the link is actually a archived version deployed on Vercel. For the official version, please visit <a href='https://documentation.loc.fst.network/' target='_blank' class='link-info'>here</a>.<br /><br />The site includes a code template generator and unit test tool I've designed and developed on my own.",
 		"language": ["English"],
 		"category": [
@@ -65,9 +65,9 @@
 	{
 		"name": "MakeCode Editor Extension for Nexus:bit and NexusBot",
 		"description": "A MakeCode editor extension (written in TypeScript) for controlling the micro:bit expansion board, Nexus:bit (a KittenBot Robot:bit clone) and Nexusbot (an OTTO robot-clone)",
-		"location": "Taiwan Coding Education Association",
-		"footnote": null,
-		"tooltip": "My former employer changed the author name to his after I left, however you can still find my name in the <a href="https://github.com/beyond-coding-tw/pxt-nexusbot/blob/master/main.ts#L263">source code</a> :p.<br /><br />Fun fact: the extension also includes a long robot dance sequence based on the dance in the Japanese TV drama 'We married as a job!'.",
+		"location": null,
+		"footnote": "Taiwan Coding Education Association, Apr - Jul 2019",
+		"tooltip": "My former employer changed the author name to his after I left, however you can still find my name in the <a href='https://github.com/beyond-coding-tw/pxt-nexusbot/blob/master/main.ts#L263'>source code</a> :p.<br /><br />Fun fact: the extension also includes a long robot dance sequence based on the dance in the Japanese TV drama 'We married as a job!'.",
 		"language": ["English"],
 		"category": ["STEM", "micro:bit", "MakeCode", "TypeScript", "Robotic"],
 		"link": "https://github.com/alankrantas/pxt-nexusbit",

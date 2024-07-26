@@ -37,6 +37,19 @@
 				{work.description}
 			</span>
 		</p>
+		{#if work.videoId}
+			<p>
+				<iframe
+					class="youtube-video"
+					src={`https://www.youtube-nocookie.com/embed/${work.videoId};controls=0`}
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin"
+					allowfullscreen
+				></iframe>
+			</p>
+		{/if}
 		{#if work.category}
 			<p>
 				{#each work.category as cat}

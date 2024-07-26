@@ -24,4 +24,5 @@ export interface WorkItem {
 	language: string[] | null;
 	link: string | null;
 	imgUrl: string;
+	videoId: string | null;
 }

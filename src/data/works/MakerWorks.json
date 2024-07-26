@@ -5,7 +5,8 @@
 		"category": ["Embedded Programming", "Arduino", "Machine Learning", "Deep Learning", "TinyML"],
 		"language": ["English"],
 		"link": "https://github.com/alankrantas/edge-impulse-esp32-cam-image-classification",
-		"imgUrl": "/work/espcam.jpg"
+		"imgUrl": "/work/espcam.jpg",
+		"videoId": "UoWfiEZE0Y4"
 	},
 	{
 		"name": "The Falcon Audio Visualizer",
@@ -13,7 +14,8 @@
 		"category": ["Embedded Programming", "TinyGo", "Audio"],
 		"language": ["English"],
 		"link": "https://www.hackster.io/alankrantas/the-falcon-audio-visualizer-a-tinygo-project-260360",
-		"imgUrl": "/work/falcon.jpg"
+		"imgUrl": "/work/falcon.jpg",
+		"videoId": "eszRDll6zBg"
 	},
 	{
 		"name": "Practical, WiFi-Calibrated Mini Wall Clock",
@@ -21,7 +23,8 @@
 		"category": ["Embedded Programming", "MicroPython", "Internet of Things", "MicroPython"],
 		"language": ["English"],
 		"link": "https://medium.com/@alankrantas/how-i-made-a-totally-practical-wifi-calibrated-mini-wall-clock-for-20-47ec3bb7542",
-		"imgUrl": "/work/clock.jpg"
+		"imgUrl": "/work/clock.jpg",
+		"videoId": null
 	},
 	{
 		"name": "\"Saiko\" IoTomatic Watch",
@@ -29,7 +32,8 @@
 		"category": ["Embedded Programming", "Arduino", "Internet of Things"],
 		"language": ["English"],
 		"link": "https://www.hackster.io/alankrantas/saiko-iotomatic-watch-d619e5",
-		"imgUrl": "/work/watch.jpg"
+		"imgUrl": "/work/watch.jpg",
+		"videoId": null
 	},
 	{
 		"name": "X'mas Music Box",
@@ -37,7 +41,8 @@
 		"category": ["Embedded Programming", "CircuitPython", "Audio", "MP3"],
 		"language": ["English"],
 		"link": "https://www.hackster.io/alankrantas/x-mas-music-box-super-simple-circuitpython-mp3-player-262381",
-		"imgUrl": "/work/xmas.jpg"
+		"imgUrl": "/work/xmas.jpg",
+		"videoId": null
 	},
 	{
 		"name": "MetroWatch - Heat & UVI Edition",
@@ -45,7 +50,8 @@
 		"category": ["Embedded Programming", "Arduino", "Internet of Things"],
 		"language": ["English"],
 		"link": "https://www.hackster.io/alankrantas/metrowatch-heat-uvi-edition-inspired-by-metro-exidus-e56329",
-		"imgUrl": "/work/metro.jpg"
+		"imgUrl": "/work/metro.jpg",
+		"videoId": "AnI79lZzWHk"
 	},
 	{
 		"name": "Retro FM Radio",
@@ -53,7 +59,8 @@
 		"category": ["Embedded Programming", "MicroPython", "Audio", "Radio"],
 		"language": ["English"],
 		"link": "https://www.hackster.io/alankrantas/retro-fm-radio-with-tea5767-and-wemos-d1-mini-38e24c",
-		"imgUrl": "/work/radio.jpg"
+		"imgUrl": "/work/radio.jpg",
+		"videoId": null
 	},
 	{
 		"name": "ESP32 Web Flip Clock",
@@ -61,7 +68,8 @@
 		"category": ["Embedded Programming", "MicroPython", "Clock"],
 		"language": ["English"],
 		"link": "https://www.hackster.io/alankrantas/esp32-web-flip-clock-modified-145ad4",
-		"imgUrl": "/work/flip.jpg"
+		"imgUrl": "/work/flip.jpg",
+		"videoId": "sxEbMcnyyd8"
 	},
 	{
 		"name": "Simple Kerbal Space Program Controller",
@@ -69,7 +77,8 @@
 		"category": ["Embedded Programming", "Arduino", "Keyboard"],
 		"language": ["English"],
 		"link": "https://www.hackster.io/alankrantas/a-simple-kerbal-space-program-arduino-leonardo-controller-95704c",
-		"imgUrl": "/work/kerbal.jpg"
+		"imgUrl": "/work/kerbal.jpg",
+		"videoId": "MdtceO1Ampc"
 	},
 	{
 		"name": "DIY Mini Breakout Arcade",
@@ -77,7 +86,8 @@
 		"category": ["Embedded Programming", "MicroPython", "Game"],
 		"language": ["English"],
 		"link": "https://www.hackster.io/alankrantas/diy-micropython-arcade-esp32-413d9e",
-		"imgUrl": "/work/arcade.jpg"
+		"imgUrl": "/work/arcade.jpg",
+		"videoId": "IilS0QTPmtI"
 	},
 	{
 		"name": "Raspberry Pi Zero Flash Action Cam",
@@ -85,6 +95,7 @@
 		"category": ["Embedded Programming", "Python", "Camera"],
 		"language": ["English"],
 		"link": "https://www.hackster.io/alankrantas/raspberry-pi-zero-flash-cam-359875",
-		"imgUrl": "/work/picam.jpg"
+		"imgUrl": "/work/picam.jpg",
+		"videoId": "J4D6rRFecL4"
 	}
 ]
