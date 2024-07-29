@@ -25,8 +25,9 @@
 	but currently in {info.industry}.
 </p>
 <p class="indent">
-	With the rare combinations of experiences and skills, I am a quick, passionate learner with a
-	creative mind, easy-going personality as well as down-to-earth working attitude.
+	With the rare combinations of experiences and skills in content writing and software engineering,
+	I am a quick, passionate learner with a creative mind, easy-going personality as well as
+	down-to-earth collaborative/communicative working attitude.
 </p>
 <p>
 	<br />
