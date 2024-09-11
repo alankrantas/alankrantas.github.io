@@ -61,6 +61,10 @@
 	as well as marketing materials.
 </p>
 <p class="indent">
+	Currently I'm having some time off (the startup failed after two years) while doing a bit
+	freelance copywriting work for a crypto exchange company.
+</p>
+<p class="indent">
 	For my own free time, I write tech blogs and create website/Maker side projects from time to time,
 	never for profit or fame but for the pure joy of learning and sharing. I also have great interests
 	in books, movies, music and film photography. I also collect vintage film cameras and shared photo
