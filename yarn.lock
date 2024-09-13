@@ -193,10 +193,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/playfair-display/-/playfair-display-5.0.26.tgz#2a42f9de18aa37583ce5dc713a6a496786f0419c"
   integrity sha512-EFqYbOS2+Pv+4wVj+I+N5eMKgUAl45q+6aC0yvQxgGgysmpKPoWKGeSdQP3MtzETouPqLYgpfWEuquAF0BKS/g==
 
-"@fontsource/space-mono@^5.0.21":
-  version "5.0.21"
-  resolved "https://registry.yarnpkg.com/@fontsource/space-mono/-/space-mono-5.0.21.tgz#0641125e5592f34e4aae36d253c4b1db10d8a01d"
-  integrity sha512-NZ9+iWsX2P8fa79Y93oA0tOLJTRK4qbAM94SsNaNEoinYRyaXr44cM20vMXVr5KBFDgbWsYUBFbdPC98J3dm8g==
+"@fontsource/space-mono@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/space-mono/-/space-mono-5.1.0.tgz#812518e39a6bcee3555dec73f1a2731e741e1373"
+  integrity sha512-yeBy48MWg3ulILJYQAz46B8Or2zr+Hu5ADV9dfSe9g+AYdKQliDTVKq3ntubxcuFsUboAY+TUWckuw+Y0M89sw==
 
 "@humanwhocodes/module-importer@^1.0.1":
   version "1.0.1"
