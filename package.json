@@ -45,7 +45,7 @@
 	"dependencies": {
 		"@fontsource/noto-sans-tc": "^5.0.20",
 		"@fontsource/open-sans": "^5.1.0",
-		"@fontsource/playfair-display": "^5.0.26",
+		"@fontsource/playfair-display": "^5.1.0",
 		"@fontsource/space-mono": "^5.1.0",
 		"bootstrap": "^5.3.3",
 		"picomatch": "^4.0.2"
