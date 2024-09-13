@@ -178,10 +178,10 @@
   dependencies:
     levn "^0.4.1"
 
-"@fontsource/noto-sans-tc@^5.0.20":
-  version "5.0.20"
-  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-5.0.20.tgz#8e96a564ce7e3c04ea5613b6d33a16dd13e75d0f"
-  integrity sha512-zL5DqcrVJcbBIxTTZbmZmlxkp6rMrRjcHGzRJ53noj72uM51nsyvr8o6tuTP7gs3yLyYe9lRPHRNegq0xIYWlQ==
+"@fontsource/noto-sans-tc@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-5.1.0.tgz#1b3d66040a97accb9e908d80e0c4694f1bb2dc6b"
+  integrity sha512-kYthvpBOg0fCgF7ygIaF/mLaZ7kxptJZWWeDaKWnZBd/7DarO3g+QyNe5ur+Vg7Na7kViuyVgPzeqCg5jzzs0w==
 
 "@fontsource/open-sans@^5.1.0":
   version "5.1.0"
