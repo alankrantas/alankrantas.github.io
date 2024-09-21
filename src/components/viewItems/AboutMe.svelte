@@ -32,7 +32,9 @@
 <p>
 	<br />
 </p>
-<hr />
+<p>
+	<Image src="/about-me/profile.jpg" alt="profile" footnote="" widthRatios={[70, 80, 90, 95]} />
+</p>
 <p>
 	<br />
 </p>
@@ -78,12 +80,7 @@
 	<br />
 </p>
 <p>
-	<Image
-		src="/about-me/profile.jpg"
-		alt="profile"
-		footnote="Selfie just before turning 40"
-		widthRatios={[70, 80, 90, 95]}
-	/>
+	<Image src="/about-me/profile2.jpg" alt="profile2" footnote="" widthRatios={[70, 80, 90, 95]} />
 </p>
 <p>
 	<br />
