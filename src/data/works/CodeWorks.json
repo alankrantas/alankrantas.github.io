@@ -67,7 +67,7 @@
 		"description": "A MakeCode editor extension (written in TypeScript) for controlling the micro:bit expansion board, Nexus:bit (a KittenBot Robot:bit clone) and Nexusbot (an OTTO robot-clone)",
 		"location": null,
 		"footnote": "Taiwan Coding Education Association, Apr - Jul 2019",
-		"tooltip": "My former employer changed the author name to his after I left, however you can still find my name in the <a href='https://github.com/beyond-coding-tw/pxt-nexusbot/blob/master/main.ts#L263'>source code</a> :p.<br /><br />Fun fact: the extension also includes a long robot dance sequence based on the dance in the Japanese TV drama 'We married as a job!'.",
+		"tooltip": "My former employer changed the author name to his after I left, however you can still find my name in the <a href='https://github.com/beyond-coding-tw/pxt-nexusbot/blob/master/main.ts#L263' class='link-info' target='_blank'>source code</a> :p.<br /><br />Fun fact: the extension also includes a long robot dance sequence based on the dance in the Japanese TV drama 'We married as a job!'.",
 		"language": ["English"],
 		"category": ["STEM", "micro:bit", "MakeCode", "TypeScript", "Robotic"],
 		"link": "https://github.com/alankrantas/pxt-nexusbit",
