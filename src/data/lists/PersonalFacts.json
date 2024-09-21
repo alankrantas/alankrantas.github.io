@@ -33,11 +33,11 @@
 		"linkedTitle": false
 	},
 	{
-		"name": "Gender/pronouns",
-		"description": "Male ♂/he",
+		"name": "Gender",
+		"description": "Male ♂",
 		"location": null,
 		"footnote": null,
-		"tooltip": null,
+		"tooltip": "Pronouns: he/him",
 		"category": null,
 		"language": null,
 		"link": null,
