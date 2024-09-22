@@ -62,7 +62,7 @@
 	<Modal styleWindow={{ width: '500px' }}>
 		<Showcase
 			works={trans}
-			title="Selected Translation Works"
+			title="Selected Translated Works"
 			displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
 		/>
 	</Modal>
