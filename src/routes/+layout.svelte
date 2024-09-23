@@ -13,8 +13,8 @@
 	import info from '../data/BasicInfo.json';
 	import viewItems from '../data/ViewItems.json';
 
-	const webTitle = `Homepage of ${info.name}`;
-	const description = `${webTitle}, ${info.location} - ${[...viewItems.map((item) => item.name)].join(', ')}`;
+	const webTitle = `${info.name}, ${info.title.join(' / ')} (${info.location})`;
+	const description = `${webTitle} - ${[...viewItems.map((item) => item.name)].join(', ')}`;
 
 	const url = 'https://alankrantas.github.io/';
 	const thumbnail = `${url}website/thumbnail.jpg`;

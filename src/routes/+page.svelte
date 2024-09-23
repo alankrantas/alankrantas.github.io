@@ -32,9 +32,11 @@
 
 	const setViewId = (id: number) => {
 		if (id >= 0 && id < viewItems.length) {
-			selectedViewId = id;
-			$page.url.searchParams.set('view', String(selectedViewId));
-			goto(`/?${$page.url.searchParams.toString()}`);
+			if (id != selectedViewId) {
+				selectedViewId = id;
+				$page.url.searchParams.set('view', String(id));
+				goto(`/?${$page.url.searchParams.toString()}`);
+			}
 		} else {
 			selectedViewId = -1;
 			$page.url.searchParams.delete('view');
