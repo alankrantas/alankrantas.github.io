@@ -33,7 +33,7 @@
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010638857",
 		"imgUrl": "/work/brave.jpg",
-		"videoId": null
+		"videoId": "eAmP7XOqopw"
 	},
 	{
 		"name": "The Invisible Man",
@@ -46,7 +46,7 @@
 	},
 	{
 		"name": "The Jungle",
-		"description": "魔鬼的叢林; Upton Sinclair, 1906; Persimmon Books, Dec 2014.",
+		"description": "魔鬼的叢林; Upton Sinclair (Pulitzer Prize winner), 1906; Persimmon Books, Dec 2014.",
 		"category": ["Literature", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010656599",
@@ -64,7 +64,7 @@
 	},
 	{
 		"name": "Dear Life",
-		"description": "親愛的人生：諾貝爾獎得主艾莉絲．孟若短篇小說集2; Alice Munro, 2013; ECUS Publishing, Dec 2013. I translated 6 of the 14 stories.",
+		"description": "親愛的人生：諾貝爾獎得主艾莉絲．孟若短篇小說集2; Alice Munro (Nobel Prize winner), 2013; ECUS Publishing, Dec 2013. I translated 6 of the 14 stories.",
 		"category": ["Literature", "Short Story Collection"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010617695",
@@ -73,7 +73,7 @@
 	},
 	{
 		"name": "The View from Castle Rock",
-		"description": "城堡岩海景：諾貝爾獎得主艾莉絲•孟若短篇小說集6; Alice Munro, 2006; ECUS Publishing, Oct 2014.",
+		"description": "城堡岩海景：諾貝爾獎得主艾莉絲•孟若短篇小說集6; Alice Munro (Nobel Prize winner), 2006; ECUS Publishing, Oct 2014.",
 		"category": ["Literature", "Short Story Collection"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010650379",
@@ -82,7 +82,7 @@
 	},
 	{
 		"name": "Open Secrets",
-		"description": "公開的祕密：諾貝爾獎得主艾莉絲•孟若短篇小說集12; Alice Munro, 1994; ECUS Publishing, Oct 2015.",
+		"description": "公開的祕密：諾貝爾獎得主艾莉絲•孟若短篇小說集12; Alice Munro (Nobel Prize winner), 1994; ECUS Publishing, Oct 2015.",
 		"category": ["Literature", "Short Story Collection"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010690300",
@@ -145,8 +145,8 @@
 	},
 	{
 		"name": "Steelheart",
-		"description": "審判者傳奇：鋼鐵心; Brandon Sanderson, 2013; Fantasy Foundation, May 2014.",
-		"category": ["Science Fiction", "Novel"],
+		"description": "審判者傳奇：鋼鐵心; Brandon Sanderson, 2013; Fantasy Foundation, May 2014. The first book of The Reckoners series.",
+		"category": ["Science Fiction", "Novel", "Young Adult"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010633324",
 		"imgUrl": "/work/steel.jpg",
@@ -154,7 +154,7 @@
 	},
 	{
 		"name": "And Another Thing...",
-		"description": "銀河便車指南6：啊，還有一件事……; Eoin Colfer, 2009; ECUS Publishing, Jul 2016. The sixth and final installment of Douglas Adams' The Hitchhiker's Guide to the Galaxy series.",
+		"description": "銀河便車指南6：啊，還有一件事……; Eoin Colfer, 2009; ECUS Publishing, Jul 2016. The sequal and final installment of Douglas Adams' The Hitchhiker's Guide to the Galaxy series.",
 		"category": ["Science Fiction", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010720121",
@@ -171,6 +171,15 @@
 		"videoId": null
 	},
 	{
+		"name": "The Magicians",
+		"description": "費洛瑞之書: 魔法王者; Lev Grossman, 2009; Beam Books, Jul 2012. The first book of The Magicians series. (Note: the published translation had been heavily abridged by the publisher.)",
+		"category": ["Fantasy", "Novel"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.eslite.com/product/1001266262150792?srsltid=AfmBOorHFTuEZ6JWDXx2jzm8yssfbx6DvTcd8y__ydRR-bB-5bSgkYT_",
+		"imgUrl": "/work/magicians.jpg",
+		"videoId": "ZbTmwNAEhSU"
+	},
+	{
 		"name": "Flashback",
 		"description": "閃憶殺手; Dan Simmons, 2011; ECUS Publishing, Jul 2016.",
 		"category": ["Science Fiction", "Novel"],
@@ -181,12 +190,12 @@
 	},
 	{
 		"name": "The Silent Corner",
-		"description": "無聲角落; Dean Koontz, 2017; Global Publishing, Jul 2018.",
+		"description": "無聲角落; Dean Koontz, 2017; Global Publishing, Jul 2018. The first book of the Jane Hawk series.",
 		"category": ["Thriller", "Novel"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010792962",
 		"imgUrl": "/work/silent.jpg",
-		"videoId": null
+		"videoId": "CH-osomZPfI"
 	},
 	{
 		"name": "The Free State of Jones: Mississippi’s Longest Civil War",
@@ -222,6 +231,6 @@
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010756573",
 		"imgUrl": "/work/pressed.jpg",
-		"videoId": null
+		"videoId": "V1CNEMxs2sc"
 	}
 ]

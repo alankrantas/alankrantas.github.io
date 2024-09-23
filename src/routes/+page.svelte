@@ -53,8 +53,8 @@
 					behavior: 'smooth'
 				});
 			const viewParam = $page.url.searchParams.get('view');
-			if (viewParam && Number.isSafeInteger(viewParam)) {
-				setViewId(Number(viewParam));
+			if (viewParam && Number.isSafeInteger(parseInt(viewParam))) {
+				setViewId(parseInt(viewParam));
 			} else {
 				setViewId(-1);
 			}
