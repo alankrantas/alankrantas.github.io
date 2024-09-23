@@ -18,16 +18,18 @@
 	});
 </script>
 
-<p><span class="h4">Hello there!</span></p>
-<p class="indent">
+<p><span class="h4 justify">Hello there!</span></p>
+<p class="indent justify">
 	My name is <b>{info.name}</b>, a native Taiwanese born/raised and educated in {info.location}. I
 	work or worked as {info.title.map((item) => item.toLowerCase()).join(', ')} in several industries,
 	but currently in {info.industry}.
 </p>
-<p class="indent">
-	With the rare combinations of experiences and skills in content writing and software engineering,
-	I am a quick, passionate learner with a creative mind, easy-going personality as well as
-	down-to-earth collaborative/communicative working attitude.
+<p class="indent justify">
+	A professional writer with solid content writing/copywriting and translating background, with
+	experiences in various fields including software engineering, technical support and marketing.
+	Passionate, curious, and quick to learn new things, always welcoming new challenges, with a
+	meticulous attention to detail, and working with an easy-going, down-to-earth, and
+	collaborative/communicative attitude.
 </p>
 <p>
 	<br />
@@ -38,41 +40,52 @@
 <p>
 	<br />
 </p>
-<p>
-	I grew up with computers. I played the shareware version of DOOM when I was 10 and tried to learn
-	how to write QuickBASIC programs when I was 12. In my middle- and high school days I use Visual
-	Basic 4 then 6 to write mini Windows games.
+<p class="justify">
+	I grew up with computers. My dad bought a 80486 machine when I was 10. I learned how to play the
+	DOOM and Duke Nukem 3D demos by myself. As fascinated as a kid can be, I proceeded to learn MS-DOS
+	commands and then tried to write a few QuickBASIC scripts in the summer immediately after
+	graduating elementary school.
 </p>
-<p class="indent">
-	I did not go to a information technology-related department in collage as planned (but later did
-	so in my graduate degree, after spending two years study like crazy). I first went to a local
-	system integration company as a Java programmer - where I learned basic of the early front/back
-	end programming - and was deeply disappointed with the unhealthy overtime working culture. I left
-	and decided to be a full-time translator instead, out of my passion for reading novels.
+<p class="indent justify">
+	Into middle school, I found Visual Basic v4 and then v6 in high school. I joined the computing
+	club. While everyone in it was learning C++, I spent most of the time writing Windows mini-games
+	and even showcased them on the school's anniversary day.
 </p>
-<p class="indent">
-	It was a great time, I did make some money, and occasionally got to write book reviews and
-	introductions for publishers. I wrote a column on a monthly magazine for a short while. But after
-	six and half years the publishing market declined rapidly, and less books published means less
-	work available. I had no choice but to find my next way out.
+<p class="indent justify">
+	Then fate (if there is such a thing) dealt a heavy blow. I did not find my way into any
+	information technology-related department as hoped. I had to choose a major that I had no interest
+	at all - at least it is in a reputed university. I spent two years study like crazy for getting
+	into a related graduate school, and made it barely. If I didn't, I'll have to go to the mandatory
+	military service and have a year or two doing nothing!
 </p>
-<p class="indent">
-	I jumped back to the software world, first in STEM/education-related jobs - even got to learn a
-	few things about embedded programming (including how to use a soldering gun) and practical machine
-	learning - then find a job as a technical writer in a startup to write product user documentation
-	as well as marketing materials.
+<p class="indent justify">
+	My first job (also as my 3-year alternative military service) was a web programmer in a local
+	system integration provider. It is where I learned most of the "modern" software engineering
+	stuff. The working condition and culture though, it was not ideal at all - I was pretty exhausted
+	and frustrated and decide to leave.
 </p>
-<p class="indent">
-	Currently I'm having some time off (the startup failed after two years) while doing a bit
-	freelance copywriting work for a crypto exchange company.
+<p class="indent justify">If not for an engineer, what else can I be? Maybe a...translator?</p>
+<p class="indent justify">
+	I already did some part-time translation work before, so I went full-time freelance. And it did
+	take off; I actually made quite some money in the first few years, and I enjoyed it. I also
+	occasionally got to write book reviews and introductions for publishers. I wrote a column on a
+	monthly magazine for a short while.
 </p>
-<p class="indent">
-	For my own free time, I write tech blogs and create website/Maker side projects from time to time,
-	never for profit or fame but for the pure joy of learning and sharing. I also have great interests
-	in books, movies, music and film photography. I also collect vintage film cameras and shared photo
-	works on my Instagram.
+<p class="indent justify">
+	Sadly, the publishing market started to decline rapidly after about five or six years. With less
+	and less contracts available, I knew it was time to get out and adapt.
 </p>
-<p class="indent">
+<p class="indent justify">
+	So I jumped back to the software slash education field - first write materials for a small STEM
+	agency, then as an editor in a tech book publisher. It was where I learned practical machine
+	learning and most of the embedded programming knowledge - including how to use a soldering gun.
+</p>
+<p class="indent justify">
+	My next stop was as a technical writer in a software startup, to write documentations and
+	marketing materials. After the startup failed, I'm having time away from work and did some
+	freelance copywriting work for a crypto exchange.
+</p>
+<p class="indent justify">
 	Click the other sections of this website to learn more about me. See <kbd>Links & About</kbd> for contacting
 	me.
 </p>
@@ -104,7 +117,7 @@
 		src="/about-me/camera.jpg"
 		alt="camera"
 		footnote="Two of my favorite things: film camera and coffee.<br />(The camera is a Eastern Germany-made Zeiss Ikon
-		Ercona;<br />this copy is possibly manufactured in early 1950s)"
+		Ercona;<br />this copy is possibly manufactured in early 1950s.<br />Photo by me with a Canon EOS 300 film SLR.)"
 	/>
 </p>
 <p>
@@ -120,7 +133,7 @@
 	<Image
 		src="/about-me/sakura.jpg"
 		alt="sakura"
-		footnote="Cherry blossoms on medium format still film,<br />Kumamoto Castle, Japan, 2018."
+		footnote="Cherry blossoms on medium format still film<br />(with an early-1950s Mamiya Six IV),<br />Kumamoto Castle, Japan, 2018."
 		widthRatios={[75, 85, 90, 95]}
 	/>
 </p>

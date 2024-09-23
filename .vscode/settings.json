@@ -1,6 +1,6 @@
 {
 	"cSpell.enabled": true,
-	"cSpell.diagnosticLevel": "Hint",
+	"cSpell.diagnosticLevel": "Warning",
 	"cSpell.language": "en",
 	"cSpell.enableFiletypes": ["js", "ts", "json", "svelte"],
 	"cSpell.ignorePaths": [],

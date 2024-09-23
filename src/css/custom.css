@@ -26,6 +26,10 @@ body {
 	text-indent: 1.8em;
 }
 
+.justify {
+	text-align: justify;
+}
+
 .customtooltip {
 	text-align: left;
 	position: relative;

@@ -23,7 +23,7 @@
 		"description": "A monolithic full-stack shopping demo app inspired by the book Essential TypeScript",
 		"location": null,
 		"footnote": null,
-		"tooltip": "It gained more than 100 stars on Github after SvelteKit released v1.0.",
+		"tooltip": "It gained more than 100 stars on Github after SvelteKit released <kbd>v1.0</kbd>.",
 		"language": ["English"],
 		"category": ["Full-stack", "JavaScript", "TypeScript", "Golang"],
 		"link": "https://github.com/alankrantas/svelteapp-typescript-go",

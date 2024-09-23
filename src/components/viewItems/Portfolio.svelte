@@ -16,7 +16,7 @@
 	import book from '../../data/works/BookPostWorks.json';
 </script>
 
-<p>
+<p class="justify">
 	Some categories contain selected works only. Non-English title names are translated for this site
 	with the original title attached in the description. Links may fail due to external resources
 	moved or no longer exist.
@@ -70,7 +70,7 @@
 <p>
 	<br />
 </p>
-<p class="small">
+<p class="small justify">
 	Note: I have total 39 titles (3 for partial credits and 1 not published) of translation works but
 	I decided to leave out most of the young adult books and less memorable works.
 </p>

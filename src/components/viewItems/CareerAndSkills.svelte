@@ -11,7 +11,7 @@
 	import cert from '../../data/lists/Certificate.json';
 </script>
 
-<p>My list of professional experience, education and skills.</p>
+<p class="justify">My list of professional experience, education and skills.</p>
 <p>
 	<br /><br />
 </p>
@@ -25,7 +25,7 @@
 	<Image
 		src="/about-me/work.jpg"
 		alt="work"
-		footnote="FST Network office's common area (before relocated)."
+		footnote="FST Network office's common area (before relocated).<br />(Photo by me with a 1981-made Olympus XA2.)"
 	/>
 </p>
 <p>
@@ -45,7 +45,7 @@
 	<Image
 		src="/about-me/nccu.jpg"
 		alt="nccu"
-		footnote="Business School and boulevard<br />of the National Chengchi University"
+		footnote="Business School and boulevard<br />of the National Chengchi University<br />(Photo by me with a 1976-made Canonet QL17)"
 	/>
 </p>
 <p>

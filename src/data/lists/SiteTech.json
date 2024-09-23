@@ -48,7 +48,7 @@
 		"description": "Svelte modal component",
 		"location": null,
 		"footnote": null,
-		"tooltip": "Used for the protfolio showcases since Bootstrap components won't work for Svelte",
+		"tooltip": "Used for the portfolio showcases since Bootstrap components won't work for Svelte",
 		"category": null,
 		"language": null,
 		"link": "https://www.npmjs.com/package/svelte-simple-modal",
