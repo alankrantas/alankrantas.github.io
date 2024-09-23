@@ -10,7 +10,7 @@
 
 - Built with [Svelte](https://svelte.dev/), [SvelteKit](https://kit.svelte.dev/) and [`svelte-simple-modal`](https://www.npmjs.com/package/svelte-simple-modal)
 - Primarily using [Bootstrap](https://getbootstrap.com/) CSS styles
-- Deployed to [Github Pages](https://pages.github.com/) using a [Github Action](https://github.com/features/actions) workflow
+- Deployed to [Github Pages](https://pages.github.com/) / run Dependabot PR test build using [Github Action](https://github.com/features/actions) workflows
 
 ## Layout and Components
 
