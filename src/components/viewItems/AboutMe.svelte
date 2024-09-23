@@ -93,7 +93,7 @@
 	<br />
 </p>
 <p>
-	<Image src="/about-me/profile2.jpg" alt="profile2" footnote="" widthRatios={[70, 80, 90, 95]} />
+	<Image src="/about-me/profile2.jpg" alt="profile2" footnote="Me just before turing 40" widthRatios={[70, 80, 90, 95]} />
 </p>
 <p>
 	<br />
