@@ -25,8 +25,8 @@
 	but currently in {info.industry}.
 </p>
 <p class="indent justify">
-	A professional writer with solid content writing/copywriting and translating background, with
-	experiences in various fields including software engineering, technical support and marketing.
+	A professional writer with solid content writing/copywriting and translating backgrounds, with
+	experience in various fields including software engineering, technical support and content marketing.
 	Passionate, curious, and quick to learn new things, always welcoming new challenges, with a
 	meticulous attention to detail, and working with an easy-going, down-to-earth, and
 	collaborative/communicative attitude.
