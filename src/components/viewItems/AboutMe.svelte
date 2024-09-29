@@ -26,9 +26,9 @@
 </p>
 <p class="indent justify">
 	A professional writer with solid content writing/copywriting and translating background, with
-	experience in various fields including software engineering, technical support and content marketing.
-	Passionate, curious, and quick to learn new things, always welcoming new challenges, with a
-	meticulous attention to detail, and working with an easy-going, down-to-earth, and
+	experience in various fields including software engineering, technical support and content
+	marketing. Passionate, curious, and quick to learn new things, always welcoming new challenges,
+	with a meticulous attention to detail, and working with an easy-going, down-to-earth, and
 	collaborative/communicative attitude.
 </p>
 <p>
@@ -93,7 +93,12 @@
 	<br />
 </p>
 <p>
-	<Image src="/about-me/profile2.jpg" alt="profile2" footnote="Me just before turing 40" widthRatios={[70, 80, 90, 95]} />
+	<Image
+		src="/about-me/profile2.jpg"
+		alt="profile2"
+		footnote="Me just before turing 40"
+		widthRatios={[70, 80, 90, 95]}
+	/>
 </p>
 <p>
 	<br />
