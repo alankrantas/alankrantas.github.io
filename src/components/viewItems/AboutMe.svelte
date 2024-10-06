@@ -18,18 +18,17 @@
 	});
 </script>
 
-<p><span class="h4 justify">Hello there!</span></p>
-<p class="indent justify">
-	My name is <b>{info.name}</b>, a native Taiwanese born/raised and educated in {info.location}. I
-	work or worked as {info.title.map((item) => item.toLowerCase()).join(', ')} in several industries,
-	but currently in {info.industry}.
+<p><span class="h4 justify">TL; DR</span></p>
+<p class="justify">
+	My name is <b>{info.name}</b>, a native Taiwanese born, raised and educated in {info.location}. I
+	work as {info.title.map((item) => item.toLowerCase()).join(', ')} in several industries, but currently
+	in {info.industry}.
 </p>
 <p class="indent justify">
-	A professional writer with solid content writing/copywriting and translating background, with
-	experience in various fields including software engineering, technical support and content
-	marketing. Passionate, curious, and quick to learn new things, always welcoming new challenges,
-	with a meticulous attention to detail, and working with an easy-going, down-to-earth, and
-	collaborative/communicative attitude.
+	I am a professional writer with a solid content writing/translating background in various fields,
+	including, and has experience in content writing, technical support as well as software
+	engineering. I also have interests and hobbies in reading, movies and photography, etc. I built
+	this site as onf of my side projects.
 </p>
 <p>
 	<br />
@@ -40,9 +39,10 @@
 <p>
 	<br />
 </p>
+<p><span class="h4 justify">Now a short bio about me</span></p>
 <p class="justify">
-	I grew up with computers. My dad bought a 80486 machine when I was 10. I learned how to play the
-	DOOM and Duke Nukem 3D demos by myself. As fascinated as a kid can be, I proceeded to learn MS-DOS
+	I grew up with computers. My dad bought a 80486 PC when I was 10. I learned how to play the DOOM
+	and Duke Nukem 3D demos by myself. As fascinated as a kid can be, I proceeded to learn MS-DOS
 	commands and then tried to write a few QuickBASIC scripts in the summer immediately after
 	graduating elementary school.
 </p>
