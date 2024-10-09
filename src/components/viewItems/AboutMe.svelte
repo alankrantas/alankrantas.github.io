@@ -20,15 +20,15 @@
 
 <p><span class="h4 justify">TL; DR</span></p>
 <p class="justify">
-	My name is <b>{info.name}</b>, a native Taiwanese born, raised and educated in {info.location}. I
-	work as {info.title.map((item) => item.toLowerCase()).join(', ')} in several industries, but currently
-	in {info.industry}.
+	I am <b>{info.name}</b>, a native Taiwanese born, raised and educated in {info.location}. I work
+	as {info.title.map((item) => item.toLowerCase()).join(', ')} in several industries, but mostly in {info.industry}.
 </p>
 <p class="indent justify">
-	I am a professional writer with a solid content writing/translating background in various fields,
-	including, and has experience in content writing, technical support as well as software
-	engineering. I also have interests and hobbies in reading, movies and photography, etc. I built
-	this site as onf of my side projects.
+	I am a seasoned writer with 10+ years of solid content writing and translating background in
+	various fields, including software, technology, publishing and education, and has professional
+	experience in content marketing, copywriting, technical support as well as software engineering. I
+	also have personal interests in fields like embedded prototyping, reading, movies and film
+	photography.
 </p>
 <p>
 	<br />
