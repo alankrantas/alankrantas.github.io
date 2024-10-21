@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { afterUpdate } from 'svelte';
-	import { fly, fade, crossfade } from 'svelte/transition';
+	import { fly, fade } from 'svelte/transition';
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
 
@@ -63,12 +63,6 @@
 			ready = true;
 		}
 	});
-
-	const [send, receive] = crossfade({
-		delay: 200,
-		duration: 1000,
-		easing: expoOut
-	});
 </script>
 
 <svelte:head>
@@ -91,11 +85,7 @@
 		<div class="row justify-content-center p-md-4 m-md-4">
 			{#if selectedViewId == -1}
 				<!-- main screen -->
-				<div
-					class="col p-md-1 m-md-1"
-					in:receive|global={{ key: 'main' }}
-					out:send|global={{ key: 'view' }}
-				>
+				<div class="col p-md-1 m-md-1">
 					<!-- name title -->
 					<div class="text-center p-sm-2 m-sm-2 pb-sm-4 mb-sm-4">
 						<NameTitle mode={'main'} on:setViewId={handleSetViewId} />
@@ -116,7 +106,7 @@
 								{/each}
 							</div>
 							{#if $screenSize >= 1200}
-								<div class="col-sm-auto" />
+								<div class="col-sm-auto"></div>
 							{/if}
 							<div class="col-sm text-start p-md-2 m-md-2">
 								{#each viewItems.filter((item) => item.id % 2 != 0) as viewItem (viewItem.id)}
@@ -182,8 +172,6 @@
 					class={`${
 						$screenSize >= 992 ? 'col-sm-auto text-end' : 'text-center'
 					} p-md-1 m-md-1 pe-md-2 me-md-2`}
-					in:receive|global={{ key: 'view' }}
-					out:receive|global={{ key: 'main' }}
 				>
 					<!-- name title -->
 					<div class="p-md-1 m-md-1">
@@ -208,8 +196,6 @@
 				<!--view items -->
 				<div
 					class={`${$screenSize >= 992 ? 'col-sm-8 text-start' : ''} p-sm-1 m-sm-1 ps-sm-2 me-sm-2`}
-					in:receive|global={{ key: 'view' }}
-					out:send|global={{ key: 'main' }}
 				>
 					<div>
 						<br />

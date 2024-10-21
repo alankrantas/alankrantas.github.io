@@ -32,9 +32,9 @@
 					<span class="small text-white-50 customtooltip">
 						&nbsp;ⓘ
 						<span class="customtooltiptext">
-							<p class="small text-white code">
+							<span class="small text-white code">
 								{@html item.tooltip}
-							</p>
+							</span>
 						</span>
 					</span>
 				{/if}

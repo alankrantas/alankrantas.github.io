@@ -56,7 +56,7 @@
 			<br />
 		{/if}
 		<div class="text-center">
-			<p class="text-white p-sm-2 m-sm-2">
+			<div class="text-white p-sm-2 m-sm-2">
 				{#if $screenSize >= 768}
 					<span class="h2 title">
 						{info.name}
@@ -89,7 +89,7 @@
 						</span>
 					</p>
 				{/if}
-			</p>
+			</div>
 			<p class="text-white-50 p-sm-2 m-sm-2">
 				<span class="lead code">
 					{info.location}
@@ -148,9 +148,10 @@
 			</p>
 			<p class="h6 text-white-50 code p-md-1 m-md-1">
 				{#each info.title as title, index}
-					<div style={index == titleIndex ? 'font-weight: bold;' : 'font-weight: normal;'}>
+					<span style={index == titleIndex ? 'font-weight: bold;' : 'font-weight: normal;'}>
 						{title}
-					</div>
+						<br />
+					</span>
 				{/each}
 			</p>
 		</div>
