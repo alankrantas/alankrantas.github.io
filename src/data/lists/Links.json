@@ -44,11 +44,11 @@
 		"linkedTitle": true
 	},
 	{
-		"name": "Full List of Published Works",
+		"name": "Full List of Published Titles",
 		"description": null,
 		"location": null,
 		"footnote": null,
-		"tooltip": "My full list of editorial, authored and translation works",
+		"tooltip": "My full list of editorial, authored and translation titles",
 		"category": null,
 		"language": ["Traditional Chinese"],
 		"link": "https://github.com/alankrantas/alankrantas/blob/main/works/published.md",

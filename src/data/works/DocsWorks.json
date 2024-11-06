@@ -1,0 +1,31 @@
+[
+	{
+		"name": "LOC Documentation",
+		"description": "User documentation for Logic Operating Centre (LOC)",
+		"location": "FST Network",
+		"footnote": "Aug 2022 - Jul 2024",
+		"tooltip": "The official user guide website for FST Network's cloud native data integration platform, <i>Logic Operating Centre</i> (LOC). It has a main product docs for general users and two SDK docs (JavaScript/Typescript and C#) for professional developers.",
+		"language": ["English"],
+		"category": ["Documentation", "Content Writing", "Technical Writing"],
+		"link": "https://loc-documentation.vercel.app/",
+		"linkedTitle": false
+	},
+	{
+		"name": "Product White Paper Copywriting",
+		"description": "Crypto FinTech white papers",
+		"location": "XREX Inc.",
+		"footnote": "Sep 2024 - Oct 2024",
+		"tooltip": "Write and organize product white paper drafts for XREX Exchange's several cryptocurrency-related FinTech products (Spot Trading, Margin Trading, Secured Loan, XREX/DeFi Staking, BitCheck, Deposit/Withdraw) based on materials and screenshots provided by the product team. These are for mandatory disclosure and regulatory compliance purposes.",
+		"language": ["English"],
+		"category": [
+			"Document",
+			"Copywriting",
+			"Technical Writing",
+			"Cryptocurrency",
+			"FinTech",
+			"White Paper"
+		],
+		"link": null,
+		"linkedTitle": false
+	}
+]

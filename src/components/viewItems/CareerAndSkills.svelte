@@ -16,7 +16,7 @@
 	<br /><br />
 </p>
 <p>
-	<List list={career} title="Professional Work Experience" />
+	<List list={career} title="Professional Experience" />
 </p>
 <p>
 	<br />
@@ -89,7 +89,9 @@
 	<List list={software} title="Software Competencies" />
 </p>
 <p>
-	<span class="small">Note: See <kbd>Portfolio</kbd> for my selection of programming works.</span>
+	<span class="small justify"
+		>Note: for my related works and projects, see <kbd>Portfolio</kbd>.</span
+	>
 </p>
 <p>
 	<br />
@@ -102,7 +104,9 @@
 	<List list={skill} title="General Skills" />
 </p>
 <p>
-	<span class="small">Note: see <kbd>Portfolio</kbd> for my list of published works.</span>
+	<span class="small justify"
+		>Note: for my related works and projects, see <kbd>Portfolio</kbd>.</span
+	>
 </p>
 <p>
 	<br />

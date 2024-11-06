@@ -2,6 +2,7 @@
 	// @ts-ignore
 	import Modal from 'svelte-simple-modal';
 	import Showcase from '../common/Showcase.svelte';
+	import Link from '../common/Link.svelte';
 	import List from '../common/List.svelte';
 	import Image from '../common/Image.svelte';
 
@@ -12,6 +13,7 @@
 	import trans from '../../data/works/TranslationWorks.json';
 	import maker from '../../data/works/MakerWorks.json';
 	import code from '../../data/works/CodeWorks.json';
+	import docs from '../../data/works/DocsWorks.json';
 	import tech from '../../data/works/TechPostWorks.json';
 	import book from '../../data/works/BookPostWorks.json';
 </script>
@@ -20,6 +22,12 @@
 	Some categories contain selected works only. Non-English title names are translated for this site
 	with the original title attached in the description. Links may fail due to external resources
 	moved or no longer exist.
+</p>
+<p class="justify">
+	Also see: my <Link
+		url="https://github.com/alankrantas/alankrantas/blob/main/works/published.md"
+		name="full list of published titles"
+	/>.
 </p>
 <p>
 	<br /><br />
@@ -70,9 +78,11 @@
 <p>
 	<br />
 </p>
-<p class="small justify">
-	Note: I have total 39 titles (3 for partial credits and 1 not published) of translation works but
-	I decided to leave out most of the young adult books and less memorable works.
+<p>
+	<span class="small justify"
+		>Note: I have total 38 titles (3 co-translating) of translation works but I decided to leave out
+		most of the young adult books and less memorable works.</span
+	>
 </p>
 <p>
 	<br />
@@ -106,15 +116,20 @@
 <p>
 	<br />
 </p>
+<p>
+	<span class="small justify"
+		>Note: embedded programming projects are listed under <kbd>Selected Maker Projects</kbd> above.</span
+	>
+</p>
+<p>
+	<br />
+</p>
 <hr />
 <p>
 	<br />
 </p>
 <p>
-	<List list={tech} title="Selected Tech Posts/Articles" />
-</p>
-<p>
-	<span class="small">Note: see <kbd>Links</kbd> for links to my blogs and Github profile.</span>
+	<List list={docs} title="Documents and Documentation Projects" />
 </p>
 <p>
 	<br />
@@ -126,6 +141,19 @@
 		footnote="I can also draw marketing illustrations.<br />Here's an (unused) example of utilizing data pipelines for generating ESG reports."
 		widthRatios={[75, 85, 90, 95]}
 	/>
+</p>
+<p>
+	<br />
+</p>
+<hr />
+<p>
+	<br />
+</p>
+<p>
+	<List list={tech} title="Selected Tech Posts/Articles" />
+</p>
+<p>
+	<span class="small justify">Note: see <kbd>Links</kbd> for my blog links.</span>
 </p>
 <p>
 	<br />

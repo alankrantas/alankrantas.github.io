@@ -58,7 +58,7 @@
 	You can find the full source code at the <Link
 		url="https://github.com/alankrantas/alankrantas.github.io"
 		name="original repository"
-	/> .
+	/>.
 </p>
 <p>
 	<br />
