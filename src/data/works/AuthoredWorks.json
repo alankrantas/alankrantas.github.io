@@ -1,6 +1,6 @@
 [
 	{
-		"name": "The Python Book for Interdisciplinary Learning and Introduction for Data Science",
+		"name": "The Python and Data Science Book for Interdisciplinary Learning",
 		"description": "跨領域學 Python：資料科學基礎養成; Flag Publishing, Nov 2020. A Python and data science/machine learning introduction written for readers with almost no programming background.",
 		"category": ["Programming", "Python", "Data Science", "Machine Learning"],
 		"language": ["Traditional Chinese"],
@@ -9,7 +9,7 @@
 		"videoId": null
 	},
 	{
-		"name": "Flag's Maker Workshop: Using Smart Cloud Sensors with Python",
+		"name": "Flag's Maker Workshop: Smart Cloud Sensors with Python",
 		"description": "Flag's 創客‧自造者工作坊 - Python 感測器大應用 - 智慧生活X雲端; Flag Publishing, Mar 2020. Examples building IoT-related projects with ESP8266 microcontroller (all materials are included).",
 		"category": [
 			"Translation",
@@ -33,7 +33,7 @@
 		"videoId": null
 	},
 	{
-		"name": "My First micro:bit Maker Guide: micro:bit Plus Thunder:bit",
+		"name": "My First micro:bit Maker Guide with Thunder:bit",
 		"description": "micro:bit x Thunder:bit：孩子的第一本創客指南; Taiwan Coding Education Association, Nov 2019. Thunder:bit is a micro:bit expansion board deeply inspired by Kitronik's Motor Driver Board and Kittenbot's Robot:bit.",
 		"category": ["Programming", "Embedded Programming", "STEM Education"],
 		"language": ["Traditional Chinese"],
