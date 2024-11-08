@@ -2,25 +2,25 @@
 	{
 		"id": 0,
 		"name": "About Me",
-		"description": "<name>, a <title> working in <industry> | he/him | short bio | facts | hobbies and interests",
+		"description": "<name> | <title> | he/him | short bio | facts | hobbies and interests",
 		"imgUrl": "/main/about-me.jpg"
 	},
 	{
 		"id": 1,
 		"name": "Career & Skills",
-		"description": "Software development | STEM education | translating and publishing | technical and content writing",
+		"description": "Content and technical writing | translating | publishing | STEM education | software development",
 		"imgUrl": "/main/skills.jpg"
 	},
 	{
 		"id": 2,
 		"name": "Portfolio",
-		"description": "Editorial, authored and translated works | Maker and software projects | tech and book articles",
+		"description": "Editorial, authored and translated works | software and embedded projects | Documentation and blog",
 		"imgUrl": "/main/works.jpg"
 	},
 	{
 		"id": 3,
 		"name": "Links & About",
-		"description": "Contact information | social media | about this site | external resources",
+		"description": "Contact information | social media links | more about this site | external resources",
 		"imgUrl": "/main/links.jpg"
 	}
 ]

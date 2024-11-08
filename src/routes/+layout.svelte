@@ -27,7 +27,7 @@
 	<meta name="description" content={description} />
 	<meta
 		name="keywords"
-		content={`${info.title.join(', ')}, ${info.industry}, homepage, personal, resume, cv, job, talent for hire, svelte, sveltekit, frontend`}
+		content={`${info.title.join(', ')}, homepage, personal, resume, cv, job, talent for hire, svelte, sveltekit, frontend`}
 	/>
 	<meta property="og:url" content={url} />
 	<meta property="og:type" content="website" />

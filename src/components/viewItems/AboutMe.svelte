@@ -21,7 +21,7 @@
 <p><span class="h4 justify">TL; DR</span></p>
 <p class="justify">
 	I am <b>{info.name}</b>, a native Taiwanese born, raised and educated in {info.location}. I work
-	as {info.title.map((item) => item.toLowerCase()).join(', ')} in several industries, but mostly in {info.industry}.
+	primarily as a {info.title[0]}.
 </p>
 <p class="indent justify">
 	I am a seasoned writer with 10+ years of solid content writing and translating background in
