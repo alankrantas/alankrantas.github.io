@@ -27,7 +27,7 @@
 
 	viewItems[0].description = viewItems[0].description
 		.replace('<name>', info.name)
-		.replace('<title>', info.title.map((item) => item.toLowerCase()).join(' / '));
+		.replace('<title>', info.title.map((item) => item.toLowerCase()).join(' | '));
 
 	const setViewId = (id: number) => {
 		if (id >= 0 && id < viewItems.length) {
