@@ -2,19 +2,19 @@
 	{
 		"id": 0,
 		"name": "About Me",
-		"description": "<name> | <title> | he/him | short bio | facts | hobbies and interests",
+		"description": "<name> | <title> | he/him | short bio | personal facts | hobbies and interests",
 		"imgUrl": "/main/about-me.jpg"
 	},
 	{
 		"id": 1,
 		"name": "Career & Skills",
-		"description": "Content and technical writing | translating | publishing | STEM education | software development",
+		"description": "Content writing | technical writing | translating | publishing | STEM education | software development",
 		"imgUrl": "/main/skills.jpg"
 	},
 	{
 		"id": 2,
 		"name": "Portfolio",
-		"description": "Editorial, authored and translated works | software and embedded projects | Documentation and blog",
+		"description": "Editorial, authored and translated works | software and embedded projects | documentation and blog",
 		"imgUrl": "/main/works.jpg"
 	},
 	{
