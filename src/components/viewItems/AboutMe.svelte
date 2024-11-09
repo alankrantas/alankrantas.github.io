@@ -81,13 +81,14 @@
 	learning and most of the embedded programming knowledge - including how to use a soldering gun.
 </p>
 <p class="indent justify">
-	My next stop was as a technical writer in a software startup, to write documentations and
-	marketing materials. After the startup failed, I'm having time away from work and did some
-	freelance copywriting work for a crypto exchange.
+	My next stop was working as a technical writer in a software startup, to write documentations and
+	technical marketing materials for a data integration platform. After the startup failed two years
+	later, I decided to take some rest then go back into freelance writing and translating.
 </p>
 <p class="indent justify">
-	Click the other sections of this website to learn more about me. See <kbd>Links & About</kbd> for contacting
-	me.
+	That is all for now! Click the other sections of this website to learn more about me. See <kbd
+		>Links & About</kbd
+	> for contacting me.
 </p>
 <p>
 	<br />
