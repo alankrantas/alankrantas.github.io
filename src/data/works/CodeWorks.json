@@ -1,10 +1,10 @@
 [
 	{
 		"name": "LOC Documentation",
-		"description": "User documentation for Logic Operating Centre (LOC) built on React-based Docusaurus 3",
+		"description": "User documentation website built on React.js-based Docusaurus 3",
 		"location": null,
 		"footnote": "FST Network, Aug 2022 - Jul 2024",
-		"tooltip": "I was the creator and maintainer, including the Logic Code Generator tool I've developed on my own. The site in the link is actually a archived version deployed on Vercel. For the official version, please visit <a href='https://documentation.loc.fst.network/' target='_blank' class='link-info'>here</a>.<br /><br />The site includes a code template generator and unit test tool I've designed and developed on my own.",
+		"tooltip": "I was the creator and maintainer, including the code generation/unit test tool I've developed on my own. The site in the link is actually a archived version deployed on Vercel. For the official version, please visit <a href='https://documentation.loc.fst.network/' target='_blank' class='link-info'>here</a>.<br /><br />The site includes a code template generator and unit test tool I've designed and developed on my own.",
 		"language": ["English"],
 		"category": ["Front-end", "React", "JavaScript", "TypeScript", "C#"],
 		"link": "https://loc-documentation.vercel.app/",

@@ -1,10 +1,10 @@
 [
 	{
-		"name": "LOC Documentation",
-		"description": "User documentation for Logic Operating Centre (LOC)",
+		"name": "User Documentation",
+		"description": "Documentation for Logic Operating Centre (LOC)",
 		"location": "FST Network",
 		"footnote": "Aug 2022 - Jul 2024",
-		"tooltip": "The official user guide website for FST Network's cloud native data integration platform, <i>Logic Operating Centre</i> (LOC). It has a main product docs for general users and two SDK docs (JavaScript/Typescript and C#) for professional developers.",
+		"tooltip": "Write, maintain and deploy <i>LOC Documentation</i>, the official user's guide, SDK reference and a web-based code generation/unit test tool for FST Network's data product cloud platform, Logic Operating Centre (LOC), based on information provided by the product and developer team upon each releases.",
 		"language": ["English"],
 		"category": ["Documentation", "Content Writing", "Technical Writing"],
 		"link": "https://loc-documentation.vercel.app/",
@@ -12,10 +12,10 @@
 	},
 	{
 		"name": "Product White Paper Copywriting",
-		"description": "Crypto FinTech white papers",
+		"description": "FinTech product documents",
 		"location": "XREX Inc.",
 		"footnote": "Sep 2024 - Oct 2024",
-		"tooltip": "Write and organize product white paper drafts for XREX Exchange's several cryptocurrency-related FinTech products (Spot Trading, Margin Trading, Secured Loan, XREX/DeFi Staking, BitCheck, Deposit/Withdraw) based on materials and screenshots provided by the product team. These are for mandatory disclosure and regulatory compliance purposes.",
+		"tooltip": "Write and organize product white paper drafts for XREX Exchange's several cryptocurrency-related FinTech products (<i>Spot Trading</i>, <i>Margin Trading</i>, <i>Secured Loan</i>, <i>XREX Staking</i>, <i>DeFi Staking</i>, <i>BitCheck</i>, <i>Deposit</i> and <i>Withdraw</i>) based on materials and screenshots provided by the product team.",
 		"language": ["English"],
 		"category": [
 			"Document",
