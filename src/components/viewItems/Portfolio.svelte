@@ -129,7 +129,7 @@
 	<br />
 </p>
 <p>
-	<List list={docs} title="Documents and Documentation Projects" />
+	<List list={docs} title="Writing Projects" />
 </p>
 <p>
 	<br />
@@ -138,7 +138,7 @@
 	<Image
 		src="/work/marketing.jpg"
 		alt="marketing"
-		footnote="I can also draw marketing illustrations.<br />Here's an (unused) example of utilizing data pipelines for generating ESG reports."
+		footnote="I also draw technical or marketing illustrations.<br />Here's an (unused) example of utilizing data pipelines for generating ESG reports."
 		widthRatios={[75, 85, 90, 95]}
 	/>
 </p>
@@ -150,7 +150,7 @@
 	<br />
 </p>
 <p>
-	<List list={tech} title="Selected Tech Posts/Articles" />
+	<List list={tech} title="Selected Tech Articles" />
 </p>
 <p>
 	<span class="small justify">Note: see <kbd>Links</kbd> for my blog links.</span>
@@ -163,5 +163,5 @@
 	<br />
 </p>
 <p>
-	<List list={book} title="Selected Book Posts/Articles" />
+	<List list={book} title="Selected Book Articles" />
 </p>

@@ -6,8 +6,6 @@
 	import skill from '../../data/lists/GeneralSkills.json';
 	import career from '../../data/lists/Career.json';
 	import edu from '../../data/lists/Education.json';
-	import club from '../../data/lists/Club.json';
-	import volunteer from '../../data/lists/Volunteer.json';
 	import cert from '../../data/lists/Certificate.json';
 </script>
 
@@ -47,26 +45,6 @@
 		alt="nccu"
 		footnote="Business School and boulevard<br />of the National Chengchi University<br />(Photo by me with a 1976-made Canonet QL17)"
 	/>
-</p>
-<p>
-	<br />
-</p>
-<hr />
-<p>
-	<br />
-</p>
-<p>
-	<List list={club} title="Extracurricular Activities" />
-</p>
-<p>
-	<br />
-</p>
-<hr />
-<p>
-	<br />
-</p>
-<p>
-	<List list={volunteer} title="Volunteer Work" />
 </p>
 <p>
 	<br />
