@@ -1,5 +1,23 @@
 [
 	{
+		"name": "Freelance Writer/Translator",
+		"description": "Freelancer (Self Employed)",
+		"location": "Taipei, Taiwan",
+		"footnote": "Sep 2024 - Now",
+		"tooltip": "(Full-time freelance, remote) offer freelance writing (content, technical, marketing, education, documentation and else) and freelance translating (English to/from Traditional Chinese) services by contract.",
+		"category": [
+			"Content Writing",
+			"Technical Writing",
+			"Marketing Writing",
+			"Copywriting",
+			"Documentation",
+			"Translating"
+		],
+		"language": null,
+		"link": null,
+		"linkedTitle": false
+	},
+	{
 		"name": "Technical Marketing Writer",
 		"description": "FST Network",
 		"location": "Taipei, Taiwan",
@@ -23,7 +41,14 @@
 		"location": "Taipei, Taiwan",
 		"footnote": "Aug 2019 - Mar 2022",
 		"tooltip": "Survey and oversee development of IT education products, mostly software books.<br /><br />See <b>Editorial Works</b> and <b>Authored Works</b> in the portfolio.",
-		"category": ["Software", "Education", "Translating", "Content Writing", "Technical Writing"],
+		"category": [
+			"Software",
+			"Education",
+			"Content Writing",
+			"Technical Writing",
+			"Translating",
+			"Publishing"
+		],
 		"language": null,
 		"link": null,
 		"linkedTitle": false
@@ -41,11 +66,11 @@
 	},
 	{
 		"name": "Freelance Translator",
-		"description": "Full-time Professional Translator",
+		"description": "Freelancer (Self Employed)",
 		"location": "Taipei, Taiwan",
 		"footnote": "Oct 2011 - Apr 2018",
 		"tooltip": "(Full-time freelance, remote) translate English works (mostly fiction) by contract.<br /><br />See <b>Selected Translation Works</b> in the portfolio.",
-		"category": ["Translating", "Content Writing"],
+		"category": ["Translating", "Publishing", "Content Writing"],
 		"language": null,
 		"link": null,
 		"linkedTitle": false
