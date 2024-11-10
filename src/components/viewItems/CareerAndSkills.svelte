@@ -1,15 +1,23 @@
 <script lang="ts">
 	import List from '../common/List.svelte';
+	import Link from '../common/Link.svelte';
 	import Image from '../common/Image.svelte';
 
-	import software from '../../data/lists/SoftwareSkills.json';
-	import skill from '../../data/lists/GeneralSkills.json';
 	import career from '../../data/lists/Career.json';
 	import edu from '../../data/lists/Education.json';
+	import skill from '../../data/lists/GeneralSkills.json';
+	import software from '../../data/lists/SoftwareSkills.json';
 	import cert from '../../data/lists/Certificate.json';
 </script>
 
 <p class="justify">My list of professional experience, education and skills.</p>
+<p class="justify">
+	Also see my <Link
+		url="https://www.cake.me/krantas"
+		name="résumé"
+	/>.
+</p>
+</p>
 <p>
 	<br /><br />
 </p>
@@ -64,7 +72,7 @@
 	<br />
 </p>
 <p>
-	<List list={software} title="Software Competencies" />
+	<List list={skill} title="General Skills" />
 </p>
 <p>
 	<span class="small justify"
@@ -79,12 +87,7 @@
 	<br />
 </p>
 <p>
-	<List list={skill} title="General Skills" />
-</p>
-<p>
-	<span class="small justify"
-		>Note: for my related works and projects, see <kbd>Portfolio</kbd>.</span
-	>
+	<List list={software} title="Software Competencies" />
 </p>
 <p>
 	<br />
