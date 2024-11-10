@@ -10,13 +10,8 @@
 	import cert from '../../data/lists/Certificate.json';
 </script>
 
-<p class="justify">My list of professional experience, education and skills.</p>
 <p class="justify">
-	Also see my <Link
-		url="https://www.cake.me/krantas"
-		name="résumé"
-	/>.
-</p>
+	My list of professional experience, education and skills. Also see my <Link url="https://www.cake.me/krantas" name="résumé"/>.
 </p>
 <p>
 	<br /><br />
