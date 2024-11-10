@@ -1,7 +1,7 @@
 [
 	{
-		"name": "English writing",
-		"description": "Proficient full-English reading/writing",
+		"name": "Expert writing",
+		"description": "Content writing or copywriting in fields including technical, marketing, social media and education, etc.",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -11,8 +11,8 @@
 		"linkedTitle": false
 	},
 	{
-		"name": "Translating",
-		"description": "Professional translation between English and Traditional Chinese with in-depth research and clear footnotes",
+		"name": "Professional translating",
+		"description": "High-quality text translation between English and Traditional Chinese",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -22,8 +22,8 @@
 		"linkedTitle": false
 	},
 	{
-		"name": "Technical/marketing content writing",
-		"description": "Write and revise software-related technical content for education, reference or marketing purposes",
+		"name": "Embedded/Maker projects prototyping",
+		"description": "Devise, solder, wire and program electronic prototypes using microcontrollers",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -34,18 +34,7 @@
 	},
 	{
 		"name": "Photography & video making",
-		"description": "Amateur digital and analog film photography; basic knowledge for using camera hardwares; videos shooting; photo and video editing",
-		"location": null,
-		"footnote": null,
-		"tooltip": null,
-		"category": null,
-		"language": null,
-		"link": null,
-		"linkedTitle": false
-	},
-	{
-		"name": "Maker projects/electronics prototyping",
-		"description": "Design and create Raspberry Pi or 8-bit/32-bit microcontroller-based devices; use of soldering guns; identify sensor modules and read datasheet",
+		"description": "Digital and analog film photography, as well as videos shooting/editing",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
