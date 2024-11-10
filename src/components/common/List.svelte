@@ -48,7 +48,9 @@
 				</p>
 			{/if}
 			{#if !item.description && item.location}
-				{item.location}
+				<p>
+					{item.location}
+				</p>
 			{/if}
 			{#if item.language || item.category}
 				<p>
