@@ -2,13 +2,11 @@
 	import { getContext } from 'svelte';
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
+	import type { WorkItem } from '../../data/Types';
+	import { screenSize } from '../../data/Store';
 
 	import ShowcaseDetail from './ShowcaseDetail.svelte';
-
 	import type { Context } from 'svelte-simple-modal';
-	import type { WorkItem } from '../../data/Types';
-
-	import { screenSize } from '../../data/Store';
 
 	export let title: string;
 	export let works: WorkItem[];

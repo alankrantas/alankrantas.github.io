@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-
-	import { screenSize } from '../data/Store';
-	import type { ViewItem } from '../data/Types';
+	import { screenSize } from '../../data/Store';
+	import type { ViewItem } from '../../data/Types';
 
 	export let viewItem: ViewItem;
 	export let selectedViewId: number;

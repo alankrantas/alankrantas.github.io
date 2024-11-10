@@ -1,10 +1,8 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
-
 	import { createEventDispatcher } from 'svelte';
-
-	import { screenSize } from '../data/Store';
-	import info from '../data/BasicInfo.json';
+	import { screenSize } from '../../data/Store';
+	import info from '../../data/BasicInfo.json';
 
 	export let mode: String;
 	let titleIndex = 0;

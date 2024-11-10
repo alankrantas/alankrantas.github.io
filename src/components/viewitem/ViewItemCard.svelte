@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-	import type { ViewItem } from '../data/Types';
-
-	import { screenSize } from '../data/Store';
+	import type { ViewItem } from '../../data/Types';
+	import { screenSize } from '../../data/Store';
 
 	export let viewItem: ViewItem;
 

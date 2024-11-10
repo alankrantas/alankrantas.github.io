@@ -6,11 +6,11 @@
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
 
-	import NameTitle from '../components/NameTitle.svelte';
-	import ViewItemNavBtn from '../components/ViewItemNavBtn.svelte';
-	import ViewItemCard from '../components/ViewItemCard.svelte';
-	import ViewItemHead from '../components/ViewItemHead.svelte';
-	import ViewItemContent from '../components/ViewItemContent.svelte';
+	import NameTitle from '../components/viewitem/NameTitle.svelte';
+	import ViewItemNavBtn from '../components/viewitem/ViewItemNavBtn.svelte';
+	import ViewItemCard from '../components/viewitem/ViewItemCard.svelte';
+	import ViewItemHead from '../components/viewitem/ViewItemHead.svelte';
+	import ViewItemContent from '../components/viewitem/ViewItemContent.svelte';
 	import Footer from '../components/common/Footer.svelte';
 
 	import { screenSize } from '../data/Store';

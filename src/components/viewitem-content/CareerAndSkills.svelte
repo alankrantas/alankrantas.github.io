@@ -11,7 +11,10 @@
 </script>
 
 <p class="justify">
-	My list of professional experience, education and skills. Also see my <Link url="https://www.cake.me/krantas" name="résumé"/>.
+	My list of professional experience, education and skills. Also see my <Link
+		url="https://www.cake.me/krantas"
+		name="résumé"
+	/>.
 </p>
 <p>
 	<br /><br />
