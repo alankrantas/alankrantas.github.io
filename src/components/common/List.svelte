@@ -41,7 +41,7 @@
 			</p>
 			{#if item.description}
 				<p>
-					{item.description}
+					{@html item.description}
 					{#if item.location}
 						| {item.location}
 					{/if}
