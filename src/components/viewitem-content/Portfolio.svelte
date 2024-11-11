@@ -36,7 +36,7 @@
 	<Modal styleWindow={{ width: '500px' }}>
 		<Showcase
 			works={edit}
-			title="Editorial Works"
+			title="Selected Editorial Works"
 			displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
 		/>
 	</Modal>
@@ -53,7 +53,7 @@
 	<Modal styleWindow={{ width: '500px' }}>
 		<Showcase
 			works={author}
-			title="Authored Works"
+			title="Selected Authored Works"
 			displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
 		/>
 	</Modal>
