@@ -2,8 +2,8 @@
 	{
 		"name": "An Brief Introduction to Ursula K. Le Guin's Ekumen Series",
 		"description": null,
-		"location": null,
-		"footnote": "The Affairs, May 2020",
+		"location": "The Affairs",
+		"footnote": "May 2020",
 		"tooltip": "淺談勒瑰恩的瀚星系列 (週刊編集)",
 		"language": ["Traditional Chinese"],
 		"category": ["Column", "Book Review", "Science Fiction"],
@@ -13,8 +13,8 @@
 	{
 		"name": "The Dark Grim Dream Realm of Neil Gaiman",
 		"description": null,
-		"location": null,
-		"footnote": "The Affairs, May 2020",
+		"location": "The Affairs",
+		"footnote": "May 2020",
 		"tooltip": "尼爾‧蓋曼的黑色夢境王國 (週刊編集)",
 		"language": ["Traditional Chinese"],
 		"category": ["Column", "Book Review", "Fantasy"],
@@ -24,8 +24,8 @@
 	{
 		"name": "The Secret History of Star Wars That You May Never Have Heard Of",
 		"description": null,
-		"location": null,
-		"footnote": "The Affairs, May 2020",
+		"location": "The Affairs",
+		"footnote": "May 2020",
 		"tooltip": "那些年，你也許不知道的星戰黑歷史 (週刊編集)",
 		"language": ["Traditional Chinese"],
 		"category": ["Column", "Book Review", "Movie", "Science Fiction"],
