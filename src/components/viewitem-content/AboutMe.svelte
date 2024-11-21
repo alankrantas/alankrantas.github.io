@@ -24,11 +24,14 @@
 	primarily as a {info.title[0]}.
 </p>
 <p class="indent justify">
-	I am a seasoned writer with 10+ years of solid writing and translating background in software,
-	technology, publishing with 50+ full-length published works and several writing projects, and has
-	professional experience in technical writing, content marketing, copywriting, software engineering
-	and STEM education. I also have personal interests in fields like reading, movies and film
-	photography, etc.
+	I am a seasoned writer with 10+ years of writing and translating backgrounds that have resulted in
+	50+ full-length published works, dozens of articles and several writing projects, and has
+	professional experience in technical writing (including documentation), copywriting, content
+	marketing, publishing, software engineering and STEM education.
+</p>
+<p class="indent justify">
+	I also have personal interests in reading, watching movies, photography and occasionally making
+	software or embedded projects.
 </p>
 <p>
 	<br />
