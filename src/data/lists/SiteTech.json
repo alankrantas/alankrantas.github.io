@@ -44,17 +44,6 @@
 		"linkedTitle": true
 	},
 	{
-		"name": "svelte-simple-modal",
-		"description": "Svelte modal component",
-		"location": null,
-		"footnote": null,
-		"tooltip": "Used for the portfolio showcases since Bootstrap components won't work for Svelte",
-		"category": null,
-		"language": null,
-		"link": "https://www.npmjs.com/package/svelte-simple-modal",
-		"linkedTitle": true
-	},
-	{
 		"name": "Fontsource",
 		"description": "Font library (NPM package form of Google Fonts)",
 		"location": null,

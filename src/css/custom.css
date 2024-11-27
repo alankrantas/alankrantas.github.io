@@ -4,8 +4,6 @@ html {
 
 body {
 	font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
-	text-align: justify;
-	text-justify: inter-word;
 	background-color: #3d3d3d;
 }
 
@@ -28,31 +26,62 @@ body {
 
 .justify {
 	text-align: justify;
+	text-justify: inter-word;
+}
+
+dialog {
+	position: fixed;
+	max-height: 100%;
+	max-width: 560px;
+	top: 0%;
+	right: 0%;
+	border: 0;
+	border-radius: 20px;
+	padding: 0px;
+	margin: auto;
+	overflow: auto;
+	overscroll-behavior: contain;
+	opacity: 0;
+}
+
+dialog[open] {
+	animation: fadein 0.3s ease-in forwards;
+}
+
+::backdrop {
+	background-color: var(--bs-black);
+	opacity: 0.75;
+}
+
+.modal-close-btn {
+	position: absolute;
+	top: 0%;
+	right: 0%;
 }
 
 .customtooltip {
-	text-align: left;
+	text-align: start;
 	position: relative;
 	display: inline-block;
 }
 
 .customtooltiptext {
-	text-align: left;
+	text-align: start;
 }
 
 .customtooltip .customtooltiptext {
 	visibility: hidden;
+	position: absolute;
 	min-width: 120px;
 	width: max-content;
-	transform: translateX(-50%) translateY(-5%);
-	word-wrap: break-word;
-	background-color: var(--bs-gray-700);
+	left: 50%;
+	bottom: 100%;
+	z-index: 1;
 	border-radius: 8px;
 	padding: 8px;
-	position: absolute;
-	z-index: 1;
-	bottom: 100%;
-	left: 50%;
+	word-wrap: break-word;
+	background-color: var(--bs-gray-700);
+	transform: translateX(-50%) translateY(-5%);
 	opacity: 0;
 	transition: opacity 0.3s;
 }
@@ -76,6 +105,16 @@ body {
 .youtube-video {
 	aspect-ratio: 16 / 9;
 	width: 100%;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 @media only screen and (min-width: 768px) {

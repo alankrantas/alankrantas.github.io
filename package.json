@@ -36,7 +36,6 @@
 		"svelte": "4.2.19",
 		"svelte-check": "^4.1.0",
 		"svelte-preprocess": "^6.0.3",
-		"svelte-simple-modal": "^1.6.2",
 		"tslib": "^2.8.1",
 		"typescript": "^5.7.2",
 		"vite": "^5.4.11",

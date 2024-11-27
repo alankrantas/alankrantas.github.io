@@ -1,6 +1,4 @@
 <script lang="ts">
-	// @ts-ignore
-	import Modal from 'svelte-simple-modal';
 	import Showcase from '../common/Showcase.svelte';
 	import Link from '../common/Link.svelte';
 	import List from '../common/List.svelte';
@@ -33,13 +31,11 @@
 	<br /><br />
 </p>
 <p>
-	<Modal styleWindow={{ width: '500px' }}>
-		<Showcase
-			works={edit}
-			title="Selected Editorial Works"
-			displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
-		/>
-	</Modal>
+	<Showcase
+		works={edit}
+		title="Selected Editorial Works"
+		displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
+	/>
 </p>
 <p>
 	<br />
@@ -50,13 +46,11 @@
 	<br />
 </p>
 <p>
-	<Modal styleWindow={{ width: '500px' }}>
-		<Showcase
-			works={author}
-			title="Selected Authored Works"
-			displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
-		/>
-	</Modal>
+	<Showcase
+		works={author}
+		title="Selected Authored Works"
+		displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
+	/>
 </p>
 <p>
 	<br />
@@ -67,13 +61,11 @@
 	<br />
 </p>
 <p>
-	<Modal styleWindow={{ width: '500px' }}>
-		<Showcase
-			works={trans}
-			title="Selected Translated Works"
-			displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
-		/>
-	</Modal>
+	<Showcase
+		works={trans}
+		title="Selected Translated Works"
+		displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
+	/>
 </p>
 <p>
 	<br />
@@ -93,14 +85,13 @@
 	<br />
 </p>
 <p>
-	<Modal styleWindow={{ width: '750px' }}>
-		<Showcase
-			works={maker}
-			title="Selected Maker Projects"
-			displayNum={$screenSize >= 1200 ? 2 : 1}
-			scaleDownPoint={1200}
-		/>
-	</Modal>
+	<Showcase
+		works={maker}
+		title="Selected Maker Projects"
+		displayNum={$screenSize >= 1200 ? 2 : 1}
+		scaleDownPoint={1200}
+		largeModal={true}
+	/>
 </p>
 <p>
 	<br />

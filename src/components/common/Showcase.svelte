@@ -1,26 +1,32 @@
 <script lang="ts">
-	import { getContext } from 'svelte';
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
 	import type { WorkItem } from '../../data/Types';
 	import { screenSize } from '../../data/Store';
 
 	import ShowcaseDetail from './ShowcaseDetail.svelte';
-	import type { Context } from 'svelte-simple-modal';
 
 	export let title: string;
 	export let works: WorkItem[];
 	export let displayNum = 3;
 	export let scaleDownPoint = 576;
+	export let largeModal = false;
 
 	$: listStartWorkId = 0;
+
+	let dialog: HTMLDialogElement[] = new Array(works.length);
 
 	const scrollWorks = (delta: number) => {
 		listStartWorkId = Math.max(0, Math.min(listStartWorkId + delta, works.length - displayNum));
 	};
 
-	const { open }: Context = getContext('simple-modal');
-	const popShowcaseDetail = (work: WorkItem) => open(ShowcaseDetail, { work: work });
+	const handleOpenInDetail = (workId: number) => {
+		if (!dialog[workId]) return;
+		dialog[workId].addEventListener('click', (event: MouseEvent) => {
+			if (event.target === dialog[workId]) dialog[workId].close();
+		});
+		dialog[workId].showModal();
+	};
 </script>
 
 <svelte:head>
@@ -49,17 +55,25 @@
 		<div class="col text-center">
 			<div class="row">
 				{#each [...Array(displayNum).keys()] as colIdx (colIdx + listStartWorkId)}
+					{@const workId = colIdx + listStartWorkId}
 					<div class="col" animate:flip={{ duration: 500, easing: expoOut }}>
-						{#if colIdx + listStartWorkId < works.length}
-							<a href={'#'} on:click={() => popShowcaseDetail(works[colIdx + listStartWorkId])}>
+						{#if workId < works.length}
+							{@const work = works[workId]}
+							<a href="javascript:;" on:click={() => handleOpenInDetail(workId)}>
 								<img
 									class="img-thumbnail bg-light border-light rounded-4"
 									style={`width: 100%; object-fit: contain;`}
-									src={works[colIdx + listStartWorkId].imgUrl}
-									title={works[colIdx + listStartWorkId].name}
-									alt={works[colIdx + listStartWorkId].name}
+									src={work.imgUrl}
+									title={work.name}
+									alt={work.name}
 								/>
 							</a>
+							<dialog
+								bind:this={dialog[workId]}
+								style={largeModal ? 'max-width: 600px;' : 'max-width: 500px;'}
+							>
+								<ShowcaseDetail {work} />
+							</dialog>
 						{/if}
 					</div>
 				{/each}

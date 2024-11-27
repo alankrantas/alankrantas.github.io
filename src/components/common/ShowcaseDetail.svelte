@@ -7,12 +7,11 @@
 	export let work: WorkItem;
 </script>
 
-<svelte:head>
-	<link rel="preload" as="image" href={work.imgUrl} />
-</svelte:head>
-
 <div class="card text-white bg-secondary">
-	<img src={work.imgUrl} class="card-img-top rounded-3 shadow-sm" alt={work.name} />
+	<form method="dialog">
+		<button class="btn-close btn-lg text-bg-light modal-close-btn"></button>
+	</form>
+	<img src={work.imgUrl} class="card-img-top rounded-3 shadow" alt={work.name} />
 	<div class="card-body p-md-2 m-md-2" style="text-align: start;">
 		<p class="card-title">
 			<span class={$screenSize > 768 ? 'fs-3' : 'fs-4'}>
@@ -38,7 +37,7 @@
 			</span>
 		</p>
 		{#if work.videoId}
-			<p>
+			<p class="p-2 m-2 bg-dark rounded-3 shadow-sm">
 				<iframe
 					class="youtube-video"
 					src={`https://www.youtube-nocookie.com/embed/${work.videoId};controls=0`}
@@ -49,6 +48,7 @@
 					allowfullscreen
 				></iframe>
 			</p>
+			<p></p>
 		{/if}
 		{#if work.category}
 			<p>
