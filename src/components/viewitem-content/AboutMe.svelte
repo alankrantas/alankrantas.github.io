@@ -12,9 +12,7 @@
 		return diff.getUTCFullYear() - 1970;
 	};
 
-	$effect(() => {
-		fact[2].description = fact[2].description.replace('<age>', String(getAge()));
-	});
+	fact[2].description = fact[2].description.replace('<age>', String(getAge()));
 </script>
 
 <p><span class="h4 justify">TL; DR</span></p>

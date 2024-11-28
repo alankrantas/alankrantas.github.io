@@ -17,18 +17,18 @@
 	let { title, works, displayNum = 3, scaleDownPoint = 576, largeModal = false }: Props = $props();
 
 	let listStartWorkId = $state(0);
-	let dialog: HTMLDialogElement[] = $state(new Array(works.length));
+	let dialogs: HTMLDialogElement[] = $state(new Array(works.length));
 
 	const scrollWorks = (delta: number) => {
 		listStartWorkId = Math.max(0, Math.min(listStartWorkId + delta, works.length - displayNum));
 	};
 
 	const handleOpenInDetail = (workId: number) => {
-		if (!dialog[workId]) return;
-		dialog[workId].addEventListener('click', (event: MouseEvent) => {
-			if (event.target === dialog[workId]) dialog[workId].close();
+		if (!dialogs[workId]) return;
+		dialogs[workId].addEventListener('click', (event: MouseEvent) => {
+			if (event.target === dialogs[workId]) dialogs[workId].close();
 		});
-		dialog[workId].showModal();
+		dialogs[workId].showModal();
 	};
 </script>
 
@@ -62,10 +62,10 @@
 					<div class="col" animate:flip={{ duration: 500, easing: expoOut }}>
 						{#if workId < works.length}
 							{@const work = works[workId]}
+							<!-- svelte-ignore a11y_invalid_attribute -->
 							<a href="javascript: void(0)" onclick={() => handleOpenInDetail(workId)}>
 								<img
-									class="img-thumbnail bg-light border-light rounded-4"
-									style={`width: 100%; object-fit: contain;`}
+									class="img-thumbnail bg-light border-light rounded-4 showCaseImg"
 									src={work.imgUrl}
 									title={work.name}
 									alt={work.name}
@@ -73,8 +73,8 @@
 							</a>
 							<!-- modal -->
 							<dialog
-								bind:this={dialog[workId]}
-								style={largeModal ? 'max-width: 600px;' : 'max-width: 500px;'}
+								bind:this={dialogs[workId]}
+								style={largeModal ? 'max-width: 560px;' : 'max-width: 480px;'}
 							>
 								<ShowcaseDetail {work} />
 							</dialog>
@@ -96,17 +96,24 @@
 </div>
 
 <style>
+	.showCaseImg {
+		width: 100%;
+		object-fit: contain;
+	}
+
 	dialog {
 		position: fixed;
 		max-height: 100%;
 		top: 0%;
 		right: 0%;
-		border: 0;
-		border-radius: 20px;
+		border: 0px;
+		border-radius: 10px;
 		padding: 0px;
 		margin: auto;
+		margin-top: 10px;
 		overflow: auto;
 		overscroll-behavior: contain;
+		scrollbar-width: thin;
 		opacity: 0;
 		box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 50%);
 	}
