@@ -4,7 +4,7 @@
 	import List from '../common/List.svelte';
 	import Image from '../common/Image.svelte';
 
-	import { screenSize } from '../../data/Store';
+	import { screenSize } from '../../data/Store.svelte';
 
 	import edit from '../../data/works/EditorialWorks.json';
 	import author from '../../data/works/AuthoredWorks.json';
@@ -34,7 +34,7 @@
 	<Showcase
 		works={edit}
 		title="Selected Editorial Works"
-		displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
+		displayNum={screenSize.value >= 1200 ? 3 : screenSize.value >= 576 ? 2 : 1}
 	/>
 </p>
 <p>
@@ -49,7 +49,7 @@
 	<Showcase
 		works={author}
 		title="Selected Authored Works"
-		displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
+		displayNum={screenSize.value >= 1200 ? 3 : screenSize.value >= 576 ? 2 : 1}
 	/>
 </p>
 <p>
@@ -64,7 +64,7 @@
 	<Showcase
 		works={trans}
 		title="Selected Translated Works"
-		displayNum={$screenSize >= 1200 ? 3 : $screenSize >= 576 ? 2 : 1}
+		displayNum={screenSize.value >= 1200 ? 3 : screenSize.value >= 576 ? 2 : 1}
 	/>
 </p>
 <p>
@@ -88,7 +88,7 @@
 	<Showcase
 		works={maker}
 		title="Selected Maker Projects"
-		displayNum={$screenSize >= 1200 ? 2 : 1}
+		displayNum={screenSize.value >= 1200 ? 2 : 1}
 		scaleDownPoint={1200}
 		largeModal={true}
 	/>

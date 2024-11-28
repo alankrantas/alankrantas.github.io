@@ -8,10 +8,16 @@
 	import '@fontsource/noto-sans-tc/chinese-traditional-300.css';
 	import '../css/custom.css';
 
-	import { screenSize } from '../data/Store';
+	import { screenSize } from '../data/Store.svelte';
 
 	import info from '../data/BasicInfo.json';
 	import viewItems from '../data/ViewItems.json';
+
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 
 	const webTitle = `${info.name}, ${info.title.join(' / ')} (${info.location})`;
 	const description = `${webTitle} - ${[...viewItems.map((item) => item.name)].join(', ')}`;
@@ -20,7 +26,7 @@
 	const thumbnail = `${url}website/thumbnail.jpg`;
 </script>
 
-<svelte:window bind:innerWidth={$screenSize} />
+<svelte:window bind:innerWidth={screenSize.value} />
 
 <svelte:head>
 	<title>{webTitle}</title>
@@ -43,7 +49,7 @@
 	<meta property="og:image:alt" content={webTitle} />
 </svelte:head>
 
-<slot />
+{@render children?.()}
 
 <style>
 </style>

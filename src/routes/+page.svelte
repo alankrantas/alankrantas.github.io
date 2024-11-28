@@ -1,9 +1,8 @@
+<!-- @migration-task Error while migrating Svelte code: Can't migrate code with afterUpdate. Please migrate by hand. -->
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
-	import { afterUpdate } from 'svelte';
-	import { fly, fade, crossfade } from 'svelte/transition';
-	import { flip } from 'svelte/animate';
+	import { fly, fade } from 'svelte/transition';
 	import { expoOut } from 'svelte/easing';
 
 	import NameTitle from '../components/viewitem/NameTitle.svelte';
@@ -13,21 +12,23 @@
 	import ViewItemContent from '../components/viewitem/ViewItemContent.svelte';
 	import Footer from '../components/common/Footer.svelte';
 
-	import { screenSize } from '../data/Store';
+	import { screenSize } from '../data/Store.svelte';
 
 	import info from '../data/BasicInfo.json';
 	import viewItems from '../data/ViewItems.json';
 
-	const showScreenSize = false; // enable to show screen size; for responsive design testing
-
-	$: selectedViewId = -1;
-
-	let ready = false;
-	let scrollToTop = () => {};
-
 	viewItems[0].description = viewItems[0].description
 		.replace('<name>', info.name)
 		.replace('<title>', info.title.map((item) => item.toLowerCase()).join(' | '));
+
+	let selectedViewId = $state(-1);
+	let ready = $state(false);
+
+	const scrollToTop = () =>
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth'
+		});
 
 	const setViewId = (id: number) => {
 		if (id >= 0 && id < viewItems.length) {
@@ -44,15 +45,8 @@
 		if (selectedViewId != -1) scrollToTop();
 	};
 
-	const handleSetViewId = (event: CustomEvent<number>) => setViewId(event.detail);
-
-	afterUpdate(() => {
+	$effect(() => {
 		if (!ready) {
-			scrollToTop = () =>
-				window.scrollTo({
-					top: 0,
-					behavior: 'smooth'
-				});
 			const viewParam = $page.url.searchParams.get('view');
 			if (viewParam && Number.isSafeInteger(parseInt(viewParam))) {
 				setViewId(parseInt(viewParam));
@@ -63,44 +57,47 @@
 		}
 	});
 
-	const [send, receive] = crossfade({
-		delay: 200,
-		duration: 1000,
-		easing: expoOut
-	});
+	const showScreenSize = false; // enable to show screen size; for responsive design testing
 </script>
 
 <svelte:head>
 	{#each viewItems as viewItem}
 		<link rel="preload" as="image" href={viewItem.imgUrl} />
 	{/each}
-	<link rel="preload" as="image" href="/about-me/profile.jpg" />
 </svelte:head>
 
 {#if showScreenSize}
 	<div class="display-6 text-white text-center">
-		<span>Screen size: {$screenSize}</span>
+		<span>Screen size: {screenSize.value}</span>
 		<br />
 		<hr />
 	</div>
 {/if}
 
+{#snippet backToTopBtn()}
+	<button type="button" class="btn btn-dark rounded-4 shadow" onclick={scrollToTop}>
+		<span class="h6">Back to top</span>
+	</button>
+{/snippet}
+
 {#if ready}
-	<div class="container" in:fly|global={{ y: 100, delay: 100, duration: 2000, easing: expoOut }}>
+	<div class="container" in:fly={{ y: 100, delay: 200, duration: 2000, easing: expoOut }}>
 		<div class="row justify-content-center p-md-4 m-md-4">
 			{#if selectedViewId == -1}
 				<!-- main screen -->
 				<div
 					class="col p-md-1 m-md-1"
-					in:receive|global={{ key: 'main' }}
-					out:send|global={{ key: 'view' }}
+					in:fly={{ y: -100, delay: 200, duration: 2000, easing: expoOut }}
 				>
 					<!-- name title -->
-					<div class="text-center p-sm-2 m-sm-2 pb-sm-4 mb-sm-4">
-						<NameTitle mode={'main'} on:setViewId={handleSetViewId} />
+					<div
+						class="text-center p-sm-2 m-sm-2 pb-sm-4 mb-sm-4"
+						in:fade|global={{ delay: 250, duration: 2500, easing: expoOut }}
+					>
+						<NameTitle mode={'main'} handleSetViewId={setViewId} />
 					</div>
 					<!-- view cards -->
-					{#if $screenSize >= 992}
+					{#if screenSize.value >= 992}
 						<div class="row">
 							<div class="col-sm text-end p-md-2 m-md-2">
 								{#each viewItems.filter((item) => item.id % 2 == 0) as viewItem (viewItem.id)}
@@ -111,10 +108,10 @@
 											<br /><br /><br />
 										</div>
 									{/if}
-									<ViewItemCard {viewItem} on:setViewId={handleSetViewId} />
+									<ViewItemCard {viewItem} handleSetViewId={setViewId} />
 								{/each}
 							</div>
-							{#if $screenSize >= 1200}
+							{#if screenSize.value >= 1200}
 								<div class="col-sm-auto"></div>
 							{/if}
 							<div class="col-sm text-start p-md-2 m-md-2">
@@ -133,7 +130,7 @@
 											<br /><br /><br />
 										</div>
 									{/if}
-									<ViewItemCard {viewItem} on:setViewId={handleSetViewId} />
+									<ViewItemCard {viewItem} handleSetViewId={setViewId} />
 								{/each}
 							</div>
 						</div>
@@ -143,17 +140,17 @@
 								{#if viewItem.id > 0}
 									<div>
 										<br />
-										{#if $screenSize >= 768}
+										{#if screenSize.value >= 768}
 											<br />
 										{/if}
 										<hr class="text-white-50" />
 										<br />
-										{#if $screenSize >= 768}
+										{#if screenSize.value >= 768}
 											<br />
 										{/if}
 									</div>
 								{/if}
-								<ViewItemCard {viewItem} on:setViewId={handleSetViewId} />
+								<ViewItemCard {viewItem} handleSetViewId={setViewId} />
 							{/each}
 						</div>
 					{/if}
@@ -163,9 +160,7 @@
 					</div>
 					<!--back to top button -->
 					<div class="text-center p-md-1 m-md-1">
-						<button type="button" class="btn btn-dark rounded-4 shadow" on:click={scrollToTop}>
-							<span class="h6">Back to top</span>
-						</button>
+						{@render backToTopBtn()}
 					</div>
 					<div>
 						<br />
@@ -179,53 +174,56 @@
 				<!-- view screen -->
 				<div
 					class={`${
-						$screenSize >= 992 ? 'col-sm-auto text-end' : 'text-center'
+						screenSize.value >= 992 ? 'col-sm-auto text-end' : 'text-center'
 					} p-md-1 m-md-1 pe-md-2 me-md-2`}
-					in:receive|global={{ key: 'view' }}
-					out:receive|global={{ key: 'main' }}
+					in:fly={{ x: -100, delay: 100, duration: 2000, easing: expoOut }}
 				>
 					<!-- name title -->
 					<div class="p-md-1 m-md-1">
-						<NameTitle mode={'nav'} on:setViewId={handleSetViewId} />
+						<NameTitle mode={'nav'} handleSetViewId={setViewId} />
 					</div>
 					<div>
 						<br />
 					</div>
 					<!-- name buttons -->
-					<div class={$screenSize >= 992 ? '' : 'text-center p-md-1 m-md-1'}>
+					<div class={screenSize.value >= 992 ? '' : 'text-center p-md-1 m-md-1'}>
 						<ul
 							class={`nav pt-md-2 mt-md-2 ${
-								$screenSize >= 992 || $screenSize <= 512 ? 'flex-column' : 'justify-content-center'
+								screenSize.value >= 992 || screenSize.value <= 512
+									? 'flex-column'
+									: 'justify-content-center'
 							}`}
 						>
 							{#each viewItems as viewItem (viewItem.id)}
-								<ViewItemNavBtn {viewItem} {selectedViewId} on:setViewId={handleSetViewId} />
+								<ViewItemNavBtn {viewItem} {selectedViewId} handleSetViewId={setViewId} />
 							{/each}
 						</ul>
 					</div>
 				</div>
 				<!--view items -->
 				<div
-					class={`${$screenSize >= 992 ? 'col-sm-8 text-start' : ''} p-sm-1 m-sm-1 ps-sm-2 me-sm-2`}
-					in:receive|global={{ key: 'view' }}
-					out:send|global={{ key: 'main' }}
+					class={`${screenSize.value >= 992 ? 'col-sm-8 text-start' : ''} p-sm-1 m-sm-1 ps-sm-2 me-sm-2`}
+					in:fade={{ delay: 200, duration: 2000, easing: expoOut }}
 				>
 					<div>
 						<br />
 					</div>
 					<div>
 						{#each viewItems as viewItem (viewItem.id)}
-							<div animate:flip={{ duration: 500, easing: expoOut }}>
+							<div>
 								{#if selectedViewId == viewItem.id}
-									<div in:fade|global={{ delay: 100, duration: 500, easing: expoOut }}>
+									<div>
 										<!--sub view head -->
-										<div class={$screenSize >= 576 ? 'p-sm-2 m-sm-2' : 'p-1 m-1'}>
+										<div
+											class={screenSize.value >= 576 ? 'p-sm-2 m-sm-2' : 'p-1 m-1'}
+											in:fade|global={{ delay: 100, duration: 2000, easing: expoOut }}
+										>
 											<ViewItemHead {viewItem} />
 										</div>
 										<!--sub view content -->
 										<div
-											class={$screenSize >= 576 ? 'p-sm-2 m-sm-2' : 'p-1 m-1'}
-											in:fly|global={{ y: 100, delay: 250, duration: 1000, easing: expoOut }}
+											class={screenSize.value >= 576 ? 'p-sm-2 m-sm-2' : 'p-1 m-1'}
+											in:fly|global={{ y: 100, delay: 200, duration: 2000, easing: expoOut }}
 										>
 											<ViewItemContent viewItemId={viewItem.id} />
 										</div>
@@ -239,9 +237,7 @@
 					</div>
 					<!--back to top button -->
 					<div class="text-center p-sm-1 m-sm-1">
-						<button type="button" class="btn btn-dark rounded-4 shadow" on:click={scrollToTop}>
-							<span class="h6">Back to top</span>
-						</button>
+						{@render backToTopBtn()}
 					</div>
 					<div>
 						<br />

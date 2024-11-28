@@ -2,8 +2,12 @@
 	import type { ListItem } from '../../data/Types';
 	import Link from './Link.svelte';
 
-	export let title: string;
-	export let list: ListItem[];
+	interface Props {
+		title: string;
+		list: ListItem[];
+	}
+
+	let { title, list }: Props = $props();
 </script>
 
 <p class="h2">

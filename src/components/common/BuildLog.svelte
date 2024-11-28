@@ -1,12 +1,11 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
-	import { beforeUpdate } from 'svelte';
 
-	let build_time: string | null = null;
+	let build_time: string | null = $state(null);
 
-	beforeUpdate(() => {
+	$effect.pre(() => {
 		if (dev) {
-			let now = new Date();
+			const now = new Date();
 			build_time = `(Dev) ${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()} ${now.getHours()}:${now.getMinutes()}`;
 			return;
 		}

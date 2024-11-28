@@ -2,23 +2,27 @@
 	import Link from './Link.svelte';
 	import type { WorkItem } from '../../data/Types';
 
-	import { screenSize } from '../../data/Store';
+	import { screenSize } from '../../data/Store.svelte';
 
-	export let work: WorkItem;
+	interface Props {
+		work: WorkItem;
+	}
+
+	let { work }: Props = $props();
 </script>
 
 <div class="card text-white bg-secondary">
 	<form method="dialog">
-		<button class="btn-close btn-lg text-bg-light modal-close-btn"></button>
+		<button class="btn-close btn-lg text-bg-light modal-close-btn" aria-label="Close"></button>
 	</form>
 	<img src={work.imgUrl} class="card-img-top rounded-3 shadow" alt={work.name} />
 	<div class="card-body p-md-2 m-md-2" style="text-align: start;">
 		<p class="card-title">
-			<span class={$screenSize > 768 ? 'fs-3' : 'fs-4'}>
+			<span class={screenSize.value > 768 ? 'fs-3' : 'fs-4'}>
 				{work.name}
 			</span>
 			{#if work.link}
-				<span class={$screenSize > 768 ? 'h4' : 'h5'}>
+				<span class={screenSize.value > 768 ? 'h4' : 'h5'}>
 					&nbsp;<b><Link url={work.link} name="⧉" /></b>
 				</span>
 			{/if}
@@ -32,7 +36,7 @@
 		{/if}
 		<hr class="text-white" />
 		<p class="card-text lead">
-			<span class={$screenSize > 768 ? '' : 'small'}>
+			<span class={screenSize.value > 768 ? '' : 'small'}>
 				{work.description}
 			</span>
 		</p>
@@ -59,3 +63,11 @@
 		{/if}
 	</div>
 </div>
+
+<style>
+	.modal-close-btn {
+		position: absolute;
+		top: 0%;
+		right: 0%;
+	}
+</style>

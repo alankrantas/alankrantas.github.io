@@ -5,24 +5,22 @@ export interface ViewItem {
 	imgUrl: string;
 }
 
-export interface ListItem {
+interface BaseItem {
 	name: string;
 	description: string | null;
+	category: string[] | null;
+	language: string[] | null;
+	link: string | null;
+}
+
+export interface ListItem extends BaseItem {
 	location: string | null;
 	footnote: string | null;
 	tooltip: string | null;
-	category: string[] | null;
-	language: string[] | null;
-	link: string | null;
 	linkedTitle: boolean;
 }
 
-export interface WorkItem {
-	name: string;
-	description: string | null;
-	category: string[] | null;
-	language: string[] | null;
-	link: string | null;
+export interface WorkItem extends BaseItem {
 	imgUrl: string;
 	videoId: string | null;
 }

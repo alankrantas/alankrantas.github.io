@@ -1,17 +1,21 @@
 <script lang="ts">
-	import { screenSize } from '../../data/Store';
+	import { screenSize } from '../../data/Store.svelte';
 
-	export let src: string;
-	export let alt: string;
-	export let footnote = '';
-	export let widthRatios = [80, 85, 90, 95];
+	interface Props {
+		src: string;
+		alt: string;
+		footnote?: string;
+		widthRatios?: any;
+	}
 
-	$: ratio = () => {
-		if ($screenSize >= 992) {
+	let { src, alt, footnote = '', widthRatios = [80, 85, 90, 95] }: Props = $props();
+
+	const ratio = () => {
+		if (screenSize.value >= 992) {
 			return widthRatios[0];
-		} else if ($screenSize >= 768) {
+		} else if (screenSize.value >= 768) {
 			return widthRatios[1];
-		} else if ($screenSize >= 576) {
+		} else if (screenSize.value >= 576) {
 			return widthRatios[2];
 		} else {
 			return widthRatios[3];

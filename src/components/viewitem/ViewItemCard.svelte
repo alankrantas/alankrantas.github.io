@@ -1,11 +1,13 @@
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
 	import type { ViewItem } from '../../data/Types';
-	import { screenSize } from '../../data/Store';
+	import { screenSize } from '../../data/Store.svelte';
 
-	export let viewItem: ViewItem;
+	interface Props {
+		viewItem: ViewItem;
+		handleSetViewId: (id: number) => void;
+	}
 
-	const dispatch = createEventDispatcher<{ setViewId: number }>();
+	let { viewItem, handleSetViewId }: Props = $props();
 </script>
 
 <div class="card rounded-4 bg-dark shadow-lg">
@@ -25,9 +27,9 @@
 			<button
 				type="button"
 				class="btn btn-info rounded-pill"
-				on:click={() => dispatch('setViewId', viewItem.id)}
+				onclick={() => handleSetViewId(viewItem.id)}
 			>
-				<span class={`code ${$screenSize >= 768 ? 'h5' : 'h6'}`}>View</span>
+				<span class={`code ${screenSize.value >= 768 ? 'h5' : 'h6'}`}>View</span>
 			</button>
 		</div>
 	</div>

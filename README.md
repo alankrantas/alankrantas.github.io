@@ -8,15 +8,17 @@
 
 ## Overview
 
-- Built with [Svelte](https://svelte.dev/), [SvelteKit](https://kit.svelte.dev/) and [`svelte-simple-modal`](https://www.npmjs.com/package/svelte-simple-modal)
-- Primarily using [Bootstrap](https://getbootstrap.com/) CSS styles
-- Deployed to [Github Pages](https://pages.github.com/) / run Dependabot PR test build using [Github Action](https://github.com/features/actions) workflows
+- Single page application (SPA) with working responsive web design (RWD).
+- Built with [Svelte](https://svelte.dev/) (upgraded to `v5` syntax), [SvelteKit](https://kit.svelte.dev/) and [Bootstrap](https://getbootstrap.com/).
+- Deployed to [Github Pages](https://pages.github.com/) / run Dependabot PR test build using [Github Action](https://github.com/features/actions) workflows.
 
 ## Layout and Components
 
-The site is designed as a static single-page application (SPA) that will switch between two layouts - "main" and "view".
+The site switches between two layouts - "main" and "view".
 
 ### Main Mode
+
+Index page with large navigation cards.
 
 ```mermaid
 flowchart TD
@@ -50,6 +52,8 @@ flowchart TD
 By clicking the button on a view card, the app will switch to view mode that shows the corresponding content.
 
 ### View Mode
+
+Detail page with side navigation bar and content.
 
 ```mermaid
 flowchart TD
@@ -88,11 +92,9 @@ The index page also accepts a `view` URL parameter to switch to a specific view 
 
 ### Responsive Layouts
 
-The site is implemented with functional responsive web design (RWD) using Svelte and/or CSS.
+Each mode may have multiple layout and CSS style adjustments based on different resolutions (`1200`, `996`, `768` and `576` px), using Svelte template syntax, CSS or Bootstrap classes.
 
-Each mode may have multiple layout and CSS style variations based on different resolutions (`1200`, `996`, `768` and `576` px).
-
-Both main and view mode will be squashed to a single column when the screen width is smaller than `992` px.
+Both main and view mode will be squashed into a single column when the screen width becomes smaller than `992` px.
 
 Some reusable components, like `Image` and `Showcase`, has properties to control the component responsive behavior under different resolutions.
 
@@ -100,7 +102,7 @@ Some reusable components, like `Image` and `Showcase`, has properties to control
 
 ## Local Development
 
-> Prerequisites: Node.js, Git and Docker
+> Prerequisites: [Node.js](https://nodejs.org/), [Git](https://git-scm.com/) and [Docker](https://www.docker.com/). This repo can be opened in [DevContainer](https://containers.dev/)/[CodeSpace](https://github.com/features/codespaces) as well.
 
 ### Install Dependencies
 
@@ -118,24 +120,6 @@ Then
 git clone https://github.com/alankrantas/alankrantas.github.io.git
 cd alankrantas.github.io
 yarn
-```
-
-### Start Dev Server
-
-```bash
-yarn start
-```
-
-### Build Production
-
-```bash
-yarn build
-```
-
-### Commit Changes
-
-```bash
-yarn commit
 ```
 
 ### List of Actions

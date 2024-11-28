@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import List from '../common/List.svelte';
 	import Image from '../common/Image.svelte';
 
@@ -13,7 +12,7 @@
 		return diff.getUTCFullYear() - 1970;
 	};
 
-	onMount(() => {
+	$effect(() => {
 		fact[2].description = fact[2].description.replace('<age>', String(getAge()));
 	});
 </script>

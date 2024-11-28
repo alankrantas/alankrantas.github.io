@@ -29,36 +29,6 @@ body {
 	text-justify: inter-word;
 }
 
-dialog {
-	position: fixed;
-	max-height: 100%;
-	max-width: 560px;
-	top: 0%;
-	right: 0%;
-	border: 0;
-	border-radius: 20px;
-	padding: 0px;
-	margin: auto;
-	overflow: auto;
-	overscroll-behavior: contain;
-	opacity: 0;
-}
-
-dialog[open] {
-	animation: fadein 0.3s ease-in forwards;
-}
-
-::backdrop {
-	background-color: var(--bs-black);
-	opacity: 0.75;
-}
-
-.modal-close-btn {
-	position: absolute;
-	top: 0%;
-	right: 0%;
-}
-
 .customtooltip {
 	text-align: start;
 	position: relative;
@@ -105,16 +75,6 @@ dialog[open] {
 .youtube-video {
 	aspect-ratio: 16 / 9;
 	width: 100%;
-}
-
-@keyframes fadein {
-	0% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 1;
-	}
 }
 
 @media only screen and (min-width: 768px) {

@@ -2,19 +2,22 @@
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
 	import type { WorkItem } from '../../data/Types';
-	import { screenSize } from '../../data/Store';
+	import { screenSize } from '../../data/Store.svelte';
 
 	import ShowcaseDetail from './ShowcaseDetail.svelte';
 
-	export let title: string;
-	export let works: WorkItem[];
-	export let displayNum = 3;
-	export let scaleDownPoint = 576;
-	export let largeModal = false;
+	interface Props {
+		title: string;
+		works: WorkItem[];
+		displayNum?: number;
+		scaleDownPoint?: number;
+		largeModal?: boolean;
+	}
 
-	$: listStartWorkId = 0;
+	let { title, works, displayNum = 3, scaleDownPoint = 576, largeModal = false }: Props = $props();
 
-	let dialog: HTMLDialogElement[] = new Array(works.length);
+	let listStartWorkId = $state(0);
+	let dialog: HTMLDialogElement[] = $state(new Array(works.length));
 
 	const scrollWorks = (delta: number) => {
 		listStartWorkId = Math.max(0, Math.min(listStartWorkId + delta, works.length - displayNum));
@@ -41,13 +44,13 @@
 <div class="position-relative">
 	<div
 		class="row position-relative start-50 translate-middle-x"
-		style={`width: ${$screenSize < scaleDownPoint ? 90 : 100}%`}
+		style={`width: ${screenSize.value < scaleDownPoint ? 90 : 100}%`}
 	>
 		<div class="col-auto d-grid">
 			<button
 				class="btn btn-sm btn-outline-light rounded-pill"
 				disabled={listStartWorkId == 0}
-				on:click={() => scrollWorks(-1)}
+				onclick={() => scrollWorks(-1)}
 			>
 				<b>{'<'}</b>
 			</button>
@@ -59,7 +62,7 @@
 					<div class="col" animate:flip={{ duration: 500, easing: expoOut }}>
 						{#if workId < works.length}
 							{@const work = works[workId]}
-							<a href="javascript:;" on:click={() => handleOpenInDetail(workId)}>
+							<a href="javascript: void(0)" onclick={() => handleOpenInDetail(workId)}>
 								<img
 									class="img-thumbnail bg-light border-light rounded-4"
 									style={`width: 100%; object-fit: contain;`}
@@ -68,6 +71,7 @@
 									alt={work.name}
 								/>
 							</a>
+							<!-- modal -->
 							<dialog
 								bind:this={dialog[workId]}
 								style={largeModal ? 'max-width: 600px;' : 'max-width: 500px;'}
@@ -83,10 +87,46 @@
 			<button
 				class="btn btn-sm btn-outline-light rounded-pill"
 				disabled={listStartWorkId >= works.length - displayNum}
-				on:click={() => scrollWorks(1)}
+				onclick={() => scrollWorks(1)}
 			>
 				<b>{'>'}</b>
 			</button>
 		</div>
 	</div>
 </div>
+
+<style>
+	dialog {
+		position: fixed;
+		max-height: 100%;
+		top: 0%;
+		right: 0%;
+		border: 0;
+		border-radius: 20px;
+		padding: 0px;
+		margin: auto;
+		overflow: auto;
+		overscroll-behavior: contain;
+		opacity: 0;
+		box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 50%);
+	}
+
+	dialog[open] {
+		animation: fadein 0.3s ease-in forwards;
+	}
+
+	::backdrop {
+		background-color: var(--bs-black);
+		opacity: 0.3;
+	}
+
+	@keyframes fadein {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+</style>

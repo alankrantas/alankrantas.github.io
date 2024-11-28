@@ -1,12 +1,16 @@
 <script lang="ts">
 	import type { ViewItem } from '../../data/Types';
-	import { screenSize } from '../../data/Store';
+	import { screenSize } from '../../data/Store.svelte';
 
-	export let viewItem: ViewItem;
+	interface Props {
+		viewItem: ViewItem;
+	}
+
+	let { viewItem }: Props = $props();
 </script>
 
 <div class="text-center">
-	{#if $screenSize <= 576}
+	{#if screenSize.value <= 576}
 		<br />
 	{/if}
 	<div class="row p-2 m-2">
@@ -26,11 +30,11 @@
 		</div>
 	</div>
 	<div class="text-white-50 p-sm-1 m-sm-1 pt-sm-3 pb-sm-2 mt-sm-3 mb-sm-2">
-		{#if $screenSize <= 576}
+		{#if screenSize.value <= 576}
 			<br />
 		{/if}
 		<hr />
-		{#if $screenSize <= 576}
+		{#if screenSize.value <= 576}
 			<br />
 		{/if}
 	</div>
