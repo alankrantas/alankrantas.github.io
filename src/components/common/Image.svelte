@@ -10,17 +10,19 @@
 
 	let { src, alt, footnote = '', widthRatios = [80, 85, 90, 95] }: Props = $props();
 
-	const ratio = () => {
-		if (screenSize.value >= 992) {
-			return widthRatios[0];
-		} else if (screenSize.value >= 768) {
-			return widthRatios[1];
-		} else if (screenSize.value >= 576) {
-			return widthRatios[2];
-		} else {
-			return widthRatios[3];
-		}
-	};
+	const ratio = $derived(
+		(() => {
+			if (screenSize.value >= 992) {
+				return widthRatios[0];
+			} else if (screenSize.value >= 768) {
+				return widthRatios[1];
+			} else if (screenSize.value >= 576) {
+				return widthRatios[2];
+			} else {
+				return widthRatios[3];
+			}
+		})()
+	);
 </script>
 
 <div class="text-center">
@@ -30,7 +32,7 @@
 			{src}
 			{alt}
 			class="img-fluid rounded-5 p-md-2 m-md-2"
-			style={`width: ${ratio()}%;`}
+			style={`width: ${ratio}%;`}
 		/>
 	</p>
 	{#if footnote}
