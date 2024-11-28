@@ -92,7 +92,7 @@
 					<!-- name title -->
 					<div
 						class="text-center p-sm-2 m-sm-2 pb-sm-4 mb-sm-4"
-						in:fade|global={{ delay: 250, duration: 2500, easing: expoOut }}
+						in:fade|global={{ delay: 100, duration: 1000, easing: expoOut }}
 					>
 						<NameTitle mode={'main'} handleSetViewId={setViewId} />
 					</div>
