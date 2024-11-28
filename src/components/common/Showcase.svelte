@@ -26,6 +26,15 @@
 	const handleOpenInDetail = (workId: number) => {
 		if (!dialogs[workId]) return;
 		dialogs[workId].addEventListener('click', (event: MouseEvent) => {
+			const videos = document.querySelectorAll('iframe, video');
+			Array.prototype.forEach.call(videos, function (video) {
+				if (video.tagName.toLowerCase() === 'video') {
+					video.pause();
+				} else {
+					const src = video.src;
+					video.src = src;
+				}
+			});
 			if (event.target === dialogs[workId]) dialogs[workId].close();
 		});
 		dialogs[workId].showModal();
