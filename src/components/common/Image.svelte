@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { screenSize } from '../../data/Store.svelte';
+	import { screenSize } from '../../data/GlobalStates.svelte';
 
 	interface Props {
 		src: string;

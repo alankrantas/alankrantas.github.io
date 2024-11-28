@@ -4,7 +4,7 @@
 	import List from '../common/List.svelte';
 	import Image from '../common/Image.svelte';
 
-	import { screenSize } from '../../data/Store.svelte';
+	import { screenSize } from '../../data/GlobalStates.svelte';
 
 	import edit from '../../data/works/EditorialWorks.json';
 	import author from '../../data/works/AuthoredWorks.json';

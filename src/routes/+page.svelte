@@ -12,7 +12,7 @@
 	import ViewItemContent from '../components/viewitem/ViewItemContent.svelte';
 	import Footer from '../components/common/Footer.svelte';
 
-	import { screenSize } from '../data/Store.svelte';
+	import { screenSize } from '../data/GlobalStates.svelte';
 
 	import info from '../data/BasicInfo.json';
 	import viewItems from '../data/ViewItems.json';

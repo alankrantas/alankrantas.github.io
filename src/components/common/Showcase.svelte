@@ -2,7 +2,7 @@
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
 	import type { WorkItem } from '../../data/Types';
-	import { screenSize } from '../../data/Store.svelte';
+	import { screenSize } from '../../data/GlobalStates.svelte';
 
 	import ShowcaseDetail from './ShowcaseDetail.svelte';
 

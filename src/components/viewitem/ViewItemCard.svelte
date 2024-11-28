@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { ViewItem } from '../../data/Types';
-	import { screenSize } from '../../data/Store.svelte';
+	import { screenSize } from '../../data/GlobalStates.svelte';
 
 	interface Props {
 		viewItem: ViewItem;

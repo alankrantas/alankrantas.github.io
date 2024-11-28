@@ -2,7 +2,7 @@
 	import Link from './Link.svelte';
 	import type { WorkItem } from '../../data/Types';
 
-	import { screenSize } from '../../data/Store.svelte';
+	import { screenSize } from '../../data/GlobalStates.svelte';
 
 	interface Props {
 		work: WorkItem;
