@@ -14,7 +14,7 @@
 	let titleIndex = $state(0);
 
 	setInterval(() => {
-		titleIndex = titleIndex >= info.title.length - 1 ? 0 : titleIndex++;
+		titleIndex = titleIndex >= info.title.length - 1 ? 0 : titleIndex + 1;
 	}, 2000);
 </script>
 
