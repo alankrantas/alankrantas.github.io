@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
-	import type { WorkItem } from '../../data/Types';
-	import { screenSize } from '../../data/GlobalStates.svelte';
 
 	import ShowcaseDetail from './ShowcaseDetail.svelte';
+
+	import { screenSize } from '../../data/store/GlobalStates.svelte';
+	import type { WorkItem } from '../../data/type/Types';
 
 	interface Props {
 		title: string;
@@ -25,17 +26,18 @@
 
 	const handleOpenInDetail = (workId: number) => {
 		if (!dialogs[workId]) return;
+
 		dialogs[workId].addEventListener('click', (event: MouseEvent) => {
-			const videos = document.querySelectorAll('iframe, video');
-			Array.prototype.forEach.call(videos, function (video) {
-				if (video.tagName.toLowerCase() === 'video') {
-					video.pause();
-				} else {
+			if (event.target === dialogs[workId]) {
+				dialogs[workId].close();
+
+				// stop youtube videos
+				const videos = document.querySelectorAll('iframe');
+				Array.prototype.forEach.call(videos, function (video) {
 					const src = video.src;
 					video.src = src;
-				}
-			});
-			if (event.target === dialogs[workId]) dialogs[workId].close();
+				});
+			}
 		});
 		dialogs[workId].showModal();
 	};
@@ -118,8 +120,7 @@
 		border: 0px;
 		border-radius: 10px;
 		padding: 0px;
-		margin: auto;
-		margin-top: 10px;
+		margin: 1% auto;
 		overflow: auto;
 		overscroll-behavior: contain;
 		scrollbar-width: thin;

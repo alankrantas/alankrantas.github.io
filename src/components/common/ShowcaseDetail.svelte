@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Link from './Link.svelte';
-	import type { WorkItem } from '../../data/Types';
+	import { screenSize } from '../../data/store/GlobalStates.svelte';
+	import type { WorkItem } from '../../data/type/Types';
 
-	import { screenSize } from '../../data/GlobalStates.svelte';
+	import Link from './Link.svelte';
 
 	interface Props {
 		work: WorkItem;

@@ -32,27 +32,29 @@
 </p>
 <p class="justify">Now some technical details about this site.</p>
 <p class="indent justify">
-	This site, or the first major version of it, was completed in May 2023. I've only learned modern
-	front-end frameworks a few years ago while working on a TypeScript book as an editor, and learned
-	some stuff about CI/CD in my next job. I knew back then this is something I'd like to do, but
+	This site, or the first major version of it, was completed in May 2023. I've learned modern
+	front-end frameworks only a few years ago while working on a TypeScript book as an editor, and
+	gained some CI/CD knowledge in my next job. I knew back then this is something I'd like to do, but
 	still it took a while to make it happen.
 </p>
 <p class="indent justify">
 	I really like Svelte (a relatively newer but popular JavaScript framework), especially for its
-	built-in transition effects. SvelteKit. the framework for deploying Svelte apps, has a pretty
-	simple yet powerful file-based routing mechanism, however I decided to make this app as a
-	single-page application (SPA) on purpose. On the other hand, the site can read QueryString to
-	create the illusion of routing between pages.
+	built-in transition effects. SvelteKit, the framework for building and deploying Svelte apps, has
+	a pretty simple yet powerful file-based routing mechanism, however I decided to make this app as a
+	single page application (SPA) on purpose for smoother transitions. On the other hand, the site can
+	read QueryString to create the illusion of routing between pages.
 </p>
 <p class="indent justify">
-	I use Bootstrap for CSS styles, although the Bootstrap components are not compatible in Svelte.
-	Except for one library, I built all components for the need of maintaining this site. This site
-	also has a basic support for responsive web design (based on window width).
+	I use Bootstrap for CSS styles, although Bootstrap JavaScript components are not compatible in
+	Svelte. I built all components for the need of maintaining this site. (I used a modal package
+	written by someone, but replaced it with native modal implementation after upgrading to Svelte 5
+	syntax) This site also has a functional responsive web design based on screen width.
 </p>
 <p class="indent justify">
 	The site is built and deployed to Github Pages using Github Action as CI/CD (Continuous
-	Integration/Continuous Deployment) but can be deployed as a container as well. Both will generate
-	a build datetime string to be displayed at the bottom of pages.
+	Integration/Continuous Deployment) but can be built and deployed as a container as well. The
+	project is supported to be opened in DevContainer and CodeSpace. Both will generate the build
+	datetime to be displayed at the bottom of pages.
 </p>
 <p class="indent justify">
 	You can find the full source code at the <Link

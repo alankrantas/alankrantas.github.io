@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
-	import { screenSize } from '../../data/GlobalStates.svelte';
-	import info from '../../data/BasicInfo.json';
+
+	import { screenSize } from '../../data/store/GlobalStates.svelte';
+	import info from '../../data/info/BasicInfo.json';
 
 	interface Props {
 		mode: String;
@@ -13,7 +14,7 @@
 	let titleIndex = $state(0);
 
 	setInterval(() => {
-		titleIndex = titleIndex >= info.title.length - 1 ? 0 : titleIndex + 1;
+		titleIndex = titleIndex >= info.title.length - 1 ? 0 : titleIndex++;
 	}, 2000);
 </script>
 

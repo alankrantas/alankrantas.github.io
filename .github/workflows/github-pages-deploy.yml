@@ -31,7 +31,6 @@ jobs:
       - name: Install Dependencies
         run: |
           npm i -g yarn
-          yarn set version latest --yarn-path
           yarn install --immutable --immutable-cache --check-cache
 
       - name: Build Production

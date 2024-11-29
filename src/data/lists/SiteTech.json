@@ -67,7 +67,7 @@
 	},
 	{
 		"name": "SVG Repo",
-		"description": "Favicon and R.O.C. flag icon",
+		"description": "Favicon and flag icon",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -78,7 +78,7 @@
 	},
 	{
 		"name": "Docker",
-		"description": "Containerization/DevContainer",
+		"description": "Containerization/DevContainer/CodeSpace",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { screenSize } from '../../data/GlobalStates.svelte';
+	import { screenSize } from '../../data/store/GlobalStates.svelte';
 
 	interface Props {
 		src: string;
@@ -10,7 +10,7 @@
 
 	let { src, alt, footnote = '', widthRatios = [80, 85, 90, 95] }: Props = $props();
 
-	const ratio = $derived(
+	let ratio = $derived(
 		(() => {
 			if (screenSize.value >= 992) {
 				return widthRatios[0];

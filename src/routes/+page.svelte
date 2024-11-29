@@ -5,6 +5,8 @@
 	import { fly, fade } from 'svelte/transition';
 	import { expoOut } from 'svelte/easing';
 
+	import { screenSize } from '../data/store/GlobalStates.svelte';
+
 	import NameTitle from '../components/viewitem/NameTitle.svelte';
 	import ViewItemNavBtn from '../components/viewitem/ViewItemNavBtn.svelte';
 	import ViewItemCard from '../components/viewitem/ViewItemCard.svelte';
@@ -12,10 +14,8 @@
 	import ViewItemContent from '../components/viewitem/ViewItemContent.svelte';
 	import Footer from '../components/common/Footer.svelte';
 
-	import { screenSize } from '../data/GlobalStates.svelte';
-
-	import info from '../data/BasicInfo.json';
-	import viewItems from '../data/ViewItems.json';
+	import info from '../data/info/BasicInfo.json';
+	import viewItems from '../data/info/ViewItems.json';
 
 	viewItems[0].description = viewItems[0].description
 		.replace('<name>', info.name)

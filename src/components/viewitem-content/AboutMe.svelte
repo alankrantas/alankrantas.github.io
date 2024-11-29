@@ -2,7 +2,7 @@
 	import List from '../common/List.svelte';
 	import Image from '../common/Image.svelte';
 
-	import info from '../../data/BasicInfo.json';
+	import info from '../../data/info/BasicInfo.json';
 	import fact from '../../data/lists/PersonalFacts.json';
 	import hobbies from '../../data/lists/Hobbies.json';
 

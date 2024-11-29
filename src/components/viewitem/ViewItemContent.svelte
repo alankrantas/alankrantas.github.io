@@ -12,7 +12,7 @@
 
 	let { viewItemId }: Props = $props();
 
-	const ViewItemContent = $derived(viewItemOptions[viewItemId]);
+	let ViewItemContent = $derived(viewItemOptions[viewItemId]);
 </script>
 
 <div class="text-white">

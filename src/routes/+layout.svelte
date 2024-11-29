@@ -8,10 +8,10 @@
 	import '@fontsource/noto-sans-tc/chinese-traditional-300.css';
 	import '../css/custom.css';
 
-	import { screenSize } from '../data/GlobalStates.svelte';
+	import { screenSize } from '../data/store/GlobalStates.svelte';
 
-	import info from '../data/BasicInfo.json';
-	import viewItems from '../data/ViewItems.json';
+	import info from '../data/info/BasicInfo.json';
+	import viewItems from '../data/info/ViewItems.json';
 
 	interface Props {
 		children?: import('svelte').Snippet;
