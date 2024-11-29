@@ -176,7 +176,12 @@
 					class={`${
 						screenSize.value >= 992 ? 'col-sm-auto text-end' : 'text-center'
 					} p-md-1 m-md-1 pe-md-2 me-md-2`}
-					in:fly={{ x: -100, delay: 100, duration: 2000, easing: expoOut }}
+					in:fly={{
+						[screenSize.value >= 992 ? 'x' : 'y']: -100,
+						delay: 100,
+						duration: 2000,
+						easing: expoOut
+					}}
 				>
 					<!-- name title -->
 					<div class="p-md-1 m-md-1">
@@ -189,9 +194,9 @@
 					<div class={screenSize.value >= 992 ? '' : 'text-center p-md-1 m-md-1'}>
 						<ul
 							class={`nav pt-md-2 mt-md-2 ${
-								screenSize.value >= 992 || screenSize.value <= 512
-									? 'flex-column'
-									: 'justify-content-center'
+								screenSize.value < 992 && screenSize.value > 512
+									? 'justify-content-center'
+									: 'flex-column'
 							}`}
 						>
 							{#each viewItems as viewItem (viewItem.id)}
