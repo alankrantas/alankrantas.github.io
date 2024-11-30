@@ -1,4 +1,6 @@
 <script lang="ts">
+	import type { Snippet } from 'svelte';
+
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	import '@fontsource/open-sans/300.css';
 	import '@fontsource/open-sans/300-italic.css';
@@ -14,16 +16,15 @@
 	import viewItems from '../data/info/ViewItems.json';
 
 	interface Props {
-		children?: import('svelte').Snippet;
+		children?: Snippet;
 	}
 
 	let { children }: Props = $props();
 
 	const webTitle = `${info.name}, ${info.title.join(' / ')} (${info.location})`;
-	const description = `${webTitle} - ${[...viewItems.map((item) => item.name)].join(', ')}`;
+	const description = `${webTitle} - ${[...viewItems.map((item) => item.name.toLowerCase())].join(', ')}`;
 
-	const url = 'https://alankrantas.github.io/';
-	const thumbnail = `${url}website/thumbnail.jpg`;
+	const thumbnail = `${info.url}website/thumbnail.jpg`;
 </script>
 
 <svelte:window bind:innerWidth={screenSize.value} />
@@ -35,7 +36,7 @@
 		name="keywords"
 		content={`${info.title.join(', ')}, homepage, personal, resume, cv, job, talent for hire, svelte, sveltekit, frontend`}
 	/>
-	<meta property="og:url" content={url} />
+	<meta property="og:url" content={info.url} />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content={webTitle} />
 	<meta property="og:site_name" content={webTitle} />

@@ -5,7 +5,7 @@
 		src: string;
 		alt: string;
 		footnote?: string;
-		widthRatios?: any;
+		widthRatios?: number[];
 	}
 
 	let { src, alt, footnote = '', widthRatios = [80, 85, 90, 95] }: Props = $props();

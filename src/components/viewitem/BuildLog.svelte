@@ -7,13 +7,13 @@
 		if (dev) {
 			const now = new Date();
 			build_time = `(Dev) ${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()} ${now.getHours()}:${now.getMinutes()}`;
-			return;
+		} else {
+			fetch('/website/build.json')
+				.then((res) => res.json())
+				.then((data: { build_time: string }) => {
+					if (data.build_time && typeof data.build_time == 'string') build_time = data.build_time;
+				});
 		}
-		fetch('/website/build.json')
-			.then((res) => res.json())
-			.then((data: { build_time: string }) => {
-				if (data.build_time && typeof data.build_time == 'string') build_time = data.build_time;
-			});
 	});
 </script>
 

@@ -9,7 +9,7 @@
 		<br />
 	</p>
 	<p>
-		<a href="https://github.com/alankrantas/alankrantas.github.io" target="_blank">
+		<a href={info.repo} target="_blank">
 			<img
 				src="/website/github-mark-white.svg"
 				width="40px"

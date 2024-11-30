@@ -12,7 +12,7 @@
 	import ViewItemCard from '../components/viewitem/ViewItemCard.svelte';
 	import ViewItemHead from '../components/viewitem/ViewItemHead.svelte';
 	import ViewItemContent from '../components/viewitem/ViewItemContent.svelte';
-	import Footer from '../components/common/Footer.svelte';
+	import Footer from '../components/viewitem/Footer.svelte';
 
 	import info from '../data/info/BasicInfo.json';
 	import viewItems from '../data/info/ViewItems.json';

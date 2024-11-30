@@ -1,5 +1,7 @@
 {
 	"name": "Alan Wang",
 	"title": ["Freelance Writer", "Copywriter", "Translator"],
-	"location": "Taipei, Taiwan"
+	"location": "Taipei, Taiwan",
+	"url": "https://alankrantas.github.io/",
+	"repo": "https://github.com/alankrantas/alankrantas.github.io"
 }
