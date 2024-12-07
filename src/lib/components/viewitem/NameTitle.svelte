@@ -38,7 +38,13 @@
 	</span>
 	<span class="h5"> &nbsp;|&nbsp; </span>
 	<span class="h4">
-		{@render titleCarousell(750)}
+		{#each info.title as title, index}
+			{#if index == titleIndex}
+				<span in:fade={{ duration: 750 }}>
+					{title}
+				</span>
+			{/if}
+		{/each}
 	</span>
 {/snippet}
 
