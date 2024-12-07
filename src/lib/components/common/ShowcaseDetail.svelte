@@ -2,7 +2,7 @@
 	import { screenSize } from '$lib/store/GlobalStates.svelte';
 	import type { WorkItem } from '$lib/type/Types';
 
-	import Link from './Link.svelte';
+	import Link from '$lib/components/common/Link.svelte';
 
 	interface Props {
 		work: WorkItem;

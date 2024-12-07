@@ -5,8 +5,8 @@
 	"private": true,
 	"scripts": {
 		"upgrade-all": "yarn-upgrade-all && yarn upgrade",
-		"dev": "vite dev -port 3000 --open --host",
-		"preview": "vite preview -port 8080 --open --host",
+		"dev": "vite dev --port 3000 --open --host",
+		"preview": "vite preview --port 8080 --open --host",
 		"build": "vite build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",

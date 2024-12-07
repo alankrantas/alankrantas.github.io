@@ -1,6 +1,6 @@
 <script lang="ts">
-	import List from '../common/List.svelte';
-	import Image from '../common/Image.svelte';
+	import List from '$lib/components/common/List.svelte';
+	import Image from '$lib/components/common/Image.svelte';
 
 	import info from '$lib/data/info/BasicInfo.json';
 	import fact from '$lib/data/lists/PersonalFacts.json';

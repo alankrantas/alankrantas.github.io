@@ -1,5 +1,5 @@
 <script lang="ts">
-	import BuildLog from './BuildLog.svelte';
+	import BuildLog from '$lib/components/viewitem/BuildLog.svelte';
 
 	import info from '$lib/data/info/BasicInfo.json';
 </script>

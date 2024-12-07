@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { ListItem } from '$lib/type/Types';
 
-	import Link from './Link.svelte';
+	import Link from '$lib/components/common/Link.svelte';
 
 	interface Props {
 		title: string;

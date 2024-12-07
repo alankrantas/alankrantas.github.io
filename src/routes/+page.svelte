@@ -66,6 +66,12 @@
 	{/each}
 </svelte:head>
 
+{#snippet backToTopBtn()}
+	<button type="button" class="btn btn-dark rounded-4 shadow" onclick={scrollToTop}>
+		<span class="h6">Back to top</span>
+	</button>
+{/snippet}
+
 {#if showScreenSize}
 	<div class="display-6 text-white text-center">
 		<span>Screen size: {screenSize.value}</span>
@@ -73,12 +79,6 @@
 		<hr />
 	</div>
 {/if}
-
-{#snippet backToTopBtn()}
-	<button type="button" class="btn btn-dark rounded-4 shadow" onclick={scrollToTop}>
-		<span class="h6">Back to top</span>
-	</button>
-{/snippet}
 
 {#if ready}
 	<div class="container" in:fly={{ y: 100, delay: 200, duration: 2000, easing: expoOut }}>

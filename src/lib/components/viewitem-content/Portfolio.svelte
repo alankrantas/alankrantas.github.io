@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { screenSize } from '$lib/store/GlobalStates.svelte';
 
-	import List from '../common/List.svelte';
-	import Link from '../common/Link.svelte';
-	import Image from '../common/Image.svelte';
-	import Showcase from '../common/Showcase.svelte';
+	import List from '$lib/components/common/List.svelte';
+	import Link from '$lib/components/common/Link.svelte';
+	import Image from '$lib/components/common/Image.svelte';
+	import Showcase from '$lib/components/common/Showcase.svelte';
 
 	import edit from '$lib/data/works/EditorialWorks.json';
 	import author from '$lib/data/works/AuthoredWorks.json';

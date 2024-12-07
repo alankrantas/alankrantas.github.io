@@ -1,8 +1,8 @@
 <script lang="ts">
-	import AboutMe from '../viewitem-content/AboutMe.svelte';
-	import CareerAndSkills from '../viewitem-content/CareerAndSkills.svelte';
-	import Portfolio from '../viewitem-content/Portfolio.svelte';
-	import LinksAndAbout from '../viewitem-content/LinksAndAbout.svelte';
+	import AboutMe from '$lib/components/viewitem-content/AboutMe.svelte';
+	import CareerAndSkills from '$lib/components/viewitem-content/CareerAndSkills.svelte';
+	import Portfolio from '$lib/components/viewitem-content/Portfolio.svelte';
+	import LinksAndAbout from '$lib/components/viewitem-content/LinksAndAbout.svelte';
 
 	const viewItemOptions = [AboutMe, CareerAndSkills, Portfolio, LinksAndAbout];
 
