@@ -34,20 +34,22 @@
 		if (id >= 0 && id < viewItems.length) {
 			if (id != selectedViewId) {
 				selectedViewId = id;
-				$page.url.searchParams.set('view', String(id));
+				$page.url?.searchParams.set('view', String(id));
 				goto(`/?${$page.url.searchParams.toString()}`);
 			}
 		} else {
-			selectedViewId = -1;
-			$page.url.searchParams.delete('view');
-			goto('/');
+			if (selectedViewId != -1) {
+				selectedViewId = -1;
+				$page.url?.searchParams.delete('view');
+				goto('/');
+			}
 		}
 		if (selectedViewId != -1) scrollToTop();
 	};
 
 	$effect(() => {
 		if (!ready) {
-			const viewParam = $page.url.searchParams.get('view');
+			const viewParam = $page.url?.searchParams.get('view');
 			if (viewParam && Number.isSafeInteger(parseInt(viewParam))) {
 				setViewId(parseInt(viewParam));
 			} else {
@@ -56,8 +58,6 @@
 			ready = true;
 		}
 	});
-
-	const showScreenSize = false; // enable to show screen size; for responsive design testing
 </script>
 
 <svelte:head>
@@ -71,14 +71,6 @@
 		<span class="h6">Back to top</span>
 	</button>
 {/snippet}
-
-{#if showScreenSize}
-	<div class="display-6 text-white text-center">
-		<span>Screen size: {screenSize.value}</span>
-		<br />
-		<hr />
-	</div>
-{/if}
 
 {#if ready}
 	<div class="container" in:fly={{ y: 100, delay: 200, duration: 2000, easing: expoOut }}>

@@ -25,6 +25,8 @@
 	const description = `${webTitle} - ${[...viewItems.map((item) => item.name.toLowerCase())].join(', ')}`;
 
 	const thumbnail = `${info.url}website/thumbnail.jpg`;
+
+	const showScreenSize = false; // enable to show screen size; for responsive design testing
 </script>
 
 <svelte:window bind:innerWidth={screenSize.value} />
@@ -49,6 +51,14 @@
 	<meta property="og:image:height" content="597" />
 	<meta property="og:image:alt" content={webTitle} />
 </svelte:head>
+
+{#if showScreenSize}
+	<div class="display-6 text-white text-center">
+		<span>{screenSize.value} px</span>
+		<br />
+		<hr />
+	</div>
+{/if}
 
 {@render children?.()}
 
