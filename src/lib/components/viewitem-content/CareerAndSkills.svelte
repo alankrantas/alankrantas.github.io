@@ -3,11 +3,11 @@
 	import Link from '../common/Link.svelte';
 	import Image from '../common/Image.svelte';
 
-	import career from '../../data/lists/Career.json';
-	import edu from '../../data/lists/Education.json';
-	import skill from '../../data/lists/GeneralSkills.json';
-	import software from '../../data/lists/SoftwareSkills.json';
-	import cert from '../../data/lists/Certificate.json';
+	import career from '$lib/data/lists/Career.json';
+	import edu from '$lib/data/lists/Education.json';
+	import skill from '$lib/data/lists/GeneralSkills.json';
+	import software from '$lib/data/lists/SoftwareSkills.json';
+	import cert from '$lib/data/lists/Certificate.json';
 </script>
 
 <p class="justify">

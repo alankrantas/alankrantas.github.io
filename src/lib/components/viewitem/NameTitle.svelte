@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
 
-	import { screenSize } from '../../data/store/GlobalStates.svelte';
-	import info from '../../data/info/BasicInfo.json';
+	import { screenSize } from '$lib/store/GlobalStates.svelte';
+	import info from '$lib/data/info/BasicInfo.json';
 
 	interface Props {
 		mode: String;

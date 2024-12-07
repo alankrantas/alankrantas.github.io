@@ -1,7 +1,7 @@
 <script lang="ts">
 	import BuildLog from './BuildLog.svelte';
 
-	import info from '../../data/info/BasicInfo.json';
+	import info from '$lib/data/info/BasicInfo.json';
 </script>
 
 <div class="text-center">

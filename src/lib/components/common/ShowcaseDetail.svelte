@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { screenSize } from '../../data/store/GlobalStates.svelte';
-	import type { WorkItem } from '../../data/type/Types';
+	import { screenSize } from '$lib/store/GlobalStates.svelte';
+	import type { WorkItem } from '$lib/type/Types';
 
 	import Link from './Link.svelte';
 

@@ -4,8 +4,8 @@
 
 	import ShowcaseDetail from './ShowcaseDetail.svelte';
 
-	import { screenSize } from '../../data/store/GlobalStates.svelte';
-	import type { WorkItem } from '../../data/type/Types';
+	import { screenSize } from '$lib/store/GlobalStates.svelte';
+	import type { WorkItem } from '$lib/type/Types';
 
 	interface Props {
 		title: string;

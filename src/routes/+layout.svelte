@@ -8,12 +8,12 @@
 	import '@fontsource/playfair-display/600.css';
 	import '@fontsource/playfair-display/600-italic.css';
 	import '@fontsource/noto-sans-tc/chinese-traditional-300.css';
-	import '../css/custom.css';
+	import '$lib/css/custom.css';
 
-	import { screenSize } from '../data/store/GlobalStates.svelte';
+	import { screenSize } from '$lib/store/GlobalStates.svelte';
 
-	import info from '../data/info/BasicInfo.json';
-	import viewItems from '../data/info/ViewItems.json';
+	import info from '$lib/data/info/BasicInfo.json';
+	import viewItems from '$lib/data/info/ViewItems.json';
 
 	interface Props {
 		children?: Snippet;

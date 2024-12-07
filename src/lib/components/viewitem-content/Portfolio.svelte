@@ -1,19 +1,19 @@
 <script lang="ts">
-	import { screenSize } from '../../data/store/GlobalStates.svelte';
+	import { screenSize } from '$lib/store/GlobalStates.svelte';
 
 	import List from '../common/List.svelte';
 	import Link from '../common/Link.svelte';
 	import Image from '../common/Image.svelte';
 	import Showcase from '../common/Showcase.svelte';
 
-	import edit from '../../data/works/EditorialWorks.json';
-	import author from '../../data/works/AuthoredWorks.json';
-	import trans from '../../data/works/TranslationWorks.json';
-	import maker from '../../data/works/MakerWorks.json';
-	import code from '../../data/works/CodeWorks.json';
-	import docs from '../../data/works/DocsWorks.json';
-	import tech from '../../data/works/TechPostWorks.json';
-	import book from '../../data/works/BookPostWorks.json';
+	import edit from '$lib/data/works/EditorialWorks.json';
+	import author from '$lib/data/works/AuthoredWorks.json';
+	import trans from '$lib/data/works/TranslationWorks.json';
+	import maker from '$lib/data/works/MakerWorks.json';
+	import code from '$lib/data/works/CodeWorks.json';
+	import docs from '$lib/data/works/DocsWorks.json';
+	import tech from '$lib/data/works/TechPostWorks.json';
+	import book from '$lib/data/works/BookPostWorks.json';
 </script>
 
 <p class="justify">

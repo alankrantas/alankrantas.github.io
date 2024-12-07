@@ -3,8 +3,8 @@
 	import Link from '../common/Link.svelte';
 	import Image from '../common/Image.svelte';
 
-	import links from '../../data/lists/Links.json';
-	import site from '../../data/lists/SiteTech.json';
+	import links from '$lib/data/lists/Links.json';
+	import site from '$lib/data/lists/SiteTech.json';
 </script>
 
 <p class="justify">

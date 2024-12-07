@@ -2,9 +2,9 @@
 	import List from '../common/List.svelte';
 	import Image from '../common/Image.svelte';
 
-	import info from '../../data/info/BasicInfo.json';
-	import fact from '../../data/lists/PersonalFacts.json';
-	import hobbies from '../../data/lists/Hobbies.json';
+	import info from '$lib/data/info/BasicInfo.json';
+	import fact from '$lib/data/lists/PersonalFacts.json';
+	import hobbies from '$lib/data/lists/Hobbies.json';
 
 	const getAge = () => {
 		const birth = new Date('10 Mar 1984 12:00:00 GMT+8');

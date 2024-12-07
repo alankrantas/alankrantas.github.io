@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ListItem } from '../../data/type/Types';
+	import type { ListItem } from '$lib/type/Types';
 
 	import Link from './Link.svelte';
 
