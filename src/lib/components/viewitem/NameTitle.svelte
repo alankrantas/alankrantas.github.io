@@ -45,6 +45,7 @@
 				</span>
 			{/if}
 		{/each}
+		<!-- {@render titleCarousell(750)} -->
 	</span>
 {/snippet}
 

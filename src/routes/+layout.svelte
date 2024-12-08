@@ -1,6 +1,13 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 
+	import ErrorPage from '$lib/components/common/ErrorPage.svelte';
+
+	import { screenSize } from '$lib/store/GlobalStates.svelte';
+
+	import info from '$lib/data/info/BasicInfo.json';
+	import viewItems from '$lib/data/info/ViewItems.json';
+
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	import '@fontsource/open-sans/300.css';
 	import '@fontsource/open-sans/300-italic.css';
@@ -9,11 +16,6 @@
 	import '@fontsource/playfair-display/600-italic.css';
 	import '@fontsource/noto-sans-tc/chinese-traditional-300.css';
 	import '$lib/css/custom.css';
-
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
-
-	import info from '$lib/data/info/BasicInfo.json';
-	import viewItems from '$lib/data/info/ViewItems.json';
 
 	interface Props {
 		children?: Snippet;
@@ -60,7 +62,16 @@
 	</div>
 {/if}
 
-{@render children?.()}
+<svelte:boundary>
+	{@render children?.()}
+
+	{#snippet failed(error: any, reset)}
+		<ErrorPage
+			message={`Svelte app rendering error:<br />${error?.message || 'unknown error'}`}
+			enableBackBtn={false}
+		/>
+	{/snippet}
+</svelte:boundary>
 
 <style>
 </style>
