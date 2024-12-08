@@ -7,7 +7,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://svelte.dev/",
+		"link": "https://svelte.dev/docs/svelte/overview",
 		"linkedTitle": true
 	},
 	{
@@ -18,7 +18,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://kit.svelte.dev/",
+		"link": "https://svelte.dev/docs/kit/introduction",
 		"linkedTitle": true
 	},
 	{
@@ -29,12 +29,23 @@
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://kit.svelte.dev/docs/adapter-static",
+		"link": "https://svelte.dev/docs/kit/adapter-static",
+		"linkedTitle": true
+	},
+	{
+		"name": "TypeScript",
+		"description": "JavaScript type support",
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": null,
+		"language": null,
+		"link": "https://www.typescriptlang.org/",
 		"linkedTitle": true
 	},
 	{
 		"name": "Bootstrap 5",
-		"description": "CSS library",
+		"description": "CSS styles",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -45,7 +56,7 @@
 	},
 	{
 		"name": "Fontsource",
-		"description": "Font library (NPM package form of Google Fonts)",
+		"description": "Google Fonts",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -78,7 +89,7 @@
 	},
 	{
 		"name": "Docker",
-		"description": "Containerization/DevContainer/CodeSpace",
+		"description": "Containerization and DevContainer/CodeSpace support",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -89,7 +100,7 @@
 	},
 	{
 		"name": "Github Actions",
-		"description": "CI/CD (continuous integration/continuous deployment)",
+		"description": "CI/CD workflow for testing and deployment",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
