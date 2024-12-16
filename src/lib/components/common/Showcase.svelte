@@ -115,8 +115,9 @@
 	dialog {
 		position: fixed;
 		max-height: 100%;
-		top: 0%;
+		top: 50%;
 		right: 0%;
+		transform: translate(0%, -50%);
 		border: 0px;
 		border-radius: 10px;
 		padding: 0px;
@@ -125,7 +126,7 @@
 		overscroll-behavior: contain;
 		scrollbar-width: thin;
 		opacity: 0;
-		box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 50%);
+		box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 75%);
 	}
 
 	dialog[open] {
