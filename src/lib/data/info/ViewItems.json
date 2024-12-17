@@ -2,7 +2,7 @@
 	{
 		"id": 0,
 		"name": "About Me",
-		"description": "<name> | <title> | he/him | short bio | personal facts | hobbies and interests",
+		"description": "<name> (he/him) | <title> | services | short bio | personal facts, hobbies and interests",
 		"imgUrl": "/main/about-me.jpg"
 	},
 	{
@@ -14,12 +14,12 @@
 	{
 		"id": 2,
 		"name": "Portfolio",
-		"description": "Editorial, authored and translated works | software and embedded projects | documentation and blog",
+		"description": "Editorial, authored and translated works | software and embedded projects | documentation and blogs",
 		"imgUrl": "/main/works.jpg"
 	},
 	{
 		"id": 3,
-		"name": "Links & About",
+		"name": "Links & Site",
 		"description": "Contact information | social media links | more about this site | external resources",
 		"imgUrl": "/main/links.jpg"
 	}

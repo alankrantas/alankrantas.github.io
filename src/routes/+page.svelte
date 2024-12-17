@@ -2,10 +2,9 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
+	import { innerWidth } from 'svelte/reactivity/window';
 	import { fly, fade } from 'svelte/transition';
 	import { expoOut } from 'svelte/easing';
-
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
 
 	import NameTitle from '$lib/components/viewitem/NameTitle.svelte';
 	import ViewItemNavBtn from '$lib/components/viewitem/ViewItemNavBtn.svelte';
@@ -19,7 +18,7 @@
 
 	viewItems[0].description = viewItems[0].description
 		.replace('<name>', info.name)
-		.replace('<title>', info.title.map((item) => item.toLowerCase()).join(' | '));
+		.replace('<title>', info.title.map((item) => item.toLowerCase()).join(', '));
 
 	let selectedViewId = $state(-1);
 	let ready = $state(false);
@@ -89,7 +88,7 @@
 						<NameTitle mode={'main'} handleSetViewId={setViewId} />
 					</div>
 					<!-- view cards -->
-					{#if screenSize.value >= 992}
+					{#if innerWidth.current && innerWidth.current >= 992}
 						<div class="row">
 							<div class="col-sm text-end p-md-2 m-md-2">
 								{#each viewItems.filter((item) => item.id % 2 == 0) as viewItem (viewItem.id)}
@@ -103,7 +102,7 @@
 									<ViewItemCard {viewItem} handleSetViewId={setViewId} />
 								{/each}
 							</div>
-							{#if screenSize.value >= 1200}
+							{#if innerWidth.current >= 1200}
 								<div class="col-sm-auto"></div>
 							{/if}
 							<div class="col-sm text-start p-md-2 m-md-2">
@@ -132,12 +131,12 @@
 								{#if viewItem.id > 0}
 									<div>
 										<br />
-										{#if screenSize.value >= 768}
+										{#if innerWidth.current && innerWidth.current >= 768}
 											<br />
 										{/if}
 										<hr class="text-white-50" />
 										<br />
-										{#if screenSize.value >= 768}
+										{#if innerWidth.current && innerWidth.current >= 768}
 											<br />
 										{/if}
 									</div>
@@ -166,10 +165,10 @@
 				<!-- view screen -->
 				<div
 					class={`${
-						screenSize.value >= 992 ? 'col-sm-auto text-end' : 'text-center'
+						innerWidth.current && innerWidth.current >= 992 ? 'col-sm-auto text-end' : 'text-center'
 					} p-md-1 m-md-1 pe-md-2 me-md-2`}
 					in:fly={{
-						[screenSize.value >= 992 ? 'x' : 'y']: -100,
+						[innerWidth.current && innerWidth.current >= 992 ? 'x' : 'y']: -100,
 						delay: 100,
 						duration: 2000,
 						easing: expoOut
@@ -183,10 +182,14 @@
 						<br />
 					</div>
 					<!-- name buttons -->
-					<div class={screenSize.value >= 992 ? '' : 'text-center p-md-1 m-md-1'}>
+					<div
+						class={innerWidth.current && innerWidth.current >= 992
+							? ''
+							: 'text-center p-md-1 m-md-1'}
+					>
 						<ul
 							class={`nav pt-md-2 mt-md-2 ${
-								screenSize.value < 992 && screenSize.value > 512
+								innerWidth.current && innerWidth.current < 992 && innerWidth.current > 512
 									? 'justify-content-center'
 									: 'flex-column'
 							}`}
@@ -199,7 +202,7 @@
 				</div>
 				<!--view items -->
 				<div
-					class={`${screenSize.value >= 992 ? 'col-sm-8 text-start' : ''} p-sm-1 m-sm-1 ps-sm-2 me-sm-2`}
+					class={`${innerWidth.current && innerWidth.current >= 992 ? 'col-sm-8 text-start' : ''} p-sm-1 m-sm-1 ps-sm-2 me-sm-2`}
 					in:fade={{ delay: 200, duration: 2000, easing: expoOut }}
 				>
 					<div>
@@ -212,14 +215,18 @@
 									<div>
 										<!--sub view head -->
 										<div
-											class={screenSize.value >= 576 ? 'p-sm-2 m-sm-2' : 'p-1 m-1'}
+											class={innerWidth.current && innerWidth.current >= 576
+												? 'p-sm-2 m-sm-2'
+												: 'p-1 m-1'}
 											in:fade|global={{ delay: 100, duration: 2000, easing: expoOut }}
 										>
 											<ViewItemHead {viewItem} />
 										</div>
 										<!--sub view content -->
 										<div
-											class={screenSize.value >= 576 ? 'p-sm-2 m-sm-2' : 'p-1 m-1'}
+											class={innerWidth.current && innerWidth.current >= 576
+												? 'p-sm-2 m-sm-2'
+												: 'p-1 m-1'}
 											in:fly|global={{ y: 100, delay: 200, duration: 2000, easing: expoOut }}
 										>
 											<ViewItemContent viewItemId={viewItem.id} />

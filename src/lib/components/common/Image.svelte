@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
+	import { innerWidth } from 'svelte/reactivity/window';
 
 	interface Props {
 		src: string;
@@ -12,12 +12,14 @@
 
 	let ratio = $derived(
 		(() => {
-			if (screenSize.value >= 992) {
-				return widthRatios[0];
-			} else if (screenSize.value >= 768) {
-				return widthRatios[1];
-			} else if (screenSize.value >= 576) {
-				return widthRatios[2];
+			if (innerWidth.current) {
+				if (innerWidth.current >= 992) {
+					return widthRatios[0];
+				} else if (innerWidth.current >= 768) {
+					return widthRatios[1];
+				} else if (innerWidth.current >= 576) {
+					return widthRatios[2];
+				}
 			} else {
 				return widthRatios[3];
 			}

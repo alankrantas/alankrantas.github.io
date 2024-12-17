@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
+	import { innerWidth } from 'svelte/reactivity/window';
+
 	import type { ViewItem } from '$lib/type/Types';
 
 	interface Props {
@@ -15,12 +16,12 @@
 	<button
 		type="button"
 		class={`btn ${selectedViewId == viewItem.id ? 'btn-info' : 'btn-dark'} ${
-			screenSize.value >= 768 ? '' : 'btn-sm'
+			innerWidth.current && innerWidth.current >= 768 ? '' : 'btn-sm'
 		} rounded-4 shadow`}
 		onclick={() => handleSetViewId(viewItem.id)}
 	>
 		<span
-			class={`${screenSize.value >= 768 ? 'h5' : 'h6'} ${
+			class={`${innerWidth.current && innerWidth.current >= 768 ? 'h5' : 'h6'} ${
 				selectedViewId == viewItem.id ? 'fw-bold' : ''
 			}`}>{viewItem.name}</span
 		>

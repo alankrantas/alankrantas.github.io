@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
+	import { innerWidth } from 'svelte/reactivity/window';
 
 	import List from '$lib/components/common/List.svelte';
 	import Link from '$lib/components/common/Link.svelte';
@@ -34,7 +34,11 @@
 	<Showcase
 		works={edit}
 		title="Selected Editorial Works"
-		displayNum={screenSize.value >= 1200 ? 3 : screenSize.value >= 576 ? 2 : 1}
+		displayNum={innerWidth.current && innerWidth.current >= 1200
+			? 3
+			: innerWidth.current && innerWidth.current >= 576
+				? 2
+				: 1}
 	/>
 </p>
 <p>
@@ -49,7 +53,11 @@
 	<Showcase
 		works={author}
 		title="Selected Authored Works"
-		displayNum={screenSize.value >= 1200 ? 3 : screenSize.value >= 576 ? 2 : 1}
+		displayNum={innerWidth.current && innerWidth.current >= 1200
+			? 3
+			: innerWidth.current && innerWidth.current >= 576
+				? 2
+				: 1}
 	/>
 </p>
 <p>
@@ -64,17 +72,15 @@
 	<Showcase
 		works={trans}
 		title="Selected Translated Works"
-		displayNum={screenSize.value >= 1200 ? 3 : screenSize.value >= 576 ? 2 : 1}
+		displayNum={innerWidth.current && innerWidth.current >= 1200
+			? 3
+			: innerWidth.current && innerWidth.current >= 576
+				? 2
+				: 1}
 	/>
 </p>
 <p>
 	<br />
-</p>
-<p>
-	<span class="small justify"
-		>Note: I have total 38 titles (3 co-translating) of translation works but I decided to leave out
-		most of the young adult books and less memorable works.</span
-	>
 </p>
 <p>
 	<br />
@@ -88,7 +94,7 @@
 	<Showcase
 		works={maker}
 		title="Selected Maker Projects"
-		displayNum={screenSize.value >= 1200 ? 2 : 1}
+		displayNum={innerWidth.current && innerWidth.current >= 1200 ? 2 : 1}
 		scaleDownPoint={1200}
 		largeModal={true}
 	/>

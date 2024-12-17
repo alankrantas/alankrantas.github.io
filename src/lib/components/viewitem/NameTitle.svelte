@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
+	import { innerWidth } from 'svelte/reactivity/window';
 
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
 	import info from '$lib/data/info/BasicInfo.json';
 
 	interface Props {
@@ -63,7 +63,7 @@
 
 {#if mode == 'main'}
 	<!-- main screen -->
-	{#if screenSize.value >= 992}
+	{#if innerWidth.current && innerWidth.current >= 992}
 		<div class="row d-flex justify-content-center p-md-2 m-md-2">
 			<div class="col-sm text-end">
 				<img src="/about-me/profile.jpg" width="40px" alt="profile" class="rounded-circle shadow" />
@@ -85,12 +85,12 @@
 			</div>
 		</div>
 	{:else}
-		{#if screenSize.value < 768}
+		{#if innerWidth.current && innerWidth.current < 768}
 			<br />
 		{/if}
 		<div class="text-center">
 			<div class="text-white p-sm-2 m-sm-2">
-				{#if screenSize.value >= 768}
+				{#if innerWidth.current && innerWidth.current >= 768}
 					{@render nameTitle()}
 				{:else}
 					<p>
@@ -111,7 +111,7 @@
 				</span>
 			</p>
 			<p class="p-sm-2 m-sm-2">
-				{#if screenSize.value >= 768}
+				{#if innerWidth.current && innerWidth.current >= 768}
 					{@render profileImg('40px')}
 					&nbsp;
 				{/if}
@@ -120,13 +120,13 @@
 				</button>
 			</p>
 		</div>
-		{#if screenSize.value < 768}
+		{#if innerWidth.current && innerWidth.current < 768}
 			<br />
 		{/if}
 	{/if}
 {:else if mode == 'nav'}
 	<!-- nav and view screen -->
-	{#if screenSize.value >= 992}
+	{#if innerWidth.current && innerWidth.current >= 992}
 		<div class="text-end">
 			{@render backBtn('Back to main')}
 		</div>
@@ -154,7 +154,7 @@
 				{/each}
 			</p>
 		</div>
-	{:else if screenSize.value >= 576}
+	{:else if innerWidth.current && innerWidth.current >= 576}
 		<br />
 		<div class="row align-items-center">
 			<div class="col-sm text-end">

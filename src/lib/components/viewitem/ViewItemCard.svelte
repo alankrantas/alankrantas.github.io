@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
+	import { innerWidth } from 'svelte/reactivity/window';
+
 	import type { ViewItem } from '$lib/type/Types';
 
 	interface Props {
@@ -29,7 +30,9 @@
 				class="btn btn-info rounded-pill"
 				onclick={() => handleSetViewId(viewItem.id)}
 			>
-				<span class={`code ${screenSize.value >= 768 ? 'h5' : 'h6'}`}>View</span>
+				<span class={`code ${innerWidth.current && innerWidth.current >= 768 ? 'h5' : 'h6'}`}
+					>View</span
+				>
 			</button>
 		</div>
 	</div>

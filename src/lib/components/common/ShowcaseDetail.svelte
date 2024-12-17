@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
+	import { innerWidth } from 'svelte/reactivity/window';
+
 	import type { WorkItem } from '$lib/type/Types';
 
 	import Link from '$lib/components/common/Link.svelte';
@@ -18,11 +19,11 @@
 	<img src={work.imgUrl} class="card-img-top rounded-3 shadow" alt={work.name} />
 	<div class="card-body p-md-2 m-md-2" style="text-align: start;">
 		<p class="card-title">
-			<span class={screenSize.value > 768 ? 'fs-3' : 'fs-4'}>
+			<span class={innerWidth.current && innerWidth.current > 768 ? 'fs-3' : 'fs-4'}>
 				{work.name}
 			</span>
 			{#if work.link}
-				<span class={screenSize.value > 768 ? 'h4' : 'h5'}>
+				<span class={innerWidth.current && innerWidth.current > 768 ? 'h4' : 'h5'}>
 					&nbsp;<b><Link url={work.link} name="⧉" /></b>
 				</span>
 			{/if}
@@ -36,7 +37,7 @@
 		{/if}
 		<hr class="text-white" />
 		<p class="card-text lead">
-			<span class={screenSize.value > 768 ? '' : 'small'}>
+			<span class={innerWidth.current && innerWidth.current > 768 ? '' : 'small'}>
 				{work.description}
 			</span>
 		</p>

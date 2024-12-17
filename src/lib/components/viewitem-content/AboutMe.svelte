@@ -15,7 +15,7 @@
 	fact[2].description = fact[2].description.replace('<age>', String(getAge()));
 </script>
 
-<p><span class="h4 justify">TL; DR</span></p>
+<p><span class="h3 justify">TL; DR</span></p>
 <p class="justify">
 	I am <b>{info.name}</b>, a native Taiwanese born, raised and educated in {info.location}. I work
 	primarily as a {info.title[0]}.
@@ -33,13 +33,50 @@
 <p>
 	<br />
 </p>
+<p><span class="h3 justify">Services I Currently Provide</span></p>
+<p class="justify">
+	I offer high-level quality <b>writing</b> and <b>translating</b> services by contract: content writing,
+	technical writing, marketing writing, document/documentation writing, copywriting, editing, proofreading
+	for any target audience, as well as translating English to/from Traditional Chinese.
+</p>
+<p class="indent justify">
+	<i>Why do I even need a human writer</i>, you ask? Why not AI?
+</p>
+<p class="indent justify">
+	Generative AIs are useful for writing generally; but by design they are trained to write like an <i
+		>average</i
+	> person with fixed knowledge, and can be rather unimaginative and repetitive overtime. Good writing
+	or translating is an art of storytelling, which involves careful researching, thinking and organizing
+	around the domain, subject and their context. The process is often organic, dynamic and nonlinear,
+	much like painting a picture, instead of predicting words mathematically.
+</p>
+<p class="indent justify">
+	As for translating, a good translator plays a reliable bridge connecting two worlds containing
+	different cultural concepts and ways of speaking. No languages can be translated word-by-word to
+	another, and only one with sufficient understanding can find you the balanced path of readability
+	and faithfulness.
+</p>
+<p class="indent justify">
+	Are you looking for someone who can give your business content a boost for differentiation and
+	better user engagement? Are you having trouble with content quality using ChatGPT or alike? I may
+	be the one to help you to get there.
+</p>
+<p class="indent justify">
+	See <kbd>Links & Site</kbd> for my content information.
+</p>
+<p class="justify small">
+	*Note: I do not offer AI training writing nor i18n-type semi-machine translating.
+</p>
+<p>
+	<br />
+</p>
 <p>
 	<Image src="/about-me/profile.jpg" alt="profile" footnote="" widthRatios={[70, 80, 90, 95]} />
 </p>
 <p>
 	<br />
 </p>
-<p><span class="h4 justify">Now a short bio about me</span></p>
+<p><span class="h3 justify">Now a short bio about me...</span></p>
 <p class="justify">
 	I grew up with computers. My dad bought a 80486 PC when I was 10. I learned how to play the DOOM
 	and Duke Nukem 3D demos by myself. As fascinated as a kid can be, I proceeded to learn MS-DOS
@@ -86,9 +123,7 @@
 	later, I decided to take some rest then go back into freelance writing and translating.
 </p>
 <p class="indent justify">
-	That is all for now! Click the other sections of this website to learn more about me. See <kbd
-		>Links & About</kbd
-	> for contacting me.
+	That is all for now! Click the other sections of this website to learn more about me.
 </p>
 <p>
 	<br />

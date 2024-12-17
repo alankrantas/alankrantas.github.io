@@ -1,9 +1,8 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
+	import { innerWidth } from 'svelte/reactivity/window';
 
 	import ErrorPage from '$lib/components/common/ErrorPage.svelte';
-
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
 
 	import info from '$lib/data/info/BasicInfo.json';
 	import viewItems from '$lib/data/info/ViewItems.json';
@@ -31,8 +30,6 @@
 	const showScreenSize = false; // enable to show screen size; for responsive design testing
 </script>
 
-<svelte:window bind:innerWidth={screenSize.value} />
-
 <svelte:head>
 	<title>{webTitle}</title>
 	<meta name="description" content={description} />
@@ -56,7 +53,7 @@
 
 {#if showScreenSize}
 	<div class="display-6 text-white text-center">
-		<span>{screenSize.value} px</span>
+		<span>{innerWidth.current} px</span>
 		<br />
 		<hr />
 	</div>

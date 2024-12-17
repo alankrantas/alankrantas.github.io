@@ -1,10 +1,10 @@
 <script lang="ts">
+	import { innerWidth } from 'svelte/reactivity/window';
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
 
 	import ShowcaseDetail from '$lib/components/common/ShowcaseDetail.svelte';
 
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
 	import type { WorkItem } from '$lib/type/Types';
 
 	interface Props {
@@ -55,7 +55,7 @@
 <div class="position-relative">
 	<div
 		class="row position-relative start-50 translate-middle-x"
-		style={`width: ${screenSize.value < scaleDownPoint ? 90 : 100}%`}
+		style={`width: ${innerWidth.current && innerWidth.current < scaleDownPoint ? 90 : 100}%`}
 	>
 		<div class="col-auto d-grid">
 			<button

@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { screenSize } from '$lib/store/GlobalStates.svelte';
+	import { innerWidth } from 'svelte/reactivity/window';
+
 	import type { ViewItem } from '$lib/type/Types';
 
 	interface Props {
@@ -10,7 +11,7 @@
 </script>
 
 <div class="text-center">
-	{#if screenSize.value <= 576}
+	{#if innerWidth.current && innerWidth.current <= 576}
 		<br />
 	{/if}
 	<div class="row p-2 m-2">
@@ -30,11 +31,11 @@
 		</div>
 	</div>
 	<div class="text-white-50 p-sm-1 m-sm-1 pt-sm-3 pb-sm-2 mt-sm-3 mb-sm-2">
-		{#if screenSize.value <= 576}
+		{#if innerWidth.current && innerWidth.current <= 576}
 			<br />
 		{/if}
 		<hr />
-		{#if screenSize.value <= 576}
+		{#if innerWidth.current && innerWidth.current <= 576}
 			<br />
 		{/if}
 	</div>
