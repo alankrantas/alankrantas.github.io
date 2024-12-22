@@ -11,17 +11,6 @@
 		"linkedTitle": true
 	},
 	{
-		"name": "Résumé/CV",
-		"description": null,
-		"location": null,
-		"footnote": null,
-		"tooltip": null,
-		"category": null,
-		"language": ["English"],
-		"link": "https://www.cake.me/krantas",
-		"linkedTitle": true
-	},
-	{
 		"name": "Linkedin",
 		"description": null,
 		"location": null,
@@ -33,14 +22,25 @@
 		"linkedTitle": true
 	},
 	{
-		"name": "Blogger",
-		"description": "Personal blog",
+		"name": "Résumé",
+		"description": null,
 		"location": null,
 		"footnote": null,
-		"tooltip": "Mostly book, movie & game reviews, photography journals",
+		"tooltip": null,
+		"category": null,
+		"language": ["English"],
+		"link": "https://www.cake.me/krantas",
+		"linkedTitle": true
+	},
+	{
+		"name": "中文履歷",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
 		"category": null,
 		"language": ["Traditional Chinese"],
-		"link": "https://krantasblog.blogspot.com/",
+		"link": "https://www.cake.me/me/krantas"
 		"linkedTitle": true
 	},
 	{
@@ -53,6 +53,17 @@
 		"language": ["Traditional Chinese"],
 		"link": "https://github.com/alankrantas/alankrantas/blob/main/works/published.md",
 		"linkedTitle": false
+	},
+	{
+		"name": "Blogger",
+		"description": "Personal blog",
+		"location": null,
+		"footnote": null,
+		"tooltip": "Mostly book, movie & game reviews, photography journals",
+		"category": null,
+		"language": ["Traditional Chinese"],
+		"link": "https://krantasblog.blogspot.com/",
+		"linkedTitle": true
 	},
 	{
 		"name": "Medium",
