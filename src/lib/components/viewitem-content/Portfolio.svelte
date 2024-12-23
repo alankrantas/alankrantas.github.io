@@ -22,9 +22,12 @@
 	moved or no longer exist.
 </p>
 <p class="justify">
-	Also see: my <Link
+	Also see: my full list of <Link
 		url="https://github.com/alankrantas/alankrantas/blob/main/works/published.md"
-		name="full list of published titles"
+		name="published works"
+	/> and <Link
+		url="https://github.com/alankrantas/alankrantas/blob/main/works/projects.md"
+		name="writing projects"
 	/>.
 </p>
 <p>

@@ -14,7 +14,7 @@
 	My list of professional experience, education and skills. Also check out my <Link
 		url="https://www.cake.me/krantas"
 		name="résumé"
-	/>.
+	/> or <Link url="https://www.cake.me/krantas" name="中文履歷" />.
 </p>
 <p>
 	<br /><br />
