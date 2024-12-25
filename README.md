@@ -92,11 +92,15 @@ The index page also accepts a `view` URL parameter to switch to a specific view 
 
 ### Responsive Layouts
 
-Each mode may have multiple layout and CSS style adjustments based on different resolutions (`1200`, `996`, `768` and `576` px), using Svelte template syntax, CSS or Bootstrap classes.
+Each mode may have multiple layout and style adjustments based on different inner widths (`1200`, `992`, `768` and `576` px), using one or multiple following options:
+
+1. Svelte template syntax
+2. Pure CSS
+3. Bootstrap classes
 
 Both main and view mode will be squashed into a single column when the screen width becomes smaller than `992` px.
 
-Some reusable components, like `Image` and `Showcase`, has properties to control the component responsive behavior under different resolutions.
+Some reusable components, like `Image` and `Showcase`, has properties to control the component responsive behavior under different inner widths.
 
 ---
 
