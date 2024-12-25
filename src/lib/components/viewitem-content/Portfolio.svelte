@@ -6,9 +6,9 @@
 	import Image from '$lib/components/common/Image.svelte';
 	import Showcase from '$lib/components/common/Showcase.svelte';
 
+	import translate from '$lib/data/works/TranslationWorks.json';
 	import edit from '$lib/data/works/EditorialWorks.json';
 	import author from '$lib/data/works/AuthoredWorks.json';
-	import trans from '$lib/data/works/TranslationWorks.json';
 	import maker from '$lib/data/works/MakerWorks.json';
 	import code from '$lib/data/works/CodeWorks.json';
 	import docs from '$lib/data/works/DocsWorks.json';
@@ -35,6 +35,25 @@
 </p>
 <p>
 	<Showcase
+		works={translate}
+		title="Selected Translated Works"
+		displayNum={innerWidth.current && innerWidth.current >= 1200
+			? 3
+			: innerWidth.current && innerWidth.current >= 576
+				? 2
+				: 1}
+	/>
+</p>
+<p>
+	<br />
+	<br />
+</p>
+<hr />
+<p>
+	<br />
+</p>
+<p>
+	<Showcase
 		works={edit}
 		title="Selected Editorial Works"
 		displayNum={innerWidth.current && innerWidth.current >= 1200
@@ -56,25 +75,6 @@
 	<Showcase
 		works={author}
 		title="Selected Authored Works"
-		displayNum={innerWidth.current && innerWidth.current >= 1200
-			? 3
-			: innerWidth.current && innerWidth.current >= 576
-				? 2
-				: 1}
-	/>
-</p>
-<p>
-	<br />
-	<br />
-</p>
-<hr />
-<p>
-	<br />
-</p>
-<p>
-	<Showcase
-		works={trans}
-		title="Selected Translated Works"
 		displayNum={innerWidth.current && innerWidth.current >= 1200
 			? 3
 			: innerWidth.current && innerWidth.current >= 576
