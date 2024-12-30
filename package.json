@@ -45,7 +45,7 @@
 		"@fontsource/noto-sans-tc": "^5.1.0",
 		"@fontsource/open-sans": "^5.1.1",
 		"@fontsource/playfair-display": "^5.1.0",
-		"@fontsource/space-mono": "^5.1.1",
+		"@fontsource/space-mono": "^5.1.2",
 		"bootstrap": "^5.3.3",
 		"picomatch": "^4.0.2",
 		"yaml": "^2.6.1"
