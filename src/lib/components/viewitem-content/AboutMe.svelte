@@ -43,29 +43,35 @@
 	<i>Why do I even need a human writer</i>, you ask? Why not AI?
 </p>
 <p class="indent justify">
-	Generative AIs are useful for writing generally; but by design they are trained to write like an <i
+	Generative AIs are useful for general writing; however by design they are trained to write like an <i
 		>average</i
-	> person with fixed knowledge, and can be rather unimaginative and repetitive overtime. Good writing
-	or translating is an art of storytelling, which involves careful researching, thinking and organizing
-	around the domain, subject and their context. The process is often organic, dynamic and nonlinear,
-	much like painting a picture, instead of predicting words mathematically.
+	> person with fixed knowledge. They cannot reason well in your specific domain without lengthy, detailed
+	prompts, and tend to be unimaginative and repetitive due to the lack of input. Creating reference documents
+	for AIs in the first place can be just as challenging.
 </p>
 <p class="indent justify">
-	As for translating, a good translator plays a reliable bridge connecting two worlds containing
-	different cultural concepts and ways of speaking. No languages can be translated word-by-word to
-	another, and only one with sufficient understanding can find you the balanced path of readability
+	Quality writing is an art of storytelling, which involves careful researching and organizing
+	around the domain, subject and context, while the creation process is often intuitive, dynamic and
+	nonlinear, much like painting a picture aesthetically, instead of predicting words sequentially.
+</p>
+<p class="indent justify">
+	As for translating, a competent translator plays a reliable bridge connecting two worlds
+	containing incompatible cultural concepts and ways of speaking. No languages can be converted <i
+		>word-by-word</i
+	> to another, and only one with sufficient understanding can find you the balanced path of readability
 	and faithfulness.
 </p>
 <p class="indent justify">
-	Are you looking for someone who can give your business content a boost for differentiation and
-	better user engagement? Are you having trouble with content quality using ChatGPT or alike? I may
-	be the one to help you to get there.
+	Are you looking for someone who can give your business an edge in content differentiation and
+	better user engagement? Are you having trouble with content quality using ChatGPT or alike? Do you
+	believe that genuine content <i>matters</i>? I may be the one to help you to get there.
 </p>
 <p class="indent justify">
 	See <kbd>Links & Site</kbd> for my content information.
 </p>
 <p class="justify small">
-	*Note: I do not offer AI training writing nor i18n-type semi-machine translating.
+	*Note: I do not offer AI training writing (except writing source materials to be referenced by AI
+	applications) nor i18n-type semi-machine translating.
 </p>
 <p>
 	<br />
