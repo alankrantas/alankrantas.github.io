@@ -15,10 +15,10 @@
 	fact[2].description = fact[2].description.replace('<age>', String(getAge()));
 </script>
 
-<p><span class="h3 justify">TL; DR</span></p>
+<p><span class="h3 justify">Who am I?</span></p>
 <p class="justify">
-	I am <b>{info.name}</b>, a native Taiwanese born, raised and educated in {info.location}. I work
-	primarily as a {info.title[0]}.
+	My name is <b>{info.name}</b>; I am born, raised and educated in {info.location}. I currently work
+	under the titles include {info.title.join(', ')}.
 </p>
 <p class="indent justify">
 	I am a seasoned writer with 10+ years of writing and translating backgrounds that have resulted in
@@ -33,111 +33,10 @@
 <p>
 	<br />
 </p>
-<p><span class="h3 justify">Services I Currently Provide</span></p>
-<p class="justify">
-	I offer high-level quality <b>writing</b> and <b>translating</b> services by contract: content writing,
-	technical writing, marketing writing, document/documentation writing, copywriting, editing, proofreading
-	for any target audience, as well as translating English to/from Traditional Chinese.
-</p>
-<p class="indent justify">
-	<i>Why do I even need a human writer</i>, you ask? Why not AI?
-</p>
-<p class="indent justify">
-	Generative AIs are useful for general writing; however by design they are trained to write like an <i
-		>average</i
-	> person with fixed knowledge. They cannot reason well in your specific domain without lengthy, detailed
-	prompts, and tend to be unimaginative and repetitive due to the lack of input. Creating reference documents
-	for AIs in the first place can be just as challenging.
-</p>
-<p class="indent justify">
-	Quality writing is an art of storytelling, which involves careful researching and organizing
-	around the domain, subject and context, while the creation process is often intuitive, dynamic and
-	nonlinear, much like painting a picture aesthetically, instead of predicting words sequentially.
-</p>
-<p class="indent justify">
-	As for translating, a competent translator plays a reliable bridge connecting two worlds
-	containing incompatible cultural concepts and ways of speaking. No languages can be converted <i
-		>word-by-word</i
-	> to another, and only one with sufficient understanding can find you the balanced path of readability
-	and faithfulness.
-</p>
-<p class="indent justify">
-	Are you looking for someone who can give your business an edge in content differentiation and
-	better user engagement? Are you having trouble with content quality using ChatGPT or alike? Do you
-	believe that genuine content <i>matters</i>? I may be the one to help you to get there.
-</p>
-<p class="indent justify">
-	See <kbd>Links & Site</kbd> for my content information.
-</p>
-<p class="justify small">
-	*Note: I do not offer AI training writing (except writing source materials to be referenced by AI
-	applications) nor i18n-type semi-machine translating.
-</p>
-<p>
-	<br />
-</p>
-<p>
-	<Image src="/about-me/profile.jpg" alt="profile" footnote="" widthRatios={[70, 80, 90, 95]} />
-</p>
-<p>
-	<br />
-</p>
-<p><span class="h3 justify">Now a short bio about me...</span></p>
-<p class="justify">
-	I grew up with computers. My dad bought a 80486 PC when I was 10. I learned how to play the DOOM
-	and Duke Nukem 3D demos by myself. As fascinated as a kid can be, I proceeded to learn MS-DOS
-	commands and then tried to write a few QuickBASIC scripts in the summer immediately after
-	graduating elementary school.
-</p>
-<p class="indent justify">
-	Into middle school, I found Visual Basic v4 and then v6 in high school. I joined the computing
-	club. While everyone in it was learning C++, I spent most of the time writing Windows mini-games
-	and even showcased them on the school's anniversary day.
-</p>
-<p class="indent justify">
-	Then fate (if there is such a thing) dealt a heavy blow. I did not find my way into any
-	information technology-related department as hoped. I had to choose a major that I had no interest
-	at all - at least it is in a reputed university. I spent two years study like crazy for getting
-	into a related graduate school, and made it barely. If I didn't, I'll have to go to the mandatory
-	military service and have a year or two doing nothing!
-</p>
-<p class="indent justify">
-	My first job (also as my 3-year alternative military service) was a web programmer in a local
-	system integration provider. It is where I learned most of the "modern" software engineering
-	stuff. The working condition and culture though, it was not ideal at all - I was pretty exhausted
-	and frustrated and decide to leave.
-</p>
-<p class="indent justify">If not for an engineer, what else can I be? Maybe a...translator?</p>
-<p class="indent justify">
-	I already did some part-time translation work before, so I went full-time freelance. And it did
-	take off; I actually made quite some money in the first few years, and I enjoyed it. I also
-	occasionally got to write book reviews and introductions for publishers. I wrote a column on a
-	monthly magazine for a short while.
-</p>
-<p class="indent justify">
-	Sadly, the publishing market started to decline rapidly after about five or six years. With less
-	and less contracts available, I knew it was time to get out and adapt.
-</p>
-<p class="indent justify">
-	So I jumped back to the software slash education field - first write materials for a small STEM
-	agency, then as an editor in a tech book publisher. It was where I learned practical machine
-	learning and most of the embedded programming knowledge - including how to use a soldering gun.
-</p>
-<p class="indent justify">
-	My next stop was working as a technical writer in a software startup, to write documentations and
-	technical marketing materials for a data integration platform. After the startup failed two years
-	later, I decided to take some rest then go back into freelance writing and translating.
-</p>
-<p class="indent justify">
-	That is all for now! Click the other sections of this website to learn more about me.
-</p>
-<p>
-	<br />
-</p>
 <p>
 	<Image
-		src="/about-me/profile2.jpg"
-		alt="profile2"
+		src="/about-me/profile.jpg"
+		alt="profile"
 		footnote="Me just before turing 40"
 		widthRatios={[70, 80, 90, 95]}
 	/>

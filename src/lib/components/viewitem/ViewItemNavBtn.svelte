@@ -5,25 +5,25 @@
 
 	interface Props {
 		viewItem: ViewItem;
-		selectedViewId: number;
-		handleSetViewId: (id: number) => void;
+		selectedView: string;
+		handleSetView: (viewName: string) => void;
 	}
 
-	let { viewItem, selectedViewId, handleSetViewId }: Props = $props();
+	let { viewItem, selectedView, handleSetView }: Props = $props();
 </script>
 
 <li class="nav-item p-1 m-1">
 	<button
 		type="button"
-		class={`btn ${selectedViewId == viewItem.id ? 'btn-info' : 'btn-dark'} ${
+		class={`btn ${selectedView === viewItem.viewName ? 'btn-info' : 'btn-dark'} ${
 			innerWidth.current && innerWidth.current >= 768 ? '' : 'btn-sm'
 		} rounded-4 shadow`}
-		onclick={() => handleSetViewId(viewItem.id)}
+		onclick={() => handleSetView(viewItem.viewName)}
 	>
 		<span
 			class={`${innerWidth.current && innerWidth.current >= 768 ? 'h5' : 'h6'} ${
-				selectedViewId == viewItem.id ? 'fw-bold' : ''
-			}`}>{viewItem.name}</span
+				selectedView === viewItem.viewName ? 'fw-bold' : ''
+			}`}>{viewItem.title}</span
 		>
 	</button>
 </li>

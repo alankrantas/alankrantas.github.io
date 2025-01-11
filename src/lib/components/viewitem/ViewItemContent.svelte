@@ -1,20 +1,21 @@
 <script lang="ts">
-	import AboutMe from '$lib/components/viewitem-content/AboutMe.svelte';
-	import CareerAndSkills from '$lib/components/viewitem-content/CareerAndSkills.svelte';
-	import Portfolio from '$lib/components/viewitem-content/Portfolio.svelte';
-	import LinksAndAbout from '$lib/components/viewitem-content/LinksAndAbout.svelte';
-
-	const viewItemOptions = [AboutMe, CareerAndSkills, Portfolio, LinksAndAbout];
+	import type { ViewItem } from '$lib/type/Types';
 
 	interface Props {
-		viewItemId: number;
+		viewItem: ViewItem;
 	}
 
-	let { viewItemId }: Props = $props();
+	let { viewItem }: Props = $props();
 
-	let ViewItemContent = $derived(viewItemOptions[viewItemId]);
+	let ViewItemContent: any = $state(null);
+
+	import(`$lib/components/viewitem-content/${viewItem.fileName}.svelte`).then((result) => {
+		ViewItemContent = result?.default;
+	});
 </script>
 
 <div class="text-white">
-	<ViewItemContent />
+	{#if ViewItemContent}
+		<ViewItemContent />
+	{/if}
 </div>

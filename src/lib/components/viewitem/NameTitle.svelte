@@ -3,13 +3,14 @@
 	import { innerWidth } from 'svelte/reactivity/window';
 
 	import info from '$lib/data/info/BasicInfo.json';
+	import viewItems from '$lib/data/info/ViewItems.json';
 
 	interface Props {
 		mode: String;
-		handleSetViewId: (id: number) => void;
+		handleSetView: (viewName: string) => void;
 	}
 
-	let { mode, handleSetViewId }: Props = $props();
+	let { mode, handleSetView }: Props = $props();
 
 	let titleIndex = $state(0);
 
@@ -55,7 +56,7 @@
 	<button
 		type="button"
 		class="btn btn-sm btn-dark rounded-4 shadow"
-		onclick={() => handleSetViewId(-1)}
+		onclick={() => handleSetView('main')}
 	>
 		<span class="h5">{text}</span>
 	</button>
@@ -79,7 +80,10 @@
 				</p>
 			</div>
 			<div class="col-sm text-start">
-				<button class="btn btn-sm btn-dark rounded-pill" onclick={() => handleSetViewId(0)}>
+				<button
+					class="btn btn-sm btn-dark rounded-pill"
+					onclick={() => handleSetView(viewItems[0].viewName)}
+				>
 					<span class="h4">Enter</span>
 				</button>
 			</div>
@@ -115,7 +119,10 @@
 					{@render profileImg('40px')}
 					&nbsp;
 				{/if}
-				<button class="btn btn-bg btn-dark rounded-pill" onclick={() => handleSetViewId(0)}>
+				<button
+					class="btn btn-bg btn-dark rounded-pill"
+					onclick={() => handleSetView(viewItems[0].viewName)}
+				>
 					<span class="h4">Enter</span>
 				</button>
 			</p>

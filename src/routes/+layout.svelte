@@ -23,7 +23,7 @@
 	let { children }: Props = $props();
 
 	const webTitle = `${info.name}, ${info.title.join(' / ')} (${info.location})`;
-	const description = `${webTitle} - ${[...viewItems.map((item) => item.name.toLowerCase())].join(', ')}`;
+	const description = `${webTitle} - ${[...viewItems.map((item) => item.title.toLowerCase())].join(', ')}`;
 
 	const thumbnail = `${info.url}website/thumbnail.jpg`;
 

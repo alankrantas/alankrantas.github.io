@@ -9,7 +9,7 @@
 
 <p class="justify">
 	As a netizen myself, I too have left my own traces and bits. You can find me in the following
-	links or contact me if you like:
+	links or contact me:
 </p>
 <p>
 	<br /><br />
@@ -31,38 +31,21 @@
 	<br />
 </p>
 <p><span class="h3 justify">About This Site</span></p>
-<p class="indent justify">
-	This personal website, or the first major version of it, was completed in May 2023. I've learned
-	modern front-end frameworks only a few years ago while working on a TypeScript book as an editor,
-	and gained some CI/CD knowledge in my next job. I knew back then this is something I'd like to do,
-	but still it took a while to make it happen.
+<p class="justify">
+	This website, or the first major version of it, was completed and deployed in May 2023. I always
+	wanted to build my own personal site from scratch. This is essentially an on-going side project
+	that I can tinker in ways I see fit. I also built it as a single-page application (SPA) on purpose
+	for the cool Svelte animation effects.
 </p>
 <p class="indent justify">
-	I really like Svelte (a relatively newer but popular JavaScript framework), especially for its
-	built-in transition effects. SvelteKit, the framework for building and deploying Svelte apps, has
-	a pretty simple yet powerful file-based routing mechanism, although I purposely make this app as a
-	single page application (SPA) for smoother transitions. On the other hand, the site can read
-	QueryString values to retain the illusion of page routing.
+	I've learned the related skills from two of my jobs. I picked Svelte (and SvelteKit) simply out of
+	the simplicity of it, even though it has became slightly more complicated after Svelte updated to
+	v5 in late 2024.
 </p>
 <p class="indent justify">
-	I use Bootstrap for CSS styles (no JavaScript components since they are not compatible in Svelte).
-	I built all components for the need of maintaining this site. (For Svelte 4 and before I imported
-	a modal package written by someone else, but had to replace it with my own native implementation
-	after upgrading to Svelte 5 syntax) This site also has a functional responsive web design based on
-	screen inner width.
-</p>
-<p class="indent justify">
-	The site is built and deployed to Github Pages using a Github Action workflow (the build time will
-	be written into a file to be displayed in the production), but can be built and deployed as a
-	container. The project is supported to be opened in DevContainer and CodeSpace.
-</p>
-<p class="indent justify">
-	This site is thus an active side project which would be subjected to further changes and updates.
-</p>
-<p class="indent justify">
-	You can find the full source code in my <Link
+	You can check out the source code and extra information in my <Link
 		url="https://github.com/alankrantas/alankrantas.github.io"
-		name="original repository"
+		name="Github repository"
 	/>.
 </p>
 <p>
@@ -72,7 +55,7 @@
 	<Image
 		src="/website/responsive.svg"
 		alt="responsive"
-		footnote="This site is <b><i>responsive!</i></b>"
+		footnote="This site is also <b><i>responsive!</i></b>"
 		widthRatios={[20, 20, 20, 20]}
 	/>
 </p>

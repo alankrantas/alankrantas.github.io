@@ -1,6 +1,8 @@
 export interface ViewItem {
 	id: number;
-	name: string;
+	fileName: string;
+	viewName: string;
+	title: string;
 	description: string;
 	imgUrl: string;
 }

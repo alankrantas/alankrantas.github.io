@@ -1,6 +1,6 @@
-<!-- @migration-task Error while migrating Svelte code: Can't migrate code with afterUpdate. Please migrate by hand. -->
 <script lang="ts">
-	import { page } from '$app/stores';
+	import type { PageData } from './$types';
+
 	import { goto } from '$app/navigation';
 	import { innerWidth } from 'svelte/reactivity/window';
 	import { fly, fade } from 'svelte/transition';
@@ -16,11 +16,12 @@
 	import info from '$lib/data/info/BasicInfo.json';
 	import viewItems from '$lib/data/info/ViewItems.json';
 
-	viewItems[0].description = viewItems[0].description
-		.replace('<name>', info.name)
-		.replace('<title>', info.title.map((item) => item.toLowerCase()).join(', '));
+	viewItems[0].description = viewItems[0].description.replace('<name>', info.name);
 
-	let selectedViewId = $state(-1);
+	let { data }: { data: PageData } = $props();
+
+	let params = $state(data.params);
+	let selectedView = $state('main');
 	let ready = $state(false);
 
 	const scrollToTop = () =>
@@ -29,31 +30,26 @@
 			behavior: 'smooth'
 		});
 
-	const setViewId = (id: number) => {
-		if (id >= 0 && id < viewItems.length) {
-			if (id != selectedViewId) {
-				selectedViewId = id;
-				$page.url?.searchParams.set('view', String(id));
-				goto(`/?${$page.url.searchParams.toString()}`);
-			}
+	const setView = (viewName: string) => {
+		viewName = viewName.toLocaleLowerCase();
+		if (
+			(viewName && viewName != 'main') ||
+			viewItems.filter((item) => item.viewName === viewName).length > 0
+		) {
+			selectedView = viewName;
+			params.set('view', viewName);
+			goto(`/?${params.toString()}`);
+			scrollToTop();
 		} else {
-			if (selectedViewId != -1) {
-				selectedViewId = -1;
-				$page.url?.searchParams.delete('view');
-				goto('/');
-			}
+			selectedView = 'main';
+			goto('/');
 		}
-		if (selectedViewId != -1) scrollToTop();
 	};
 
 	$effect(() => {
 		if (!ready) {
-			const viewParam = $page.url?.searchParams.get('view');
-			if (viewParam && Number.isSafeInteger(parseInt(viewParam))) {
-				setViewId(parseInt(viewParam));
-			} else {
-				setViewId(-1);
-			}
+			const viewParam = params.get('view');
+			setView(viewParam ? viewParam : 'main');
 			ready = true;
 		}
 	});
@@ -74,7 +70,7 @@
 {#if ready}
 	<div class="container" in:fly={{ y: 100, delay: 200, duration: 2000, easing: expoOut }}>
 		<div class="row justify-content-center p-md-4 m-md-4">
-			{#if selectedViewId == -1}
+			{#if selectedView == 'main'}
 				<!-- main screen -->
 				<div
 					class="col p-md-1 m-md-1"
@@ -85,7 +81,7 @@
 						class="text-center p-sm-2 m-sm-2 pb-sm-4 mb-sm-4"
 						in:fade|global={{ delay: 100, duration: 1000, easing: expoOut }}
 					>
-						<NameTitle mode={'main'} handleSetViewId={setViewId} />
+						<NameTitle mode={'main'} handleSetView={setView} />
 					</div>
 					<!-- view cards -->
 					{#if innerWidth.current && innerWidth.current >= 992}
@@ -99,7 +95,7 @@
 											<br /><br /><br />
 										</div>
 									{/if}
-									<ViewItemCard {viewItem} handleSetViewId={setViewId} />
+									<ViewItemCard {viewItem} handleSetView={setView} />
 								{/each}
 							</div>
 							{#if innerWidth.current >= 1200}
@@ -121,7 +117,7 @@
 											<br /><br /><br />
 										</div>
 									{/if}
-									<ViewItemCard {viewItem} handleSetViewId={setViewId} />
+									<ViewItemCard {viewItem} handleSetView={setView} />
 								{/each}
 							</div>
 						</div>
@@ -141,7 +137,7 @@
 										{/if}
 									</div>
 								{/if}
-								<ViewItemCard {viewItem} handleSetViewId={setViewId} />
+								<ViewItemCard {viewItem} handleSetView={setView} />
 							{/each}
 						</div>
 					{/if}
@@ -176,7 +172,7 @@
 				>
 					<!-- name title -->
 					<div class="p-md-1 m-md-1">
-						<NameTitle mode={'nav'} handleSetViewId={setViewId} />
+						<NameTitle mode={'nav'} handleSetView={setView} />
 					</div>
 					<div>
 						<br />
@@ -195,7 +191,7 @@
 							}`}
 						>
 							{#each viewItems as viewItem (viewItem.id)}
-								<ViewItemNavBtn {viewItem} {selectedViewId} handleSetViewId={setViewId} />
+								<ViewItemNavBtn {viewItem} {selectedView} handleSetView={setView} />
 							{/each}
 						</ul>
 					</div>
@@ -211,7 +207,7 @@
 					<div>
 						{#each viewItems as viewItem (viewItem.id)}
 							<div>
-								{#if selectedViewId == viewItem.id}
+								{#if selectedView == viewItem.viewName}
 									<div>
 										<!--sub view head -->
 										<div
@@ -229,7 +225,7 @@
 												: 'p-1 m-1'}
 											in:fly|global={{ y: 100, delay: 200, duration: 2000, easing: expoOut }}
 										>
-											<ViewItemContent viewItemId={viewItem.id} />
+											<ViewItemContent {viewItem} />
 										</div>
 									</div>
 								{/if}
