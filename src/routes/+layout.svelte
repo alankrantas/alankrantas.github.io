@@ -2,7 +2,7 @@
 	import type { Snippet } from 'svelte';
 	import { innerWidth } from 'svelte/reactivity/window';
 
-	import ErrorPage from '$lib/components/common/ErrorPage.svelte';
+	import ErrorPage from '$lib/components/site/ErrorPage.svelte';
 
 	import info from '$lib/data/info/BasicInfo.json';
 	import viewItems from '$lib/data/info/ViewItems.json';

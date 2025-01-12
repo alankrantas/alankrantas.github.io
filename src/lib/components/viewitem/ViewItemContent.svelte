@@ -1,15 +1,13 @@
 <script lang="ts">
-	import type { ViewItem } from '$lib/type/Types';
-
 	interface Props {
-		viewItem: ViewItem;
+		viewItemSource: string;
 	}
 
-	let { viewItem }: Props = $props();
+	let { viewItemSource }: Props = $props();
 
 	let ViewItemContent: any = $state(null);
 
-	import(`$lib/components/viewitem-content/${viewItem.fileName}.svelte`).then((result) => {
+	import(`$lib/components/viewitem-content/${viewItemSource}.svelte`).then((result) => {
 		ViewItemContent = result?.default;
 	});
 </script>

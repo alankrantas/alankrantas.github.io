@@ -1,42 +1,37 @@
 [
 	{
-		"id": 0,
-		"fileName": "AboutMe",
-		"viewName": "about",
 		"title": "About Me",
 		"description": "<name> (he/him) | short bio | personal facts | hobbies and interests",
+		"viewName": "about",
+		"fileName": "AboutMe",
 		"imgUrl": "/main/about-me.jpg"
 	},
 	{
-		"id": 1,
-		"fileName": "MyServices",
-		"viewName": "service",
 		"title": "My Services",
 		"description": "Content writing | technical writing | copywriting | documentation | translating",
+		"viewName": "service",
+		"fileName": "MyServices",
 		"imgUrl": "/main/service.jpg"
 	},
 	{
-		"id": 2,
-		"fileName": "CareerAndSkills",
-		"viewName": "career",
 		"title": "Career & Skills",
 		"description": "Software and technology | publishing | writing & translating | STEM education",
+		"viewName": "career",
+		"fileName": "CareerAndSkills",
 		"imgUrl": "/main/skills.jpg"
 	},
 	{
-		"id": 3,
-		"fileName": "Portfolio",
-		"viewName": "work",
 		"title": "Portfolio",
 		"description": "Published works | writing projects | software & AI projects | Maker & embedded projects",
+		"viewName": "work",
+		"fileName": "Portfolio",
 		"imgUrl": "/main/works.jpg"
 	},
 	{
-		"id": 4,
-		"fileName": "LinksAndAbout",
-		"viewName": "link",
 		"title": "Links & Site",
 		"description": "Contact information | social media links | more about this site | external resources",
+		"viewName": "link",
+		"fileName": "LinksAndAbout",
 		"imgUrl": "/main/links.jpg"
 	}
 ]

@@ -22,17 +22,6 @@
 		"linkedTitle": false
 	},
 	{
-		"name": "Online TypeScript Editor",
-		"description": "A simple online editor with IntelliSense support that can execute code directly in browser",
-		"location": null,
-		"footnote": null,
-		"tooltip": "A similar Python editor can be found <a href='https://alankrantas.github.io/monaco-python-live-editor/' target='_blank' class='link-info'>here</a>, which supports several additional packages.",
-		"language": ["English"],
-		"category": ["TypeScript", "React"],
-		"link": "https://alankrantas.github.io/monaco-ts-live-editor/",
-		"linkedTitle": false
-	},
-	{
 		"name": "MicroPython Driver for TEA5767 FM Radio Module",
 		"description": "An open-source radio board driver utilizing most of the features in the datasheet",
 		"location": null,

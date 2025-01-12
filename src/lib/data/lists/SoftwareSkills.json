@@ -53,16 +53,5 @@
 		"language": null,
 		"link": null,
 		"linkedTitle": false
-	},
-	{
-		"name": "Operating systems",
-		"description": "Windows, Linux (Debian/Ubuntu on amd64/arm64/armf)",
-		"location": null,
-		"footnote": null,
-		"tooltip": null,
-		"category": null,
-		"language": null,
-		"link": null,
-		"linkedTitle": false
 	}
 ]

@@ -12,7 +12,7 @@
 - Built with [Svelte](https://svelte.dev/) (upgraded to Svelte 5 syntax), [SvelteKit](https://kit.svelte.dev/) and [Bootstrap](https://getbootstrap.com/).
 - Deployed to [Github Pages](https://pages.github.com/) and run Dependabot PR test build using [Github Action](https://github.com/features/actions) workflows.
 
-## Layout and Components
+## Layout and View Components
 
 The site switches between two layouts - "main" and "view".
 
@@ -88,11 +88,11 @@ flowchart TD
 
 The viewer can click the nav bar buttons to switch the view content, or go back to the main mode.
 
-The index page also accepts a `view` URL parameter to switch to a specific view directly, which makes it useful to be linked elsewhere.
+The index page also accepts a `view` URL parameter to switch to a specific view directly (although it's still done in SPA instead of using SvelteKit routing), which makes it useful to be linked elsewhere.
 
 ### Responsive Layouts
 
-Each mode may have multiple layout and style adjustments based on different inner widths (`1200`, `992`, `768` and `576` px), using one or multiple following options:
+Each mode may have multiple layout and style adjustments based on different inner widths (`1200`, `992`, `768` and `576` px), utilizing one or multiple of the following approaches:
 
 1. Svelte template syntax
 2. Pure CSS
@@ -101,6 +101,14 @@ Each mode may have multiple layout and style adjustments based on different inne
 Both main and view mode will be squashed into a single column when the screen width becomes smaller than `992` px.
 
 Some reusable components, like `Image` and `Showcase`, has properties to control the component responsive behavior under different inner widths.
+
+## Add New View Content
+
+To add a new "page" in the site:
+
+1. Add an entry in `/src/lib/data/info/ViewItems.json` with correct component file name and image URL.
+2. Add a "view item" component under `/src/lib/components/viewitem-content`.
+3. Add a 800x400 px JPEG image under `/static/main`.
 
 ---
 

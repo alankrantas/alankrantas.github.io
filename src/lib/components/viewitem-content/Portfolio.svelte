@@ -21,7 +21,7 @@
 	with the original title attached in the description. Links may fail due to external resources
 	moved or no longer exist.
 </p>
-<p class="justify">
+<p class="justify small">
 	Also see: my full list of <Link
 		url="https://github.com/alankrantas/alankrantas/blob/main/works/published.md"
 		name="published works"

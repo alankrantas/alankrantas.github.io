@@ -1,7 +1,17 @@
 <script lang="ts">
+	import Link from '$lib/components/common/Link.svelte';
 	import Image from '$lib/components/common/Image.svelte';
 </script>
 
+<p class="justify small">
+	本頁的<Link
+		url="https://github.com/alankrantas/alankrantas/blob/main/README-ZH-TW.md"
+		name="中文版"
+	/>
+</p>
+<p>
+	<br />
+</p>
 <p class="justify">
 	I offer high-level quality <b>writing</b> and <b>translating</b> services by contract: content writing,
 	technical writing, marketing writing, document/documentation writing, copywriting, editing, proofreading

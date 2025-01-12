@@ -11,7 +11,7 @@
 	import ViewItemCard from '$lib/components/viewitem/ViewItemCard.svelte';
 	import ViewItemHead from '$lib/components/viewitem/ViewItemHead.svelte';
 	import ViewItemContent from '$lib/components/viewitem/ViewItemContent.svelte';
-	import Footer from '$lib/components/viewitem/Footer.svelte';
+	import Footer from '$lib/components/site/Footer.svelte';
 
 	import info from '$lib/data/info/BasicInfo.json';
 	import viewItems from '$lib/data/info/ViewItems.json';
@@ -32,10 +32,7 @@
 
 	const setView = (viewName: string) => {
 		viewName = viewName.toLocaleLowerCase();
-		if (
-			(viewName && viewName != 'main') ||
-			viewItems.filter((item) => item.viewName === viewName).length > 0
-		) {
+		if ((viewName && viewName != 'main') || viewItems.find((item) => item.viewName === viewName)) {
 			selectedView = viewName;
 			params.set('view', viewName);
 			goto(`/?${params.toString()}`);
@@ -87,8 +84,8 @@
 					{#if innerWidth.current && innerWidth.current >= 992}
 						<div class="row">
 							<div class="col-sm text-end p-md-2 m-md-2">
-								{#each viewItems.filter((item) => item.id % 2 == 0) as viewItem (viewItem.id)}
-									{#if viewItem.id > 0}
+								{#each viewItems.filter((item, idx) => idx % 2 == 0) as viewItem, index (viewItem.viewName)}
+									{#if index > 0}
 										<div>
 											<br /><br /><br />
 											<hr class="text-white-50" />
@@ -102,8 +99,8 @@
 								<div class="col-sm-auto"></div>
 							{/if}
 							<div class="col-sm text-start p-md-2 m-md-2">
-								{#each viewItems.filter((item) => item.id % 2 != 0) as viewItem (viewItem.id)}
-									{#if viewItem.id == 1}
+								{#each viewItems.filter((item, idx) => idx % 2 != 0) as viewItem, index (viewItem.viewName)}
+									{#if index == 0}
 										<div>
 											<br /><br /><br />
 											<br /><br /><br />
@@ -123,8 +120,8 @@
 						</div>
 					{:else}
 						<div class="p-md-2 m-md-2">
-							{#each viewItems as viewItem (viewItem.id)}
-								{#if viewItem.id > 0}
+							{#each viewItems as viewItem, index (viewItem.viewName)}
+								{#if index > 0}
 									<div>
 										<br />
 										{#if innerWidth.current && innerWidth.current >= 768}
@@ -190,8 +187,13 @@
 									: 'flex-column'
 							}`}
 						>
-							{#each viewItems as viewItem (viewItem.id)}
-								<ViewItemNavBtn {viewItem} {selectedView} handleSetView={setView} />
+							{#each viewItems as viewItem (viewItem.viewName)}
+								<ViewItemNavBtn
+									title={viewItem.title}
+									viewName={viewItem.viewName}
+									{selectedView}
+									handleSetView={setView}
+								/>
 							{/each}
 						</ul>
 					</div>
@@ -205,7 +207,7 @@
 						<br />
 					</div>
 					<div>
-						{#each viewItems as viewItem (viewItem.id)}
+						{#each viewItems as viewItem (viewItem.viewName)}
 							<div>
 								{#if selectedView == viewItem.viewName}
 									<div>
@@ -225,7 +227,7 @@
 												: 'p-1 m-1'}
 											in:fly|global={{ y: 100, delay: 200, duration: 2000, easing: expoOut }}
 										>
-											<ViewItemContent {viewItem} />
+											<ViewItemContent viewItemSource={viewItem.fileName} />
 										</div>
 									</div>
 								{/if}

@@ -1,16 +1,5 @@
 [
 	{
-		"name": "Data Mesh: A Paradigm Shift to Make Your Data Great Again",
-		"description": null,
-		"location": "FST Network Medium channel",
-		"footnote": "Sep 2022",
-		"tooltip": null,
-		"language": ["English"],
-		"category": ["Data", "Data Mesh"],
-		"link": "https://www.fst.network/post/data-mesh",
-		"linkedTitle": false
-	},
-	{
 		"name": "A Brief History of Google's Kubernetes and Why It's Fantastic",
 		"description": null,
 		"location": "FST Network Medium channel",
