@@ -110,6 +110,8 @@ To add a new "page" in the site:
 2. Add a "view item" component under `/src/lib/components/viewitem-content`.
 3. Add a 800x400 px JPEG image under `/static/main`.
 
+The rest will be taken care by the site itself.
+
 ---
 
 ## Local Development
