@@ -10,8 +10,8 @@
 		} else {
 			fetch('/website/build.json')
 				.then((res) => res.json())
-				.then((data: { buildTime: string }) => {
-					if (data.buildTime && typeof data.buildTime == 'string') buildTime = data.buildTime;
+				.then((data: { build_time: string }) => {
+					if (data.build_time && typeof data.build_time == 'string') buildTime = data.build_time;
 				});
 		}
 	});
