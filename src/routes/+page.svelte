@@ -31,8 +31,8 @@
 		});
 
 	const setView = (viewName: string) => {
-		viewName = viewName.toLocaleLowerCase();
-		if ((viewName && viewName != 'main') || viewItems.find((item) => item.viewName === viewName)) {
+		if (viewName) viewName = viewName.toLocaleLowerCase();
+		if (viewName != 'main' && viewItems.find((item) => item.viewName === viewName)) {
 			selectedView = viewName;
 			params.set('view', viewName);
 			goto(`/?${params.toString()}`);
