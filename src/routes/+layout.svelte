@@ -24,7 +24,6 @@
 
 	const webTitle = `${info.name}, ${info.title.join(' / ')} (${info.location})`;
 	const description = `${webTitle} - ${[...viewItems.map((item) => item.title.toLowerCase())].join(', ')}`;
-
 	const thumbnail = `${info.url}website/thumbnail.jpg`;
 
 	const showScreenSize = false; // enable to show screen size; for responsive design testing
@@ -46,8 +45,8 @@
 	<meta property="og:image" content={thumbnail} />
 	<meta property="og:image:url" content={thumbnail} />
 	<meta property="og:image:secure_url" content={thumbnail} />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="597" />
+	<meta property="og:image:width" content="1280" />
+	<meta property="og:image:height" content="720" />
 	<meta property="og:image:alt" content={webTitle} />
 </svelte:head>
 
