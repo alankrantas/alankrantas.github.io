@@ -10,13 +10,25 @@
 	}
 
 	let { work }: Props = $props();
+
+	let imgLoaded = $state(false);
 </script>
 
 <div class="card text-white bg-secondary">
 	<form method="dialog">
 		<button class="btn-close btn-lg text-bg-light modal-close-btn" aria-label="Close"></button>
 	</form>
-	<img src={work.imgUrl} class="card-img-top rounded-3 shadow" alt={work.name} />
+	<img
+		src={work.imgUrl}
+		class="card-img-top rounded-3 shadow"
+		alt={work.name}
+		onload={() => {
+			imgLoaded = true;
+		}}
+	/>
+	{#if !imgLoaded}
+		<span class="placeholder w-100 placeholder-lg placeholder-wave rounded-pill"></span>
+	{/if}
 	<div class="card-body p-md-2 m-md-2" style="text-align: start;">
 		<p class="card-title">
 			<span class={innerWidth.current && innerWidth.current > 768 ? 'fs-3' : 'fs-4'}>

@@ -9,10 +9,22 @@
 	}
 
 	let { viewItem, handleSetView }: Props = $props();
+
+	let imgLoaded = $state(false);
 </script>
 
 <div class="card rounded-4 bg-dark shadow-lg">
-	<img loading="lazy" src={viewItem.imgUrl} class="card-img-top rounded-4" alt={viewItem.title} />
+	<img
+		src={viewItem.imgUrl}
+		class="card-img-top rounded-4"
+		alt={viewItem.title}
+		onload={() => {
+			imgLoaded = true;
+		}}
+	/>
+	{#if !imgLoaded}
+		<span class="placeholder w-75 placeholder-lg placeholder-wave rounded-pill"></span>
+	{/if}
 	<div class="card-body">
 		<div class="card-title text-start text-white display-6 title p-md-1 m-md-1">
 			{viewItem.title}

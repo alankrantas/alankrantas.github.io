@@ -10,6 +10,8 @@
 
 	let { src, alt, footnote = '', widthRatios = [80, 85, 90, 95] }: Props = $props();
 
+	let imgLoaded = $state(false);
+
 	let ratio = $derived(
 		(() => {
 			if (innerWidth.current) {
@@ -35,7 +37,13 @@
 			{alt}
 			class="img-fluid rounded-5 p-md-2 m-md-2"
 			style={`width: ${ratio}%;`}
+			onload={() => {
+				imgLoaded = true;
+			}}
 		/>
+		{#if !imgLoaded}
+			<span class="placeholder w-50 placeholder-lg placeholder-wave rounded-pill"></span>
+		{/if}
 	</p>
 	{#if footnote}
 		<p class="small text-white-50">

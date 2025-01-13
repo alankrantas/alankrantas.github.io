@@ -13,6 +13,7 @@
 	let { mode, handleSetView }: Props = $props();
 
 	let titleIndex = $state(0);
+	let imgLoaded = $state(false);
 
 	setInterval(() => {
 		titleIndex = titleIndex >= info.title.length - 1 ? 0 : titleIndex + 1;
@@ -49,7 +50,13 @@
 		{width}
 		alt="profile"
 		class="img-thumbnail rounded-circle shadow"
+		onload={() => {
+			imgLoaded = true;
+		}}
 	/>
+	{#if !imgLoaded}
+		<span class="placeholder w-75 placeholder-lg placeholder-wave rounded-pill"></span>
+	{/if}
 {/snippet}
 
 {#snippet backBtn(text: string)}

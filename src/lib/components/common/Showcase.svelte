@@ -17,6 +17,9 @@
 
 	let { title, works, displayNum = 3, scaleDownPoint = 576, largeModal = false }: Props = $props();
 
+	let imgLoaded: boolean[] = $state(new Array(works.length));
+	imgLoaded.fill(false);
+
 	let listStartWorkId = $state(0);
 	let dialogs: HTMLDialogElement[] = $state(new Array(works.length));
 
@@ -68,7 +71,7 @@
 		</div>
 		<div class="col text-center">
 			<div class="row">
-				{#each [...Array(displayNum).keys()] as colIdx (colIdx + listStartWorkId)}
+				{#each [...Array(displayNum).keys()] as colIdx, index (colIdx + listStartWorkId)}
 					{@const workId = colIdx + listStartWorkId}
 					<div class="col" animate:flip={{ duration: 500, easing: expoOut }}>
 						{#if workId < works.length}
@@ -80,8 +83,16 @@
 									src={work.imgUrl}
 									title={work.name}
 									alt={work.name}
+									onload={() => {
+										imgLoaded[index] = true;
+									}}
 								/>
 							</a>
+							{#if !imgLoaded[index]}
+								<span class="placeholder w-100 placeholder-lg placeholder-wave rounded-pill"></span>
+								<span class="placeholder w-100 placeholder-lg placeholder-wave rounded-pill"></span>
+								<span class="placeholder w-100 placeholder-lg placeholder-wave rounded-pill"></span>
+							{/if}
 							<!-- modal -->
 							<dialog
 								bind:this={dialogs[workId]}
