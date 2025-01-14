@@ -30,20 +30,17 @@
 </script>
 
 <div class="text-center">
-	<p>
+	<p class={!imgLoaded ? 'placeholder placeholder-wave rounded-5' : ''}>
 		<img
 			loading="lazy"
 			{src}
 			{alt}
-			class="img-fluid rounded-5 p-md-2 m-md-2"
+			class={`img-fluid rounded-5 p-md-2 m-md-2 `}
 			style={`width: ${ratio}%;`}
 			onload={() => {
 				imgLoaded = true;
 			}}
 		/>
-		{#if !imgLoaded}
-			<span class="placeholder w-50 placeholder-lg placeholder-wave rounded-pill"></span>
-		{/if}
 	</p>
 	{#if footnote}
 		<p class="small text-white-50">

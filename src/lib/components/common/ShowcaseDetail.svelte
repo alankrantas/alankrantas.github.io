@@ -18,17 +18,17 @@
 	<form method="dialog">
 		<button class="btn-close btn-lg text-bg-light modal-close-btn" aria-label="Close"></button>
 	</form>
-	<img
-		src={work.imgUrl}
-		class="card-img-top rounded-3 shadow"
-		alt={work.name}
-		onload={() => {
-			imgLoaded = true;
-		}}
-	/>
-	{#if !imgLoaded}
-		<span class="placeholder w-100 placeholder-lg placeholder-wave rounded-pill"></span>
-	{/if}
+	<div class={!imgLoaded ? 'placeholder placeholder-wave' : ''}>
+		<img
+			loading="lazy"
+			src={work.imgUrl}
+			class="card-img-top shadow rounded-3"
+			alt={work.name}
+			onload={() => {
+				imgLoaded = true;
+			}}
+		/>
+	</div>
 	<div class="card-body p-md-2 m-md-2" style="text-align: start;">
 		<p class="card-title">
 			<span class={innerWidth.current && innerWidth.current > 768 ? 'fs-3' : 'fs-4'}>

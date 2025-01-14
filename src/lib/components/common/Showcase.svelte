@@ -71,28 +71,27 @@
 		</div>
 		<div class="col text-center">
 			<div class="row">
-				{#each [...Array(displayNum).keys()] as colIdx, index (colIdx + listStartWorkId)}
+				{#each [...Array(displayNum).keys()] as colIdx (colIdx + listStartWorkId)}
 					{@const workId = colIdx + listStartWorkId}
-					<div class="col" animate:flip={{ duration: 500, easing: expoOut }}>
+					<div
+						class={`col ${!imgLoaded[colIdx] ? 'placeholder placeholder-wave rounded-4' : ''}`}
+						animate:flip={{ duration: 500, easing: expoOut }}
+					>
 						{#if workId < works.length}
 							{@const work = works[workId]}
 							<!-- svelte-ignore a11y_invalid_attribute -->
 							<a href="javascript: void(0)" onclick={() => handleOpenInDetail(workId)}>
 								<img
-									class="img-thumbnail bg-light border-light rounded-4 showCaseImg"
+									loading="lazy"
+									class={`img-thumbnail bg-light border-light rounded-4 showCaseImg`}
 									src={work.imgUrl}
 									title={work.name}
 									alt={work.name}
 									onload={() => {
-										imgLoaded[index] = true;
+										imgLoaded[colIdx] = true;
 									}}
 								/>
 							</a>
-							{#if !imgLoaded[index]}
-								<span class="placeholder w-100 placeholder-lg placeholder-wave rounded-pill"></span>
-								<span class="placeholder w-100 placeholder-lg placeholder-wave rounded-pill"></span>
-								<span class="placeholder w-100 placeholder-lg placeholder-wave rounded-pill"></span>
-							{/if}
 							<!-- modal -->
 							<dialog
 								bind:this={dialogs[workId]}

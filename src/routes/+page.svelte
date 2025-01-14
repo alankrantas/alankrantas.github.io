@@ -64,7 +64,13 @@
 	</button>
 {/snippet}
 
-{#if ready}
+{#if !ready}
+	<div class="container">
+		<div class="text-center p-md-4 m-md-4">
+			<span class="text-white lead"> Loading... </span>
+		</div>
+	</div>
+{:else}
 	<div class="container" in:fly={{ y: 100, delay: 200, duration: 2000, easing: expoOut }}>
 		<div class="row justify-content-center p-md-4 m-md-4">
 			{#if selectedView == 'main'}

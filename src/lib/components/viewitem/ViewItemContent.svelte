@@ -8,10 +8,12 @@
 	let ViewItemContent: any = $state(null);
 	let loaded = $state(false);
 
-	loaded = false;
-	import(`$lib/components/viewitem-content/${viewItemSource}.svelte`).then((result) => {
-		ViewItemContent = result?.default;
-		loaded = true;
+	$effect.pre(() => {
+		loaded = false;
+		import(`$lib/components/viewitem-content/${viewItemSource}.svelte`).then((result) => {
+			ViewItemContent = result?.default;
+			if (ViewItemContent) loaded = true;
+		});
 	});
 </script>
 

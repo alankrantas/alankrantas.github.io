@@ -18,7 +18,9 @@
 	{/if}
 	<div class="row p-2 m-2">
 		<div class="col d-flex justify-content-center">
-			<div class="card rounded-5 bg-dark shadow position-relative">
+			<div
+				class={`card rounded-5 bg-dark shadow position-relative ${!imgLoaded ? 'placeholder placeholder-wave' : ''}`}
+			>
 				<img
 					src={viewItem.imgUrl}
 					class="card-img rounded-5"
@@ -27,9 +29,6 @@
 						imgLoaded = true;
 					}}
 				/>
-				{#if !imgLoaded}
-					<span class="placeholder w-75 placeholder-lg placeholder-wave rounded-pill"></span>
-				{/if}
 				<div class="card-img-overlay">
 					<div
 						class="card-title title-shadow display-5 p-sm-1 m-sm-1 pt-sm-2 mt-sm-2 position-absolute top-50 start-50 translate-middle"

@@ -45,18 +45,18 @@
 {/snippet}
 
 {#snippet profileImg(width: string)}
-	<img
-		src="/about-me/profile.jpg"
-		{width}
-		alt="profile"
-		class="img-thumbnail rounded-circle shadow"
-		onload={() => {
-			imgLoaded = true;
-		}}
-	/>
-	{#if !imgLoaded}
-		<span class="placeholder w-75 placeholder-lg placeholder-wave rounded-pill"></span>
-	{/if}
+	<div class={!imgLoaded ? 'placeholder placeholder-wave rounded-circle' : ''}>
+		<img
+			loading="lazy"
+			src="/about-me/profile.jpg"
+			{width}
+			alt="profile"
+			class="img-thumbnail shadow rounded-circle"
+			onload={() => {
+				imgLoaded = true;
+			}}
+		/>
+	</div>
 {/snippet}
 
 {#snippet backBtn(text: string)}
