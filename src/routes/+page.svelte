@@ -20,7 +20,6 @@
 
 	let { data }: { data: PageData } = $props();
 
-	let params = $state(data.params);
 	let selectedView = $state('main');
 	let ready = $state(false);
 
@@ -34,8 +33,8 @@
 		if (viewName) viewName = viewName.toLocaleLowerCase();
 		if (viewName != 'main' && viewItems.find((item) => item.viewName === viewName)) {
 			selectedView = viewName;
-			params.set('view', viewName);
-			goto(`/?${params.toString()}`);
+			data.params.set('view', viewName);
+			goto(`/?${data.params.toString()}`);
 			scrollToTop();
 		} else {
 			selectedView = 'main';
@@ -45,7 +44,7 @@
 
 	$effect(() => {
 		if (!ready) {
-			const viewParam = params.get('view');
+			const viewParam = data.params.get('view');
 			setView(viewParam ? viewParam : 'main');
 			ready = true;
 		}
