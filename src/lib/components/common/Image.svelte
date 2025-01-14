@@ -35,7 +35,7 @@
 			loading="lazy"
 			{src}
 			{alt}
-			class={`img-fluid rounded-5 p-md-2 m-md-2 `}
+			class="img-fluid rounded-5 p-md-2 m-md-2"
 			style={`width: ${ratio}%;`}
 			onload={() => {
 				imgLoaded = true;
