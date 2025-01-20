@@ -1,4 +1,4 @@
-# Alan Wang's Personal Site
+# Alan Wang's Personal Website
 
 [![github-pages-deploy](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/alankrantas/alankrantas.github.io/actions/workflows/github-pages-deploy.yml)
 
