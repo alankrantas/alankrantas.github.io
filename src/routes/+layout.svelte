@@ -31,6 +31,7 @@
 
 <svelte:head>
 	<title>{webTitle}</title>
+	<meta name="google-site-verification" content="Xwv6Njr0t8LyqySaZ3TKm4i5F4lOUy6FhoSNQEK8BNo" />
 	<meta name="description" content={description} />
 	<meta
 		name="keywords"
