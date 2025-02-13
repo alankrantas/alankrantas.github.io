@@ -3,15 +3,6 @@
 	import Image from '$lib/components/common/Image.svelte';
 </script>
 
-<p class="justify small">
-	本頁的<Link
-		url="https://github.com/alankrantas/alankrantas/blob/main/README-ZH-TW.md"
-		name="中文版"
-	/>
-</p>
-<p>
-	<br />
-</p>
 <p class="justify">
 	I offer high-level quality <b>writing</b> and <b>translating</b> services by contract: content writing,
 	technical writing, marketing writing, document/documentation writing, copywriting, editing, proofreading
@@ -19,10 +10,6 @@
 </p>
 <p class="indent justify">
 	See <kbd>Portfolio</kbd> for works I've done and <kbd>Links & Site</kbd> for my content information.
-</p>
-<p class="justify small">
-	*Note: I do not offer AI training writing (except writing source materials to be referenced by AI
-	applications) nor i18n-type semi-machine translating.
 </p>
 <p>
 	<br />
