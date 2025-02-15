@@ -9,6 +9,10 @@
 	for any target audience, as well as translating English to/from Traditional Chinese.
 </p>
 <p class="indent justify">
+	Quick to learn and eager for challenges, with cooperative and down-to-earth working styles, I
+	deliver insightful, unique quality content with precision, care and passion.
+</p>
+<p class="indent justify">
 	See <kbd>Portfolio</kbd> for works I've done and <kbd>Links & Site</kbd> for my content information.
 </p>
 <p>
