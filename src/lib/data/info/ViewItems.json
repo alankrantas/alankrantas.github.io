@@ -8,28 +8,28 @@
 	},
 	{
 		"title": "My Services",
-		"description": "Content writing | technical writing | copywriting | documentation | translating",
+		"description": "Technical writing | copywriting | translating | marketing assissting",
 		"viewName": "service",
 		"fileName": "MyServices",
 		"imgUrl": "/main/service.jpg"
 	},
 	{
 		"title": "Career & Skills",
-		"description": "Software and technology | publishing | writing & translating | STEM education",
+		"description": "Writing & translating | publishing | software engeering | STEM education",
 		"viewName": "career",
 		"fileName": "CareerAndSkills",
 		"imgUrl": "/main/skills.jpg"
 	},
 	{
 		"title": "Portfolio",
-		"description": "Published works | writing projects | software & AI projects | Maker & embedded projects",
+		"description": "Published works | writing projects | Maker & embedded project showcases",
 		"viewName": "work",
 		"fileName": "Portfolio",
 		"imgUrl": "/main/works.jpg"
 	},
 	{
 		"title": "Links & Site",
-		"description": "Contact information | social media links | more about this site | external resources",
+		"description": "Contact information | social media links | more tech info about this site",
 		"viewName": "link",
 		"fileName": "LinksAndAbout",
 		"imgUrl": "/main/links.jpg"
