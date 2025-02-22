@@ -19,20 +19,13 @@
 	{#each list as item}
 		<li class="pt-sm-1 pb-sm-1 mt-sm-4 mb-sm-4" style="text-align: start;">
 			<p>
-				{#if item.link && item.linkedTitle}
-					<span class="h4">
-						<Link url={item.link} name={item.name} />
-					</span>
-				{:else if item.link && !item.linkedTitle}
-					<span class="h4">
-						{item.name}&nbsp;
+				<span class="h4">
+					{item.name}
+					{#if item.link}
+						&nbsp;
 						<b><Link url={item.link} name="⧉" /></b>
-					</span>
-				{:else}
-					<span class="h4">
-						{item.name}
-					</span>
-				{/if}
+					{/if}
+				</span>
 				{#if item.tooltip}
 					<span class="small text-white-50 customtooltip">
 						&nbsp;ⓘ

@@ -10,10 +10,7 @@
 	import edit from '$lib/data/works/EditorialWorks.json';
 	import author from '$lib/data/works/AuthoredWorks.json';
 	import maker from '$lib/data/works/MakerWorks.json';
-	import code from '$lib/data/works/CodeWorks.json';
 	import docs from '$lib/data/works/DocsWorks.json';
-	import tech from '$lib/data/works/TechPostWorks.json';
-	import book from '$lib/data/works/BookPostWorks.json';
 </script>
 
 <p class="justify">
@@ -108,24 +105,6 @@
 	<br />
 </p>
 <p>
-	<List list={code} title="Selected Software Projects" />
-</p>
-<p>
-	<br />
-</p>
-<p>
-	<span class="small justify"
-		>Note: embedded programming projects are listed under <kbd>Selected Maker Projects</kbd> above.</span
-	>
-</p>
-<p>
-	<br />
-</p>
-<hr />
-<p>
-	<br />
-</p>
-<p>
 	<List list={docs} title="Writing Projects" />
 </p>
 <p>
@@ -135,30 +114,10 @@
 	<Image
 		src="/work/marketing.jpg"
 		alt="marketing"
-		footnote="I also draw technical or marketing illustrations.<br />Here's an (unused) example of utilizing data pipelines for generating ESG reports."
+		footnote="I also draw technical or marketing illustrations.<br />See <a href='https://github.com/alankrantas/alankrantas/blob/main/works/illustration.md' target='_blank' class='link-info'>here</a> for more."
 		widthRatios={[75, 85, 90, 95]}
 	/>
 </p>
 <p>
 	<br />
-</p>
-<hr />
-<p>
-	<br />
-</p>
-<p>
-	<List list={tech} title="Selected Tech Articles" />
-</p>
-<p>
-	<span class="small justify">Note: see <kbd>Links</kbd> for my blog links.</span>
-</p>
-<p>
-	<br />
-</p>
-<hr />
-<p>
-	<br />
-</p>
-<p>
-	<List list={book} title="Selected Book Articles" />
 </p>

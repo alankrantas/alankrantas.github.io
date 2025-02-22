@@ -18,7 +18,6 @@ export interface ListItem extends BaseItem {
 	location: string | null;
 	footnote: string | null;
 	tooltip: string | null;
-	linkedTitle: boolean;
 }
 
 export interface WorkItem extends BaseItem {

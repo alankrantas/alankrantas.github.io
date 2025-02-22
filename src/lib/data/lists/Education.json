@@ -7,8 +7,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Bachelor of Public Finance",
@@ -18,7 +17,6 @@
 		"tooltip": "Public Finance focuses on government tax, accounting and financial policies, which is quite different from private sector banking and finance, and for which I had no interest at all.",
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	}
 ]

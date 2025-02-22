@@ -14,8 +14,7 @@
 			"Translating"
 		],
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Technical Marketing Writer",
@@ -32,8 +31,7 @@
 			"Documentation"
 		],
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Editor/Tech Education Engineer",
@@ -50,8 +48,7 @@
 			"Publishing"
 		],
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "STEM Content Writer",
@@ -61,8 +58,7 @@
 		"tooltip": "Develop and write physical programming education materials for children.<br /><br />See <b>Authored Works</b> in the portfolio.",
 		"category": ["Software", "Education", "Content Writing", "Technical Writing"],
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Freelance Translator",
@@ -72,8 +68,7 @@
 		"tooltip": "(Full-time freelance, remote) translate English works (mostly fiction) by contract.<br /><br />See <b>Selected Translation Works</b> in the portfolio.",
 		"category": ["Translating", "Publishing", "Content Writing"],
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Software Developer",
@@ -83,7 +78,6 @@
 		"tooltip": "Develop and maintain J2EE MVC websites.",
 		"category": ["Software", "Developer"],
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	}
 ]

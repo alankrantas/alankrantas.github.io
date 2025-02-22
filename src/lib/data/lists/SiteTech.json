@@ -1,123 +1,112 @@
 [
 	{
 		"name": "Svelte 5",
-		"description": "Component framework",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "Component framework",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://svelte.dev/docs/svelte/overview",
-		"linkedTitle": true
+		"link": "https://svelte.dev/docs/svelte/overview"
 	},
 	{
 		"name": "SvelteKit 2",
-		"description": "Application framework",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "Application framework",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://svelte.dev/docs/kit/introduction",
-		"linkedTitle": true
+		"link": "https://svelte.dev/docs/kit/introduction"
 	},
 	{
 		"name": "@sveltejs/adapter-static",
-		"description": "SSG (static-site generation)",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "SSG (static-site generation)",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://svelte.dev/docs/kit/adapter-static",
-		"linkedTitle": true
+		"link": "https://svelte.dev/docs/kit/adapter-static"
 	},
 	{
 		"name": "TypeScript",
-		"description": "JavaScript type support",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "JavaScript type/linting support",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://www.typescriptlang.org/",
-		"linkedTitle": true
+		"link": "https://www.typescriptlang.org/"
 	},
 	{
 		"name": "Bootstrap 5",
-		"description": "CSS styles",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "CSS styles",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://getbootstrap.com/",
-		"linkedTitle": true
+		"link": "https://getbootstrap.com/"
 	},
 	{
 		"name": "Fontsource",
-		"description": "Google Fonts",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "Google Fonts",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://fontsource.org/",
-		"linkedTitle": true
+		"link": "https://fontsource.org/"
 	},
 	{
 		"name": "Unsplash",
-		"description": "Free images",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "Banner images",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://unsplash.com/",
-		"linkedTitle": true
+		"link": "https://unsplash.com/"
 	},
 	{
 		"name": "SVG Repo",
-		"description": "Favicon and flag icon",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "Favicon and flag icon",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://www.svgrepo.com/",
-		"linkedTitle": true
+		"link": "https://www.svgrepo.com/"
 	},
 	{
 		"name": "Docker",
-		"description": "Containerization and DevContainer/CodeSpace support",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "Containerization and DevContainer/CodeSpace support",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://www.docker.com/",
-		"linkedTitle": true
+		"link": "https://www.docker.com/"
 	},
 	{
 		"name": "Github Actions",
-		"description": "CI/CD workflow for testing and deployment",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "CI/CD workflow for testing and deployment",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://docs.github.com/en/actions",
-		"linkedTitle": true
+		"link": "https://docs.github.com/en/actions"
 	},
 	{
 		"name": "Github Pages",
-		"description": "Website hosting",
+		"description": null,
 		"location": null,
-		"footnote": null,
+		"footnote": "Website hosting",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "https://pages.github.com/",
-		"linkedTitle": true
+		"link": "https://pages.github.com/"
 	}
 ]

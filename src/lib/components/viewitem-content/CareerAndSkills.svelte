@@ -5,13 +5,12 @@
 
 	import career from '$lib/data/lists/Career.json';
 	import edu from '$lib/data/lists/Education.json';
-	import skill from '$lib/data/lists/GeneralSkills.json';
-	import software from '$lib/data/lists/SoftwareSkills.json';
+	import skill from '$lib/data/lists/Skills.json';
 	import cert from '$lib/data/lists/Certificate.json';
 </script>
 
 <p class="justify small">
-	You can also check out my <Link url="https://www.cake.me/krantas" name="résumé" /> or <Link
+	You can also check out my <Link url="https://www.cake.me/krantas" name="résumé/CV" /> or <Link
 		url="https://www.cake.me/me/krantas"
 		name="中文履歷"
 	/>.
@@ -70,22 +69,12 @@
 	<br />
 </p>
 <p>
-	<List list={skill} title="General Skills" />
+	<List list={skill} title="Competencies and Expertise" />
 </p>
 <p>
 	<span class="small justify"
 		>Note: for my related works and projects, see <kbd>Portfolio</kbd>.</span
 	>
-</p>
-<p>
-	<br />
-</p>
-<hr />
-<p>
-	<br />
-</p>
-<p>
-	<List list={software} title="Software Competencies" />
 </p>
 <p>
 	<br />

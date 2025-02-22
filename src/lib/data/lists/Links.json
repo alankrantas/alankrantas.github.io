@@ -7,8 +7,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": "mailto:krantas@gmail.com",
-		"linkedTitle": true
+		"link": "mailto:krantas@gmail.com"
 	},
 	{
 		"name": "Linkedin",
@@ -18,8 +17,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": ["English"],
-		"link": "https://www.linkedin.com/in/alankrantas/",
-		"linkedTitle": true
+		"link": "https://www.linkedin.com/in/alankrantas/"
 	},
 	{
 		"name": "Résumé/CV",
@@ -29,8 +27,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": ["English"],
-		"link": "https://www.cake.me/krantas",
-		"linkedTitle": true
+		"link": "https://www.cake.me/krantas"
 	},
 	{
 		"name": "中文履歷",
@@ -40,52 +37,67 @@
 		"tooltip": null,
 		"category": null,
 		"language": ["Traditional Chinese"],
-		"link": "https://www.cake.me/me/krantas",
-		"linkedTitle": true
+		"link": "https://www.cake.me/me/krantas"
 	},
 	{
-		"name": "Full List of Published Titles",
+		"name": "List of published titles",
 		"description": null,
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
 		"category": null,
-		"language": ["Traditional Chinese"],
-		"link": "https://github.com/alankrantas/alankrantas/blob/main/works/published.md",
-		"linkedTitle": false
+		"language": ["English"],
+		"link": "https://github.com/alankrantas/alankrantas/blob/main/works/published.md"
+	},
+	{
+		"name": "List of writing projects",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": null,
+		"language": ["English"],
+		"link": "https://github.com/alankrantas/alankrantas/blob/main/works/projects.md"
+	},
+	{
+		"name": "Technical and Marketing illustrations",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": null,
+		"language": ["English"],
+		"link": "https://github.com/alankrantas/alankrantas/blob/main/works/illustration.md"
 	},
 	{
 		"name": "Blogger",
 		"description": "Personal blog",
 		"location": null,
 		"footnote": null,
-		"tooltip": "Mostly book, movie & game reviews, photography journals",
+		"tooltip": "Mostly review for books, movies & games, and travel/photography",
 		"category": null,
 		"language": ["Traditional Chinese"],
-		"link": "https://krantasblog.blogspot.com/",
-		"linkedTitle": true
+		"link": "https://krantasblog.blogspot.com/"
 	},
 	{
-		"name": "Medium Blog",
+		"name": "Medium",
 		"description": "For writing tech blog posts and other topics",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
 		"category": null,
 		"language": ["English", "Traditional Chinese"],
-		"link": "https://alankrantas.medium.com/",
-		"linkedTitle": true
+		"link": "https://alankrantas.medium.com/"
 	},
 	{
 		"name": "Hackster.io",
-		"description": "Maker blog/project showcases",
+		"description": "Open sourced Maker/ embedded project showcases",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
 		"category": null,
 		"language": ["English"],
-		"link": "https://www.hackster.io/alankrantas",
-		"linkedTitle": true
+		"link": "https://www.hackster.io/alankrantas"
 	},
 	{
 		"name": "Github",
@@ -95,8 +107,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": ["English"],
-		"link": "https://github.com/alankrantas",
-		"linkedTitle": true
+		"link": "https://github.com/alankrantas"
 	},
 	{
 		"name": "Instagram",
@@ -106,8 +117,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": ["English"],
-		"link": "https://www.instagram.com/alankrantas/",
-		"linkedTitle": true
+		"link": "https://www.instagram.com/alankrantas/"
 	},
 	{
 		"name": "Pexels",
@@ -117,8 +127,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": ["English"],
-		"link": "https://www.pexels.com/@alankrantas/",
-		"linkedTitle": true
+		"link": "https://www.pexels.com/@alankrantas/"
 	},
 	{
 		"name": "Vintage Collection",
@@ -128,7 +137,6 @@
 		"tooltip": null,
 		"category": null,
 		"language": ["English", "Traditional Chinese"],
-		"link": "https://github.com/alankrantas/alankrantas/blob/main/notes/vintage-collection.md",
-		"linkedTitle": false
+		"link": "https://github.com/alankrantas/alankrantas/blob/main/notes/vintage-collection.md"
 	}
 ]

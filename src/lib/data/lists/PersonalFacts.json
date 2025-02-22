@@ -7,8 +7,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Nationality",
@@ -18,8 +17,7 @@
 		"tooltip": "Definitely not part of the P.R.C.",
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Age",
@@ -29,8 +27,7 @@
 		"tooltip": "Auto-computed",
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Gender",
@@ -40,8 +37,7 @@
 		"tooltip": "Pronouns: he/him",
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Zodiac sign",
@@ -51,8 +47,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Myers-Briggs Type Indicator (MBTI)",
@@ -62,7 +57,6 @@
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	}
 ]

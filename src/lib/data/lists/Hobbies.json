@@ -1,36 +1,23 @@
 [
 	{
-		"name": "Coffee",
-		"description": null,
-		"location": null,
-		"footnote": "A daily cup of black coffee always make my day.",
-		"tooltip": null,
-		"category": null,
-		"language": null,
-		"link": null,
-		"linkedTitle": false
-	},
-	{
 		"name": "Films & TV Drama",
 		"description": null,
 		"location": null,
-		"footnote": "Almost anything except scary/non-sci-fi/horror films or romance drama 😠",
-		"tooltip": "Have Disney+ and Netflix subscriptions as well!",
+		"footnote": "I watch almost anything except scary/non-sci-fi/horror films or romance drama 😠",
+		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Music",
 		"description": null,
 		"location": null,
 		"footnote": "Classical, film soundtracks, western oldies, sometimes jazz and country songs.",
-		"tooltip": "Actually I did learned amateur classic piano for over 20 years as a hobby.",
+		"tooltip": "Actually I did learned amateur classic piano for 20+ years!",
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Reading",
@@ -40,8 +27,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "PC Gaming",
@@ -51,8 +37,7 @@
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Maker projects",
@@ -62,29 +47,26 @@
 		"tooltip": "You can find some examples in the portfolio.",
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Photography & film camera collecting",
 		"description": null,
 		"location": null,
-		"footnote": "Both digital and film (35mm, 120, Polaroid). I also collected a couple dozen of vintage cameras.",
+		"footnote": "Both digital and film (35mm, 120, Polaroid). Also collected a couple dozen of vintage cameras.",
 		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	},
 	{
 		"name": "Watch collecting",
 		"description": null,
 		"location": null,
-		"footnote": "(Budget) mechanical watches. Try to stay practical about it though. I regulate them myself if possible. Also collected some vintage Seiko watches for fun.",
-		"tooltip": null,
+		"footnote": "A small collection of budget mechanical watches.",
+		"tooltip": "I also regulate them myself if possible. I can make a Seiko 4R35/4R36 as accurate as +-5/s per day.",
 		"category": null,
 		"language": null,
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	}
 ]
