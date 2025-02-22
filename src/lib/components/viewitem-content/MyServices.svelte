@@ -9,10 +9,6 @@
 	for any target audience, as well as translating English to/from Traditional Chinese.
 </p>
 <p class="indent justify">
-	Quick to learn and eager for challenges, with cooperative and down-to-earth working styles, I
-	deliver insightful, unique quality content with precision, care and passion.
-</p>
-<p class="indent justify">
 	See <kbd>Portfolio</kbd> for works I've done and <kbd>Links & Site</kbd> for my content information.
 </p>
 <p>
@@ -36,14 +32,18 @@
 	Generative AIs are useful for general writing; however by design they are trained to write like an <i
 		>average</i
 	> person with fixed knowledge. They cannot reason well in your specific domain without lengthy, detailed
-	prompts, and tend to be unimaginative and repetitive due to the lack of input. However, creating reference
-	materials for AI in the first place can be just as challenging.
+	prompts, and tend to be unimaginative and repetitive due to the lack of input. Writing reference materials
+	in the first place can be just as challenging, but often overlooked. There is no guaranteed way to
+	stop AI from hallucination, jailbreaking either. Feeding sensitive information into AI may also cause
+	harmful data breaches for your organization.
 </p>
 <p class="indent justify">
 	Quality writing is an art of storytelling, which involves careful researching and organizing
 	around the domain, subject and context, while the creation process is often intuitive, dynamic and
-	nonlinear, much like painting a picture aesthetically, instead of predicting words sequentially. A
-	good article "feels right" because that's what it should be.
+	nonlinear, much like painting a picture aesthetically, instead of predicting words mathematically.
+	A good article "feels right" because that's what it should be; on the other hand, it should also
+	be enlightening and engaging to read. Uniqueness is not something you can copy and paste by
+	automation.
 </p>
 <p class="indent justify">
 	As for translating, a competent translator plays a reliable bridge connecting two worlds
