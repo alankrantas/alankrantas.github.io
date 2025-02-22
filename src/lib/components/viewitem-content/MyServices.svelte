@@ -34,8 +34,8 @@
 	> person with fixed knowledge. They cannot reason well in your specific domain without lengthy, detailed
 	prompts, and tend to be unimaginative and repetitive due to the lack of input. Writing reference materials
 	in the first place can be just as challenging, but often overlooked. There is no guaranteed way to
-	stop AI from hallucination, jailbreaking either. Feeding sensitive information into AI may also cause
-	harmful data breaches for your organization.
+	stop AI from hallucination or being jailbroken either. Feeding sensitive information into AI may also cause
+	data and privacy breaches for your organization.
 </p>
 <p class="indent justify">
 	Quality writing is an art of storytelling, which involves careful researching and organizing
