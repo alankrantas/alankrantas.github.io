@@ -9,7 +9,7 @@
 		<br />
 	</p>
 	<p>
-		<a href={info.repo} target="_blank">
+		<a href={info.repo} target="_blank" rel="noreferrer noopener">
 			<img
 				src="/website/github-mark-white.svg"
 				width="40px"

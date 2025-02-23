@@ -114,7 +114,7 @@
 	<Image
 		src="/work/marketing.jpg"
 		alt="marketing"
-		footnote="I also draw technical or marketing illustrations.<br />See <a href='https://github.com/alankrantas/alankrantas/blob/main/works/illustration.md' target='_blank' class='link-info'>here</a> for more."
+		footnote="I also draw technical or marketing illustrations.<br />See <kbd>Links</kbd> for more."
 		widthRatios={[75, 85, 90, 95]}
 	/>
 </p>

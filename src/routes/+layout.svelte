@@ -6,6 +6,7 @@
 
 	import info from '$lib/data/info/BasicInfo.json';
 	import viewItems from '$lib/data/info/ViewItems.json';
+	import link from '$lib/data/info/LinkRef.json';
 
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	import '@fontsource/open-sans/300.css';
@@ -48,6 +49,10 @@
 	<meta property="og:image:width" content="1280" />
 	<meta property="og:image:height" content="720" />
 	<meta property="og:image:alt" content={webTitle} />
+
+	{#each link as linkItem}
+		<link rel="me" href={linkItem.url} title={linkItem.title} />
+	{/each}
 </svelte:head>
 
 {#if showScreenSize}
