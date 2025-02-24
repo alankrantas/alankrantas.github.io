@@ -25,7 +25,7 @@
 	<Image
 		src="/about-me/work.jpg"
 		alt="work"
-		footnote="FST Network office's common area (before relocated).<br />(Photo by me with a 1981-made Olympus XA2.)"
+		footnote="FST Network office's common area (before relocated)."
 	/>
 </p>
 <p>
@@ -45,7 +45,7 @@
 	<Image
 		src="/about-me/nccu.jpg"
 		alt="nccu"
-		footnote="Business School and boulevard<br />of the National Chengchi University<br />(Photo by me with a 1976-made Canonet QL17)"
+		footnote="Business School and boulevard<br />of the National Chengchi University."
 	/>
 </p>
 <p>

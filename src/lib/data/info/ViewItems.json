@@ -8,14 +8,14 @@
 	},
 	{
 		"title": "My Services",
-		"description": "Technical writing | copywriting | translating | marketing assissting",
+		"description": "Technical writing | copywriting | translating | marketing assisting",
 		"viewName": "service",
 		"fileName": "MyServices",
 		"imgUrl": "/main/service.jpg"
 	},
 	{
 		"title": "Career & Skills",
-		"description": "Writing & translating | publishing | software engeering | STEM education",
+		"description": "Writing & translating | publishing | software engineering | STEM education",
 		"viewName": "career",
 		"fileName": "CareerAndSkills",
 		"imgUrl": "/main/skills.jpg"

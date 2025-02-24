@@ -4,7 +4,7 @@
 		"description": "Freelancer (Self Employed)",
 		"location": "Taipei, Taiwan",
 		"footnote": "Sep 2024 - Now",
-		"tooltip": "(Full-time freelance, remote) offer writing and translating for any target audience, in both English and Traditional Chinese.",
+		"tooltip": "Offer high-level quality writing and translating for any target audience, in both English and Traditional Chinese.",
 		"category": [
 			"Content Writing",
 			"Technical Writing",
@@ -21,7 +21,7 @@
 		"description": "FST Network",
 		"location": "Taipei, Taiwan",
 		"footnote": "Apr 2022 - Jul 2024",
-		"tooltip": "Write technical and/or marketing materials, conduct market/product assessments as well as assist debugging/troubleshooting for colleagues/users.<br /><br />See <b>Selected Software Projects</b> in the portfolio.",
+		"tooltip": "Write user documentation and technical/marketing materials for colleagues and users.",
 		"category": [
 			"Software",
 			"Developer",
@@ -38,7 +38,7 @@
 		"description": "Flag Publishing",
 		"location": "Taipei, Taiwan",
 		"footnote": "Aug 2019 - Mar 2022",
-		"tooltip": "Survey and oversee development of IT education products, mostly software books.<br /><br />See <b>Editorial Works</b> and <b>Authored Works</b> in the portfolio.",
+		"tooltip": "Survey and oversee publishing of IT/education products, mostly books on software or AI.",
 		"category": [
 			"Software",
 			"Education",
@@ -55,7 +55,7 @@
 		"description": "Taiwan Coding Education Association",
 		"location": "Taipei, Taiwan",
 		"footnote": "May 2018 - Jul 2019",
-		"tooltip": "Develop and write physical programming education materials for children.<br /><br />See <b>Authored Works</b> in the portfolio.",
+		"tooltip": "Develop and write programming STEM education materials for children, based on the BBC micro:bit microcontroller.",
 		"category": ["Software", "Education", "Content Writing", "Technical Writing"],
 		"language": null,
 		"link": null
@@ -65,7 +65,7 @@
 		"description": "Freelancer (Self Employed)",
 		"location": "Taipei, Taiwan",
 		"footnote": "Oct 2011 - Apr 2018",
-		"tooltip": "(Full-time freelance, remote) translate English works (mostly fiction) by contract.<br /><br />See <b>Selected Translation Works</b> in the portfolio.",
+		"tooltip": "Translate English works to Traditional Chinese. Mostly fiction (literature, SFF, thriller) with a few are non-fiction.",
 		"category": ["Translating", "Publishing", "Content Writing"],
 		"language": null,
 		"link": null
@@ -75,7 +75,7 @@
 		"description": "MiTAC Information Technology Crop.",
 		"location": "Taipei, Taiwan",
 		"footnote": "Aug 2008 - Oct 2011",
-		"tooltip": "Develop and maintain J2EE MVC websites.",
+		"tooltip": "Develop and maintain J2EE MVC-based website projects.",
 		"category": ["Software", "Developer"],
 		"language": null,
 		"link": null
