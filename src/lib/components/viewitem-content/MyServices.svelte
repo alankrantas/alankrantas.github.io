@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Link from '$lib/components/common/Link.svelte';
 	import Image from '$lib/components/common/Image.svelte';
 </script>
 
@@ -56,6 +55,17 @@
 	Are you looking for someone who can give your business an edge in content differentiation and
 	better user engagement? Are you having trouble with content quality using ChatGPT or alike? Do you
 	believe that genuine content <i>matters</i>? If so, I may be the one to help you to get there.
+</p>
+<p>
+	<br />
+</p>
+<p class="text-center">
+	<a
+		class="btn btn-primary text-white small rounded-5"
+		href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=alankrantas"
+		target="_blank"
+		rel="noreferrer noopener">Follow me on LinkedIn</a
+	>
 </p>
 <p>
 	<br />
