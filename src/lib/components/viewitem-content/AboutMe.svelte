@@ -21,11 +21,10 @@
 	under the titles include {info.title.join(', ')}.
 </p>
 <p class="indent justify">
-	I am a seasoned writer with 10+ years of writing and translating backgrounds that have resulted in
-	50+ full-length published works, dozens of articles and several writing projects, and has
-	professional experience in technical writing (including documentation), copywriting and content
-	marketing (including on social media), marketing assisting, publishing, software engineering, AI
-	and STEM education.
+	I am a seasoned writer with 10+ years of writing and translating backgrounds with 50+ full-length
+	published works, dozens of articles and several writing projects, and has professional experience
+	in technical writing (including documentation), copywriting, content marketing (including on
+	social media) and marketing assisting, publishing, software engineering, AI and STEM education.
 </p>
 <p class="indent justify">
 	I also have personal interests in reading, watching movies, photography and occasionally making
