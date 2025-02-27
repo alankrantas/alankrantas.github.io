@@ -18,7 +18,7 @@
 <p><span class="h3 justify">Who am I?</span></p>
 <p class="justify">
 	My name is <b>{info.name}</b>; I am born, raised and educated in {info.location}. I currently work
-	under the titles of {info.title[0]}.
+	under the title of {info.title[0]}.
 </p>
 <p class="indent justify">
 	A seasoned writer (5 years) and expert translator (7 years) with professional experience in fields
