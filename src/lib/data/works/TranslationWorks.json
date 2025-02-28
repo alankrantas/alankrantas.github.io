@@ -232,5 +232,14 @@
 		"link": "https://www.books.com.tw/products/0010756573",
 		"imgUrl": "/work/pressed.jpg",
 		"videoId": "V1CNEMxs2sc"
+	},
+	{
+		"name": "How Star Wars Conquered the Universe",
+		"description": "星際大戰如何以原力征服全世界; Chris Taylor, 2014; Global Publishing, Jul 2015.",
+		"category": ["Cinema", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010694382",
+		"imgUrl": "/work/starwars.jpg",
+		"videoId": null
 	}
 ]

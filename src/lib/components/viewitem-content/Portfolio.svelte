@@ -7,7 +7,7 @@
 	import Showcase from '$lib/components/common/Showcase.svelte';
 
 	import translate from '$lib/data/works/TranslationWorks.json';
-	import edit from '$lib/data/works/EditorialWorks.json';
+	import edit from '$lib/data/works/EditedWorks.json';
 	import author from '$lib/data/works/AuthoredWorks.json';
 	import maker from '$lib/data/works/MakerWorks.json';
 	import docs from '$lib/data/works/DocsWorks.json';
@@ -52,7 +52,7 @@
 <p>
 	<Showcase
 		works={edit}
-		title="Selected Editorial Works"
+		title="Selected Edited Works"
 		displayNum={innerWidth.current && innerWidth.current >= 1200
 			? 3
 			: innerWidth.current && innerWidth.current >= 576
