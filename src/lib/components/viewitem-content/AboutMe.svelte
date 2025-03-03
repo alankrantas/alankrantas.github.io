@@ -22,7 +22,7 @@
 </p>
 <p class="indent justify">
 	A seasoned writer (5 years) and expert translator (7 years) with professional experience in fields
-	including software, technology, AI, literature, art and STEM education. I have 60+ full-length
+	including software, technology, AI, literature and STEM education. I have 60+ full-length
 	published works, dozens of articles and a couple of writing projects (document copywriting and
 	documentation), as well as around 5 years of professional responsibilities of social media content
 	creation and marketing assisting.
