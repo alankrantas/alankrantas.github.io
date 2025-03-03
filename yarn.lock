@@ -206,10 +206,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-5.2.5.tgz#2ea186ec135b7ac18848d2ec4cbb33783f112dd6"
   integrity sha512-+qQKW1slXsS5H5AvsiBfNo7krmuxyKkb6vV2l/nE7Uyd5TBpaomub+kuIO3iwgLBtVOesSkl6HwtR4SNxry+FA==
 
-"@fontsource/open-sans@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-5.1.1.tgz#6792cc01a1d92c097c05d76703b05e1bf74fda8b"
-  integrity sha512-Wfio5om0XH24ZUu6FfW4r50e4xLdoLzvd8midtqUFT2unniyWQj6GJ05RW1YQsHp4Sug3i+agFBIxEmYQzUHSg==
+"@fontsource/open-sans@^5.2.5":
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-5.2.5.tgz#7d83383a0ca00e1ae192541273befcbcaf98fbdd"
+  integrity sha512-f0Ww6H+LB6GXA8UCgqs90h4djVttu3quH/1+wkfUY8b09mG1ESn4ACRBHYY78bsoeDXpaCyZh7eoGROBWplvAQ==
 
 "@fontsource/playfair-display@^5.2.5":
   version "5.2.5"
