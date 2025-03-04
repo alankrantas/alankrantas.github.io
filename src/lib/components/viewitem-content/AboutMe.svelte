@@ -17,11 +17,9 @@
 	under the title of {info.title[0]}.
 </p>
 <p class="indent justify">
-	A seasoned writer (5 years) and expert translator (7 years) with professional experience in fields
-	including software, technology, AI, literature and STEM education. I have 60+ full-length
-	published works, dozens of articles and a couple of writing projects (document copywriting and
-	documentation), as well as around 5 years of professional responsibilities of social media content
-	creation and marketing assisting.
+	I am a seasoned writer and expert translator with professional experience in fields including
+	software, technology, AI, literature and STEM education. I also had professional responsibilities
+	in social media content marketing, as well as in software engineering and embedded programming.
 </p>
 <p class="indent justify">
 	I have personal interests in reading, movie watching, photography and others.
