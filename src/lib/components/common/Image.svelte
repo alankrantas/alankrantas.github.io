@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { innerWidth } from 'svelte/reactivity/window';
 
+	import { replaceLink } from '$lib/util/util';
+
 	interface Props {
 		src: string;
 		alt: string;
@@ -44,7 +46,7 @@
 	</p>
 	{#if footnote}
 		<p class="small text-white-50">
-			{@html footnote}
+			{@html replaceLink(footnote)}
 		</p>
 	{/if}
 </div>

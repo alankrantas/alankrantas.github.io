@@ -3,6 +3,8 @@
 
 	import info from '$lib/data/info/BasicInfo.json';
 
+	import { replaceLink } from '$lib/util/util';
+
 	interface Props {
 		message?: string;
 		enableBackBtn?: boolean;
@@ -14,7 +16,7 @@
 <div class="alert alert-warning text-center">
 	<p class="display-6 p-md-2 m-md-2">Oops!</p>
 	<p class="code p-md-2 m-md-2">
-		{@html message}
+		{@html replaceLink(message)}
 	</p>
 	{#if enableBackBtn}
 		<p class="lead p-md-2 m-md-2">

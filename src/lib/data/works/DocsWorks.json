@@ -7,8 +7,7 @@
 		"tooltip": "Write, maintain and deploy <b>LOC Documentation</b>, the official user's guide of <i>Logic Operating Centre (LOC)</i>'s 'product features, release notes, SDK developer references and code examples (JavaScript/TypeScript/C#), as well as a web-based code generation/unit test tool I've written on my own, based on information provided by the product and developer teams.",
 		"language": ["English"],
 		"category": ["Documentation", "Content Writing", "Technical Writing"],
-		"link": "https://loc-documentation.vercel.app/",
-		"linkedTitle": false
+		"link": "https://loc-documentation.vercel.app/"
 	},
 	{
 		"name": "Product White Paper Copywriting",
@@ -25,7 +24,6 @@
 			"FinTech",
 			"White Paper"
 		],
-		"link": null,
-		"linkedTitle": false
+		"link": null
 	}
 ]

@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Full-Stack Shopping Demo",
+		"description": "A self-contained app built with Svelte, Golang and SQLite. Gained 170+ stars.",
+		"location": null,
+		"footnote": null,
+		"tooltip": "Based on the example from <i>Essential TypeScript</i> by Adam Freeman.",
+		"language": ["English"],
+		"category": ["Frontend", "Backend", "Full Stack", "Svelte", "Golang", "SQL"],
+		"link": "https://github.com/alankrantas/svelteapp-typescript-go"
+	},
+	{
+		"name": "MicroPython Driver for TEA5767",
+		"description": "For accessing TEA5767 FM radio module features on microcontrollers with MicroPython. 40+ stars.",
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"language": ["English"],
+		"category": ["Embedded Programming", "Maker", "MicroPython"],
+		"link": "https://github.com/alankrantas/micropython-TEA5767"
+	},
+	{
+		"name": "Live Handwritten Digit Detection",
+		"description": "Run computer vision with a CNN-based neural network image recognition model trained with the MNIST dataset.",
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"language": ["English"],
+		"category": ["AI", "Deep Learning", "Neural Network", "Python", "Tensorflow", "OpenCV"],
+		"link": "https://github.com/alankrantas/MNIST-Live-Detection-TFLite"
+	},
+	{
+		"name": "SEFR Multiclass Classifier",
+		"description": "The first multi-label version based on SEFR, a linear-time binary classifier from a 2020 paper.",
+		"location": null,
+		"footnote": null,
+		"tooltip": "With implementations in C++, MicroPython, CircuitPython and TinyGo.",
+		"language": ["English"],
+		"category": ["AI", "Machine Learning", "Data Science"],
+		"link": "https://github.com/alankrantas/sefr_multiclass_classifier"
+	},
+	{
+		"name": "Wa-Tor",
+		"description": "My implementation of a predator-prey simulation game from 1984 with O(n) complexity.",
+		"location": null,
+		"footnote": null,
+		"tooltip": "See here for details: <a href='https://en.wikipedia.org/wiki/Wa-Tor'>Wa-Tor</a>",
+		"language": ["English"],
+		"category": ["Python", "Algorithm", "Cellar Automation"],
+		"link": "https://gist.github.com/alankrantas/4cc80aa6139c947e3f1b3e4a027d0ef2"
+	}
+]

@@ -6,11 +6,7 @@
 	import fact from '$lib/data/lists/PersonalFacts.json';
 	import hobbies from '$lib/data/lists/Hobbies.json';
 
-	const getAge = () => {
-		const birth = new Date('10 Mar 1984 12:00:00 GMT+8');
-		const diff = new Date(Date.now() - birth.getTime());
-		return diff.getUTCFullYear() - 1970;
-	};
+	import { getAge } from '$lib/util/util';
 
 	fact[2].description = fact[2].description.replace('<age>', String(getAge()));
 </script>

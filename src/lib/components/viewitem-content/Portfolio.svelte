@@ -11,6 +11,7 @@
 	import author from '$lib/data/works/AuthoredWorks.json';
 	import maker from '$lib/data/works/MakerWorks.json';
 	import docs from '$lib/data/works/DocsWorks.json';
+	import code from '$lib/data/works/CodeWorks.json';
 </script>
 
 <p class="justify">
@@ -117,6 +118,16 @@
 		footnote="I also draw technical or marketing illustrations.<br />See <kbd>Links</kbd> for more."
 		widthRatios={[75, 85, 90, 95]}
 	/>
+</p>
+<p>
+	<br />
+</p>
+<hr />
+<p>
+	<br />
+</p>
+<p>
+	<List list={code} title="Coding Side Projects" />
 </p>
 <p>
 	<br />

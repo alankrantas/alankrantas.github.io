@@ -3,6 +3,8 @@
 
 	import Link from '$lib/components/common/Link.svelte';
 
+	import { replaceLink } from '$lib/util/util';
+
 	interface Props {
 		title: string;
 		list: ListItem[];
@@ -31,7 +33,7 @@
 						&nbsp;ⓘ
 						<span class="customtooltiptext">
 							<span class="small text-white code">
-								{@html item.tooltip}
+								{@html replaceLink(item.tooltip)}
 							</span>
 						</span>
 					</span>
@@ -39,7 +41,7 @@
 			</p>
 			{#if item.description}
 				<p>
-					{@html item.description}
+					{@html replaceLink(item.description)}
 					{#if item.location}
 						| {item.location}
 					{/if}
@@ -66,7 +68,7 @@
 			{/if}
 			{#if item.footnote}
 				<p class="small text-white-50">
-					{@html item.footnote}
+					{@html replaceLink(item.footnote)}
 				</p>
 			{/if}
 		</li>

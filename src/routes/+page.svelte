@@ -66,7 +66,10 @@
 {#if !ready}
 	<div class="container">
 		<div class="text-center p-md-4 m-md-4">
-			<span class="text-white lead"> Loading... </span>
+			<div class="text-white-50 h4">
+				<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+				<span class="sr-only">Loading...</span>
+			</div>
 		</div>
 	</div>
 {:else}
