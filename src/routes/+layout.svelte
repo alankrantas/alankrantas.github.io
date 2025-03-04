@@ -23,7 +23,7 @@
 
 	let { children }: Props = $props();
 
-	const webTitle = `${info.name}, ${info.title.join(' / ')} (${info.location})`;
+	const webTitle = `${info.name}, ${info.title.join(' | ')} (${info.location})`;
 	const description = `${webTitle} - ${[...viewItems.map((item) => item.title.toLowerCase())].join(', ')}`;
 	const thumbnail = `${info.url}website/thumbnail.jpg`;
 
@@ -35,7 +35,7 @@
 	<meta name="description" content={description} />
 	<meta
 		name="keywords"
-		content={`${info.title.join(', ')}, homepage, personal, resume, cv, job, talent for hire, svelte, sveltekit, frontend`}
+		content={`${info.title.join(', ')}, ${info.location}, homepage, personal, github, github pages, resume, cv, work, talent`}
 	/>
 	<meta property="og:url" content={info.url} />
 	<meta property="og:type" content="website" />
@@ -68,7 +68,7 @@
 
 	{#snippet failed(error: any, reset)}
 		<ErrorPage
-			message={`Svelte app rendering error:<br />${error?.message || 'unknown error'}`}
+			message={`Website rendering error:<br />${error?.message || 'unknown error'}`}
 			enableBackBtn={false}
 		/>
 	{/snippet}
