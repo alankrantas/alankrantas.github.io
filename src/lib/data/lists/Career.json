@@ -1,9 +1,9 @@
 [
 	{
-		"name": "Freelance Writer/Copywriter/Translator",
+		"name": "Freelance Writer/Translator",
 		"description": "Freelancer (Self Employed)",
 		"location": "Taipei, Taiwan",
-		"footnote": "Sep 2024 - Now",
+		"footnote": "Sep 2024 - Present",
 		"tooltip": "Offer high-level quality writing and translating for any target audience, in both English and Traditional Chinese.",
 		"category": [
 			"Content Writing",
@@ -18,7 +18,7 @@
 	},
 	{
 		"name": "Technical Marketing Writer",
-		"description": "FST Network",
+		"description": "FST Network Co., Ltd.",
 		"location": "Taipei, Taiwan",
 		"footnote": "Apr 2022 - Jul 2024",
 		"tooltip": "Write user documentation and technical/marketing materials for colleagues and users.",
@@ -34,8 +34,8 @@
 		"link": null
 	},
 	{
-		"name": "IT Editor/Tech Education Engineer",
-		"description": "Flag Publishing",
+		"name": "IT Editor/Product Engineer",
+		"description": "Flag Publishing Co., Ltd.",
 		"location": "Taipei, Taiwan",
 		"footnote": "Aug 2019 - Mar 2022",
 		"tooltip": "Survey and oversee publishing of IT/education products, mostly books on software or AI.",
