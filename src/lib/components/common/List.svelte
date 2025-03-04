@@ -24,7 +24,6 @@
 				<span class="h4">
 					{item.name}
 					{#if item.link}
-						&nbsp;
 						<b><Link url={item.link} name="⧉" /></b>
 					{/if}
 				</span>

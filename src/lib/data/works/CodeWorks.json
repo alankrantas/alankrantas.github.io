@@ -1,17 +1,17 @@
 [
 	{
 		"name": "Full-Stack Shopping Demo",
-		"description": "A self-contained app built with Svelte, Golang and SQLite. Gained 170+ stars.",
+		"description": "A self-contained app built with Svelte, Golang and SQLite and can create a single small container with multi-stage builds.",
 		"location": null,
 		"footnote": null,
-		"tooltip": "Based on the example from <i>Essential TypeScript</i> by Adam Freeman.",
+		"tooltip": "Based on the Angular, React and Vue example from <i>Essential TypeScript</i> by Adam Freeman.",
 		"language": ["English"],
 		"category": ["Frontend", "Backend", "Full Stack", "Svelte", "Golang", "SQL"],
 		"link": "https://github.com/alankrantas/svelteapp-typescript-go"
 	},
 	{
 		"name": "MicroPython Driver for TEA5767",
-		"description": "For accessing TEA5767 FM radio module features on microcontrollers with MicroPython. 40+ stars.",
+		"description": "For accessing TEA5767 FM radio module features on microcontrollers with MicroPython/CircuitPython.",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,

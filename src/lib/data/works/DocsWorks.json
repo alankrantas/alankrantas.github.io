@@ -1,20 +1,20 @@
 [
 	{
-		"name": "SaaS User Documentation",
-		"description": "Documentation for Logic Operating Centre (LOC)",
+		"name": "User Documentation",
+		"description": "Documentation for <i>Logic Operating Centre</i> (LOC)",
 		"location": "FST Network",
 		"footnote": "Aug 2022 - Jul 2024",
-		"tooltip": "Write, maintain and deploy <b>LOC Documentation</b>, the official user's guide of <i>Logic Operating Centre (LOC)</i>'s 'product features, release notes, SDK developer references and code examples (JavaScript/TypeScript/C#), as well as a web-based code generation/unit test tool I've written on my own, based on information provided by the product and developer teams.",
+		"tooltip": "Contains 300+ pages over 6 product releases for <i>LOC Core</i>, <i>LOC Studio</i>, <i>LOC CLI</i> and <i>LOC SDKs</i> (JS/TS/C#).",
 		"language": ["English"],
 		"category": ["Documentation", "Content Writing", "Technical Writing"],
 		"link": "https://loc-documentation.vercel.app/"
 	},
 	{
 		"name": "Product White Paper Copywriting",
-		"description": null,
+		"description": "Cryptocurrency-related FinTech products",
 		"location": "XREX Inc.",
 		"footnote": "Sep 2024 - Oct 2024",
-		"tooltip": "Write white paper drafts for cryptocurrency-related FinTech products (<i>Spot Trading</i> and <i>Margin Trading</i> (including <i>Grid Bot</i>), <i>Secured Loan</i>, <i>XREX Staking</i> and <i>DeFi Staking</i>, <i>BitCheck</i>, <i>Deposit</i> and <i>Withdraw</i>) for regulation compliance and disclosure purposes, including product design objective, product features and user flow, terms of service/fee as well as risk management, based on information provided by the product team.",
+		"tooltip": "<i>Spot Trading</i> and <i>Margin Trading</i> (including <i>Grid Bot</i>), <i>Secured Loan</i>, <i>XREX Staking</i> and <i>DeFi Staking</i>, <i>BitCheck</i>, <i>Deposit</i> and <i>Withdraw</i>.",
 		"language": ["English"],
 		"category": [
 			"Document",
