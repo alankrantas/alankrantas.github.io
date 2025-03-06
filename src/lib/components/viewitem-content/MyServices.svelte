@@ -40,32 +40,34 @@
 	and reference materials in the first place is essential, but often overlooked nevertheless.
 </p>
 <p class="indent justify">
-	We've also heard reports that AI models still suffer from heavy hallucination (37% for GTP 4.5!),
-	can be jailbroken, leak sensitive information, and generate little new business value (said
-	Microsoft CEO). And a model of an AI service may become "stupider" whenever a new one is released.
+	We've also heard reports that AI models still suffer from heavy hallucination (<i>37%</i> for GTP 4.5!),
+	can be jailbroken, leak sensitive information, and generate little new business value (said Microsoft
+	CEO). And a model of an AI service may become "stupider" whenever a new one is released. A model works
+	for now cannot guarantee it will perform as well later.
 </p>
 <p class="indent justify">
-	Most important of all - the trained models have fixed human and language knowledge. The best AIs
-	we have now are mostly trained on datasets from at least a couple of years old. With so much
-	AI-generated content on the web, the risk of model collapse has ever been greater.
+	Most important of all - the models have fixed human and language knowledge. The best AIs we have
+	now are mostly trained on datasets from at least a couple of years old. It is now known that
+	training them bigger doesn't make them a lot smarter. And with so much AI-generated content on the
+	web, the risk of model collapse for future AIs has ever been greater.
 </p>
 <p class="indent justify">
 	Quality writing and translating are more like art performances. Instead of predicting words
 	mathematically, the writing process is often intuitive, dynamic and nonlinear, with deeper
 	understanding and thinking beyond simple prompts. We think more and we are dedicated to make them
-	"feel right" - a good article should be unique and useful to read, and a good translation finds
-	the balanced path between faithfulness and readability.
+	"feel right" - a good article should be unique and engaging, and a good translation finds the
+	balanced path between faithfulness and readability.
 </p>
 <p class="indent justify">
-	And the readers would notice when you replace something nice with something mediocre. You may
-	think that people cannot tell the difference - but the truth is, they often can.
+	And the readers will notice when you replace something nice with something mediocre. You may think
+	that people cannot tell the difference - but the truth is, they often can.
 </p>
 <p class="indent justify">
 	Are you looking for someone who can give your business an edge in content differentiation, brand
 	awareness and better user engagement? Are you having trouble with content quality using ChatGPT or
-	alike? Do you believe that genuine content <i>matters</i>? If so, I may be the one to help you to
-	get there.
+	alike? Do you believe that genuine content <i>matters</i>?
 </p>
+<p class="indent justify">If so, I may be the one to help you to get there.</p>
 <p>
 	<br />
 </p>
