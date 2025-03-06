@@ -5,14 +5,7 @@
 		"location": "Taipei, Taiwan",
 		"footnote": "Sep 2024 - Present",
 		"tooltip": "Offer high-level quality writing and translating for any target audience, in both English and Traditional Chinese.",
-		"category": [
-			"Content Writing",
-			"Technical Writing",
-			"Marketing Writing",
-			"Copywriting",
-			"Documentation",
-			"Translating"
-		],
+		"category": ["Technical Writing", "Copywriting", "Documentation", "Translating"],
 		"language": null,
 		"link": null
 	},
@@ -23,11 +16,10 @@
 		"footnote": "Apr 2022 - Jul 2024",
 		"tooltip": "Write user documentation and technical/marketing materials for colleagues and users.",
 		"category": [
-			"Software",
-			"Developer",
-			"Content Writing",
 			"Technical Writing",
-			"Marketing Writing",
+			"Content Marketing",
+			"Marketing Assisting",
+			"Software Engineering",
 			"Documentation"
 		],
 		"language": null,
@@ -40,12 +32,13 @@
 		"footnote": "Aug 2019 - Mar 2022",
 		"tooltip": "Survey and oversee publishing of IT/education products, mostly books on software or AI.",
 		"category": [
-			"Software",
-			"Education",
-			"Content Writing",
 			"Technical Writing",
 			"Translating",
-			"Publishing"
+			"Editing",
+			"Content Marketing",
+			"Software Engineering",
+			"Embedded Programming",
+			"AI"
 		],
 		"language": null,
 		"link": null
@@ -56,7 +49,12 @@
 		"location": "Taipei, Taiwan",
 		"footnote": "May 2018 - Jul 2019",
 		"tooltip": "Develop and write programming STEM education materials for children, based on the BBC micro:bit microcontroller.",
-		"category": ["Software", "Education", "Content Writing", "Technical Writing"],
+		"category": [
+			"Technical Writing",
+			"Software Engineering",
+			"Embedded Programming",
+			"Content Marketing"
+		],
 		"language": null,
 		"link": null
 	},
@@ -66,7 +64,7 @@
 		"location": "Taipei, Taiwan",
 		"footnote": "Oct 2011 - Apr 2018",
 		"tooltip": "Translate English works to Traditional Chinese. Mostly fiction (literature, SFF, thriller) with a few are non-fiction.",
-		"category": ["Translating", "Publishing", "Content Writing"],
+		"category": ["Translating", "Content Writing"],
 		"language": null,
 		"link": null
 	},
@@ -76,7 +74,7 @@
 		"location": "Taipei, Taiwan",
 		"footnote": "Aug 2008 - Oct 2011",
 		"tooltip": "Develop and maintain J2EE MVC-based website projects.",
-		"category": ["Software", "Developer"],
+		"category": ["Software Engineering", "Documentation"],
 		"language": null,
 		"link": null
 	}

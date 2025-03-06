@@ -3,6 +3,7 @@
 	import Link from '$lib/components/common/Link.svelte';
 	import Image from '$lib/components/common/Image.svelte';
 
+	import info from '$lib/data/info/BasicInfo.json';
 	import links from '$lib/data/lists/Links.json';
 	import site from '$lib/data/lists/SiteTech.json';
 </script>
@@ -25,7 +26,7 @@
 	<br />
 </p>
 <p>
-	<Image src="/website/svelte.jpg" alt="svelte" widthRatios={[60, 70, 80, 90]} />
+	<Image src="/website/svelte.jpg" alt="svelte" widthRatios={[60, 60, 60, 60]} />
 </p>
 <p>
 	<br />
@@ -44,7 +45,7 @@
 </p>
 <p class="indent justify">
 	You can check out the source code and extra information in my <Link
-		url="https://github.com/alankrantas/alankrantas.github.io"
+		url={info.repo}
 		name="Github repository"
 	/>.
 </p>
@@ -56,7 +57,7 @@
 		src="/website/responsive.svg"
 		alt="responsive"
 		footnote="This site is also <b><i>responsive!</i></b>"
-		widthRatios={[20, 20, 20, 20]}
+		widthRatios={[25, 25, 25, 25]}
 	/>
 </p>
 <p>

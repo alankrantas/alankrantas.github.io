@@ -20,7 +20,17 @@
 		"link": "https://www.linkedin.com/in/alankrantas/"
 	},
 	{
-		"name": "Résumé/CV",
+		"name": "Github",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": null,
+		"language": ["English"],
+		"link": "https://github.com/alankrantas"
+	},
+	{
+		"name": "Resume",
 		"description": null,
 		"location": null,
 		"footnote": null,
@@ -30,27 +40,27 @@
 		"link": "https://www.cake.me/krantas"
 	},
 	{
-		"name": "List of published titles",
+		"name": "Published titles",
 		"description": null,
 		"location": null,
 		"footnote": null,
-		"tooltip": null,
+		"tooltip": "Translated, edited & authored",
 		"category": null,
 		"language": ["English"],
 		"link": "https://github.com/alankrantas/alankrantas/blob/main/works/published.md"
 	},
 	{
-		"name": "List of writing projects",
+		"name": "Writing projects",
 		"description": null,
 		"location": null,
 		"footnote": null,
-		"tooltip": null,
+		"tooltip": "Documents, documentation & articles",
 		"category": null,
 		"language": ["English"],
 		"link": "https://github.com/alankrantas/alankrantas/blob/main/works/projects.md"
 	},
 	{
-		"name": "Technical and Marketing illustrations",
+		"name": "Technical and marketing illustrations",
 		"description": null,
 		"location": null,
 		"footnote": null,
@@ -71,7 +81,7 @@
 	},
 	{
 		"name": "Medium",
-		"description": "For writing tech blog posts and other topics",
+		"description": "Tech/knowledge blog",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -81,23 +91,13 @@
 	},
 	{
 		"name": "Hackster.io",
-		"description": "Open sourced Maker/ embedded project showcases",
+		"description": "Open sourced embedded project showcases",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
 		"category": null,
 		"language": ["English"],
 		"link": "https://www.hackster.io/alankrantas"
-	},
-	{
-		"name": "Github",
-		"description": null,
-		"location": null,
-		"footnote": null,
-		"tooltip": null,
-		"category": null,
-		"language": ["English"],
-		"link": "https://github.com/alankrantas"
 	},
 	{
 		"name": "Instagram",
@@ -111,7 +111,7 @@
 	},
 	{
 		"name": "Pexels",
-		"description": "The best of my re-scanned 135 and 120 film photos, as well as a few digital photos, free for download",
+		"description": "Free high-res photo works for download",
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -120,7 +120,7 @@
 		"link": "https://www.pexels.com/@alankrantas/"
 	},
 	{
-		"name": "Vintage Collection",
+		"name": "Vintage collection",
 		"description": "Film cameras, old watches and other stuff I've collected",
 		"location": null,
 		"footnote": null,

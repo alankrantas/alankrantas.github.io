@@ -1,7 +1,17 @@
 [
 	{
-		"name": "Experienced writing",
-		"description": "Content writing, copywriting, editing and proofreading (including technical, marketing, social media and education content) for various purposes and target audiences.",
+		"name": "Writing",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": ["Content Writing", "Technical Writing", "Copywriting", "Documentation"],
+		"language": ["English", "Traditional Chinese"],
+		"link": null
+	},
+	{
+		"name": "Translating",
+		"description": null,
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -10,8 +20,28 @@
 		"link": null
 	},
 	{
-		"name": "Expert translating",
-		"description": "Text translating between English and Traditional Chinese and can support basic oral translating.",
+		"name": "Editing and proofreading",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": null,
+		"language": ["English", "Traditional Chinese"],
+		"link": null
+	},
+	{
+		"name": "Content marketing and marketing assisting",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": null,
+		"language": ["English", "Traditional Chinese"],
+		"link": null
+	},
+	{
+		"name": "Word and document processing",
+		"description": null,
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
@@ -21,31 +51,21 @@
 	},
 	{
 		"name": "Software engineering",
-		"description": "Proficient in several programming languages, front-end frameworks, development tools as well as hands-on experience in data science and AI (including deep learning models for image recognition and natural language processing, etc.)",
+		"description": null,
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
-		"category": null,
-		"language": ["Python", "JavaScript", "TypeScript", "Java", "C#", "Go"],
-		"link": null
-	},
-	{
-		"name": "Embedded/Maker project",
-		"description": "Able to devise, solder, wire and program interactive electronic prototypes using microcontrollers.",
-		"location": null,
-		"footnote": null,
-		"tooltip": null,
-		"category": null,
-		"language": ["Arduino C++", "MicroPython", "CircuitPython", "TinyGo"],
+		"category": ["Frontend", "Backend", "Development Tools", "Embedded Programming", "AI"],
+		"language": ["Python", "JavaScript", "TypeScript", "Java", "C#", "Golang"],
 		"link": null
 	},
 	{
 		"name": "Photography",
-		"description": "Digital/analog film photography as well as basic videos shooting/editing.",
+		"description": null,
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
-		"category": null,
+		"category": ["Digital", "Analog"],
 		"language": null,
 		"link": null
 	}

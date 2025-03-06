@@ -23,38 +23,48 @@
 <p>
 	<br />
 </p>
-<p><span class="h3 justify">Why does it matter?</span></p>
+<p><span class="h3 justify">Why does a human writer matter?</span></p>
 <p class="justify">
-	<i>Why do I even need a human writer</i>, you ask? Why not AI?
+	<i>Why do I even need a human writer</i>, you ask? Why not AI everything?
 </p>
 <p class="indent justify">
-	Generative AIs are useful for general writing; however by design they are trained to write like an <i
-		>average</i
-	> person with fixed knowledge. They cannot reason well in your specific domain without lengthy, detailed
-	prompts, and tend to be unimaginative and repetitive due to the lack of input. Writing reference materials
-	in the first place can be just as challenging, but often overlooked. There is no guaranteed way to
-	stop AI from hallucination or being jailbroken either. Feeding sensitive information into AI may also
-	cause data and privacy breaches for your organization.
+	Generative AIs and LLMs are great - they can indeed handle a lot of text processing work and save
+	time. They have answers for everything. For many people, it's tempting to automate the content
+	creation process. The quality may not be that great - but hey, we can now produce much more
+	content in a much cheaper and faster way, and maybe with less humans.
 </p>
 <p class="indent justify">
-	Quality writing is an art of storytelling, which involves careful researching and organizing
-	around the domain, subject and context, while the creation process is often intuitive, dynamic and
-	nonlinear, much like painting a picture aesthetically, instead of predicting words mathematically.
-	A good article "feels right" because that's what it should be; on the other hand, it should also
-	be enlightening and engaging to read. Uniqueness is not something you can copy and paste by
-	automation.
+	But AI can be rather unimaginative in the long term (with clear signs of repeated sentences, lack
+	of emotions and self-contradiction), especially when there are limited sources to learn and reason
+	from. Not everything in your business domain exists online. And what do you know? Writing prompts
+	and reference materials in the first place is essential, but often overlooked nevertheless.
 </p>
 <p class="indent justify">
-	As for translating, a competent translator plays a reliable bridge connecting two worlds
-	containing incompatible cultural concepts and ways of speaking. No languages can be converted <i
-		>word-by-word</i
-	> to another, and only one with sufficient understanding can find you the balanced path of readability
-	and faithfulness for readers.
+	We've also heard reports that AI models still suffer from heavy hallucination (37% for GTP 4.5!),
+	can be jailbroken, leak sensitive information, and generate little new business value (said
+	Microsoft CEO). And a model of an AI service may become "stupider" whenever a new one is released.
 </p>
 <p class="indent justify">
-	Are you looking for someone who can give your business an edge in content differentiation and
-	better user engagement? Are you having trouble with content quality using ChatGPT or alike? Do you
-	believe that genuine content <i>matters</i>? If so, I may be the one to help you to get there.
+	Most important of all - the trained models have fixed human and language knowledge. The best AIs
+	we have now are mostly trained on datasets from at least a couple of years old. With so much
+	AI-generated content on the web, the risk of model collapse has ever been greater.
+</p>
+<p class="indent justify">
+	Quality writing and translating are more like art performances. Instead of predicting words
+	mathematically, the writing process is often intuitive, dynamic and nonlinear, with deeper
+	understanding and thinking beyond simple prompts. We think more and we are dedicated to make them
+	"feel right" - a good article should be unique and useful to read, and a good translation finds
+	the balanced path between faithfulness and readability.
+</p>
+<p class="indent justify">
+	And the readers would notice when you replace something nice with something mediocre. You may
+	think that people cannot tell the difference - but the truth is, they often can.
+</p>
+<p class="indent justify">
+	Are you looking for someone who can give your business an edge in content differentiation, brand
+	awareness and better user engagement? Are you having trouble with content quality using ChatGPT or
+	alike? Do you believe that genuine content <i>matters</i>? If so, I may be the one to help you to
+	get there.
 </p>
 <p>
 	<br />

@@ -23,6 +23,8 @@
 					return widthRatios[1];
 				} else if (innerWidth.current >= 576) {
 					return widthRatios[2];
+				} else {
+					return widthRatios[3];
 				}
 			} else {
 				return widthRatios[3];

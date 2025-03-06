@@ -11,18 +11,18 @@
 	fact[2].description = fact[2].description.replace('<age>', String(getAge()));
 </script>
 
-<p><span class="h3 justify">Who am I?</span></p>
-<p class="justify">
-	My name is <b>{info.name}</b>; I am born, raised and educated in {info.location}. I currently work
-	under the title of {info.title[0]}.
+<p><span class="h3 justify">Introduction</span></p>
+<p class="justify">Hello and welcome to my homepage!</p>
+<p class="indent justify">
+	My name is <b>{info.name}</b>, a {info.title[0].toLowerCase()} based in {info.location}. I am a
+	seasoned writer and translator with diverse skill sets and professional experience in fields
+	including software, technology, AI, literature and STEM education. I also had professional
+	responsibilities in social media content marketing, as well as in software engineering and
+	embedded programming. Finally, I have personal interests in reading, movie watching, photography
+	and others.
 </p>
 <p class="indent justify">
-	I am a seasoned writer and expert translator with professional experience in fields including
-	software, technology, AI, literature and STEM education. I also had professional responsibilities
-	in social media content marketing, as well as in software engineering and embedded programming.
-</p>
-<p class="indent justify">
-	I have personal interests in reading, movie watching, photography and others.
+	Please browse around (click the navigation buttons) to find out more about me.
 </p>
 <p>
 	<br />
@@ -56,8 +56,8 @@
 	<Image
 		src="/about-me/camera.jpg"
 		alt="camera"
-		footnote="Two of my favorite things: film camera and coffee.<br />(The camera is a Eastern Germany-made Zeiss Ikon
-		Ercona;<br />this copy is possibly manufactured in early 1950s.<br />Photo by me with a Canon EOS 300 film SLR.)"
+		footnote="Two of my favorite things: film camera and coffee.<br />(The camera is a 1950s Eastern Germany-made Zeiss Ikon
+		Ercona.)"
 	/>
 </p>
 <p>
@@ -73,7 +73,7 @@
 	<Image
 		src="/about-me/sakura.jpg"
 		alt="sakura"
-		footnote="Cherry blossoms on medium format still film<br />(with an early-1950s Mamiya Six IV),<br />Kumamoto Castle, Japan, 2018."
+		footnote="Cherry blossoms on medium format still film,<br />Kumamoto Castle, Japan, 2018."
 		widthRatios={[75, 85, 90, 95]}
 	/>
 </p>
