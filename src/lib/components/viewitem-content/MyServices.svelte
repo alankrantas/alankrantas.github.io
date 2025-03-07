@@ -32,38 +32,40 @@
 </p>
 <p class="indent justify">
 	Generative AIs and LLMs are great - they can indeed handle a lot of text processing work and save
-	time. They have answers for everything. For many people, it's tempting to automate the content
-	creation process. The quality may not be that great - but hey, we can now produce much more
-	content in a much cheaper and faster way, and maybe with less humans.
+	time. They have answers for everything (almost). For many people, it's tempting to automate the
+	content creation process; the quality may not be that great - but hey, we can now produce much
+	more content in a much cheaper and faster way, and with less humans.
 </p>
 <p class="indent justify">
 	But AI can be rather unimaginative in the long term (with clear signs of repeated sentences, lack
 	of emotions and self-contradiction), especially when there are limited sources to learn and reason
-	from. Not everything in your business domain exists online. And what do you know? Writing prompts
-	and reference materials in the first place is essential, but often overlooked nevertheless.
+	from. Not every knowledge in your business domain exists online. They may even not exist in your
+	organization either. Writing prompts and reference materials in the first place is so essential,
+	but often overlooked nevertheless.
 </p>
 <p class="indent justify">
 	We've also heard reports that AI models still suffer from heavy hallucination (<i>37%</i> for GTP 4.5!),
 	can be jailbroken, leak sensitive information, and generate little new business value (said Microsoft
-	CEO). And a model of an AI service may become "stupider" whenever a new one is released. A model works
-	for now cannot guarantee it will perform as well later.
+	CEO). And a model service may become "stupider" whenever a new one is released. There is no way to
+	guarantee you can get the same performance in the long run.
 </p>
 <p class="indent justify">
-	Most important of all - the models have fixed human and language knowledge. The best AIs we have
-	now are mostly trained on datasets from at least a couple of years old. It is now known that
-	training them bigger doesn't make them a lot smarter. And with so much AI-generated content on the
-	web, the risk of model collapse for future AIs has ever been greater.
+	Most important of all - the models have fixed human and language knowledge, which is unlikely to
+	expand by fine-tuning them. The best AIs we have are mostly trained on datasets at least a couple
+	of years old. It is also known that making models bigger do not make them a lot smarter. With the
+	flooding AI-generated content on the web, the risk of model collapse for future AIs has never been
+	greater.
 </p>
 <p class="indent justify">
 	Quality writing and translating are more like art performances. Instead of predicting words
 	mathematically, the writing process is often intuitive, dynamic and nonlinear, with deeper
-	understanding and thinking beyond simple prompts. We think more and we are dedicated to make them
+	understanding and reasoning beyond simple prompts. We think more and we are dedicated to make them
 	"feel right" - a good article should be unique and engaging, and a good translation finds the
 	balanced path between faithfulness and readability.
 </p>
 <p class="indent justify">
-	And the readers will notice when you replace something nice with something mediocre. You may think
-	that people cannot tell the difference - but the truth is, they often can.
+	And readers will notice when you replace something nice with something mediocre. You may think
+	that people would not tell the difference - but the truth is, they often can.
 </p>
 <p class="indent justify">
 	Are you looking for someone who can give your business an edge in content differentiation, brand
