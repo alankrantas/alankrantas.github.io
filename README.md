@@ -9,14 +9,14 @@
 ## Overview
 
 - A single page application (SPA) with working responsive web design (RWD).
-- Built with [Svelte](https://svelte.dev/) (upgraded to Svelte 5 syntax), [SvelteKit](https://kit.svelte.dev/) and [Bootstrap](https://getbootstrap.com/).
+- Built with [Svelte](https://svelte.dev/) (upgraded to Svelte 5 syntax), [SvelteKit](https://kit.svelte.dev/) and [Bootstrap](https://getbootstrap.com/) with [TypeScript](https://www.typescriptlang.org/) support.
 - Deployed to [Github Pages](https://pages.github.com/) and run Dependabot PR test build using [Github Action](https://github.com/features/actions) workflows.
 
-## Layout and View Components
+## Layout and view item components
 
 The site switches between two layouts - "main" and "view".
 
-### Main Mode
+### Main mode
 
 Index page with large navigation cards.
 
@@ -51,7 +51,7 @@ flowchart TD
 
 By clicking the button on a view card, the app will switch to view mode that shows the corresponding content.
 
-### View Mode
+### View mode
 
 Detail page with side navigation bar and content.
 
@@ -90,27 +90,71 @@ The viewer can click the nav bar buttons to switch the view content, or go back 
 
 The index page also accepts a `view` URL parameter to switch to a specific view (although it's still done in SPA - shallow routing - instead of using SvelteKit routing), which makes it useful to be linked elsewhere.
 
-### Responsive Layouts
+### Components
+
+#### `/src/routes/`
+
+| Page            | Function                                                |
+| --------------- | ------------------------------------------------------- |
+| `page.svelte`   | Main SPA page                                           |
+| `error.svelte`  | Error page                                              |
+| `layout.svelte` | Load CSS/fonts, set header tags and wrap error handling |
+
+#### `/src/lib/components/`
+
+| Folder             | Function                                              |
+| ------------------ | ----------------------------------------------------- |
+| `common`           | Components for general content purposes               |
+| `site`             | Components for non-general nor non-viewitem functions |
+| `viewitem`         | Components for displaying view item                   |
+| `viewitem-content` | Components of the view item content                   |
+
+### Responsive layouts
 
 Each mode may have multiple layout and style adjustments based on different inner widths (`1200`, `992`, `768` and `576` px), utilizing one or multiple of the following approaches:
 
 1. Svelte template syntax
-2. Pure CSS
-3. Bootstrap classes
+2. Bootstrap classes
+3. Vanilla CSS (`/src/css/custom.css`)
 
 Both main and view mode will be squashed into a single column when the screen width becomes smaller than `992` px.
 
 Some reusable components, like `Image` and `Showcase`, has properties to control the component responsive behavior under different inner widths.
 
-## Add New View Content
+## Add or modifying content
+
+### Info, lists and works
+
+This app is designed that most of the web content are stored as JSON files under `/src/lib/data/` and can be modified quickly.
+
+| Folder  | Function                                            |
+| ------- | --------------------------------------------------- |
+| `info`  | Personal and view item information                  |
+| `lists` | Content for `Career`, `Links` or other lists        |
+| `works` | Content for `Portfolio` (either lists or showcases) |
+
+Many fields of lists and showcases, like description, footnote and tooltip, as well as the `Image` footnote, support inline HTML tags. Noted that `<a href="..."></a>` will be automatically applied Bootstrap classes.
+
+### Images
+
+Site images are stored under `/static/`:
+
+| Folder     | Function                                                                                 |
+| ---------- | ---------------------------------------------------------------------------------------- |
+| `about-me` | Personal-related images                                                                  |
+| `main`     | Banner images for view items                                                             |
+| `website`  | Utility images for website, including thumbnail                                          |
+| `work`     | Showcase work images; should be 800px in height (book covers) or width (Maker projects)) |
+
+### Add a new view item (page)
 
 To add a new "page" in the site:
 
-1. Add an entry in `/src/lib/data/info/ViewItems.json` with correct component file name and image URL.
-2. Add a "view item" component under `/src/lib/components/viewitem-content`.
-3. Add a 800x400 px JPEG image under `/static/main`.
+1. Add a "view item" component under `/src/lib/components/viewitem-content`.
+2. Add a 800x400 px JPEG image under `/static/main`.
+3. Add an entry in `/src/lib/data/info/ViewItems.json` with correct component file name and image URL.
 
-The rest will be taken care by the site itself.
+The site would use dynamic importing to take care the rest.
 
 ---
 
@@ -154,3 +198,11 @@ yarn
 | `yarn docker-run`   | Run the Docker container and open `http://localhost:8080`.     |
 | `yarn docker-stop`  | Stop the Docker container.                                     |
 | `yarn docker`       | `yarn docker-build` + `yarn docker-run`                        |
+
+### Build Timestamp
+
+The Docker build and Github CD Workflow will generate a timestamp under `/static/website/build.json` in the production, which will be read by footer component.
+
+### Easter Egg
+
+See what would happen if you try to access an invalid path. :)

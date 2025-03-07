@@ -5,6 +5,8 @@
 
 	import Link from '$lib/components/common/Link.svelte';
 
+	import { replaceLink } from '$lib/util/util';
+
 	interface Props {
 		work: WorkItem;
 	}
@@ -50,11 +52,13 @@
 			</p>
 		{/if}
 		<hr class="text-white" />
-		<p class="card-text lead">
-			<span class={innerWidth.current && innerWidth.current > 768 ? '' : 'small'}>
-				{work.description}
-			</span>
-		</p>
+		{#if work.description}
+			<p class="card-text lead">
+				<span class={innerWidth.current && innerWidth.current > 768 ? '' : 'small'}>
+					{@html replaceLink(work.description)}
+				</span>
+			</p>
+		{/if}
 		{#if work.videoId}
 			<p class="p-2 m-2 bg-dark rounded-3 shadow-sm">
 				<iframe
