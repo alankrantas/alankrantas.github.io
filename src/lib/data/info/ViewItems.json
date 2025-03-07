@@ -22,7 +22,7 @@
 	},
 	{
 		"title": "Portfolio",
-		"description": "Published works | writing projects | Maker & embedded project showcases",
+		"description": "Published works | writing projects | Maker showcases | Coding side projects",
 		"viewName": "work",
 		"fileName": "Portfolio",
 		"imgUrl": "/main/works.jpg"
