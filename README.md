@@ -8,7 +8,7 @@
 
 ## Overview
 
-- A single page application (SPA) with working responsive web design (RWD).
+- A single page application (SPA) with working responsive web design (RWD). (I designed and built everything from scratch.)
 - Built with [Svelte](https://svelte.dev/) (upgraded to Svelte 5 syntax), [SvelteKit](https://kit.svelte.dev/) and [Bootstrap](https://getbootstrap.com/) with [TypeScript](https://www.typescriptlang.org/) support.
 - Deployed to [Github Pages](https://pages.github.com/) and run Dependabot PR test build using [Github Action](https://github.com/features/actions) workflows.
 
@@ -199,9 +199,9 @@ yarn
 | `yarn docker-stop`  | Stop the Docker container.                                     |
 | `yarn docker`       | `yarn docker-build` + `yarn docker-run`                        |
 
-### Build Timestamp
+### Lastest Build Timestamp
 
-The Docker build and Github CD Workflow will generate a timestamp under `/static/website/build.json` in the production, which will be read by footer component.
+The Docker build and Github Action Workflow would generate a timestamp under `/static/website/build.json` in the production, which will be read by footer component.
 
 ### Easter Egg
 
