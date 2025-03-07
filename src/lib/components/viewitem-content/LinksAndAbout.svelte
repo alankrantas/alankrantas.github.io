@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import List from '$lib/components/common/List.svelte';
 	import Link from '$lib/components/common/Link.svelte';
 	import Image from '$lib/components/common/Image.svelte';
@@ -6,6 +6,9 @@
 	import info from '$lib/data/info/BasicInfo.json';
 	import links from '$lib/data/lists/Links.json';
 	import site from '$lib/data/lists/SiteTech.json';
+</script>
+
+<script lang="ts">
 </script>
 
 <p class="justify">

@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import { innerWidth } from 'svelte/reactivity/window';
 
 	import type { ViewItem } from '$lib/type/Types';
@@ -7,7 +7,9 @@
 		viewItem: ViewItem;
 		handleSetView: (viewName: string) => void;
 	}
+</script>
 
+<script lang="ts">
 	let { viewItem, handleSetView }: Props = $props();
 
 	let imgLoaded = $state(false);

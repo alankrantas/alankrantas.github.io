@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import { innerWidth } from 'svelte/reactivity/window';
 
 	interface Props {
@@ -7,7 +7,9 @@
 		selectedView: string;
 		handleSetView: (viewName: string) => void;
 	}
+</script>
 
+<script lang="ts">
 	let { title, viewName, selectedView, handleSetView }: Props = $props();
 </script>
 

@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import type { Snippet } from 'svelte';
 	import { innerWidth } from 'svelte/reactivity/window';
 
@@ -17,17 +17,15 @@
 	import '@fontsource/noto-sans-tc/chinese-traditional-300.css';
 	import '$lib/css/custom.css';
 
-	interface Props {
-		children?: Snippet;
-	}
-
-	let { children }: Props = $props();
-
 	const webTitle = `${info.name}, ${info.title.join(' | ')} (${info.location})`;
 	const description = `${webTitle} - ${[...viewItems.map((item) => item.title.toLowerCase())].join(', ')}`;
 	const thumbnail = `${info.url}website/thumbnail.jpg`;
 
 	const showScreenSize = false; // enable to show screen size; for responsive design testing
+</script>
+
+<script lang="ts">
+	let { children }: { children?: Snippet } = $props();
 </script>
 
 <svelte:head>

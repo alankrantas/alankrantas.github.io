@@ -1,9 +1,11 @@
-<script lang="ts">
+<script module lang="ts">
 	interface Props {
 		url: string;
 		name: string | undefined;
 	}
+</script>
 
+<script lang="ts">
 	let { url, name }: Props = $props();
 </script>
 

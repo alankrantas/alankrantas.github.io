@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import type { PageData } from './$types';
 
 	import { goto } from '$app/navigation';
@@ -18,16 +18,18 @@
 
 	viewItems[0].description = viewItems[0].description.replace('<name>', info.name);
 
-	let { data }: { data: PageData } = $props();
-
-	let selectedView = $state('main');
-	let ready = $state(false);
-
 	const scrollToTop = () =>
 		window.scrollTo({
 			top: 0,
 			behavior: 'smooth'
 		});
+</script>
+
+<script lang="ts">
+	let { data }: { data: PageData } = $props();
+
+	let selectedView = $state('main');
+	let ready = $state(false);
 
 	const setView = (viewName: string) => {
 		if (viewName) viewName = viewName.toLocaleLowerCase();

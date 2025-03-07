@@ -1,5 +1,8 @@
-<script lang="ts">
+<script module lang="ts">
 	import Image from '$lib/components/common/Image.svelte';
+</script>
+
+<script lang="ts">
 </script>
 
 <p class="justify">

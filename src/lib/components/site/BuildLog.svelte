@@ -1,6 +1,8 @@
-<script lang="ts">
+<script module lang="ts">
 	import { dev } from '$app/environment';
+</script>
 
+<script lang="ts">
 	let buildTime: string | null = $state(null);
 
 	$effect.pre(() => {

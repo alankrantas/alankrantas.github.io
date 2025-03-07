@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import { innerWidth } from 'svelte/reactivity/window';
 
 	import { replaceLink } from '$lib/util/util';
@@ -9,7 +9,9 @@
 		footnote?: string;
 		widthRatios?: number[];
 	}
+</script>
 
+<script lang="ts">
 	let { src, alt, footnote = '', widthRatios = [80, 85, 90, 95] }: Props = $props();
 
 	let imgLoaded = $state(false);

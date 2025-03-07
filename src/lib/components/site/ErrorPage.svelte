@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import Link from '$lib/components/common/Link.svelte';
 
 	import info from '$lib/data/info/BasicInfo.json';
@@ -9,7 +9,9 @@
 		message?: string;
 		enableBackBtn?: boolean;
 	}
+</script>
 
+<script lang="ts">
 	let { message = 'Unknown error', enableBackBtn = true }: Props = $props();
 </script>
 

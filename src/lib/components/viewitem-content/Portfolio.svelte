@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import { innerWidth } from 'svelte/reactivity/window';
 
 	import List from '$lib/components/common/List.svelte';
@@ -12,6 +12,9 @@
 	import maker from '$lib/data/works/MakerWorks.json';
 	import docs from '$lib/data/works/DocsWorks.json';
 	import code from '$lib/data/works/CodeWorks.json';
+</script>
+
+<script lang="ts">
 </script>
 
 <p class="justify">

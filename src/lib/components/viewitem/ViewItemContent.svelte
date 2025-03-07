@@ -1,8 +1,10 @@
-<script lang="ts">
+<script module lang="ts">
 	interface Props {
 		viewItemSource: string;
 	}
+</script>
 
+<script lang="ts">
 	let { viewItemSource }: Props = $props();
 
 	let ViewItemContent: any = $state(null);

@@ -1,7 +1,10 @@
-<script lang="ts">
+<script module lang="ts">
 	import BuildLog from '$lib/components/site/BuildLog.svelte';
 
 	import info from '$lib/data/info/BasicInfo.json';
+</script>
+
+<script lang="ts">
 </script>
 
 <div class="text-center">

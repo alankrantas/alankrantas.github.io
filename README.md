@@ -88,7 +88,7 @@ flowchart TD
 
 The viewer can click the nav bar buttons to switch the view content, or go back to the main mode.
 
-The index page also accepts a `view` URL parameter to switch to a specific view directly (although it's still done in SPA instead of using SvelteKit routing), which makes it useful to be linked elsewhere.
+The index page also accepts a `view` URL parameter to switch to a specific view (although it's still done in SPA - shallow routing - instead of using SvelteKit routing), which makes it useful to be linked elsewhere.
 
 ### Responsive Layouts
 

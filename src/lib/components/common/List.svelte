@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import type { ListItem } from '$lib/type/Types';
 
 	import Link from '$lib/components/common/Link.svelte';
@@ -9,7 +9,9 @@
 		title: string;
 		list: ListItem[];
 	}
+</script>
 
+<script lang="ts">
 	let { title, list }: Props = $props();
 </script>
 

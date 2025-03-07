@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import { innerWidth } from 'svelte/reactivity/window';
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
@@ -14,7 +14,9 @@
 		scaleDownPoint?: number;
 		largeModal?: boolean;
 	}
+</script>
 
+<script lang="ts">
 	let { title, works, displayNum = 3, scaleDownPoint = 576, largeModal = false }: Props = $props();
 
 	let imgLoaded: boolean[] = $state(new Array(works.length));

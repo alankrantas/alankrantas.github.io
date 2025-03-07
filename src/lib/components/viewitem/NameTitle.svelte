@@ -1,4 +1,4 @@
-<script lang="ts">
+<script module lang="ts">
 	import { fade } from 'svelte/transition';
 	import { innerWidth } from 'svelte/reactivity/window';
 
@@ -9,7 +9,9 @@
 		mode: String;
 		handleSetView: (viewName: string) => void;
 	}
+</script>
 
+<script lang="ts">
 	let { mode, handleSetView }: Props = $props();
 
 	let titleIndex = $state(0);
@@ -17,7 +19,7 @@
 
 	setInterval(() => {
 		titleIndex = titleIndex >= info.title.length - 1 ? 0 : titleIndex + 1;
-	}, 2000);
+	}, 2500);
 </script>
 
 <svelte:head>
