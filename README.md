@@ -133,7 +133,7 @@ This app is designed that most of the web content are stored as JSON files under
 | `lists` | Content for `Career`, `Links` or other lists        |
 | `works` | Content for `Portfolio` (either lists or showcases) |
 
-Many fields of lists and showcases, like description, footnote and tooltip, as well as the `Image` footnote, support inline HTML tags. Noted that `<a href="..."></a>` will be automatically applied Bootstrap classes.
+Many fields of lists and showcases, like description, footnote and tooltip, as well as the `Image` footnote, support inline HTML tags. Note that `<a href="..."></a>` will be automatically applied Bootstrap classes.
 
 ### Images
 
@@ -141,8 +141,8 @@ Site images are stored under `/static/`:
 
 | Folder     | Function                                                                                 |
 | ---------- | ---------------------------------------------------------------------------------------- |
-| `about-me` | Personal-related images                                                                  |
-| `main`     | Banner images for view items                                                             |
+| `about-me` | Personal-related images (<= 800px in width)                                              |
+| `main`     | Banner images for view items (should be 800x400 px)                                      |
 | `website`  | Utility images for website, including thumbnail                                          |
 | `work`     | Showcase work images; should be 800px in height (book covers) or width (Maker projects)) |
 
