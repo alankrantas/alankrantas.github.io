@@ -14,7 +14,7 @@
 <script lang="ts">
 </script>
 
-<p><span class="h3 justify">Introduction</span></p>
+<p><span class="h2 justify">Introduction</span></p>
 <p class="justify">Hello and welcome to my homepage!</p>
 <p class="indent justify">
 	My name is <b>{info.name}</b>, a {info.title[0].toLowerCase()} based in {info.location}. I am a

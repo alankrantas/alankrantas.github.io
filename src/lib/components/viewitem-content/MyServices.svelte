@@ -26,7 +26,7 @@
 <p>
 	<br />
 </p>
-<p><span class="h3 justify">Why does a human writer matter?</span></p>
+<p><span class="h2 justify">Why does a human writer matter?</span></p>
 <p class="justify">
 	<i>Why do I even need a human writer</i>, you ask? Why not AI everything?
 </p>

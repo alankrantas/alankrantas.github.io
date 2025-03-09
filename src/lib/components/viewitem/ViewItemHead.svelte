@@ -24,6 +24,7 @@
 				class={`card rounded-5 bg-dark shadow position-relative ${!imgLoaded ? 'placeholder placeholder-wave' : ''}`}
 			>
 				<img
+					loading="lazy"
 					src={viewItem.imgUrl}
 					alt={viewItem.description}
 					class="card-img rounded-5"

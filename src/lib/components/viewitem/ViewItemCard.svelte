@@ -18,6 +18,7 @@
 <div class="card rounded-4 bg-dark shadow-lg">
 	<div class={!imgLoaded ? 'placeholder placeholder-wave rounded-4' : ''}>
 		<img
+			loading="lazy"
 			src={viewItem.imgUrl}
 			alt={viewItem.title}
 			class="card-img-top rounded-4"

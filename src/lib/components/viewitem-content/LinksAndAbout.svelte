@@ -34,7 +34,7 @@
 <p>
 	<br />
 </p>
-<p><span class="h3 justify">About This Site</span></p>
+<p><span class="h2 justify">About This Site</span></p>
 <p class="justify">
 	This website, or the first major version of it, was completed and deployed in May 2023. I always
 	wanted to build my own personal site from scratch. This is essentially an on-going side project

@@ -14,6 +14,7 @@
 	<p>
 		<a href={info.repo} target="_blank" rel="noreferrer noopener">
 			<img
+				loading="lazy"
 				src="/website/github-mark-white.svg"
 				alt="github-mark-white"
 				class="shadow"
@@ -24,7 +25,7 @@
 	<p class="text-white-50">
 		<b>© {new Date().getFullYear()} {info.name}</b>
 		&nbsp;
-		<img src="/website/taiwan-flag.svg" alt="taiwan-flag" width="20px" />
+		<img loading="lazy" src="/website/taiwan-flag.svg" alt="taiwan-flag" width="20px" />
 	</p>
 	<p>
 		<br />

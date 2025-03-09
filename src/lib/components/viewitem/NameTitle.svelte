@@ -76,7 +76,13 @@
 	{#if innerWidth.current && innerWidth.current >= 992}
 		<div class="row d-flex justify-content-center p-md-2 m-md-2">
 			<div class="col-sm text-end">
-				<img src="/about-me/profile.jpg" alt="profile" class="rounded-circle shadow" width="40px" />
+				<img
+					loading="lazy"
+					src="/about-me/profile.jpg"
+					alt="profile"
+					class="rounded-circle shadow"
+					width="40px"
+				/>
 			</div>
 			<div class="col-sm-auto text-center">
 				<p class="text-white">
