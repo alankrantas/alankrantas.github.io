@@ -15,16 +15,16 @@
 		<a href={info.repo} target="_blank" rel="noreferrer noopener">
 			<img
 				src="/website/github-mark-white.svg"
-				width="40px"
 				alt="github-mark-white"
 				class="shadow"
+				width="40px"
 			/>
 		</a>
 	</p>
 	<p class="text-white-50">
 		<b>© {new Date().getFullYear()} {info.name}</b>
 		&nbsp;
-		<img src="/website/taiwan-flag.svg" width="20px" alt="taiwan-flag" />
+		<img src="/website/taiwan-flag.svg" alt="taiwan-flag" width="20px" />
 	</p>
 	<p>
 		<br />

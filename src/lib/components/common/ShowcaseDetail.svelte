@@ -26,8 +26,8 @@
 		<img
 			loading="lazy"
 			src={work.imgUrl}
-			class="card-img-top shadow rounded-3"
 			alt={work.name}
+			class="card-img-top shadow rounded-3"
 			onload={() => {
 				imgLoaded = true;
 			}}

@@ -19,8 +19,8 @@
 	<div class={!imgLoaded ? 'placeholder placeholder-wave rounded-4' : ''}>
 		<img
 			src={viewItem.imgUrl}
-			class="card-img-top rounded-4"
 			alt={viewItem.title}
+			class="card-img-top rounded-4"
 			onload={() => {
 				imgLoaded = true;
 			}}

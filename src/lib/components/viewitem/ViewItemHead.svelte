@@ -25,8 +25,8 @@
 			>
 				<img
 					src={viewItem.imgUrl}
-					class="card-img rounded-5"
 					alt={viewItem.description}
+					class="card-img rounded-5"
 					onload={() => {
 						imgLoaded = true;
 					}}

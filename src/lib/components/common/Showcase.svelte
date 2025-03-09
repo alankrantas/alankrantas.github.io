@@ -85,10 +85,10 @@
 							<a href="javascript: void(0)" onclick={() => handleOpenInDetail(workId)}>
 								<img
 									loading="lazy"
-									class={`img-thumbnail bg-light border-light rounded-4 showCaseImg`}
 									src={work.imgUrl}
 									title={work.name}
 									alt={work.name}
+									class={`img-thumbnail bg-light border-light rounded-4 showCaseImg`}
 									onload={() => {
 										imgLoaded[colIdx] = true;
 									}}
