@@ -1,7 +1,7 @@
 [
 	{
-		"name": "User Documentation",
-		"description": "Documentation for <i>Logic Operating Centre</i> (LOC)",
+		"name": "LOC Documentation",
+		"description": "End-user software documentation for <i>Logic Operating Centre</i> (LOC)",
 		"location": "FST Network",
 		"footnote": "Aug 2022 - Jul 2024",
 		"tooltip": "Contains 300+ pages over 6 product releases for <i>LOC Core</i>, <i>LOC Studio</i>, <i>LOC CLI</i> and <i>LOC SDKs</i> (JS/TS/C#).",
