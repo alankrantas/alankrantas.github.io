@@ -1,12 +1,22 @@
 [
 	{
+		"name": "LOC Documentation",
+		"description": "A Docusaurus 3.x web application as the LOC-Doc documentation site with custom-built code generator and unit test tool.",
+		"location": null,
+		"footnote": null,
+		"tooltip": "The code gen/unit tester is built with Monaco editor, Rollup and a mocked JavaScript runtime.",
+		"language": ["English"],
+		"category": ["Frontend", "Documentation", "React", "Docusaurus", "Markdown", "JavaScript", "TypeScript"],
+		"link": "https://github.com/alankrantas/loc-documentation"
+	},
+	{
 		"name": "Full-Stack Shopping Demo",
 		"description": "A self-contained app built with Svelte, Golang and SQLite and can create a single small container with multi-stage builds.",
 		"location": null,
 		"footnote": null,
 		"tooltip": "Based on the Angular, React and Vue example from <i>Essential TypeScript</i> by Adam Freeman.",
 		"language": ["English"],
-		"category": ["Frontend", "Backend", "Full Stack", "Svelte", "Golang", "SQL"],
+		"category": ["Frontend", "Backend", "Full Stack", "Svelte", "TypeScript", "Golang", "SQL"],
 		"link": "https://github.com/alankrantas/svelteapp-typescript-go"
 	},
 	{
