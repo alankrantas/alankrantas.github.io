@@ -1,14 +1,14 @@
 [
 	{
 		"title": "About Me",
-		"description": "<name> (he/him) | short bio | personal facts | hobbies and interests",
+		"description": "<name> (he/him) | about me | personal facts | hobbies and interests",
 		"viewName": "about",
 		"fileName": "AboutMe",
 		"imgUrl": "/main/about-me.jpg"
 	},
 	{
 		"title": "My Services",
-		"description": "Technical writing | copywriting | translating | marketing assisting",
+		"description": "Technical writing | copywriting | translating | content marketing | documentation",
 		"viewName": "service",
 		"fileName": "MyServices",
 		"imgUrl": "/main/service.jpg"
@@ -22,7 +22,7 @@
 	},
 	{
 		"title": "Portfolio",
-		"description": "Published works | writing projects | Maker showcases | Coding side projects",
+		"description": "Published works | writing projects | Maker showcases | Articles | Coding projects",
 		"viewName": "work",
 		"fileName": "Portfolio",
 		"imgUrl": "/main/works.jpg"
