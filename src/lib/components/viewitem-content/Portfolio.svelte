@@ -11,6 +11,7 @@
 	import author from '$lib/data/works/AuthoredWorks.json';
 	import maker from '$lib/data/works/MakerWorks.json';
 	import docs from '$lib/data/works/DocsWorks.json';
+	import article from '$lib/data/works/ArticleWorks.json';
 	import code from '$lib/data/works/CodeWorks.json';
 </script>
 
@@ -130,7 +131,17 @@
 	<br />
 </p>
 <p>
-	<List list={code} title="Coding Side Projects" />
+	<List list={article} title="Selected Articles" />
+</p>
+<p>
+	<br />
+</p>
+<hr />
+<p>
+	<br />
+</p>
+<p>
+	<List list={code} title="Selected Coding Side Projects" />
 </p>
 <p>
 	<br />

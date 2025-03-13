@@ -6,7 +6,15 @@
 		"footnote": null,
 		"tooltip": "The code gen/unit tester is built with Monaco editor, Rollup and a mocked JavaScript runtime.",
 		"language": ["English"],
-		"category": ["Frontend", "Documentation", "React", "Docusaurus", "Markdown", "JavaScript", "TypeScript"],
+		"category": [
+			"Frontend",
+			"Documentation",
+			"React",
+			"Docusaurus",
+			"Markdown",
+			"JavaScript",
+			"TypeScript"
+		],
 		"link": "https://github.com/alankrantas/loc-documentation"
 	},
 	{
