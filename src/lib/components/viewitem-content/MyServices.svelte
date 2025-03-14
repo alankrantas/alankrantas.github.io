@@ -6,10 +6,11 @@
 </script>
 
 <p class="justify">
-	I offer high-level quality <b>writing</b> and <b>translating</b> services by contract: content writing,
-	technical writing, marketing writing, document/documentation writing, copywriting, editing, proofreading
+	I offer high-level quality <b>writing</b>, <b>editing</b>, <b>proofreading</b> and
+	<b>translating</b> services: technical writing, copywriting, content marketing, creating documents/documentation
 	for any target audience, as well as translating English to/from Traditional Chinese.
 </p>
+<p class="indent justify">I am currently open to full-time or part-time (freelance) work.</p>
 <p class="indent justify">
 	See <kbd>Portfolio</kbd> for works I've done and <kbd>Links & Site</kbd> for my content information.
 </p>
@@ -39,9 +40,9 @@
 <p class="indent justify">
 	But AI can be rather unimaginative in the long term (with clear signs of repeated sentences, lack
 	of emotions and self-contradiction), especially when there are limited sources to learn and reason
-	from. Not every knowledge in your business domain exists online. They may even not exist in your
-	organization either. Writing prompts and reference materials in the first place is so essential,
-	but often overlooked nevertheless.
+	from. Not every knowledge in your business domain exists online. The reference documents may not
+	even exist in your organization. Writing prompts and building knowledge base in the first place is
+	essential, but often overlooked nevertheless.
 </p>
 <p class="indent justify">
 	We've also heard reports that AI models still suffer from heavy hallucination (<i>37%</i> for GTP 4.5!),
