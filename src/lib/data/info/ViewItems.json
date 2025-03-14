@@ -22,14 +22,14 @@
 	},
 	{
 		"title": "Portfolio",
-		"description": "Published works | writing projects | Maker showcases | Articles | Coding projects",
+		"description": "Published works | writing projects | Maker showcases | articles | coding projects",
 		"viewName": "work",
 		"fileName": "Portfolio",
 		"imgUrl": "/main/works.jpg"
 	},
 	{
 		"title": "Links & Site",
-		"description": "Contact information | social media links | more tech info about this site",
+		"description": "Contact information | list of social media links | site tech info & about",
 		"viewName": "link",
 		"fileName": "LinksAndAbout",
 		"imgUrl": "/main/links.jpg"
