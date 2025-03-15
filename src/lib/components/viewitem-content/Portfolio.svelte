@@ -36,15 +36,7 @@
 	<br /><br />
 </p>
 <p>
-	<Showcase
-		works={translate}
-		title="Selected Translated Works"
-		displayNum={innerWidth.current && innerWidth.current >= 1200
-			? 3
-			: innerWidth.current && innerWidth.current >= 576
-				? 2
-				: 1}
-	/>
+	<Showcase works={translate} title="Selected Translated Works" />
 </p>
 <p>
 	<br />
@@ -55,15 +47,7 @@
 	<br />
 </p>
 <p>
-	<Showcase
-		works={edit}
-		title="Selected Edited Works"
-		displayNum={innerWidth.current && innerWidth.current >= 1200
-			? 3
-			: innerWidth.current && innerWidth.current >= 576
-				? 2
-				: 1}
-	/>
+	<Showcase works={edit} title="Selected Edited Works" />
 </p>
 <p>
 	<br />
@@ -74,15 +58,7 @@
 	<br />
 </p>
 <p>
-	<Showcase
-		works={author}
-		title="Selected Authored Works"
-		displayNum={innerWidth.current && innerWidth.current >= 1200
-			? 3
-			: innerWidth.current && innerWidth.current >= 576
-				? 2
-				: 1}
-	/>
+	<Showcase works={author} title="Selected Authored Works" />
 </p>
 <p>
 	<br />
@@ -96,9 +72,9 @@
 	<Showcase
 		works={maker}
 		title="Selected Maker Projects"
-		displayNum={innerWidth.current && innerWidth.current >= 1200 ? 2 : 1}
+		displayNums={[2, 2, 1]}
 		scaleDownPoint={1200}
-		largeModal={true}
+		modalWidth={560}
 	/>
 </p>
 <p>

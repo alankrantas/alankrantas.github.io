@@ -5,7 +5,7 @@
 		"category": ["Programming", "Python", "Data Science", "Machine Learning"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F0753",
-		"imgUrl": "/work/learn.jpg",
+		"imgUrl": "/work/authored/learn.jpg",
 		"videoId": null
 	},
 	{
@@ -20,7 +20,7 @@
 		],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/FM622A",
-		"imgUrl": "/work/sensor.jpg",
+		"imgUrl": "/work/authored/sensor.jpg",
 		"videoId": null
 	},
 	{
@@ -29,7 +29,7 @@
 		"category": ["Programming", "Embedded Programming", "STEM Education"],
 		"language": ["Traditional Chinese"],
 		"link": null,
-		"imgUrl": "/work/microbit.jpg",
+		"imgUrl": "/work/authored/microbit.jpg",
 		"videoId": null
 	},
 	{
@@ -38,7 +38,7 @@
 		"category": ["Programming", "Embedded Programming", "STEM Education"],
 		"language": ["Traditional Chinese"],
 		"link": null,
-		"imgUrl": "/work/thunderbit.jpg",
+		"imgUrl": "/work/authored/thunderbit.jpg",
 		"videoId": "aCaN0LK8dZg"
 	},
 	{
@@ -47,7 +47,7 @@
 		"category": ["Web 2.0", "Thesis"],
 		"language": ["English"],
 		"link": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22096NCCU5396034%22.&searchmode=basic",
-		"imgUrl": "/work/thesis.jpg",
+		"imgUrl": "/work/authored/thesis.jpg",
 		"videoId": null
 	}
 ]

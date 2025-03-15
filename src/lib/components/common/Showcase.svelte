@@ -10,20 +10,42 @@
 	interface Props {
 		title: string;
 		works: WorkItem[];
-		displayNum?: number;
+		displayNums?: number[];
 		scaleDownPoint?: number;
-		largeModal?: boolean;
+		modalWidth?: number;
 	}
 </script>
 
 <script lang="ts">
-	let { title, works, displayNum = 3, scaleDownPoint = 576, largeModal = false }: Props = $props();
+	let {
+		title,
+		works,
+		displayNums = [3, 2, 1],
+		scaleDownPoint = 576,
+		modalWidth = 480
+	}: Props = $props();
 
 	let imgLoaded: boolean[] = $state(new Array(works.length));
 	imgLoaded.fill(false);
 
 	let listStartWorkId = $state(0);
 	let dialogs: HTMLDialogElement[] = $state(new Array(works.length));
+
+	let displayNum = $derived(
+		(() => {
+			if (innerWidth.current) {
+				if (innerWidth.current >= 1200) {
+					return displayNums[0];
+				} else if (innerWidth.current >= 576) {
+					return displayNums[1];
+				} else {
+					return displayNums[2];
+				}
+			} else {
+				return displayNums[2];
+			}
+		})()
+	);
 
 	const scrollWorks = (delta: number) => {
 		listStartWorkId = Math.max(0, Math.min(listStartWorkId + delta, works.length - displayNum));
@@ -95,10 +117,7 @@
 								/>
 							</a>
 							<!-- modal -->
-							<dialog
-								bind:this={dialogs[workId]}
-								style={largeModal ? 'max-width: 560px;' : 'max-width: 480px;'}
-							>
+							<dialog bind:this={dialogs[workId]} style={`max-width: ${modalWidth}px;`}>
 								<ShowcaseDetail {work} />
 							</dialog>
 						{/if}

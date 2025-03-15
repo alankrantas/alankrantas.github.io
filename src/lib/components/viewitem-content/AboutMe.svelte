@@ -18,15 +18,14 @@
 <p class="justify">Hello and welcome to my homepage!</p>
 <p class="indent justify">
 	My name is <b>{info.name}</b>, a {info.title[0].toLowerCase()} based in {info.location}. I am a
-	seasoned writer and translator with diverse skill sets and professional experience in fields
-	including software, technology, AI, literature and STEM education. I also had professional
-	responsibilities in social media content marketing, as well as in software engineering and
-	embedded programming. Finally, I have personal interests in reading, movie watching, photography
-	and others.
+	seasoned writer and expert translator with 10+ years of proven work experience mostly in software,
+	technology, education and publishing industry, as well as professional responsibilities and skills
+	in copywriting/content marketing, editing/proofreading, documentation, software engineering and AI
+	fields. I have published 40 translated, 9 edited and 5 authored full-length titles, dozens of
+	articles/social media content and a couple of documents/documentation writing projects in various
+	positions.
 </p>
-<p class="indent justify">
-	Please browse around (click the navigation buttons) to find out more about me.
-</p>
+<p class="indent justify">Feel free to browse this site to find out more about me!</p>
 <p>
 	<br />
 </p>

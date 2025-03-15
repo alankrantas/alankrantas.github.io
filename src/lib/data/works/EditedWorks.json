@@ -5,7 +5,7 @@
 		"category": ["Translation", "Programming", "Web", "Frontend", "Microfrontend"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F3487",
-		"imgUrl": "/work/microfront.jpg",
+		"imgUrl": "/work/edited/microfront.jpg",
 		"videoId": "PoZJ6BBcon4"
 	},
 	{
@@ -24,7 +24,7 @@
 		],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1485",
-		"imgUrl": "/work/ts.jpg",
+		"imgUrl": "/work/edited/ts.jpg",
 		"videoId": null
 	},
 	{
@@ -33,7 +33,7 @@
 		"category": ["Translation", "Programming", "Golang", "Backend"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1741",
-		"imgUrl": "/work/go.jpg",
+		"imgUrl": "/work/edited/go.jpg",
 		"videoId": null
 	},
 	{
@@ -49,7 +49,7 @@
 		],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1385",
-		"imgUrl": "/work/automl.jpg",
+		"imgUrl": "/work/edited/automl.jpg",
 		"videoId": null
 	},
 	{
@@ -58,7 +58,7 @@
 		"category": ["Programming", "Python", "Machine Learning", "Embedded programming", "Maker"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1786",
-		"imgUrl": "/work/rpi.jpg",
+		"imgUrl": "/work/edited/rpi.jpg",
 		"videoId": "x4wtBEuwUbk"
 	},
 	{
@@ -67,7 +67,7 @@
 		"category": ["Translation", "Programming", "Python"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1750",
-		"imgUrl": "/work/workout.jpg",
+		"imgUrl": "/work/edited/workout.jpg",
 		"videoId": null
 	},
 	{
@@ -76,7 +76,7 @@
 		"category": ["Translation", "Programming", "Python"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/FT746A",
-		"imgUrl": "/work/trick.jpg",
+		"imgUrl": "/work/edited/trick.jpg",
 		"videoId": null
 	},
 	{
@@ -92,7 +92,16 @@
 		],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.flag.com.tw/books/product/F1378",
-		"imgUrl": "/work/ml.jpg",
+		"imgUrl": "/work/edited/ml.jpg",
+		"videoId": null
+	},
+	{
+		"name": "The Spy Who Came in from the Cold",
+		"description": "冷戰諜魂; John le Carré, 1963; ECUS Publishing, 2014. As assistant editor and translated the 50th anniversary edition extra materials.",
+		"category": ["Spy", "Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.bookrep.com.tw/?md=gwindex&cl=book&at=bookcontent&id=8904",
+		"imgUrl": "/work/edited/cold.jpg",
 		"videoId": null
 	}
 ]
