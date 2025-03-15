@@ -19,14 +19,15 @@
 	let ratio = $derived(
 		(() => {
 			if (innerWidth.current) {
-				if (innerWidth.current >= 992) {
-					return widthRatios[0];
-				} else if (innerWidth.current >= 768) {
-					return widthRatios[1];
-				} else if (innerWidth.current >= 576) {
-					return widthRatios[2];
-				} else {
-					return widthRatios[3];
+				switch (true) {
+					case innerWidth.current >= 992:
+						return widthRatios[0];
+					case innerWidth.current >= 768:
+						return widthRatios[1];
+					case innerWidth.current >= 576:
+						return widthRatios[2];
+					default:
+						return widthRatios[3];
 				}
 			} else {
 				return widthRatios[3];

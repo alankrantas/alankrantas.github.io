@@ -7,6 +7,6 @@ export const getAge = () => {
 export const replaceLink = (sourceText: string) => {
 	return sourceText.replace(
 		'a href=',
-		"a class='link-info link-underline-opacity-25 link-underline-opacity-100-hover' target='_blank' rel='noreferrer noopener' href="
+		'a class="link-info link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noreferrer noopener" href='
 	);
 };

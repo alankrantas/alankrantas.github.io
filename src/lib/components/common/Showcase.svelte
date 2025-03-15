@@ -34,12 +34,13 @@
 	let displayNum = $derived(
 		(() => {
 			if (innerWidth.current) {
-				if (innerWidth.current >= 1200) {
-					return displayNums[0];
-				} else if (innerWidth.current >= 576) {
-					return displayNums[1];
-				} else {
-					return displayNums[2];
+				switch (true) {
+					case innerWidth.current >= 1200:
+						return displayNums[0];
+					case innerWidth.current >= 576:
+						return displayNums[1];
+					default:
+						return displayNums[2];
 				}
 			} else {
 				return displayNums[2];
