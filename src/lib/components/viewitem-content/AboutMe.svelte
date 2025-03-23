@@ -20,12 +20,15 @@
 	My name is <b>{info.name}</b>, a {info.title[0].toLowerCase()} based in {info.location}.
 </p>
 <p class="indent justify">
-	A seasoned writer and expert translator who has 10+ years of proven work experience and a rare,
-	diverse skill set mostly in software, technology, education and publishing industry, with
-	professional responsibilities in copywriting/content marketing, editing/proofreading, software
-	engineering/embedded programming and AI. Published 60+ full-length translated, edited or authored
-	titles, dozens of articles and many social media content, as well as a couple of
-	document/documentation writing projects.
+	I am a seasoned technical writer and bilingual translator with over 10 years of experience in
+	software, technology, education, and publishing. Translated, edited, or authored more than 60
+	full-length titles and produced dozens of technical articles and marketing materials.
+</p>
+<p class="indent justify">
+	Expertise spans copywriting, content marketing, software engineering, embedded programming, and
+	AI. Known for rapid adaptability, cross-disciplinary skill integration and strong communication
+	skills to translate complex concepts into accessible content for diverse audiences, and delivered
+	high-impact works that improved user engagement and business growth.
 </p>
 <p class="indent justify">Browse this site to find out more about me!</p>
 <p>
