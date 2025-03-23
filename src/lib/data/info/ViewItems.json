@@ -1,21 +1,14 @@
 [
 	{
 		"title": "About Me",
-		"description": "<name> (he/him) | about me | personal facts | hobbies and interests",
+		"description": "<name> (he/him), <title> | about me | personal facts | hobbies and interests",
 		"viewName": "about",
 		"fileName": "AboutMe",
 		"imgUrl": "/main/about-me.jpg"
 	},
 	{
-		"title": "My Services",
-		"description": "Technical writing | copywriting | translating | content marketing | documentation",
-		"viewName": "service",
-		"fileName": "MyServices",
-		"imgUrl": "/main/service.jpg"
-	},
-	{
 		"title": "Career & Skills",
-		"description": "Writing & translating | publishing | software engineering | STEM education",
+		"description": "Writing & translating | content marketing | documentation | publishing | software engineering",
 		"viewName": "career",
 		"fileName": "CareerAndSkills",
 		"imgUrl": "/main/skills.jpg"

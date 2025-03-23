@@ -14,10 +14,9 @@
 <script lang="ts">
 </script>
 
-<p><span class="h2 justify">Introduction</span></p>
-<p class="justify">Hello and welcome to my homepage!</p>
-<p class="indent justify">
-	My name is <b>{info.name}</b>, a {info.title[0].toLowerCase()} based in {info.location}.
+<p><span class="h2 justify">Who am I?</span></p>
+<p class="justify">
+	My name is <b>{info.name}</b>, currently based in {info.location}.
 </p>
 <p class="indent justify">
 	I am a seasoned technical writer and bilingual translator with over 10 years of experience in
@@ -30,7 +29,11 @@
 	skills to translate complex concepts into accessible content for diverse audiences, and delivered
 	high-impact works that improved user engagement and business growth.
 </p>
-<p class="indent justify">Browse this site to find out more about me!</p>
+<p class="indent justify">I have personal interests in reading, music, movies and photography.</p>
+<p>
+	<br />
+</p>
+<hr />
 <p>
 	<br />
 </p>
@@ -42,10 +45,6 @@
 		widthRatios={[70, 80, 90, 95]}
 	/>
 </p>
-<p>
-	<br />
-</p>
-<hr />
 <p>
 	<br />
 </p>

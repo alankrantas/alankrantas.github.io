@@ -45,7 +45,7 @@
 	<meta property="og:image:url" content={thumbnail} />
 	<meta property="og:image:secure_url" content={thumbnail} />
 	<meta property="og:image:width" content="1280" />
-	<meta property="og:image:height" content="720" />
+	<meta property="og:image:height" content="700" />
 	<meta property="og:image:alt" content={webTitle} />
 
 	{#each link as linkItem}

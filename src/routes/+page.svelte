@@ -16,7 +16,9 @@
 	import info from '$lib/data/info/BasicInfo.json';
 	import viewItems from '$lib/data/info/ViewItems.json';
 
-	viewItems[0].description = viewItems[0].description.replace('<name>', info.name);
+	viewItems[0].description = viewItems[0].description
+		.replace('<name>', info.name)
+		.replace('<title>', info.title[0]);
 
 	const scrollToTop = () =>
 		window.scrollTo({
