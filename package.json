@@ -46,9 +46,7 @@
 		"@fontsource/open-sans": "^5.2.5",
 		"@fontsource/playfair-display": "^5.2.5",
 		"@fontsource/space-mono": "^5.2.5",
-		"bootstrap": "^5.3.3",
-		"picomatch": "^4.0.2",
-		"yaml": "^2.7.1"
+		"bootstrap": "^5.3.3"
 	},
 	"type": "module"
 }
