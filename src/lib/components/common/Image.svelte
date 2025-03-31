@@ -58,7 +58,7 @@
 			{src}
 			{alt}
 			class="img-fluid rounded-5 p-md-2 m-md-2"
-			style={`width: ${ratio <= 1 && ratio >= 0 ? Math.trunc(ratio * 100) : ratio}%;`}
+			style={`width: ${ratio <= 1 && ratio >= 0 ? Math.trunc(ratio * 100) : `${ratio}%`};`}
 			onload={() => {
 				imgLoaded = true;
 			}}
