@@ -29,7 +29,16 @@
 	<br />
 </p>
 <p>
-	<Image src="/website/svelte.jpg" alt="svelte" widthRatios={[60, 60, 60, 60]} />
+	<Image
+		src="/website/svelte.jpg"
+		alt="svelte"
+		widthRatios={{
+			992: 0.6,
+			768: 0.6,
+			576: 0.6,
+			0: 0.6
+		}}
+	/>
 </p>
 <p>
 	<br />
@@ -60,7 +69,12 @@
 		src="/website/responsive.svg"
 		alt="responsive"
 		footnote="This site is also <b><i>responsive!</i></b>"
-		widthRatios={[25, 25, 25, 25]}
+		widthRatios={{
+			992: 0.25,
+			768: 0.25,
+			576: 0.25,
+			0: 0.25
+		}}
 	/>
 </p>
 <p>
