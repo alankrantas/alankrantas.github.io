@@ -7,12 +7,27 @@
 		src: string;
 		alt: string;
 		footnote?: string;
-		widthRatios?: number[];
+		widthRatios?: {
+			992: number;
+			768: number;
+			576: number;
+			0: number;
+		};
 	}
 </script>
 
 <script lang="ts">
-	let { src, alt, footnote = '', widthRatios = [80, 85, 90, 95] }: Props = $props();
+	let {
+		src,
+		alt,
+		footnote = '',
+		widthRatios = {
+			992: 0.8,
+			768: 0.85,
+			576: 0.9,
+			0: 0.95
+		}
+	}: Props = $props();
 
 	let imgLoaded = $state(false);
 
@@ -21,16 +36,16 @@
 			if (innerWidth.current) {
 				switch (true) {
 					case innerWidth.current >= 992:
-						return widthRatios[0];
+						return widthRatios[992];
 					case innerWidth.current >= 768:
-						return widthRatios[1];
+						return widthRatios[768];
 					case innerWidth.current >= 576:
-						return widthRatios[2];
+						return widthRatios[576];
 					default:
-						return widthRatios[3];
+						return widthRatios[0];
 				}
 			} else {
-				return widthRatios[3];
+				return widthRatios[0];
 			}
 		})()
 	);
@@ -43,7 +58,7 @@
 			{src}
 			{alt}
 			class="img-fluid rounded-5 p-md-2 m-md-2"
-			style={`width: ${ratio}%;`}
+			style={`width: ${ratio <= 1 && ratio >= 0 ? Math.trunc(ratio * 100) : ratio}%;`}
 			onload={() => {
 				imgLoaded = true;
 			}}

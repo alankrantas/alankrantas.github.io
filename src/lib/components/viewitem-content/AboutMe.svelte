@@ -42,7 +42,12 @@
 		src="/about-me/profile.jpg"
 		alt="profile"
 		footnote="Me just before turing 40"
-		widthRatios={[70, 80, 90, 95]}
+		widthRatios={{
+			992: 0.7,
+			768: 0.8,
+			576: 0.9,
+			0: 0.95
+		}}
 	/>
 </p>
 <p>
@@ -80,7 +85,12 @@
 		src="/about-me/sakura.jpg"
 		alt="sakura"
 		footnote="Cherry blossoms on medium format still film,<br />Kumamoto Castle, Japan, 2018."
-		widthRatios={[75, 85, 90, 95]}
+		widthRatios={{
+			992: 0.7,
+			768: 0.8,
+			576: 0.9,
+			0: 0.95
+		}}
 	/>
 </p>
 <p>

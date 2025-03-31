@@ -10,7 +10,11 @@
 	interface Props {
 		title: string;
 		works: WorkItem[];
-		displayNums?: number[];
+		displayNums?: {
+			1200: number;
+			576: number;
+			0: number;
+		};
 		scaleDownPoint?: number;
 		modalWidth?: number;
 	}
@@ -20,7 +24,11 @@
 	let {
 		title,
 		works,
-		displayNums = [3, 2, 1],
+		displayNums = {
+			1200: 3,
+			576: 2,
+			0: 1
+		},
 		scaleDownPoint = 576,
 		modalWidth = 480
 	}: Props = $props();
@@ -36,14 +44,14 @@
 			if (innerWidth.current) {
 				switch (true) {
 					case innerWidth.current >= 1200:
-						return displayNums[0];
+						return displayNums[1200];
 					case innerWidth.current >= 576:
-						return displayNums[1];
+						return displayNums[576];
 					default:
-						return displayNums[2];
+						return displayNums[0];
 				}
 			} else {
-				return displayNums[2];
+				return displayNums[0];
 			}
 		})()
 	);
@@ -55,18 +63,22 @@
 	const handleOpenInDetail = (workId: number) => {
 		if (!dialogs[workId]) return;
 
-		dialogs[workId].addEventListener('click', (event: MouseEvent) => {
-			if (event.target === dialogs[workId]) {
-				dialogs[workId].close();
+		if (dialogs[workId].getAttribute('listener') != 'true') {
+			dialogs[workId].addEventListener('click', (event: MouseEvent) => {
+				if (event.target === dialogs[workId]) {
+					dialogs[workId].close();
 
-				// stop youtube videos
-				const videos = document.querySelectorAll('iframe');
-				Array.prototype.forEach.call(videos, function (video) {
-					const src = video.src;
-					video.src = src;
-				});
-			}
-		});
+					// stop youtube videos when exit the modal
+					const videos = document.querySelectorAll('iframe');
+					Array.prototype.forEach.call(videos, function (video) {
+						const src = video.src;
+						video.src = src;
+					});
+				}
+			});
+			dialogs[workId].setAttribute('listener', 'true');
+		}
+
 		dialogs[workId].showModal();
 	};
 </script>

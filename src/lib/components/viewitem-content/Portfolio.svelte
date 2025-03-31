@@ -72,7 +72,11 @@
 	<Showcase
 		works={maker}
 		title="Selected Maker Projects"
-		displayNums={[2, 2, 1]}
+		displayNums={{
+			1200: 2,
+			576: 1,
+			0: 1
+		}}
 		scaleDownPoint={1200}
 		modalWidth={560}
 	/>
@@ -96,7 +100,12 @@
 		src="/work/marketing.jpg"
 		alt="marketing"
 		footnote="I also draw technical or marketing illustrations.<br />See <kbd>Links</kbd> for more."
-		widthRatios={[75, 85, 90, 95]}
+		widthRatios={{
+			992: 0.75,
+			768: 0.85,
+			576: 0.9,
+			0: 0.95
+		}}
 	/>
 </p>
 <p>
