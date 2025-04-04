@@ -28,6 +28,16 @@
 		"link": "https://github.com/alankrantas/svelteapp-typescript-go"
 	},
 	{
+		"name": "Just Another AI Assistant - Web Generative AI Demo",
+		"description": "Load and run a LLM chat bot in browser using HuggingFace's Transformers.js.",
+		"location": null,
+		"footnote": null,
+		"tooltip": "Based on the HuggingFace's React-translator demo.",
+		"language": ["English"],
+		"category": ["Frontend", "AI", "Generative AI", "React", "TypeScript"],
+		"link": "https://alankrantas.github.io/just-another-ai-assistant-huggingface-transformer/"
+	},
+	{
 		"name": "MicroPython Driver for TEA5767",
 		"description": "For accessing TEA5767 FM radio module features on microcontrollers with MicroPython/CircuitPython.",
 		"location": null,
