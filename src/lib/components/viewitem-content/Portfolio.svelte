@@ -126,7 +126,7 @@
 	<br />
 </p>
 <p>
-	<List list={code} title="Selected Coding Side Projects" />
+	<List list={code} title="Selected Coding Projects" />
 </p>
 <p>
 	<br />

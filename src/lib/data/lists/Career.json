@@ -1,9 +1,19 @@
 [
 	{
+		"name": "Freelance Writer",
+		"description": "Goldenrain Management Consultancy Ltd.",
+		"location": "Taipei, Taiwan",
+		"footnote": "Apr 2025 - Present",
+		"tooltip": null,
+		"category": ["Technical Writing", "Copywriting", "Documentation", "Software Engineering"],
+		"language": null,
+		"link": null
+	},
+	{
 		"name": "Freelance Writer/Translator",
 		"description": "Freelancer (Self Employed)",
 		"location": "Taipei, Taiwan",
-		"footnote": "Sep 2024 - Present",
+		"footnote": "Sep 2024 - Apr 2025",
 		"tooltip": "Offer high-level quality writing and translating for any target audience, in both English and Traditional Chinese.",
 		"category": ["Technical Writing", "Copywriting", "Documentation", "Translating"],
 		"language": null,

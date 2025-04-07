@@ -29,13 +29,23 @@
 	},
 	{
 		"name": "Just Another AI Assistant - Web Generative AI Demo",
-		"description": "Load and run a LLM chat bot in browser using HuggingFace's Transformers.js.",
+		"description": "Load and run a small language model in browser using HuggingFace's Transformers.js.",
 		"location": null,
 		"footnote": null,
 		"tooltip": "Based on the HuggingFace's React-translator demo.",
 		"language": ["English"],
 		"category": ["Frontend", "AI", "Generative AI", "React", "TypeScript"],
 		"link": "https://alankrantas.github.io/just-another-ai-assistant-huggingface-transformer/"
+	},
+	{
+		"name": "TypeScript Live Editor",
+		"description": "Write, lint and execute TypeScript in an online editor.",
+		"location": null,
+		"footnote": null,
+		"tooltip": "You can find a Python version <a href='https://alankrantas.github.io/monaco-python-live-editor/'>here</a>.",
+		"language": ["English"],
+		"category": ["Frontend", "React", "TypeScript"],
+		"link": "https://alankrantas.github.io/monaco-ts-live-editor/"
 	},
 	{
 		"name": "MicroPython Driver for TEA5767",
