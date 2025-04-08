@@ -13,7 +13,7 @@
 </script>
 
 <p class="justify small">
-	Check out my <Link url="https://www.cake.me/krantas" name="resume" /> for more details.
+	Check out my <Link url="https://www.cake.me/alankrantas" name="resume" /> for more details.
 </p>
 <p>
 	<br /><br />
