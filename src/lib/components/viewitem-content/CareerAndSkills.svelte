@@ -12,12 +12,6 @@
 <script lang="ts">
 </script>
 
-<p class="justify small">
-	Check out my <Link url="https://www.cake.me/alankrantas" name="resume" /> for more details.
-</p>
-<p>
-	<br /><br />
-</p>
 <p>
 	<List list={career} title="Professional Experience" />
 </p>

@@ -11,13 +11,6 @@
 <script lang="ts">
 </script>
 
-<p class="justify">
-	As a netizen myself, I too have left my own traces and bits. You can find me in the following
-	links or contact me:
-</p>
-<p>
-	<br /><br />
-</p>
 <p>
 	<List list={links} title="Contact & Social Links" />
 </p>

@@ -33,7 +33,7 @@
 	<meta name="description" content={description} />
 	<meta
 		name="keywords"
-		content={`${info.title.join(', ')}, ${info.location}, homepage, personal, github, github pages, resume, cv, work, talent`}
+		content={`${info.title.join(', ')}, ${info.location}, homepage, personal website, github, github pages`}
 	/>
 	<meta property="og:url" content={info.url} />
 	<meta property="og:type" content="website" />
