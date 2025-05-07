@@ -6,7 +6,7 @@
 		"footnote": "Aug 2022 - Jul 2024",
 		"tooltip": "Contains 300+ pages over 6 product releases for <i>LOC Core</i>, <i>LOC Studio</i>, <i>LOC CLI</i> and <i>LOC SDKs</i> (JS/TS/C#).",
 		"language": ["English"],
-		"category": ["Documentation", "Content Writing", "Technical Writing"],
+		"category": ["Documentation", "Content Writing", "Technical Writing", "Software"],
 		"link": "https://loc-documentation.vercel.app/"
 	},
 	{
@@ -22,7 +22,8 @@
 			"Technical Writing",
 			"Cryptocurrency",
 			"FinTech",
-			"White Paper"
+			"White Paper",
+			"Software"
 		],
 		"link": null
 	}

@@ -1,0 +1,56 @@
+[
+	{
+		"name": "Balancing Coupling in Software Design",
+		"description": "軟體設計耦合的平衡之道; Vlad Khononov, 2014; DrMaster Press, May 2015.",
+		"category": ["Technology", "Software"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.drmaster.com.tw/bookinfo.asp?BookID=MP12501",
+		"imgUrl": "/work/translated/coupling.jpg",
+		"videoId": null
+	},
+	{
+		"name": "Pressed for Time: The Acceleration of Life in Digital Capitalism",
+		"description": "縮時社會：奪回遭科技控制的快轉人生; Judy Wajcman, 2014; Nutopia Publishing, Jul 2017.",
+		"category": ["Technology", "Sociology", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010756573",
+		"imgUrl": "/work/translated/pressed.jpg",
+		"videoId": "V1CNEMxs2sc"
+	},
+	{
+		"name": "How Star Wars Conquered the Universe",
+		"description": "星際大戰如何以原力征服全世界; Chris Taylor, 2014; Global Publishing, Jul 2015.",
+		"category": ["Cinema", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010694382",
+		"imgUrl": "/work/translated/starwars.jpg",
+		"videoId": null
+	},
+	{
+		"name": "Splinternet: How Geopolitics and Commerce Are Fragmenting the World Wide Web",
+		"description": "分裂的網路：虛擬世界的未來掌握在國家、企業還是個人的手上？; Scott Malcomson, 2016; Nutopia Publishing, Oct 2016.",
+		"category": ["Technology", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010730780",
+		"imgUrl": "/work/translated/internet.jpg",
+		"videoId": null
+	},
+	{
+		"name": "Tales From the Great Disruption: Insights and Lessons From Journalism’s Technological Transformation",
+		"description": "關鍵轉折：內容媒體的科技轉型之路; Michael Shapiro, Anna Hiatt and Mike Hoyt, 2015; Nutopia Publishing, Jan 2017.",
+		"category": ["Technology", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010739304",
+		"imgUrl": "/work/translated/disruption.jpg",
+		"videoId": null
+	},
+	{
+		"name": "The Free State of Jones: Mississippi’s Longest Civil War",
+		"description": "瓊斯自由邦 電影《烈火邊境》歷史紀實：美國密西西比州史上最漫長的內戰; Victoria E. Bynum, 2001; Shuiling Publishing, Dec 2016.",
+		"category": ["History", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010737316",
+		"imgUrl": "/work/translated/jones.jpg",
+		"videoId": null
+	}
+]

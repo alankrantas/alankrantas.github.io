@@ -6,7 +6,8 @@
 	import Image from '$lib/components/common/Image.svelte';
 	import Showcase from '$lib/components/common/Showcase.svelte';
 
-	import translate from '$lib/data/works/TranslationWorks.json';
+	import translate_fiction from '$lib/data/works/TranslationFictionWorks.json';
+	import translate_nonfiction from '$lib/data/works/TranslationNonFictionWorks.json';
 	import edit from '$lib/data/works/EditedWorks.json';
 	import author from '$lib/data/works/AuthoredWorks.json';
 	import maker from '$lib/data/works/MakerWorks.json';
@@ -36,7 +37,18 @@
 	<br /><br />
 </p>
 <p>
-	<Showcase works={translate} title="Selected Translated Works" />
+	<Showcase works={translate_fiction} title="Selected Translated Works (Fiction)" />
+</p>
+<p>
+	<br />
+	<br />
+</p>
+<hr />
+<p>
+	<br /><br />
+</p>
+<p>
+	<Showcase works={translate_nonfiction} title="Selected Translated Works (Non-fiction)" />
 </p>
 <p>
 	<br />
