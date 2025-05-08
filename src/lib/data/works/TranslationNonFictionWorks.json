@@ -9,6 +9,15 @@
 		"videoId": null
 	},
 	{
+		"name": "How Star Wars Conquered the Universe",
+		"description": "星際大戰如何以原力征服全世界; Chris Taylor, 2014; Global Publishing, Jul 2015. (Co-translated)",
+		"category": ["Cinema", "Non Fiction"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.books.com.tw/products/0010694382",
+		"imgUrl": "/work/translated/starwars.jpg",
+		"videoId": null
+	},
+	{
 		"name": "Pressed for Time: The Acceleration of Life in Digital Capitalism",
 		"description": "縮時社會：奪回遭科技控制的快轉人生; Judy Wajcman, 2014; Nutopia Publishing, Jul 2017.",
 		"category": ["Technology", "Sociology", "Non Fiction"],
@@ -16,15 +25,6 @@
 		"link": "https://www.books.com.tw/products/0010756573",
 		"imgUrl": "/work/translated/pressed.jpg",
 		"videoId": "V1CNEMxs2sc"
-	},
-	{
-		"name": "How Star Wars Conquered the Universe",
-		"description": "星際大戰如何以原力征服全世界; Chris Taylor, 2014; Global Publishing, Jul 2015.",
-		"category": ["Cinema", "Non Fiction"],
-		"language": ["Traditional Chinese"],
-		"link": "https://www.books.com.tw/products/0010694382",
-		"imgUrl": "/work/translated/starwars.jpg",
-		"videoId": null
 	},
 	{
 		"name": "Splinternet: How Geopolitics and Commerce Are Fragmenting the World Wide Web",
