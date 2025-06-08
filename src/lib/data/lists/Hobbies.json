@@ -1,25 +1,5 @@
 [
 	{
-		"name": "Films & TV Drama",
-		"description": null,
-		"location": null,
-		"footnote": null,
-		"tooltip": "Watch almost anything except scary/non-sci-fi/horror films or romance drama 😠",
-		"category": null,
-		"language": null,
-		"link": null
-	},
-	{
-		"name": "Music",
-		"description": null,
-		"location": null,
-		"footnote": null,
-		"tooltip": "Actually I did learned amateur classic piano for 20+ years!",
-		"category": ["Classical Music", "Movie Soundtrack", "Oldies"],
-		"language": null,
-		"link": null
-	},
-	{
 		"name": "Reading",
 		"description": null,
 		"location": null,
@@ -30,11 +10,31 @@
 		"link": null
 	},
 	{
+		"name": "Films & TV Drama",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": null,
+		"language": null,
+		"link": null
+	},
+	{
+		"name": "Music",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"tooltip": "I learned amateur classic piano playing for 20+ years",
+		"category": ["Classical Music", "Movie Soundtrack", "Oldies"],
+		"language": null,
+		"link": null
+	},
+	{
 		"name": "PC Gaming",
 		"description": null,
 		"location": null,
 		"footnote": null,
-		"tooltip": "Own hundreds of games on Steam with hundreds of hours playing...",
+		"tooltip": null,
 		"category": ["AAA", "Indies"],
 		"language": null,
 		"link": null
@@ -44,29 +44,39 @@
 		"description": null,
 		"location": null,
 		"footnote": null,
-		"tooltip": "See <kbd>Portfolio</kbd> for examples.",
+		"tooltip": null,
 		"category": null,
 		"language": null,
-		"link": null
+		"link": "https://alankrantas.github.io/?view=work"
 	},
 	{
-		"name": "Photography & vintage camera collecting",
+		"name": "(Film) photography",
 		"description": null,
 		"location": null,
 		"footnote": null,
-		"tooltip": "Both digital and film (35mm, 120, Polaroid). Also collected a couple dozen of vintage cameras.",
-		"category": ["Digital photography", "Film Photography", "Film Camera"],
+		"tooltip": null,
+		"category": ["Digital photography", "Film Photography"],
 		"language": null,
-		"link": null
+		"link": "https://www.pexels.com/@alankrantas/"
 	},
 	{
-		"name": "Watch collecting",
+		"name": "Film camera collecting",
 		"description": null,
 		"location": null,
-		"footnote": "A small collection of budget mechanical watches.",
-		"tooltip": "I also regulate them myself if possible. I can make a Seiko 4R35/4R36 as accurate as +-5/s per day.",
-		"category": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": ["Film Photography", "Film Camera"],
 		"language": null,
-		"link": null
+		"link": "https://github.com/alankrantas/alankrantas/blob/main/notes/vintage-collection.md"
+	},
+	{
+		"name": "Mechanical Watch collecting & servicing",
+		"description": null,
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": ["Mechanical watch"],
+		"language": null,
+		"link": "https://github.com/alankrantas/alankrantas/blob/main/notes/vintage-collection.md"
 	}
 ]
