@@ -1,7 +1,16 @@
 [
 	{
+		"name": "We, Programmers",
+		"description": "我輩程式人; Robert C. Martin, 2024; DrMaster Press, Jul 2025.",
+		"category": ["Technology", "Software", "History"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.drmaster.com.tw/bookinfo.asp?BookID=MP12502",
+		"imgUrl": "/work/translated/martin.jpg",
+		"videoId": null
+	},
+	{
 		"name": "Balancing Coupling in Software Design",
-		"description": "軟體設計耦合的平衡之道; Vlad Khononov, 2014; DrMaster Press, May 2015.",
+		"description": "軟體設計耦合的平衡之道; Vlad Khononov, 2024; DrMaster Press, May 2025.",
 		"category": ["Technology", "Software"],
 		"language": ["Traditional Chinese"],
 		"link": "https://www.drmaster.com.tw/bookinfo.asp?BookID=MP12501",
