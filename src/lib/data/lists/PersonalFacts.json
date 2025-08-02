@@ -54,7 +54,17 @@
 		"description": "ISTJ",
 		"location": null,
 		"footnote": null,
-		"tooltip": null,
+		"tooltip": "The Lgistician",
+		"category": null,
+		"language": null,
+		"link": null
+	},
+	{
+		"name": "Enneagram",
+		"description": "4w5",
+		"location": null,
+		"footnote": null,
+		"tooltip": "The Bohemian",
 		"category": null,
 		"language": null,
 		"link": null
