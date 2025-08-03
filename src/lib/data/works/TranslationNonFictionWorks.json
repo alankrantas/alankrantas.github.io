@@ -6,7 +6,7 @@
 		"language": ["Traditional Chinese"],
 		"link": "https://www.drmaster.com.tw/bookinfo.asp?BookID=MP12502",
 		"imgUrl": "/work/translated/martin.jpg",
-		"videoId": null
+		"videoId": "TJ19ts8S56E"
 	},
 	{
 		"name": "Balancing Coupling in Software Design",
@@ -15,7 +15,7 @@
 		"language": ["Traditional Chinese"],
 		"link": "https://www.drmaster.com.tw/bookinfo.asp?BookID=MP12501",
 		"imgUrl": "/work/translated/coupling.jpg",
-		"videoId": null
+		"videoId": "110u6n5SXfQ"
 	},
 	{
 		"name": "How Star Wars Conquered the Universe",
@@ -60,6 +60,6 @@
 		"language": ["Traditional Chinese"],
 		"link": "https://www.books.com.tw/products/0010737316",
 		"imgUrl": "/work/translated/jones.jpg",
-		"videoId": null
+		"videoId": "5JoEbd26d3s"
 	}
 ]
