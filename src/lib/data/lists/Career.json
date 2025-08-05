@@ -1,5 +1,15 @@
 [
 	{
+		"name": "Editor",
+		"description": "To be announced",
+		"location": "Taipei, Taiwan",
+		"footnote": "Aug 2025 - Now",
+		"tooltip": null,
+		"category": ["Editing", "Copywriting", "Content Marketing"],
+		"language": null,
+		"link": null
+	},
+	{
 		"name": "Technical Writer",
 		"description": "Goldenrain Management Consultancy Ltd.",
 		"location": "Taipei, Taiwan",
@@ -14,7 +24,7 @@
 		"description": "Freelancer (Self Employed)",
 		"location": "Taipei, Taiwan",
 		"footnote": "Sep 2024 - Apr 2025",
-		"tooltip": "Offer high-level quality writing and translating for any target audience, in both English and Traditional Chinese.",
+		"tooltip": "Job hunting while offering high-level quality writing and translating for any target audience, in both English and Traditional Chinese.",
 		"category": ["Technical Writing", "Copywriting", "Documentation", "Translating"],
 		"language": null,
 		"link": null
@@ -36,7 +46,7 @@
 		"link": null
 	},
 	{
-		"name": "IT Editor/Product Engineer",
+		"name": "Editor",
 		"description": "Flag Publishing Co., Ltd.",
 		"location": "Taipei, Taiwan",
 		"footnote": "Aug 2019 - Mar 2022",
@@ -54,7 +64,7 @@
 		"link": null
 	},
 	{
-		"name": "STEM Content Writer",
+		"name": "Curriculum Writer",
 		"description": "Taiwan Coding Education Association",
 		"location": "Taipei, Taiwan",
 		"footnote": "May 2018 - Jul 2019",
@@ -79,7 +89,7 @@
 		"link": null
 	},
 	{
-		"name": "Software Developer",
+		"name": "Java Developer",
 		"description": "MiTAC Information Technology Crop.",
 		"location": "Taipei, Taiwan",
 		"footnote": "Aug 2008 - Oct 2011",
