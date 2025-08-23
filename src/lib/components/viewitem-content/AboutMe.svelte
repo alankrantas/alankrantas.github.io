@@ -19,9 +19,9 @@
 	My name is <b>{info.name}</b>, currently based in {info.location}.
 </p>
 <p class="indent justify">
-	I am an experienced writer, editor and translator with 10+ years across software, tech, education, 
-	and publishing with versatile skills. Delivered 60+ full-length translated, edited, or authored titles, 
-	plus a wide range of blog posts, technical articles, and marketing content.
+	I am an experienced writer, editor and translator with 10+ years across software, tech, education,
+	and publishing with versatile skills. Delivered 60+ full-length translated, edited, or authored
+	titles, plus a wide range of blog posts, technical articles, and marketing content.
 </p>
 <p class="indent justify">I have personal interests in reading, music, movies and photography.</p>
 <p>
@@ -94,6 +94,12 @@
 	<Image
 		src="/about-me/diy.jpg"
 		alt="diy"
-		footnote="Japanese-made, hand-assembled Billy doll houses<br />refitted with DIY lights, sensors and other stuff."
+		footnote="Building and servicing my first DIY mechanical watch."
+		widthRatios={{
+			992: 0.7,
+			768: 0.8,
+			576: 0.9,
+			0: 0.95
+		}}
 	/>
 </p>
