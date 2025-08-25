@@ -44,7 +44,7 @@ jobs:
           echo "{ \"build_time\": \"$(date +'%Y-%m-%d %H:%M')\" }" | jq '.' > ./build/website/build.json
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: 'build/'
 
