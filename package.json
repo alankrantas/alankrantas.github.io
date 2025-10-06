@@ -45,7 +45,7 @@
 		"@fontsource/noto-sans-tc": "^5.2.8",
 		"@fontsource/open-sans": "^5.2.6",
 		"@fontsource/playfair-display": "^5.2.8",
-		"@fontsource/space-mono": "^5.2.8",
+		"@fontsource/space-mono": "^5.2.9",
 		"bootstrap": "^5.3.8"
 	},
 	"resolutions": {
