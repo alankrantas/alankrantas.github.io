@@ -21,7 +21,8 @@
 <p class="indent justify">
 	I am an experienced writer, editor and translator with 10+ years across software, tech, education,
 	and publishing with versatile skills. Delivered 60+ full-length translated, edited, or authored
-	titles, plus a wide range of blog posts, technical articles, and marketing content.
+	titles, plus a wide range of blog posts, technical articles, and marketing content. Currently
+	working for a local wristwatch magazine as an social media content creator and editor.
 </p>
 <p class="indent justify">I have personal interests in reading, music, movies and photography.</p>
 <p>
