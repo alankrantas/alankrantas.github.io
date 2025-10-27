@@ -1,0 +1,83 @@
+[
+	{
+		"name": "Glashütte Original PanoMaticLunar Anniversary Edition",
+		"description": "格拉蘇蒂原創 180 週年偏心月相腕錶",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/iLVXxwVUk3U",
+		"imgUrl": "/work/video/go-moonphase.jpg",
+		"videoId": "iLVXxwVUk3U"
+	},
+	{
+		"name": "Sinn U15/U16",
+		"description": "Sinn U15/U16 潛艇鋼潛水錶",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/hYR9ClfihaY",
+		"imgUrl": "/work/video/sinn-diver.jpg",
+		"videoId": "hYR9ClfihaY"
+	},
+	{
+		"name": "TAG Heuer Carrera Astronomer",
+		"description": "泰格豪雅 Carrera Astronome 月相錶",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/gmRgnIACCjI",
+		"imgUrl": "/work/video/tag-moonphase.jpg",
+		"videoId": "gmRgnIACCjI"
+	},
+	{
+		"name": "Cyrus 2025 New Releases",
+		"description": "賽瑞錶 2025 新品發表會",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/uDKyF9Q3Prw",
+		"imgUrl": "/work/video/cyrus.jpg",
+		"videoId": "uDKyF9Q3Prw"
+	},
+	{
+		"name": "Roger Dubuis Excalibur Knights of the Round Table - Merlin The Enchanter",
+		"description": "羅杰杜彼圓桌騎士系列──魔法師梅林",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/99yKvuLsIws",
+		"imgUrl": "/work/video/rd-merlin.jpg",
+		"videoId": "99yKvuLsIws"
+	},
+	{
+		"name": "Hermès Le temps suspendu",
+		"description": "愛馬仕暫停時間腕錶",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/6VLqG77kzkU",
+		"imgUrl": "/work/video/hermes-le-temps.jpg",
+		"videoId": "6VLqG77kzkU"
+	},
+	{
+		"name": "Parmigiani FleurierToric Petite Seconde/Tonda PF Sport Chronograph",
+		"description": "帕瑪強尼四款新錶",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/epEoM4sqfws",
+		"imgUrl": "/work/video/pf-toric.jpg",
+		"videoId": "epEoM4sqfws"
+	},
+	{
+		"name": "Franck Muller Vanguard Beach FR2",
+		"description": "法穆蘭 Vanguard Beach x FR2 亞太限定聯名款",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/Y1PBhmtm1Qk",
+		"imgUrl": "/work/video/fm-vanguard.jpg",
+		"videoId": "Y1PBhmtm1Qk"
+	},
+	{
+		"name": "Ulysse Nardin Freak X Crystalium",
+		"description": "雅典奇想系列釕晶款",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/zVcuAs6pDlo",
+		"imgUrl": "/work/video/un-freak.jpg",
+		"videoId": "zVcuAs6pDlo"
+	}
+]

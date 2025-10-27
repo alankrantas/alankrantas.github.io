@@ -60,12 +60,12 @@
 		"link": null
 	},
 	{
-		"name": "Photography",
+		"name": "Photography and video making/editing",
 		"description": null,
 		"location": null,
 		"footnote": null,
 		"tooltip": null,
-		"category": ["Digital", "Analog"],
+		"category": ["Digital", "Analog", "Short video", "Content creation"],
 		"language": null,
 		"link": null
 	}

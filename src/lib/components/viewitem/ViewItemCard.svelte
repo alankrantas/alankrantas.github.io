@@ -15,6 +15,10 @@
 	let imgLoaded = $state(false);
 </script>
 
+<svelte:head>
+	<link rel="preload" as="image" href={viewItem.imgUrl} />
+</svelte:head>
+
 <div class="card rounded-4 bg-dark shadow-lg">
 	<div class={!imgLoaded ? 'placeholder placeholder-wave rounded-4' : ''}>
 		<img

@@ -55,12 +55,6 @@
 	});
 </script>
 
-<svelte:head>
-	{#each viewItems as viewItem}
-		<link rel="preload" as="image" href={viewItem.imgUrl} />
-	{/each}
-</svelte:head>
-
 {#snippet backToTopBtn()}
 	<button type="button" class="btn btn-dark rounded-4 shadow" onclick={scrollToTop}>
 		<span class="h6">Back to top</span>

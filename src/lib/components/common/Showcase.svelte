@@ -83,12 +83,6 @@
 	};
 </script>
 
-<svelte:head>
-	{#each works as work}
-		<link rel="preload" as="image" href={work.imgUrl} />
-	{/each}
-</svelte:head>
-
 <p class="h2">{title} ({works.length})</p>
 <br />
 <br />
