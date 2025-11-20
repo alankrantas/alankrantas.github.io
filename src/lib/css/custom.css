@@ -7,9 +7,16 @@ body {
 	background-color: #3d3d3d;
 }
 
-iframe {
+.regular-iframe {
 	width: 100%;
 	height: auto;
+	aspect-ratio: 16 / 9;
+}
+
+.shorts-iframe {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 9 / 16;
 }
 
 .title {

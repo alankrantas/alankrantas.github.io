@@ -9,13 +9,22 @@
 		"videoId": "iLVXxwVUk3U"
 	},
 	{
-		"name": "Sinn U15/U16",
-		"description": "Sinn U15/U16 潛艇鋼潛水錶",
+		"name": "Girard-Perregaux Three Gold Bridges",
+		"description": "芝柏桂冠系列三金橋陀飛輪腕錶",
 		"category": ["Watches", "Photography", "Short video"],
 		"language": ["Traditional Chinese"],
-		"link": "https://www.youtube.com/shorts/hYR9ClfihaY",
-		"imgUrl": "/work/video/sinn-diver.jpg",
-		"videoId": "hYR9ClfihaY"
+		"link": "https://www.youtube.com/shorts/4eb6Kac8x2I",
+		"imgUrl": "/work/video/gb-bridges.jpg",
+		"videoId": "4eb6Kac8x2I"
+	},
+	{
+		"name": "Hublot Square Bang Tourbillon",
+		"description": "宇鉑 Square Bang 陀飛輪四日動力鏤空方形腕表",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/4O6J4_il6SA",
+		"imgUrl": "/work/video/hublot-square.jpg",
+		"videoId": "4O6J4_il6SA"
 	},
 	{
 		"name": "TAG Heuer Carrera Astronomer",
@@ -27,13 +36,13 @@
 		"videoId": "gmRgnIACCjI"
 	},
 	{
-		"name": "Cyrus 2025 New Releases",
-		"description": "賽瑞錶 2025 新品發表會",
+		"name": "Sinn U15/U16",
+		"description": "Sinn U15/U16 潛艇鋼潛水錶",
 		"category": ["Watches", "Photography", "Short video"],
 		"language": ["Traditional Chinese"],
-		"link": "https://www.youtube.com/shorts/uDKyF9Q3Prw",
-		"imgUrl": "/work/video/cyrus.jpg",
-		"videoId": "uDKyF9Q3Prw"
+		"link": "https://www.youtube.com/shorts/hYR9ClfihaY",
+		"imgUrl": "/work/video/sinn-diver.jpg",
+		"videoId": "hYR9ClfihaY"
 	},
 	{
 		"name": "Roger Dubuis Excalibur Knights of the Round Table - Merlin The Enchanter",
@@ -63,6 +72,15 @@
 		"videoId": "epEoM4sqfws"
 	},
 	{
+		"name": "Cyrus 2025 New Releases",
+		"description": "賽瑞錶 2025 新品發表會",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/uDKyF9Q3Prw",
+		"imgUrl": "/work/video/cyrus.jpg",
+		"videoId": "uDKyF9Q3Prw"
+	},
+	{
 		"name": "Franck Muller Vanguard Beach FR2",
 		"description": "法穆蘭 Vanguard Beach x FR2 亞太限定聯名款",
 		"category": ["Watches", "Photography", "Short video"],
@@ -70,6 +88,15 @@
 		"link": "https://www.youtube.com/shorts/Y1PBhmtm1Qk",
 		"imgUrl": "/work/video/fm-vanguard.jpg",
 		"videoId": "Y1PBhmtm1Qk"
+	},
+	{
+		"name": "Urwerk x Ulysse Nardin UR-FREAK",
+		"description": "UR-FREAK 奇想星輪腕錶",
+		"category": ["Watches", "Photography", "Short video"],
+		"language": ["Traditional Chinese"],
+		"link": "https://www.youtube.com/shorts/Xd-ly8A8APc",
+		"imgUrl": "/work/video/ur-freak.jpg",
+		"videoId": "Xd-ly8A8APc"
 	},
 	{
 		"name": "Ulysse Nardin Freak X Crystalium",

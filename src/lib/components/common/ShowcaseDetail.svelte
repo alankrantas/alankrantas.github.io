@@ -62,7 +62,7 @@
 		{#if work.videoId}
 			<p class="p-2 m-2 bg-dark rounded-3 shadow-sm">
 				<iframe
-					class="youtube-video"
+					class={work.link?.includes('shorts') ? 'shorts-iframe' : 'regular-iframe'}
 					src={`https://www.youtube-nocookie.com/embed/${work.videoId};controls=0`}
 					title="YouTube video player"
 					frameborder="0"
