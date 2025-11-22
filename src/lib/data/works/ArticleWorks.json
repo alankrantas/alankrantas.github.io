@@ -65,21 +65,31 @@
 	{
 		"name": "寶璣 BREGUET Souscription 懷錶（1796 年）：一支以其訂金商業模式得名的單指針錶",
 		"description": "Breguet Souscription Watch (1976): A Single-Handed Watch Named After Its Business Model",
-		"location": "TimeSquare Magazine (Official Blog)",
+		"location": "TimeSquare MagazineOnline",
 		"footnote": "Sep 2025",
 		"tooltip": null,
 		"language": ["Traditional Chinese"],
-		"category": ["Wristwatches", "Content Writing", "Photography"],
+		"category": ["Wristwatches", "Content Writing", "History"],
 		"link": "https://www.woodstone-online.com/2025/09/breguet-souscription-pocket-watch/"
+	},
+	{
+		"name": "簡談格拉蘇蒂原創（Glashütte Original）的「原創」起源──從 DPUG、UROFA／UFAG 到 GUB",
+		"description": "The Origin of Glashütte Original - From DPUG, UROFA/UFAG to GUB",
+		"location": "TimeSquare MagazineOnline",
+		"footnote": "Nov 2025",
+		"tooltip": null,
+		"language": ["Traditional Chinese"],
+		"category": ["Wristwatches", "Content Writing", "History"],
+		"link": "https://www.woodstone-online.com/2025/11/glashutte-original-origin-history/"
 	},
 	{
 		"name": "漫談 SEIKO 機械鐵道懷錶",
 		"description": "An Introduction on Seiko Railway Pocket Watches",
-		"location": "TimeSquare Magazine (Official Blog)",
+		"location": "TimeSquare Magazine Online",
 		"footnote": "Aug 2025",
 		"tooltip": null,
 		"language": ["Traditional Chinese"],
-		"category": ["Wristwatches", "Content Writing", "Photography"],
+		"category": ["Wristwatches", "Content Writing", "History"],
 		"link": "https://www.woodstone-online.com/2025/08/%e6%bc%ab%e8%ab%87-seiko-%e6%a9%9f%e6%a2%b0%e9%90%b5%e9%81%93%e6%87%b7%e9%8c%b6/"
 	}
 ]
