@@ -48,7 +48,7 @@
 		"@fontsource/space-mono": "^5.2.9",
 		"bootstrap": "^5.3.8",
 		"picomatch": "^4.0.2",
-		"yaml": "^2.7.1"
+		"yaml": "^2.8.2"
 	},
 	"resolutions": {
 		"picomatch": "^4.0.2",
