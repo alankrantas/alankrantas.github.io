@@ -20,6 +20,7 @@
 	}
 </script>
 
+<!-- svelte-ignore state_referenced_locally -->
 <script lang="ts">
 	let {
 		title,
