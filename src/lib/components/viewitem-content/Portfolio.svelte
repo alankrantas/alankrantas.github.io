@@ -26,19 +26,11 @@
 	moved or no longer exist.
 </p>
 <p class="justify small">
-	Also see: my full list of <Link
-		url="https://github.com/alankrantas/alankrantas/blob/main/works/published.md"
-		name="published works"
-	/> and <Link
-		url="https://github.com/alankrantas/alankrantas/blob/main/works/projects.md"
-		name="writing projects"
-	/>. For the short videos I've created
-</p>
-<p class="justify small">
-	For the short videos (reels) I've created for my current job, see this <Link
-		url="https://www.youtube.com/playlist?list=PLDRJRQoUgjOENPQduElxyeo3Yl0L6Syaa"
-		name="playlist"
-	/>.
+	You can find the full published list and additional works on my <Link
+		url="/?view=link"
+		name="Link & Site"
+		self={true}
+	/> page.
 </p>
 <p>
 	<br /><br />
@@ -129,7 +121,7 @@
 	<Image
 		src="/work/marketing.jpg"
 		alt="marketing"
-		footnote="I also draw technical or marketing illustrations.<br />See <kbd>Links</kbd> for more."
+		footnote="I also drew technical or marketing illustrations in previous positions."
 		widthRatios={{
 			992: 0.75,
 			768: 0.85,

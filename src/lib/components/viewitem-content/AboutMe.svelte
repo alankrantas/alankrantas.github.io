@@ -16,10 +16,25 @@
 
 <p><span class="h2 justify">Who am I?</span></p>
 <p class="justify">
-	My name is <b>{info.name}</b>, currently based in {info.location}.
+	My name is <b>{info.name}</b> who is based in {info.location}.
 </p>
 <p class="indent justify">
-	Experienced writer, editor and translator with 10+ years across software, technology, education, publishing and journalism with 60+ published works and versatile skills, including technical writing, copywriting, content marketing, software engineering, embedded systems design, photography, video making and mechanical watch repairing. Currently working for a local luxury wristwatch magazine as an editor, advertorial writer, social media content creator and event photographer.
+	Currently working for a local luxury wristwatch magazine as an editor, advertorial writer,
+	photographer and visual content creator.
+</p>
+<p class="indent justify">
+	I had diverse experiences primary in publishing, education and software/information technology,
+	with ~60 published works (translated, edited and authored) as well as versatile skills including
+	content writing, translating, technical writing, copywriting, software engineering, embedded
+	system, machine learning/deep learning (AI), digital/film photography and video making.
+</p>
+<p class="indent justify">
+	I was also an amateur classical piano player, STEM Maker enthusiast and have self-taught basic
+	mechanical watch movement servicing in 3 months.
+</p>
+<p class="indent justify">
+	I have long-time personal interests in reading, movies, music, (film) photography,
+	wristwatches/horology and others.
 </p>
 <p>
 	<br />

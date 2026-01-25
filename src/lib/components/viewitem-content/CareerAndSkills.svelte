@@ -67,7 +67,11 @@
 </p>
 <p>
 	<span class="small justify"
-		>Note: for my related works and projects, see <kbd>Portfolio</kbd>.</span
+		>Note: for my related works and projects, see my <Link
+			url="/?view=work"
+			name="Portfolio"
+			self={true}
+		/> page.</span
 	>
 </p>
 <p>

@@ -58,5 +58,25 @@
 		"category": null,
 		"language": null,
 		"link": null
+	},
+	{
+		"name": "Sexuality",
+		"description": "Heterosexual",
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": null,
+		"language": null,
+		"link": null
+	},
+	{
+		"name": "Marital status",
+		"description": "Single (intentionally so and not seeking relationships actively)",
+		"location": null,
+		"footnote": null,
+		"tooltip": null,
+		"category": null,
+		"language": null,
+		"link": null
 	}
 ]

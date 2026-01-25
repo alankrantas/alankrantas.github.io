@@ -8,14 +8,14 @@
 	},
 	{
 		"title": "Career & Skills",
-		"description": "Writing | translating | software engineering | content marketing | photography",
+		"description": "Writing | translating & publishing | software engineering | content marketing | photography",
 		"viewName": "career",
 		"fileName": "CareerAndSkills",
 		"imgUrl": "/main/skills.jpg"
 	},
 	{
 		"title": "Portfolio",
-		"description": "Published works | writing projects | Maker showcases | Short videos | coding projects",
+		"description": "Published works | writing projects | Maker showcases | Short videos | articles | coding projects",
 		"viewName": "work",
 		"fileName": "Portfolio",
 		"imgUrl": "/main/works.jpg"

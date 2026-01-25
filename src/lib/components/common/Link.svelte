@@ -2,6 +2,7 @@
 	interface Props {
 		url: string;
 		name: string | undefined;
+		self: boolean | undefined;
 	}
 </script>
 
@@ -12,7 +13,7 @@
 <a
 	href={url || '#'}
 	class="link-info link-underline-opacity-25 link-underline-opacity-100-hover"
-	target="_blank"
+	target={self ? '_self' : '_blank'}
 	rel="noreferrer noopener"
 >
 	{name}
