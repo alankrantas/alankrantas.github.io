@@ -51,9 +51,9 @@
 	},
 	{
 		"name": "Myers-Briggs Type Indicator (MBTI)",
-		"description": "INTJ-OH",
+		"description": "INTJ-O-H",
 		"location": null,
-		"footnote": null,
+		"footnote": "Yes...apparently it is quite rare.",
 		"tooltip": null,
 		"category": null,
 		"language": null,
@@ -71,9 +71,9 @@
 	},
 	{
 		"name": "Marital status",
-		"description": "Single (intentionally so and not seeking relationships actively)",
+		"description": "Single ()",
 		"location": null,
-		"footnote": null,
+		"footnote": "Intentionally so and not seeking relationships actively.",
 		"tooltip": null,
 		"category": null,
 		"language": null,
