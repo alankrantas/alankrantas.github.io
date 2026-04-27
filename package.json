@@ -39,7 +39,7 @@
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.59.0",
 		"vite": "^8.0.9",
-		"yarn-upgrade-all": "^0.7.5"
+		"yarn-upgrade-all": "^0.8.1"
 	},
 	"dependencies": {
 		"@fontsource/noto-sans-tc": "^5.2.9",
