@@ -1295,10 +1295,10 @@ yaml@^1.10.2, yaml@^2.8.3:
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.8.3.tgz#a0d6bd2efb3dd03c59370223701834e60409bd7d"
   integrity sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==
 
-yarn-upgrade-all@^0.7.5:
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/yarn-upgrade-all/-/yarn-upgrade-all-0.7.5.tgz#dc0a8335234298a6d548d0956d78c45471aa34e8"
-  integrity sha512-yC2DgKX2Vzeb4LznSHukF/U5AapE7i/A4cBoh8P2FsEy1RBPaXEdd320ZK5Phgj6/Y/1pmFkP36S7GxS0YrzCg==
+yarn-upgrade-all@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/yarn-upgrade-all/-/yarn-upgrade-all-0.8.1.tgz#facb7fc20f5a9038396f87b52b73c51baadfcea8"
+  integrity sha512-th40yKDBrjfOGtaIfF12+g2DdSxt7jREPcJczYXOVP+kN0tshG5TuP6mV73DyOdwPNH/QxO7ocrqoCk1kqIpUA==
   dependencies:
     color-loggers "^0.3.2"
 
