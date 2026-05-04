@@ -48,12 +48,12 @@
 		"@fontsource/space-mono": "^5.2.9",
 		"bootstrap": "^5.3.8",
 		"picomatch": "^4.0.4",
-		"yaml": "^2.8.3"
+		"yaml": "^2.8.4"
 	},
 	"resolutions": {
 		"picomatch": "^4.0.4",
 		"typescript": "^6.0.3",
-		"yaml": "^2.8.3"
+		"yaml": "^2.8.4"
 	},
 	"type": "module"
 }
