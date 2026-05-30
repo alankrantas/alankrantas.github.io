@@ -84,5 +84,15 @@
 		"language": ["Traditional Chinese"],
 		"category": ["Wristwatches", "Content Writing", "History"],
 		"link": "https://www.woodstone-online.com/2025/08/%e6%bc%ab%e8%ab%87-seiko-%e6%a9%9f%e6%a2%b0%e9%90%b5%e9%81%93%e6%87%b7%e9%8c%b6/"
+	},
+	{
+		"name": "修錶實戰/機芯拆解系列",
+		"description": "Watch Servicing/Movement Disassembly Series",
+		"location": "TimeSquare Magazine Online",
+		"footnote": "Aug 2025 -",
+		"tooltip": null,
+		"language": ["Traditional Chinese"],
+		"category": ["Wristwatches", "Content Writing", "Watch Servicing"],
+		"link": "https://www.woodstone-online.com/category/%e7%89%b9%e8%bc%af/watch-servicing-zh/"
 	}
 ]

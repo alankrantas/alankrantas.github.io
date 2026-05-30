@@ -11,7 +11,7 @@
 	import edit from '$lib/data/works/EditedWorks.json';
 	import author from '$lib/data/works/AuthoredWorks.json';
 	import maker from '$lib/data/works/MakerWorks.json';
-	import short_video from '$lib/data/works/ShortVideoWorks.json';
+	import short_video from '$lib/data/lists/ShortVideoWorks.json';
 	import docs from '$lib/data/works/DocsWorks.json';
 	import article from '$lib/data/works/ArticleWorks.json';
 	import code from '$lib/data/works/CodeWorks.json';
@@ -101,7 +101,7 @@
 	<br />
 </p>
 <p>
-	<Showcase works={short_video} title="Selected Short Videos" />
+	<List list={short_video} title="Short Videos" />
 </p>
 <p>
 	<br />
