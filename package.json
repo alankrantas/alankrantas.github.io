@@ -47,11 +47,11 @@
 		"@fontsource/playfair-display": "^5.2.8",
 		"@fontsource/space-mono": "^5.2.9",
 		"bootstrap": "^5.3.8",
-		"picomatch": "^4.0.4",
+		"picomatch": "^4.0.5",
 		"yaml": "^2.9.0"
 	},
 	"resolutions": {
-		"picomatch": "^4.0.4",
+		"picomatch": "^4.0.5",
 		"typescript": "^6.0.3",
 		"yaml": "^2.9.0"
 	},
