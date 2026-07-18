@@ -23,14 +23,13 @@
 	photographer and visual content creator.
 </p>
 <p class="indent justify">
-	I had diverse experiences primary in publishing, education and software/information technology,
-	with ~60 published works (translated, edited and authored) as well as versatile skills including
-	content writing, translating, technical writing, copywriting, software engineering, embedded
-	system, machine learning/deep learning (AI), digital/film photography and video making.
+	I had experience and skills in software engineering, embedded system prototyping as well as
+	practical machine learning/deep learning, but currently not maintained up-to-date.
 </p>
 <p class="indent justify">
-	I was also an amateur classical piano player, STEM Maker enthusiast and have self-taught basic
-	mechanical watch movement servicing in 3 months.
+	I was also an amateur classical piano player, analog film photography hobbyist and STEM Maker
+	enthusiast. I have self-taught basic mechanical watch movement servicing and already successfully
+	repaired/serviced several vintage watches.
 </p>
 <p class="indent justify">
 	I have long-time personal interests in reading, movies, music, (film) photography,
