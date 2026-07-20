@@ -46,16 +46,6 @@
 		"link": "https://www.theaffairs.com/%e5%b0%bc%e7%88%be%e2%80%a7%e8%93%8b%e6%9b%bc%e7%9a%84%e9%bb%91%e8%89%b2%e5%a4%a2%e5%a2%83%e7%8e%8b%e5%9c%8b/"
 	},
 	{
-		"name": "寶璣 BREGUET Souscription 懷錶（1796 年）：一支以其訂金商業模式得名的單指針錶",
-		"description": "Breguet Souscription Watch (1976): A Single-Handed Watch Named After Its Business Model",
-		"location": "TimeSquare MagazineOnline",
-		"footnote": "Sep 2025",
-		"tooltip": null,
-		"language": ["Traditional Chinese"],
-		"category": ["Wristwatches", "Content Writing", "History"],
-		"link": "https://www.woodstone-online.com/2025/09/breguet-souscription-pocket-watch/"
-	},
-	{
 		"name": "簡談格拉蘇蒂原創（Glashütte Original）的「原創」起源──從 DPUG、UROFA／UFAG 到 GUB",
 		"description": "The Origin of Glashütte Original - From DPUG, UROFA/UFAG to GUB",
 		"location": "TimeSquare MagazineOnline",
@@ -93,6 +83,6 @@
 		"tooltip": null,
 		"language": ["Traditional Chinese"],
 		"category": ["Wristwatches", "Content Writing", "Watch Servicing"],
-		"link": "https://www.woodstone-online.com/category/%e7%89%b9%e8%bc%af/watch-servicing-zh/"
+		"link": "https://www.woodstone-online.com/category/%e7%89%b9%e8%bc%af/watch-calibre-service/"
 	}
 ]
