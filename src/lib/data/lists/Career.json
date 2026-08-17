@@ -1,5 +1,15 @@
 [
 	{
+		"name": "Brand Marketing Specialist",
+		"description": "Segreene Sustainable Design & Consulting",
+		"location": "Taipei, Taiwan",
+		"footnote": "Aug 2026 - Now",
+		"tooltip": "TBD",
+		"category": ["Editing", "Copywriting", "Content Marketing", "Photography", "Video Making"],
+		"language": null,
+		"link": null
+	},
+	{
 		"name": "Editor",
 		"description": "TimeSquare Magazine",
 		"location": "Taipei, Taiwan",
