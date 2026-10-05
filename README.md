@@ -9,7 +9,7 @@
 ## Overview
 
 - A single page application (SPA) with working responsive web design (RWD). (I designed and built everything from scratch.)
-- Built with [Svelte](https://svelte.dev/) (upgraded to Svelte 5 syntax), [SvelteKit](https://kit.svelte.dev/) and [Bootstrap](https://getbootstrap.com/) with [TypeScript](https://www.typescriptlang.org/) support.
+- Built with [Svelte](https://svelte.dev/) (upgraded to V5 syntax), [SvelteKit](https://kit.svelte.dev/) (upgraded to V3) and [Bootstrap](https://getbootstrap.com/) with [TypeScript](https://www.typescriptlang.org/) support.
 - Deployed to [Github Pages](https://pages.github.com/) and run Dependabot PR test build using [Github Action](https://github.com/features/actions) workflows.
 
 ## Layout and view item components
