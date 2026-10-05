@@ -80,16 +80,6 @@
 		"link": "https://www.svgrepo.com/"
 	},
 	{
-		"name": "Docker",
-		"description": "Containerization and DevContainer/CodeSpace support",
-		"location": null,
-		"footnote": null,
-		"tooltip": null,
-		"category": null,
-		"language": null,
-		"link": "https://www.docker.com/"
-	},
-	{
 		"name": "Github Actions",
 		"description": "CI/CD workflow for testing and deployment",
 		"location": null,
