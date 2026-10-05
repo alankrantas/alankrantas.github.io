@@ -1,7 +1,7 @@
 <script module lang="ts">
 	import { innerWidth } from 'svelte/reactivity/window';
 
-	import { replaceLink } from '$lib/util/util';
+	import { replaceLink } from '#lib/util/util';
 
 	interface Props {
 		src: string;

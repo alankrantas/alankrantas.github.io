@@ -1,11 +1,11 @@
 <script module lang="ts">
 	import { innerWidth } from 'svelte/reactivity/window';
 
-	import type { WorkItem } from '$lib/type/Types';
+	import type { WorkItem } from '#lib/type/Types';
 
-	import Link from '$lib/components/common/Link.svelte';
+	import Link from '#lib/components/common/Link.svelte';
 
-	import { replaceLink } from '$lib/util/util';
+	import { replaceLink } from '#lib/util/util';
 
 	interface Props {
 		work: WorkItem;

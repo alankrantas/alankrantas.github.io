@@ -1,12 +1,12 @@
 <script module lang="ts">
-	import List from '$lib/components/common/List.svelte';
-	import Link from '$lib/components/common/Link.svelte';
-	import Image from '$lib/components/common/Image.svelte';
+	import List from '#lib/components/common/List.svelte';
+	import Link from '#lib/components/common/Link.svelte';
+	import Image from '#lib/components/common/Image.svelte';
 
-	import career from '$lib/data/lists/Career.json';
-	import edu from '$lib/data/lists/Education.json';
-	import skill from '$lib/data/lists/Skills.json';
-	import cert from '$lib/data/lists/Certificate.json';
+	import career from '#lib/data/lists/Career.json';
+	import edu from '#lib/data/lists/Education.json';
+	import skill from '#lib/data/lists/Skills.json';
+	import cert from '#lib/data/lists/Certificate.json';
 </script>
 
 <script lang="ts">

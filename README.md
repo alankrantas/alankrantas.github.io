@@ -160,7 +160,7 @@ The site would use dynamic importing to take care the rest.
 
 ## Local Development
 
-> Prerequisites: [Node.js](https://nodejs.org/), [Git](https://git-scm.com/) and [Docker](https://www.docker.com/). This repo can be opened in [DevContainer](https://containers.dev/)/[CodeSpace](https://github.com/features/codespaces) as well.
+> Prerequisites: [Node.js](https://nodejs.org/) and [Git](https://git-scm.com/). This repo can be opened in [DevContainer](https://containers.dev/)/[CodeSpace](https://github.com/features/codespaces).
 
 ### Install Dependencies
 
@@ -182,26 +182,22 @@ yarn
 
 ### List of Actions
 
-| Command             | Description                                                    |
-| ------------------- | -------------------------------------------------------------- |
-| `yarn upgrade-all`  | Upgrade all NPM dependencies.                                  |
-| `yarn start`        | Start a local dev server and open `http://localhost:3000`.     |
-| `yarn check`        | Sync SvelteKit files. Run after installation and before build. |
-| `yarn lint`         | Lint files.                                                    |
-| `yarn format`       | Format and prettify files.                                     |
-| `yarn build`        | Build a local production at `./build`.                         |
-| `yarn serve`        | Serve the local production and open `http://localhost:8080`.   |
-| `yarn pull`         | Pull commit histories from `main` branch.                      |
-| `yarn push`         | Push changes to `main` branch.                                 |
-| `yarn commit`       | `yarn pull` + `yarn format` + `yarn commit`                    |
-| `yarn docker-build` | Build a Docker container image                                 |
-| `yarn docker-run`   | Run the Docker container and open `http://localhost:8080`.     |
-| `yarn docker-stop`  | Stop the Docker container.                                     |
-| `yarn docker`       | `yarn docker-build` + `yarn docker-run`                        |
+| Command            | Description                                                    |
+| ------------------ | -------------------------------------------------------------- |
+| `yarn upgrade-all` | Upgrade all NPM dependencies.                                  |
+| `yarn start`       | Start a local dev server and open `http://localhost:3000`.     |
+| `yarn check`       | Sync SvelteKit files. Run after installation and before build. |
+| `yarn lint`        | Lint files.                                                    |
+| `yarn format`      | Format and prettify files.                                     |
+| `yarn build`       | Build a local production at `./build`.                         |
+| `yarn serve`       | Serve the local production and open `http://localhost:8080`.   |
+| `yarn pull`        | Pull commit histories from `main` branch.                      |
+| `yarn push`        | Push changes to `main` branch.                                 |
+| `yarn commit`      | `yarn pull` + `yarn format` + `yarn commit`                    |
 
 ### Lastest Build Timestamp
 
-The Docker build and Github Action Workflow would generate a timestamp under `/static/website/build.json` in the production, which will be read by footer component.
+The Github Action Workflow would generate a timestamp under `/static/website/build.json` in the production, which will be read by footer component.
 
 ### Easter Egg
 

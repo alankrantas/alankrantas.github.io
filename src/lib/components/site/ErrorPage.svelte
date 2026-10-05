@@ -1,9 +1,9 @@
 <script module lang="ts">
-	import Link from '$lib/components/common/Link.svelte';
+	import Link from '#lib/components/common/Link.svelte';
 
-	import info from '$lib/data/info/BasicInfo.json';
+	import info from '#lib/data/info/BasicInfo.json';
 
-	import { replaceLink } from '$lib/util/util';
+	import { replaceLink } from '#lib/util/util';
 
 	interface Props {
 		message?: string;

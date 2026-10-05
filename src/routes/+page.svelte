@@ -6,15 +6,15 @@
 	import { fly, fade } from 'svelte/transition';
 	import { expoOut } from 'svelte/easing';
 
-	import NameTitle from '$lib/components/viewitem/NameTitle.svelte';
-	import ViewItemNavBtn from '$lib/components/viewitem/ViewItemNavBtn.svelte';
-	import ViewItemCard from '$lib/components/viewitem/ViewItemCard.svelte';
-	import ViewItemHead from '$lib/components/viewitem/ViewItemHead.svelte';
-	import ViewItemContent from '$lib/components/viewitem/ViewItemContent.svelte';
-	import Footer from '$lib/components/site/Footer.svelte';
+	import NameTitle from '#lib/components/viewitem/NameTitle.svelte';
+	import ViewItemNavBtn from '#lib/components/viewitem/ViewItemNavBtn.svelte';
+	import ViewItemCard from '#lib/components/viewitem/ViewItemCard.svelte';
+	import ViewItemHead from '#lib/components/viewitem/ViewItemHead.svelte';
+	import ViewItemContent from '#lib/components/viewitem/ViewItemContent.svelte';
+	import Footer from '#lib/components/site/Footer.svelte';
 
-	import info from '$lib/data/info/BasicInfo.json';
-	import viewItems from '$lib/data/info/ViewItems.json';
+	import info from '#lib/data/info/BasicInfo.json';
+	import viewItems from '#lib/data/info/ViewItems.json';
 
 	viewItems[0].description = viewItems[0].description
 		.replace('<name>', info.name)
