@@ -10,7 +10,7 @@
 	let ViewItemContent: any = $state(null);
 
 	$effect.pre(() => {
-		import(`$lib/components/viewitem-content/${viewItemSource}.svelte`).then((result) => {
+		import(`#lib/components/viewitem-content/${viewItemSource}.svelte`).then((result) => {
 			ViewItemContent = result?.default;
 		});
 	});

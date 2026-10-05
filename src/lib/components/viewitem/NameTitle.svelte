@@ -2,8 +2,8 @@
 	import { fade } from 'svelte/transition';
 	import { innerWidth } from 'svelte/reactivity/window';
 
-	import info from '$lib/data/info/BasicInfo.json';
-	import viewItems from '$lib/data/info/ViewItems.json';
+	import info from '#lib/data/info/BasicInfo.json';
+	import viewItems from '#lib/data/info/ViewItems.json';
 
 	interface Props {
 		mode: String;

@@ -3,9 +3,9 @@
 	import { flip } from 'svelte/animate';
 	import { expoOut } from 'svelte/easing';
 
-	import ShowcaseDetail from '$lib/components/common/ShowcaseDetail.svelte';
+	import ShowcaseDetail from '#lib/components/common/ShowcaseDetail.svelte';
 
-	import type { WorkItem } from '$lib/type/Types';
+	import type { WorkItem } from '#lib/type/Types';
 
 	interface Props {
 		title: string;

@@ -1,7 +1,7 @@
 <script module lang="ts">
 	import { innerWidth } from 'svelte/reactivity/window';
 
-	import type { ViewItem } from '$lib/type/Types';
+	import type { ViewItem } from '#lib/type/Types';
 
 	interface Props {
 		viewItem: ViewItem;

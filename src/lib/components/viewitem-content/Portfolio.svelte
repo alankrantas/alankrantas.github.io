@@ -1,20 +1,20 @@
 <script module lang="ts">
 	import { innerWidth } from 'svelte/reactivity/window';
 
-	import List from '$lib/components/common/List.svelte';
-	import Link from '$lib/components/common/Link.svelte';
-	import Image from '$lib/components/common/Image.svelte';
-	import Showcase from '$lib/components/common/Showcase.svelte';
+	import List from '#lib/components/common/List.svelte';
+	import Link from '#lib/components/common/Link.svelte';
+	import Image from '#lib/components/common/Image.svelte';
+	import Showcase from '#lib/components/common/Showcase.svelte';
 
-	import translate_fiction from '$lib/data/works/TranslationFictionWorks.json';
-	import translate_nonfiction from '$lib/data/works/TranslationNonFictionWorks.json';
-	import edit from '$lib/data/works/EditedWorks.json';
-	import author from '$lib/data/works/AuthoredWorks.json';
-	import maker from '$lib/data/works/MakerWorks.json';
-	import short_video from '$lib/data/lists/ShortVideoWorks.json';
-	import docs from '$lib/data/works/DocsWorks.json';
-	import article from '$lib/data/works/ArticleWorks.json';
-	import code from '$lib/data/works/CodeWorks.json';
+	import translate_fiction from '#lib/data/works/TranslationFictionWorks.json';
+	import translate_nonfiction from '#lib/data/works/TranslationNonFictionWorks.json';
+	import edit from '#lib/data/works/EditedWorks.json';
+	import author from '#lib/data/works/AuthoredWorks.json';
+	import maker from '#lib/data/works/MakerWorks.json';
+	import short_video from '#lib/data/lists/ShortVideoWorks.json';
+	import docs from '#lib/data/works/DocsWorks.json';
+	import article from '#lib/data/works/ArticleWorks.json';
+	import code from '#lib/data/works/CodeWorks.json';
 </script>
 
 <script lang="ts">

@@ -2,11 +2,11 @@
 	import type { Snippet } from 'svelte';
 	import { innerWidth } from 'svelte/reactivity/window';
 
-	import ErrorPage from '$lib/components/site/ErrorPage.svelte';
+	import ErrorPage from '#lib/components/site/ErrorPage.svelte';
 
-	import info from '$lib/data/info/BasicInfo.json';
-	import viewItems from '$lib/data/info/ViewItems.json';
-	import link from '$lib/data/info/LinkRef.json';
+	import info from '#lib/data/info/BasicInfo.json';
+	import viewItems from '#lib/data/info/ViewItems.json';
+	import link from '#lib/data/info/LinkRef.json';
 
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	import '@fontsource/open-sans/300.css';
@@ -15,7 +15,7 @@
 	import '@fontsource/playfair-display/600.css';
 	import '@fontsource/playfair-display/600-italic.css';
 	import '@fontsource/noto-sans-tc/chinese-traditional-300.css';
-	import '$lib/css/custom.css';
+	import '#lib/css/custom.css';
 
 	const webTitle = `${info.name}, ${info.title.join(' | ')} (${info.location})`;
 	const description = `${webTitle} - ${[...viewItems.map((item) => item.title.toLowerCase())].join(', ')}`;
