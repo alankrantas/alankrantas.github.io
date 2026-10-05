@@ -43,6 +43,9 @@
 		"@fontsource/space-mono": "^5.3.0",
 		"bootstrap": "^5.3.8"
 	},
+	"resolutions": {
+		"yaml": "^2.4.2"
+	},
 	"imports": {
 		"#lib": "./src/lib/index.js",
 		"#lib/*": "./src/lib/*"
