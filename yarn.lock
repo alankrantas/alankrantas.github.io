@@ -73,10 +73,10 @@
     "@eslint/core" "^1.2.1"
     levn "^0.4.1"
 
-"@fontsource/noto-sans-tc@^5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-5.3.0.tgz#dba53fac5883455bca23300e361c18fe1821501a"
-  integrity sha512-+0MguVH2vIxkVJLiaMHVKHk+yJZmZvMU9d8z88JdUx8C2CgMLOtm7WNloi3HYlvCNy7TpuvjIUvh5iiGp6INxQ==
+"@fontsource/noto-sans-tc@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-5.3.1.tgz#a5805fb6f8d1880975327591302afda0ae5d3954"
+  integrity sha512-kiOTKRnkEV4dsMqfmIuH3TnkYp5Rqq2f4LgAArx0Y5eVzCebU2TgWup5TWCWWSk28nBf4mgunLTyQP+xQ74gcQ==
 
 "@fontsource/open-sans@^5.3.0":
   version "5.3.0"
